@@ -19,13 +19,17 @@
 .top-nav-collapse {
   background-color: #1C2331; }
 
-  #infographic{
-    width:80%;
-    margin-top:-20vh;
+#infographic{
+  width:80%;
+  margin-top:-20vh;
   }
-
+p{
+  font-size: 3vh;
+  text-align: center;
+  padding:2%;
+}
 h2{
-  margin-left: 21.5%;
+  
   font-size: 250%;
   color:red;
 }
