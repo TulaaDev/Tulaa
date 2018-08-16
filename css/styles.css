@@ -1,0 +1,42 @@
+.jumbotron{
+  background-image: url("../img/jumbotron.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:101vh;
+  width:102%;
+  margin-left: -0.7vw;
+  margin-top: -3vh;
+}
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: #4285F4;
+
+}
+.navbar-toggler-icon {
+  width: 195px !important;
+  height:73px !important;
+  float:right;
+}
+#navbarSupportedContent{
+  font-size: 300%;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: white;
+
+    }
+
+    .jumbotron{
+      margin-left: -80vw;
+    }
+}
+@media only screen and (min-width : 375px) and (max-width : 667px) {
+
+      .jumbotron{
+        margin-left: -90vw;
+      }
+}
