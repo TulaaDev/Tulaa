@@ -5,7 +5,7 @@
   height:101vh;
   width:102%;
   margin-left: -0.7vw;
-  margin-top: -3vh;
+  margin-top: -2vh;
 }
 .navbar {
     background-color: transparent;
@@ -15,28 +15,123 @@
     background-color: #4285F4;
 
 }
-.navbar-toggler-icon {
-  width: 195px !important;
-  height:73px !important;
-  float:right;
+
+#logo{
+  width:65%;
+  margin-top: -4vh;
+  margin-left: -2vw;
 }
 #navbarSupportedContent{
-  font-size: 300%;
+  font-size: 180%;
+  margin-top: -5vh;
+  margin-left: -10vw;
+
 }
+
 
 @media only screen and (max-width: 768px) {
-    .navbar {
-        background-color: white;
 
-    }
+  .navbar-toggler-icon {
+    width: 45px !important;
+    height:20px !important;
+  }
+  .navbar-toggler{
+    margin-left: 80%;
+    margin-top: -15%;
+  }
+  .jumbotron {
 
-    .jumbotron{
-      margin-left: -80vw;
-    }
+    background-image: url("../img/jumbotron.jpg");
+    background-position: -180px 5px;
+  }
+  #logo{
+    width:35%;
+    margin-top: -4vh;
+    margin-left: -1vw;
+  }
 }
+
+/* iphone 6/7/8 and plus  */
 @media only screen and (min-width : 375px) and (max-width : 667px) {
 
-      .jumbotron{
-        margin-left: -90vw;
+    .jumbotron{
+      width:99.99%;
+      margin-left: 0.2%;
+      background-position: -260px 5px;
+
+    }
+      #navbarSupportedContent{
+        font-size: 180%;
+
       }
+      .navbar-toggler{
+        margin-left: 80%;
+        margin-top: -25%;
+      }
+      .navbar-toggler-icon {
+        width: 50px !important;
+        height:37px !important;
+
+      }
+      #logo{
+        width:35%;
+        margin-top: -4vh;
+        margin-left: -7vw;
+      }
+
+
 }
+/* iphone 5 media query */
+@media only screen and (min-width: 320px) and (max-width: 568px)
+and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
+{
+  .navbar-toggler{
+    margin-left: 80%;
+    margin-top: -47%;
+  }
+  .navbar-toggler-icon {
+    width: 44px !important;
+    height:34px !important;
+
+  }
+
+  #logo{
+    width:35%;
+    margin-top: -4vh;
+    margin-left: -7vw;
+  }
+}
+/* galaxy s5 */
+@media only screen and (max-width: 370px){
+  .navbar-toggler{
+    margin-left: 80%;
+    margin-top: -30%;
+  }
+  .navbar-toggler-icon {
+    width: 44px !important;
+    height:34px !important;
+
+  }
+  .jumbotron{
+    width:99.99%;
+    margin-left: 0.2%;
+    background-position: -100px 5px;
+
+  }
+
+  #logo{
+    width:35%;
+    margin-top: -4vh;
+    margin-left: -7vw;
+  }
+}
+
+@media only screen
+    and (max-width : 375px) and (-webkit-device-pixel-ratio : 3) {
+      .jumbotron{
+        width:99.99%;
+        margin-left: 0.2%;
+        background-position: -280px 5px;
+
+      }
+     }
