@@ -44,10 +44,15 @@
   #section2{
     width:290%;
   }
-
-#joinus{
-  margin-top: 8%;
-}
+ #section3{
+   color:black;
+   margin-top:5%;
+   font-size: 320%;
+ }
+  #joinus{
+    margin-top: 3%;
+    font-size: 220%;
+  }
   /* Gray Scale */
   .hover08 figure img {
   	-webkit-filter: grayscale(100%);
