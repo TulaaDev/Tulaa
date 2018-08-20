@@ -53,6 +53,44 @@
     margin-top: 3%;
     font-size: 220%;
   }
+ svg {
+   margin-left: 48.5%;
+   margin-top: -137%;
+   margin-bottom: -115%;
+ }
+  .testimonial {
+    padding:3%;
+    border: none;
+  }
+
+  .card {
+    border: 0;
+    background-color: transparent;
+
+  }
+  .card-deck{
+    width:90%;
+    border: none;
+    height:57vh;
+    border: 0;
+    background-color: transparent;
+    padding-left:10%;
+
+
+  }
+  .card-title{
+    text-align: center;
+    margin-top:-20%;
+    font-family: 'Raleway', sans-serif;
+  }
+  .rounded-circle{
+    width:75%;
+    height:75%;
+    margin-left: 15%;
+    margin-top: 1%;
+    margin-bottom: -10%;
+    mix-blend-mode: multiply;
+  }
   /* Gray Scale */
   .hover08 figure img {
   	-webkit-filter: grayscale(100%);
@@ -165,7 +203,7 @@ p{
 
 h2 {
   text-align:center;
-  font-size:275%;
+  font-size:285%;
   color:red;
   margin-top:1%;
   margin-bottom:2%;
