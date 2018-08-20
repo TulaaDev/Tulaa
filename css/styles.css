@@ -41,7 +41,9 @@
 	top: 0;
 	}
 
-
+  #section2{
+    width:290%;
+  }
 
   /* Gray Scale */
   .hover08 figure img {
