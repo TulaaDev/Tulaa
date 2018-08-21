@@ -19,6 +19,14 @@
   background-color: #1C2331;
 }
 
+.parallax-window {
+    min-height: 320px;
+    Width:104.9%;
+    margin-left: -5%;
+    background: transparent;
+}
+
+
 .left{
   display:inline-block;
   padding:10%;
@@ -40,7 +48,9 @@
 	left: 0;
 	top: 0;
 	}
-
+#team {
+  font-size:370%;
+}
   #section2{
     width:290%;
   }
@@ -52,11 +62,12 @@
   #joinus{
     margin-top: 3%;
     font-size: 220%;
+    margin-right: 10%;
   }
  svg {
    margin-left: 48.5%;
    margin-top: -137%;
-   margin-bottom: -115%;
+   margin-bottom: -125%;
  }
   .testimonial {
     padding:3%;
@@ -88,7 +99,7 @@
     height:75%;
     margin-left: 15%;
     margin-top: 1%;
-    margin-bottom: -10%;
+    margin-bottom: -3%;
     mix-blend-mode: multiply;
   }
   /* Gray Scale */
@@ -171,6 +182,25 @@
   	opacity: 1;
     margin-top: 20vh;
   }
+
+  #partners div figure{
+    padding-right:-500%;
+    margin-left: 10%;
+    width:380%;
+  }
+ .partners2{
+   padding:8%;
+   margin-left: 30%;
+   mix-blend-mode: multiply;
+ }
+  .partners{
+    margin-bottom: -30vh;
+    mix-blend-mode: multiply;
+
+  }
+
+
+  figure
   /* #title{
     font-size: 500%;
   } */
@@ -178,7 +208,7 @@
   margin-top: 50%;
 } */
 #who{
-  margin-top: 10%;
+  margin-top: 67%;
 }
 h1{
   text-align:center;
@@ -191,14 +221,14 @@ h1{
   }
 
 #cards{
-  width:90%;
+  width:90%;margin-bottom: 8%;
 }
 p{
   font-size: 150%;
   text-align: center;
   padding:1%;
   margin-left: 10%;
-  margin-right: 10%;
+  /* margin-right: 10%; */
 }
 
 h2 {
@@ -219,7 +249,7 @@ h2 {
   position: relative;
   text-align: center;
   cursor: default;
-  background: #42b078;
+  background: #2f5b17;
 }
 
 .hovereffect .overlay {
@@ -246,7 +276,7 @@ h2 {
 }
 
 .hovereffect:hover img {
-  opacity: 0.4;
+  opacity: 0.2;
   filter: alpha(opacity=40);
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
@@ -283,9 +313,10 @@ h2 {
   transform: translate3d(0,0,0);
 }
 
-.hovereffect a, .hovereffect p {
+.hovereffect a, .hovereffect p,.hovereffect li {
   color: #FFF;
-  opacity: 0;
+  opacity: 0.9;
+
   filter: alpha(opacity=0);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
@@ -293,16 +324,52 @@ h2 {
   transform: translate3d(100%,0,0);
 }
 
-.hovereffect:hover a, .hovereffect:hover p {
+.hovereffect:hover a, .hovereffect:hover p,.hovereffect:hover li {
   opacity: 1;
+
   filter: alpha(opacity=100);
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
 #pagebreak{
-  margin-bottom: -10vh;
+  margin-bottom: -8vh;
+  mix-blend-mode: multiply;
+}
+input{
+  color:white;
+}
+h5{
+    font-family: 'Raleway', sans-serif;
+    font-size: 250%;
+}
+footer{
+  background-color:grey;
+  height:20vh;
+}
+.card-header {
+  background-color: red;
 }
 
+.form-control {
+    color: #fff;
+}
+#contact{
+  width:50%;
+  height:175%;
+  margin-top: 3%;
+  margin-bottom: 10%;
+  color:white;
+
+}
+.fa{
+  mix-blend-mode: multiply;
+  width:100%;
+  display:inline-block;
+}
+
+.btn-floating{
+  background-color: black;
+}
 /* Adding color to the Navbar on mobile */
 @media only screen and (max-width: 768px) {
   .navbar {
