@@ -1,5 +1,5 @@
 .jumbotron{
-  background-image: url("../img/jumbotron.jpg");
+  /* background-image: url("../img/jumbotron.jpg"); */
   background-size: cover;
   background-repeat: no-repeat;
   height:101vh;
@@ -13,7 +13,7 @@
 /* Navbar animation */
 .navbar {
   background-color: transparent;
-  font-family: 'PT Sans Caption', sans-serif;}
+  font-family: 'Raleway', sans-serif;}
 
 .top-nav-collapse {
   background-color: #1C2331;
@@ -213,6 +213,7 @@
 h1{
   text-align:center;
   font-size: 500%;
+  font-family: 'Raleway', sans-serif;
 }
 
 #infographic{
@@ -239,6 +240,7 @@ h2 {
   margin-bottom:2%;
   margin-left: 10%;
   margin-right:10%;
+  font-family: 'Raleway', sans-serif;
 }
 
 .hovereffect {
