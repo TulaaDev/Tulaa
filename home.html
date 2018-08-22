@@ -22,7 +22,7 @@
 
 
         <a class="navbar-brand" href="" target="_blank">
-          <img src="img/tulaa-logo.png" id="logo">
+          <!-- <img src="img/tulaa-logo.png" id="logo"> -->
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -35,65 +35,50 @@
 
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">OUR SOLUTION
+              <a class="nav-link" href="#" style="color:black;">OUR SOLUTION
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="" target="_blank">WHO WE ARE</a>
+              <a class="nav-link" href="" target="_blank" style="color:black;">WHO WE ARE</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="" target="_blank">CAREERS</a>
+              <a class="nav-link" href="" target="_blank" style="color:black;">CAREERS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="" target="_blank">CONTACT US</a>
+              <a class="nav-link" href="" target="_blank" style="color:black;">CONTACT US</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
+  </head>
+  <body>
+  <h1>tulaa</h2>
 
+  <div class="container">
+    <!-- Collapse buttons -->
+    <div>
+        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            Link with href
+        </a>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            Button with data-target
+        </button>
+    </div>
+    <!-- / Collapse buttons -->
 
-    <h1>tulaa</h2>
-      <script type='text/javascript' src='jquery.js'></script>
-      <script type='text/javascript'>
-      $(document).ready(function(){
-
-      $("img.a").hover(
-      function() {
-      $(this).stop().animate({"opacity": "0"}, "slow");
-      },
-      function() {
-      $(this).stop().animate({"opacity": "1"}, "slow");
-      });
-
-      });
-      </script>
-      <style>
-      div.fadehover {
-      	position: relative;
-      	}
-
-      img.a {
-      	position: absolute;
-      	left: 0;
-      	top: 0;
-              z-index: 10;
-      	}
-
-      img.b {
-      	position: absolute;
-      	left: 0;
-      	top: 0;
-      	}
-      </style>
-      </head>
-
-      <body>
-      <div class="fadehover">
-      <img src="cbavota-bw.jpg" alt="" class="a" />
-      <img src="cbavota.jpg" alt="" class="b" />
-      </div>
+    <!-- Collapsible element -->
+    <div class="collapse" id="collapseExample">
+        <div class="mt-3">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica,
+            craft beer labore wes anderson cred nesciunt sapiente ea proident.
+        </div>
+    </div>
+    <!-- / Collapsible element -->
+  </div>
+<script src='js/main.js'></script>
+<script type='text/javascript' src='jquery.js'></script>
       <!-- JQuery -->
  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
  <!-- Bootstrap tooltips -->
@@ -106,6 +91,16 @@
  <script type="text/javascript">
    // Animations initialization
    new WOW().init();
+ </script>
+ <script>
+$('.collapse').collapse()
+
+
+ $(document).ready(function(){
+     $("button").click(function(){
+         $("#div1").load("careers.html");
+     });
+ });
  </script>
 </body>
 </html>
