@@ -1,0 +1,21 @@
+.nav-link{
+  color:black;
+}
+#panel{
+  background-image:url('../img/news1.jpeg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  width:95%;margin-left:3%;
+  height:60vh;
+  background-position: -100px -106px;
+  background-size:1350px 1000px;"
+}
+#panel-title{
+  background-color: white;
+  width:103%;
+  margin-left: -1.5%;
+  height:27%;
+  opacity:0.4;
+  margin-top:-1vh;
+  color:black;
+}
