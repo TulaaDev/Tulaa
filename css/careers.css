@@ -1,3 +1,4 @@
+
 .scrollbar-deep-purple::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
   background-color: #F5F5F5;
@@ -106,7 +107,7 @@ h3{
   font-family: 'Raleway', sans-serif;
   font-size: 165%;
 }
-ul{
+.details{
   list-style: none;
 }
 h4{
@@ -115,8 +116,17 @@ h4{
   font-size: 120%;
 }
 .badge{
-  color:red;
+  background-color:red;
 }
 h1{
   color:red;
+}
+
+.card{
+  border-color: red;
+  height:40vh;
+}
+
+#benefits{
+  font-size: 125%;
 }
