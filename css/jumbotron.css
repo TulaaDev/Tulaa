@@ -1,0 +1,437 @@
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}h1{font-size:2em;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:700;}dfn{font-style:italic;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace, serif;font-size:1em;}pre{white-space:pre-wrap;word-wrap:break-word;}q{quotes:\201C \201D \2018 \2019;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-.5em;}sub{bottom:-.25em;}img{border:0;}svg:not(:root){overflow:hidden;}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,html input[type=button],/* 1 */
+input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}button[disabled],input[disabled]{cursor:default;}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0;}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}body,figure{margin:0;}legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*
+font-family: 'Bangers', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'PT Mono', ;
+*/
+
+html {
+	font-size: 13px;
+	height:80%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	/* background-color: #f9f9f9; */
+	/* line-height: 1.5; */
+	font-size: 1.4rem;
+	height:70%;
+}
+
+/* img {
+	max-width: 100%;
+} */
+
+a:focus {
+	outline: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.wrapper {
+	height: 100%;
+}
+
+.innerWrapper {
+	max-width: 1200px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* === H E A D E R === */
+
+header.top {
+	background-image: url("../img/jumbotron.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: bottom center;
+	margin-bottom: -90px;
+	height: 180%;
+	overflow: hidden;
+}
+
+
+.siteTitle {
+	width: 90%;
+	text-align: center;
+	position: absolute;
+	top: 15%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+	.siteTitle h1 {
+		font-family: 'Raleway', sans-serif;
+		font-size: 22rem;
+		margin-bottom: 20px;
+		line-height: 0.95;
+		color: #fff;
+		text-transform: uppercase;
+		letter-spacing: 8px;
+		text-shadow: 3px 3px 4px rgba(0,0,0,0.8);
+	}
+
+	.siteTitle p {
+		margin: 0 0 25px 0;
+		font-size: 3.5rem;
+		color: white;
+		text-align: center;
+		text-transform: uppercase;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 500;
+		letter-spacing: 1px;
+		margin-top: 70vh;
+
+	}
+
+	.siteTitle p.animated.pulse {
+		animation-iteration-count: infinite;
+		-webkit-animation-iteration-count: infinite;
+	}
+
+	/* === M A I N === */
+	@media only screen and (max-width: 768px) {
+		html {
+			font-size: 13px;
+			height:80%;
+		}
+
+		body {
+			font-family: 'Roboto', sans-serif;
+			/* background-color: #f9f9f9; */
+			/* line-height: 1.5; */
+			font-size: 1.4rem;
+			height:70%;
+		}
+
+		/* img {
+			max-width: 100%;
+		} */
+
+		a:focus {
+			outline: none;
+		}
+
+		a {
+			text-decoration: none;
+		}
+
+		.wrapper {
+			height: 100%;
+			margin-bottom: 10vh;
+		}
+
+		.innerWrapper {
+			max-width: 1200px;
+			width: 80%;
+			margin: 0 auto;
+		}
+
+		/* === H E A D E R === */
+
+		header.top {
+			background-image: url("../img/jumbotron.jpg");
+			background-attachment: fixed;
+			background-position: bottom center;
+			background-repeat: no-repeat;
+			height: 19vh;
+			overflow: hidden;
+			background-size:950px 50px;
+			margin-top: -2vh;
+			background-position: -300px -13px;
+			padding: 10%;
+
+		}
+
+
+		.siteTitle {
+			width: 100.8%;
+			text-align: center;
+			position: absolute;
+			top: 15%;
+			left: 50%;
+			transform: translateX(-50%);
+			margin-top: -35vh;
+			margin-bottom: 10vh;
+			padding:0.1%;
+			font-size: 2rem;
+
+		}
+
+			.siteTitle h1 {
+				font-family: 'Raleway', sans-serif;
+				font-size: 1rem;
+				margin-bottom: 80px;
+				line-height: 0.95;
+				color: #fff;
+				text-transform: uppercase;
+				letter-spacing: 8px;
+				text-shadow: 3px 3px 4px rgba(0,0,0,0.8);
+
+
+			}
+
+			.siteTitle p {
+				margin: 0 0 25px 0;
+				font-size: 3.5rem;
+				color: white;
+				text-align: center;
+				text-transform: uppercase;
+				font-family: 'Raleway', sans-serif;
+				font-weight: 500;
+				letter-spacing: 1px;
+				margin-top: 70vh;
+
+
+			}
+
+			.siteTitle p.animated.pulse {
+				animation-iteration-count: infinite;
+				-webkit-animation-iteration-count: infinite;
+			}
+
+			.wrapper{
+				margin-bottom: 10vh;
+			}
+			#solution{
+				font-size: 100%;
+				margin-top: 1000vh;
+
+			}
+			#solution-section{
+				font-size: 120%;
+				margin-top: -10vh;
+			}
+}
+
+@media only screen and (min-width : 375px) and (max-width : 667px) {
+	html {
+		font-size: 13px;
+		height:80%;
+	}
+
+	body {
+		font-family: 'Roboto', sans-serif;
+		/* background-color: #f9f9f9; */
+		/* line-height: 1.5; */
+		font-size: 1.4rem;
+		height:70%;
+	}
+
+	/* img {
+		max-width: 100%;
+	} */
+
+	a:focus {
+		outline: none;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	.wrapper {
+		height: 100%;
+		margin-bottom: 10vh;
+	}
+
+	.innerWrapper {
+		max-width: 1200px;
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	/* === H E A D E R === */
+
+	header.top {
+		background-image: url("../img/jumbotron.jpg");
+		background-attachment: fixed;
+		background-position: bottom center;
+		background-repeat: no-repeat;
+		height: 93vh;
+		overflow: hidden;
+		background-size:1050px 750px;
+		margin-top: -2vh;
+		background-position: -300px -13px;
+		margin-bottom:100%;
+
+	}
+
+	.wrapper{
+		margin-top: 9vh;
+		margin-bottom: 10vh;
+	}
+	.siteTitle {
+		width: 100.8%;
+		text-align: center;
+		position: absolute;
+		top: 15%;
+		left: 50%;
+		transform: translateX(-50%);
+		margin-top: -35vh;
+		margin-bottom: 10vh;
+		padding:0.1%;
+		font-size: 1.5rem;
+
+	}
+
+		.siteTitle h1 {
+			font-family: 'Raleway', sans-serif;
+			font-size: 0.5rem;
+			margin-bottom: 80px;
+			line-height: 0.95;
+			color: #fff;
+			text-transform: uppercase;
+			letter-spacing: 8px;
+			text-shadow: 3px 3px 4px rgba(0,0,0,0.8);
+
+
+		}
+
+		.siteTitle p {
+			margin: 0 0 25px 0;
+			font-size: 3.5rem;
+			color: white;
+			text-align: center;
+			text-transform: uppercase;
+			font-family: 'Raleway', sans-serif;
+			font-weight: 500;
+			letter-spacing: 1px;
+			margin-top: 70vh;
+			margin-bottom: 10vh;
+
+		}
+
+		.siteTitle p.animated.pulse {
+			animation-iteration-count: infinite;
+			-webkit-animation-iteration-count: infinite;
+		}
+
+		#solution-section{
+			font-size: 150%;
+			margin-top: 10vh;
+		}
+		#solution{
+			margin-top: 300vh;
+
+
+		}
+}
+
+@media only screen
+    and (max-width : 375px)
+    and (max-height : 812px)
+    and (-webkit-device-pixel-ratio : 3) {
+
+			html {
+				font-size: 13px;
+				height:80%;
+			}
+
+			body {
+				font-family: 'Roboto', sans-serif;
+				/* background-color: #f9f9f9; */
+				/* line-height: 1.5; */
+				font-size: 1.4rem;
+				height:70%;
+			}
+
+			/* img {
+				max-width: 100%;
+			} */
+
+			a:focus {
+				outline: none;
+			}
+
+			a {
+				text-decoration: none;
+			}
+
+			.wrapper {
+				height: 100%;
+				margin-bottom: 10vh;
+			}
+
+			.innerWrapper {
+				max-width: 1200px;
+				width: 80%;
+				margin: 0 auto;
+			}
+
+			/* === H E A D E R === */
+
+			header.top {
+				background-image: url("../img/jumbotron.jpg");
+				background-attachment: fixed;
+				background-position: bottom center;
+				background-repeat: no-repeat;
+				height: 93vh;
+				overflow: hidden;
+				background-size:1050px 750px;
+				margin-top: -2vh;
+				background-position: -300px -13px;
+				margin-bottom:-100%;
+
+			}
+
+			.wrapper{
+				margin-top: 9vh;
+				margin-bottom: 10vh;
+			}
+			.siteTitle {
+				width: 100.8%;
+				text-align: center;
+				position: absolute;
+				top: 15%;
+				left: 50%;
+				transform: translateX(-50%);
+				margin-top: -35vh;
+				margin-bottom: 10vh;
+				padding:0.1%;
+				font-size: 1.5rem;
+
+			}
+
+				.siteTitle h1 {
+					font-family: 'Raleway', sans-serif;
+					font-size: 0.5rem;
+					margin-bottom: 80px;
+					line-height: 0.95;
+					color: #fff;
+					text-transform: uppercase;
+					letter-spacing: 8px;
+					text-shadow: 3px 3px 4px rgba(0,0,0,0.8);
+
+
+				}
+
+				.siteTitle p {
+					margin: 0 0 25px 0;
+					font-size: 3.5rem;
+					color: white;
+					text-align: center;
+					text-transform: uppercase;
+					font-family: 'Raleway', sans-serif;
+					font-weight: 500;
+					letter-spacing: 1px;
+					margin-top: 70vh;
+					margin-bottom: 10vh;
+
+				}
+
+				.siteTitle p.animated.pulse {
+					animation-iteration-count: infinite;
+					-webkit-animation-iteration-count: infinite;
+				}
+
+
+		 }

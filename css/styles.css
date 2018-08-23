@@ -36,6 +36,7 @@
 	position: relative;
 	}
 
+
 .a {
 	position: absolute;
 	left: 0;
@@ -57,11 +58,11 @@
  #section3{
    color:black;
    margin-top:5%;
-   font-size: 320%;
+   font-size: 300%;
  }
   #joinus{
     margin-top: 3%;
-    font-size: 220%;
+    font-size: 160%;
     margin-right: 10%;
   }
  svg {
@@ -199,7 +200,6 @@
 
   }
 
-
   figure
   /* #title{
     font-size: 500%;
@@ -213,7 +213,7 @@
 }
 h1{
   text-align:center;
-  font-size: 500%;
+  font-size: 400%;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -221,7 +221,9 @@ h1{
   width:70%;
   margin-top:-15vh;
   }
-
+.speech{
+  font-size: 190%;
+}
 #cards{
   width:90%;margin-bottom: 8%;
 }
@@ -232,10 +234,12 @@ p{
   margin-left: 10%;
   /* margin-right: 10%; */
 }
-
+.partner-logo{
+  font-size: 210%;
+}
 h2 {
   text-align:center;
-  font-size:285%;
+  font-size:195%;
   color:red;
   margin-top:1%;
   margin-bottom:2%;
@@ -243,7 +247,13 @@ h2 {
   margin-right:10%;
   font-family: 'Raleway', sans-serif;
 }
-
+ .nav-link{
+   font-size:90%;
+ }
+.mytext{
+  font-size: 110%;
+  color:red;
+}
 .hovereffect {
   width: 100%;
   height: 100%;
@@ -291,7 +301,7 @@ h2 {
   color: #fff;
   text-align: center;
   position: relative;
-  font-size: 17px;
+  /* font-size: 15px; */
   overflow: hidden;
   padding: 0.5em 0;
   background-color: transparent;
@@ -357,20 +367,41 @@ footer{
     color: #fff;
 }
 #contact{
-  width:50%;
-  height:175%;
+  width:60%;
+  height:195%;
   margin-top: 3%;
-  margin-bottom: 10%;
+  /* margin-bottom: -20%; */
   color:white;
-
+  opacity:0.9;
 
 }
+
+.form-control:focus {
+  border-color: red;
+
+}
+
 .fa{
   mix-blend-mode: multiply;
   width:100%;
   display:inline-block;
 }
 
+
+ #gradient{
+   background: linear-gradient(
+   to bottom,
+   white,
+   transparent);
+   margin-top:12.5%;
+   color:grey;
+   background-color:black;
+   width:102%;
+   margin-left:-2vw;
+   font-size:337%;
+   opacity:0.66;
+
+ }
 .btn-floating{
   background-color: black;
 }
@@ -418,8 +449,12 @@ iframe{
   mix-blend-mode: multiply;
 
 }
-
-
+#solution-section{
+  margin-top: 10vh;
+}
+#solution{
+  margin-top:100vh;
+}
 
   .row{
     margin-top: 2%;
@@ -460,10 +495,12 @@ iframe{
     margin-right: auto;
     mix-blend-mode: multiply;
     }
-
+    #solution{
+      margin-top:100vh;
+    }
    h1{
      text-align:center;
-     font-size:205%;
+     font-size:105%;
      margin-top:10vh;
    }
 
@@ -561,6 +598,9 @@ iframe{
         width:75%;
         height:280%;
       }
+      #solution{
+        margin-top:200vh;
+      }
 
 }
 /* iphone 5 media query */
@@ -627,7 +667,9 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
     margin-left: -9vw;
   }
 
-
+  #solution{
+    margin-top:100vh;
+  }
   iframe{
     margin-left: 10%;
     width:75%;
