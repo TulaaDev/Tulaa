@@ -49,6 +49,7 @@
 	left: 0;
 	top: 0;
 	}
+
 #team {
   font-size:370%;
 }
@@ -63,12 +64,28 @@
   #joinus{
     margin-top: 3%;
     font-size: 160%;
-    margin-right: 10%;
+    margin-bottom: 6%;
+  }
+  .card-img-fluid{
+    width:70%;
+    margin-bottom: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: -3%;
+    margin-bottom: 30%;
+    mix-blend-mode: multiply;
+
+  }
+  .card-block{
+    height:140%;
+    margin-bottom: 10vh;
   }
  svg {
    margin-left: 48.5%;
-   margin-top: -137%;
-   margin-bottom: -125%;
+   margin-top: -110%;
+   margin-bottom: -90%;
  }
   .testimonial {
     padding:3%;
@@ -83,12 +100,19 @@
   .card-deck{
     width:90%;
     border: none;
-    height:57vh;
+    height:60vh;
     border: 0;
     background-color: transparent;
     padding-left:10%;
+    margin-bottom: 10%;
 
 
+  }
+  .card-text{
+    font-size: 100%;
+    text-align: center;
+    margin-left: 10%;
+    width:80%;
   }
   #who-text{
     font-size: 155%;
@@ -206,17 +230,7 @@
 
   }
 
-  figure
-  /* #title{
-    font-size: 500%;
-  } */
-/* section{
-  margin-top: 50%;
-} */
-#who{
-  margin-top: 67%;
 
-}
 h1{
   text-align:center;
   font-size: 400%;
@@ -611,6 +625,11 @@ iframe{
         mix-blend-mode: multiply;
 
       }
+
+      .card-deck{
+        height:auto;
+        margin-left: -4vw;
+      }
       .hover08{
         margin-left: -20vw;
       }
@@ -633,9 +652,9 @@ iframe{
       }
       #section2{
         width:122%;
-
         margin-left: 90vw;
       }
+
       #farmers{
         margin-top: 10%;
       }
@@ -651,7 +670,8 @@ iframe{
         margin-left: -20vw;
       }
       #infographic{
-        width:110%;
+        width:120%;
+        margin-left: -10vw;
       }
       #cards{
         margin-left: 10%;
@@ -722,10 +742,29 @@ iframe{
         margin-top: 10vh;
       }
       h2{
-        font-size: 140%;
+        font-size: 160%;
+
       }
       p{
-        margin-left: 1%;
+        margin-left: 2%;
+      }
+      .logo-title{
+        font-size: 240%;
+      }
+      #section3{
+        margin-bottom: 26%;
+      }
+      #joinus{
+        margin-left: 3%;
+        margin-bottom: 10%;
+      }
+      .rounded-circle{
+        margin-bottom:1000%;
+      }
+      .card-img-fluid{
+        width:70%;
+        height:auto;
+        margin-bottom: 30%;
       }
 
 }
