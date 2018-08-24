@@ -90,6 +90,12 @@
 
 
   }
+  #who-text{
+    font-size: 155%;
+  }
+  .acumen{
+    margin-left: 10vw;
+  }
   .card-title{
     text-align: center;
     margin-top:-20%;
@@ -142,7 +148,7 @@
   .column div {
   	position: relative;
   	float: left;
-  	width: 350px;
+  	width: 370px;
   	height: 350px;
   	/* margin: 2 -7 0 2px; */
   	padding: 0;
@@ -157,7 +163,7 @@
   	left: 0;
   	z-index: -1;
   	display: block;
-  	width: 300px;
+  	width: 400px;
   	margin: 0;
   	padding: 0;
   	color: #444;
@@ -170,7 +176,7 @@
     margin-top: 160px;
   }
   figure {
-  	width: 390px;
+  	width: 400px;
   	height: 300px;
   	margin: 0;
   	padding: 4%;
@@ -191,7 +197,7 @@
   }
  .partners2{
    padding:8%;
-   margin-left: 30%;
+   margin-left: 20%;;
    mix-blend-mode: multiply;
  }
   .partners{
@@ -243,7 +249,7 @@ p{
 }
 h2 {
   text-align:center;
-  font-size:195%;
+  font-size:275%;
   color:red;
   margin-top:1%;
   margin-bottom:2%;
@@ -380,7 +386,9 @@ footer{
   opacity:0.9;
 
 }
-
+#headshots{
+  margin-bottom: 3%;
+}
 .form-control:focus {
   border-color: red;
 
@@ -489,6 +497,20 @@ iframe{
     margin-top: -6vh;
     margin-left: -1vw;
   }
+  #who {
+    margin-top: 10%;
+  }
+
+  #headshots{
+    margin-bottom: 10vh;
+    margin-left: 20vw;
+  }
+  #partner-logo{
+    margin-left:-20vw;
+  }
+#hover-partner{
+  margin-left: 80vw;
+}
   iframe{
     margin-left: 10%;
     width:75%;
@@ -510,7 +532,16 @@ iframe{
      font-size:105%;
      margin-top:10vh;
    }
+   .center{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 90%;
+     margin-top: -3%;
+     margin-bottom: -6%;
+     mix-blend-mode: multiply;
 
+   }
    #section2{
      width:80%;
    }
@@ -550,11 +581,38 @@ iframe{
       width:auto;
       margin-left: 0.2%;
       background-position: -260px 5px;
-
     }
-      #navbarSupportedContent{
-        font-size: 180%;
 
+    #partner-logo{
+      margin-left:-20vw;
+    }
+    #navbarSupportedContent{
+      font-size: 180%;
+    }
+    #headshots{
+      margin-left: -9vw;
+    }
+    #partner-logo{
+      margin-left: -7vw;
+    }
+    #partners2{
+      margin-left: -18vw;
+    }
+    figure{
+      mix-blend-mode: multiply;
+    }
+      .center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        margin-top: -3%;
+        margin-bottom: -6%;
+        mix-blend-mode: multiply;
+
+      }
+      .hover08{
+        margin-left: -20vw;
       }
       .navbar-toggler .icon-bar {
         margin: 7px;
@@ -584,16 +642,57 @@ iframe{
       h2 {
         text-align:center;
         color:red;
-        font-size:200%;
-
+        font-size:300%;
         margin-bottom:2%;
+        margin-top:-3vh;
       }
 
+      .hover08{
+        margin-left: -20vw;
+      }
       #infographic{
         width:110%;
       }
       #cards{
         margin-left: 10%;
+      }
+      #investor-logo{
+        width:3%;
+        margin-left:-14%;
+      }
+      .center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        margin-top: -3%;
+        margin-bottom: -6%;
+        mix-blend-mode: multiply;
+
+      }
+      .acumen{
+        margin-left: 40vw;
+        margin-top: -35vh;
+        margin-bottom: -90vh;
+        width:122%;
+
+      }
+      .global{
+        margin-top: -20vh;
+        width:96%;
+      }
+      .investors{
+        margin-bottom: 1vh;
+      }
+      #partner-title{
+        margin-top: 10%;
+      }
+      #investor{
+        height:-2vh;
+      }
+
+      #parallax-two{
+        margin-top: -50vh;
       }
       #logo{
         width:35%;
@@ -608,10 +707,30 @@ iframe{
       #solution{
         margin-top:200vh;
       }
+      #contact{
+        width:90%;
+        margin-top: -20%;
+      }
+      #team{
+        margin-top: 3vh;
+      }
+      #who-text{
+        margin-left: -18vw;
+        font-size: 120%;
+      }
+      #who{
+        margin-top: 10vh;
+      }
+      h2{
+        font-size: 140%;
+      }
+      p{
+        margin-left: 1%;
+      }
 
 }
 /* iphone 5 media query */
-/* @media only screen and (min-width: 320px) and (max-width: 568px)
+@media only screen and (min-width: 320px) and (max-width: 568px)
 and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
 {
   .navbar-toggler{
@@ -634,6 +753,10 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
     background-position: -460px 5px;
 
   }
+  #headshots{
+    margin-bottom: 10vh;
+    margin-left: 20vw;
+  }
   #navbarSupportedContent{
     font-size: 180%;
     margin-top: -5vh;
@@ -645,7 +768,7 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
     width:75%;
     height:280%;
   }
-} */
+}
 /* galaxy s5 */
 @media only screen and (max-width: 370px){
   .navbar-toggler{
@@ -666,6 +789,10 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
 
   #section2{
     width:50%;
+  }
+  #headshots{
+    margin-bottom: 10vh;
+    margin-left: 20vw;
   }
 
   #logo{
