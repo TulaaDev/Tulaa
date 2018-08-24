@@ -381,7 +381,7 @@ h5{
 }
 footer{
   background-color:grey;
-  height:21vh;
+  height:21%;
 
 }
 .card-header {
@@ -407,6 +407,21 @@ footer{
 .form-control:focus {
   border-color: red;
 
+}
+.footer-text{
+  /* margin-left: 35%; */
+  text-align: left;
+  /* width:120%; */
+}
+.favicon{
+  width:5%;
+  height:5%;
+  margin-left: 1vw;
+  background-blend-mode: multiply;
+  margin-bottom: 2%;
+}
+.subscribe{
+  margin-left: 22vw;
 }
 
 .fa{
@@ -587,7 +602,7 @@ iframe{
 
     }
     .navbar{
-      width:98.5%;
+      width:100%;
     }
     .jumbotron{
       width:auto;
@@ -595,23 +610,24 @@ iframe{
       background-position: -260px 5px;
     }
 
-    #partner-logo{
-      margin-left:-20vw;
-    }
     #navbarSupportedContent{
       font-size: 180%;
     }
     #headshots{
-      margin-left: -9vw;
+      margin-left: -22%;
     }
-    #partner-logo{
-      margin-left: -7vw;
+    .headshot-size{
+      width:100%;
+      margin-left: 6em;
     }
-    #partners2{
-      margin-left: -18vw;
+
+    #careers-button{
+      margin-bottom: 10%;
+      margin-right: 25%;
     }
     figure{
       mix-blend-mode: multiply;
+      width:90%;
     }
       .center{
         display: block;
@@ -679,16 +695,22 @@ iframe{
       .hover08{
         margin-left: -20vw;
       }
-      #infographic{
-        width:120%;
-        margin-left: -10vw;
-      }
+      /* #infographic{
+        width:100%;
+        margin-left: -2%;
+
+      } */
       #cards{
         margin-left: 2.5%;
       }
       #investor-logo{
         width:3%;
         margin-left:-14%;
+      }
+      #partner-logo{
+        width:20%;
+        margin-left: -2.5%;
+        margin-bottom: -20vh;
       }
       .center{
         display: block;
@@ -711,6 +733,9 @@ iframe{
         margin-top: -20vh;
         width:96%;
       }
+      .AHL {
+        margin-left: 28vw;
+      }
       .investors{
         margin-bottom: 1vh;
       }
@@ -721,6 +746,21 @@ iframe{
         height:-2vh;
       }
 
+      /* .OCP{
+        margin-top: -10%;
+        margin-left: 8.5em;
+        margin-bottom: -20vh;
+        width:90%;
+      } */
+
+      /* .Mavuna{
+        margin-left: 8em;
+        margin-top: -4vh;
+        margin-bottom: 8em;
+      } */
+      /* .toyota{
+        margin-right: 28.5em;
+      } */
       #parallax-two{
         margin-top: -50vh;
       }
@@ -758,9 +798,29 @@ iframe{
       p{
         margin-left: 2%;
       }
+      .footer-text{
+        margin-left: 3%;
+        text-align: left;
+        /* width:120%; */
+      }
+      .favicon{
+        width:10%;
+        height:10%;
+        margin-left: 4vw;
+        background-blend-mode: multiply;
+        margin-bottom: 2%;
+      }
+      .favicon-container{
+        margin-left: -6.5vw;
+      }
+      .subscribe{
+        margin-left: 20vw;
+      }
       .logo-title{
         font-size: 240%;
+        margin-top: -36vh;
       }
+
       #section3{
         margin-bottom: 26%;
       }
