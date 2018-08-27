@@ -53,9 +53,10 @@
 #team {
   font-size:370%;
 }
-  #section2{
-    width:290%;
-  }
+#image2{
+  width:300%;
+  margin-left: -3vw;
+}
  #section3{
    color:black;
    margin-top:5%;
@@ -77,6 +78,10 @@
     margin-bottom: 30%;
     mix-blend-mode: multiply;
 
+  }
+
+  title{
+    font-family: 'Raleway', sans-serif;
   }
   .card-block{
     height:140%;
@@ -591,7 +596,7 @@ iframe{
 
     }
     h1{
-      font-size: 300%;
+      font-size: 250%;
       margin-bottom: 20%;
 
     }
@@ -605,8 +610,7 @@ iframe{
       width:100%;
     }
     .jumbotron{
-      width:auto;
-      margin-left: 0.2%;
+      width:100%;
       background-position: -260px 5px;
     }
 
@@ -676,10 +680,7 @@ iframe{
         height:37px !important;
 
       }
-      #section2{
-        width:122%;
-        margin-left: 90vw;
-      }
+
 
       #farmers{
         margin-top: 10%;
@@ -783,6 +784,7 @@ iframe{
       }
       #team{
         margin-top: 3vh;
+        font-size: 250%;
       }
       #who-text{
         margin-left: -18vw;
@@ -821,6 +823,10 @@ iframe{
         margin-top: -36vh;
       }
 
+      #image2{
+        width:100%;
+        margin-left: -3vw;
+      }
       #section3{
         margin-bottom: 26%;
       }
@@ -843,25 +849,154 @@ iframe{
 and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
 {
   .navbar-toggler{
-    margin-left: 80%;
-    margin-top: -157%;
+    margin-left: 60%;
+    margin-top: 157%;
   }
   .navbar-toggler-icon {
     width: 44px !important;
     height:34px !important;
+    margin-top: 5px;
+    margin-left: 30px;
+
+  }
+  .navbar-nav{
+    margin-top:10vh;
+  }
+  #partner-heading{
+    font-size: 7vw;
+
+  }
+  #section2{
+    width:290vw;
+    margin-left: 10vw;
+  }
+  #solution{
+    margin-top: -10vh;
+  }
+  #partner-text{
+    margin-left: -5%;
+    font-size: 107%;
+    padding:4%;
   }
 
+  .testimonial{
+    height:350vh;
+    margin-top: -60vh;
+    margin-right: 30vw;
+
+  }
+
+  #team{
+    margin-top: 3vh;
+    font-size: 250%;
+  }
+  .single-card{
+    padding:7%;
+  }
+  .card{
+    margin-top:60vh;
+  }
+  .card-deck{
+    margin-left: -15vw;
+  }
+  .contact-card{
+    margin-top: -8vh;
+    width:130%;
+    margin-left: -10vw;
+  }
   #logo{
     width:35%;
     margin-top: -8vh;
     margin-left: -7vw;
   }
+  .partner-content{
+    font-size: 50%;
+    margin-top: -12%;
+  }
+  .slide-text,.slide-text-finance{
+    font-size: 120%;
+    margin-right:-5vw;
+  }
   .jumbotron{
-    width:99.99%;
-    margin-left: 0.2%;
-    background-position: -460px 5px;
+    /* width:153%; */
+    height:100vh;
+
+    background-position: -4060px -400px;
+    background-size: 800px 620px;
+    background-repeat: no-repeat;
 
   }
+
+  #partner-logo{
+    margin-right: 60vw;
+  }
+  .testimonial{
+    margin-left: 10%;
+  }
+  .headshot-size{
+    margin-left: -30vw;
+  }
+  .acumen,.global,.AHL{
+    width:90%;
+    margin-left: 2vw;
+
+  }
+  .global{
+    margin-top: -30vh;
+  }
+  .acumen{
+    margin-top: -45vh;
+    width:120%;
+    margin-left: 10%;
+    margin-bottom: -20vh;
+  }
+  #parallax-two{
+    margin-top: -60vh;
+  }
+  #partners2{
+    margin-top: 80%;
+    margin-left: -30vw;
+    width:30%;
+  }
+  #who-text{
+    margin-left: -17vw;
+    font-size: 130%;
+  }
+  .toyota{
+    width:80%;
+    margin-left: 30%;
+  }
+  .Mavuna{
+    width:90%;
+    margin-top: -10vh;
+    margin-left: 30%;
+  }
+  .OCP{
+    width:90%;
+    margin-top: -20%;
+    margin-left: 26%;
+    margin-bottom: -80vh;
+  }
+#image2{
+  width:100%;
+  margin-left: -6vw;
+}
+
+  h1{
+    font-size: 290%;
+  }
+  h2{
+    font-size: 150%;
+  }
+  .card-deck{
+    margin-right: -70%;
+    width:100%;
+  }
+  #who-text{
+    width:110%;
+    font-size: 110%;
+  }
+
   #headshots{
     margin-bottom: 10vh;
     margin-left: 20vw;
@@ -871,6 +1006,17 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
     margin-top: -5vh;
     margin-left: -2vw;
 
+  }
+  #focused{
+    font-size: 130%;
+    margin-top: 10vh;
+  }
+
+  .pagebreak2{
+    margin-top: -1vh;
+  }
+  h1{
+    font-size: 210%;
   }
   iframe{
     margin-left: 10%;
@@ -890,7 +1036,7 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
 
   }
   .jumbotron{
-    width:30.99%;
+
     margin-left: 0.2%;
     background-position: -200px 5px;
 
