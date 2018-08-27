@@ -254,6 +254,15 @@ h1{
   margin-bottom: 8%;
 
 }
+#investor{
+  margin-top: 20%;
+}
+#investor .column div{
+  position: relative;
+  width: 380px;
+
+  padding: 0;
+}
 
 
 p{
@@ -932,7 +941,7 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
     height:100vh;
 
     background-position: -4060px -400px;
-    background-size: 800px 620px;
+    background-size: 900px 620px;
     background-repeat: no-repeat;
 
   }
@@ -964,28 +973,27 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
     margin-top: -60vh;
   }
   #partners2{
-    margin-top: 80%;
-    margin-left: -30vw;
-    width:30%;
+    margin-top: -94%;
+    margin-left: -5vw;
+    width:20%;
   }
   #who-text{
     margin-left: -17vw;
     font-size: 130%;
   }
-  .toyota{
-    width:80%;
-    margin-left: 30%;
-  }
+
   .Mavuna{
-    width:90%;
-    margin-top: -10vh;
-    margin-left: 30%;
+
+    margin-top: -12vh;
+    margin-left: 63%;
+    position:relative;
+
   }
   .OCP{
-    width:90%;
-    margin-top: -20%;
-    margin-left: 26%;
-    margin-bottom: -80vh;
+
+    margin-top: -2em;
+    margin-bottom: -90em;
+
   }
 #image2{
   width:100%;
@@ -1071,7 +1079,7 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
   }
   .column div {
   	position: relative;
-  	/* float: left; */
+
   	width: 105px;
   	height: 330px;
   	margin: 2 -7 0 2px;
@@ -1100,15 +1108,17 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
     margin-top: 160px;
   }
   figure {
-  	width: 320px;
+  	width: 300px;
   	height: 300px;
   	margin: 0;
-    margin-left: 1vw;
+    margin-left: -28vw;
   	padding: 1%;
   	background: #fff;
   	overflow: hidden;
     mix-blend-mode: multiply;
   }
+
+
   figure:hover+span {
   	bottom: -24px;
   	opacity: 1;
@@ -1116,12 +1126,52 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
 
   }
 
+  #toyotalogo,#Mavunalogo,#OCPlogo{
+    width:118%;
+    position:relative;
+    margin-left: 120px;
+  }
+
+  section .column div {
+  	position: relative;
+  	width: 230px;
+  	height: 230px;
+  	margin: 2 -7 0 2px;
+  	padding: 0;
+
+  }
+  #investor .column div{
+    position: relative;
+  	width: 260px;
+  	height: 330px;
+
+  	padding: 0;
+  }
+  .acumen{
+    width:125%;
+    margin-left: 3%;
+  }
+  .global{
+    width:110%;
+  }
+  .AHL{
+    width:110%;
+  }
+  #investor{
+    margin-top: -17em;
+    width:90%;
+  }
+
   #caption{
-    margin-left: -27vw;
+    margin-left: -24vw;
     width:210%;
     margin-top: -20vh;
     margin-bottom: 20%;
 
+  }
+  .logo-title{
+    width:110%;
+    margin-left: -4vw;
   }
   #team-container{
     /* padding: -35%; */
@@ -1131,7 +1181,25 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
   }
   #joinus{
     margin-top: -30%;
+    font-size: 120%;
   }
+  #section3{
+    font-size: 210%;
+  }
+  #investor h2{
+    width:9em;
+    margin-top: -13em;
+    margin-left: 10%;
+
+  }
+  #partner-logo{
+    margin-bottom: -10vh;
+  }
+  #partner-title{
+    margin-top: 33%;
+  }
+
+
 
 }
 /* galaxy s5 */
