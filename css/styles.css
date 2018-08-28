@@ -18,6 +18,47 @@
 .top-nav-collapse {
   background-color: #1C2331;
 }
+.cls-1{
+  fill:black;
+
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 16px 2px;
+  border-radius: 50%;
+  margin-left: 3.5%;
+  margin-top: 10vh;
+}
+.fa:hover {
+    opacity: 0.7;
+    color: black;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
 
 #caption{
   margin-left: -2vw;
@@ -269,11 +310,24 @@ h1{
 }
 #investor{
   margin-top: 20%;
+
 }
 #investor .column div{
   position: relative;
-  width: 380px;
+  width: 315px;
   padding: 0;
+}
+.AHL,.global,.acumen{
+  margin-left: 40%;
+}
+.acumen{
+  margin-left: 55%;
+}
+.AHL{
+  margin-left: 6%;
+}
+.global{
+  margin-left: 25%;
 }
 
 
@@ -378,9 +432,7 @@ h2 {
 
 .hovereffect a, .hovereffect p,.hovereffect li {
   color: #FFF;
-
   opacity: 0.9;
-
   filter: alpha(opacity=0);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
@@ -408,7 +460,8 @@ h5{
 }
 footer{
   background-color:#1C2331;
-  height:21%;
+  height:57%;
+  margin-top: 20vh;
 
 }
 .card-header {
@@ -436,12 +489,22 @@ footer{
 
 }
 .footer-text{
-  /* margin-left: 35%; */
+  margin-left: -13%;
   text-align: left;
+
   /* width:120%; */
 }
-.favicon-container{
-  margin-right: -63vw;
+#subscribe-form{
+  margin-top: 8%;
+}
+
+
+.right {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    margin-top: -10%;
+    padding: 10px;
 }
 .favicon{
   width:4%;
@@ -454,13 +517,7 @@ footer{
   margin-left: 22vw;
 }
 
-.fa{
-  mix-blend-mode: multiply;
-  width:100%;
-  display:inline-block;
-  border-width: thin;
-  border-color: white;
-}
+
 
 
  #gradient{
@@ -477,9 +534,7 @@ footer{
    opacity:0.66;
 
  }
-.btn-floating{
-  background-color: black;
-}
+
 /* Adding color to the Navbar on mobile */
 @media only screen and (max-width: 768px) {
   .navbar {
@@ -651,8 +706,9 @@ iframe{
     }
 
     #careers-button{
-      margin-bottom: 10%;
+      margin-bottom: 40%;
       margin-right: 25%;
+      width:60%;
     }
     figure{
       mix-blend-mode: multiply;
@@ -772,21 +828,10 @@ iframe{
         height:-2vh;
       }
 
-      /* .OCP{
-        margin-top: -10%;
-        margin-left: 8.5em;
-        margin-bottom: -20vh;
-        width:90%;
-      } */
 
-      /* .Mavuna{
-        margin-left: 8em;
-        margin-top: -4vh;
-        margin-bottom: 8em;
-      } */
-      /* .toyota{
-        margin-right: 28.5em;
-      } */
+      #toyotalogo{
+        margin-top: 2em;
+      }
       #parallax-two{
         margin-top: -50vh;
       }
@@ -830,6 +875,7 @@ iframe{
         text-align: left;
         /* width:120%; */
       }
+
       .favicon{
         width:10%;
         height:10%;
@@ -866,6 +912,15 @@ iframe{
         width:70%;
         height:auto;
         margin-bottom: 30%;
+      }
+      .right{
+        margin-right: 20vw;
+      }
+      footer{
+        height:45vh;
+      }
+      .footer input{
+        width:79vw;
       }
 
 }
@@ -1017,7 +1072,7 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
   margin-left: -6vw;
 }
 #careers-button{
-  margin-left: -3em;
+  margin-right: 60em;
   width:16em;
   margin-bottom: 20%;
 
@@ -1171,8 +1226,8 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
   	padding: 0;
   }
   .acumen{
-    width:125%;
-    margin-left: 3%;
+    width:110%;
+    margin-left: 19%;
     margin-bottom: -10vh;
   }
   .global{
@@ -1241,6 +1296,13 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
 
   .footer-text{
     margin-left: 1em;
+  }
+  footer{
+    height:55vh;
+    margin-bottom: -20%;
+  }
+  .footer input{
+    width:79vw;
   }
 
 }
