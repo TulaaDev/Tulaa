@@ -15,7 +15,7 @@
   <!-- Material Design Bootstrap -->
 
 
-
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- Font Awesome -->
@@ -76,7 +76,9 @@
 <div class="jumbotron" style="background-image: url('img/jumbotron.jpg')";>
 
 </div>
-<!-- <h2 class="content" style="margin-top:-12.5%;color:white;background-color:black;width:102%;margin-left:-2vw;font-size:337%;opacity:0.56;">“MAKING AGRICULTURAL MARKETS IN AFRICA WORK BETTER”</h2> -->
+
+<div data-aos="fade-up">
+<h2 class="content" style="margin-top:3.5%;color:grey;width:102%;margin-left:-2vw;font-size:257%;">“MAKING AGRICULTURAL MARKETS IN AFRICA WORK BETTER”</h2></div>
 <!--
 <iframe width="1006" height="600" src="https://www.youtube.com/embed/F1Y2KaTl4vQ"></iframe> -->
 <br>
@@ -193,7 +195,7 @@ banks and off-takers to transact with rural customers and suppliers in Africa.</
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-2">
-    <img src="img/whoweare1.jpg" class="section2 picture" id="image2" >
+    <img src="img/whoweare1.jpg" class="section2 picture" id="image2">
   </div>
 <div class="col-md-8" style="text-align: left;margin-top:5%;margin-left:13.9%;">
 <p id="who-text">
@@ -210,7 +212,7 @@ Launched in 2016, Tulaa is connecting rural consumers and producers in Africa th
 <div class="hover08 column center" style="margin-top:5%;" id="headshots">
   <div class="single">
     <figure class="headshot-size"> <img src="img/headshot1.jpg" style="width: 80%;margin-left:3%;"/></figure>
-    <span  id="caption" style="margin-top:-10%;"><strong>HILLARY MILLER-WISE</strong><br><h4>CHIEF EXECUTIVE OFFICER</h4></span>
+    <span  id="caption" style="margin-top:-10vh;"><strong>HILLARY MILLER-WISE</strong><br><h4>CHIEF EXECUTIVE OFFICER</h4></span>
   </div>
   <div style="margin-left:-5vw;">
     <figure class="headshot-size"><img src="img/headshot2.jpg" style="width:78%;margin-left:11%;"/></figure>
@@ -298,17 +300,17 @@ Launched in 2016, Tulaa is connecting rural consumers and producers in Africa th
 
 <div class="hover08 column" id="partners2">
   <div>
-    <figure class="partners2"><img src="img/bloomberg.jpg" /><br><img src="img/venture.jpg" style="margin-top:5%;mix-blend-mode: multiply;"/></figure>
+    <figure class="partners2"><img src="img/bloomberg.jpg" id="bloomberg"/><br><img src="img/venture.jpg" style="margin-top:5%;mix-blend-mode: multiply;" id="venture"/></figure>
   </div>
 
 
   <div>
-    <figure class="partners2"><img src="img/Businessdaily.jpg" style="margin-top:-10%;mix-blend-mode: multiply;"/><br><img src="img/agfunder.jpg" style="margin-top:5%;"/></figure>
+    <figure class="partners2"><img src="img/Businessdaily.jpg" style="margin-top:-10%;mix-blend-mode: multiply;" id="businessdaily"/><br><img src="img/agfunder.jpg" style="margin-top:5%;"id="agfunder"/></figure>
   </div>
 
 
   <div>
-    <figure class="partners2"><img src="img/nextbillion.jpg" style="margin-top:-10%;"/><br><img src="img/disruptafrica.jpg" style="margin-top:5%;"/></figure>
+    <figure class="partners2"><img src="img/nextbillion.jpg" style="margin-top:-4%;" id="nextbillion"/><br><img src="img/disruptafrica.jpg" style="margin-top:-5%;"id="disruptafrica"/></figure>
   </div>
 
 </div>
@@ -427,16 +429,6 @@ Launched in 2016, Tulaa is connecting rural consumers and producers in Africa th
 </footer>
 <script src="js/main.js"></script>
 
-<!-- JQuery -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<!-- Bootstrap tooltips -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
-<!-- Bootstrap core JavaScript -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
-<!-- MDB core JavaScript -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.9/js/mdb.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="js/parallax.js"></script>
 
 <script type='text/javascript' src='jquery.js'></script>
 
@@ -454,6 +446,12 @@ Launched in 2016, Tulaa is connecting rural consumers and producers in Africa th
     // Animations initialization
     new WOW().init();
   </script>
+  <!-- JQuery -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.9/js/mdb.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="js/parallax.js"></script>
 
   <script src="js/scripts.js"></script>
 
@@ -478,6 +476,9 @@ $(document).ready(function(){
     } // End if
   });
 });
+</script>
+<script>
+  AOS.init();
 </script>
 </body>
 </html>
