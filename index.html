@@ -48,22 +48,22 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-      <ul class="navbar-nav mr-auto" style="color:#c83e2c;">
+      <ul class="navbar-nav mr-auto" style="margin-left:25.3%;">
         <li class="nav-item">
-          <a class="nav-link" href="#solution" style="margin-left:11.3vw;color:#c83e2c;">OUR SOLUTION
+          <a class="nav-link" href="#solution">OUR SOLUTION
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#who" style="color:#c83e2c;">&nbsp;WHO WE ARE</a>
+          <a class="nav-link" href="#who">&nbsp;WHO WE ARE</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="careers.html" target="_blank" style="color:#c83e2c;">&nbsp;CAREERS</a>
+          <a class="nav-link" href="careers.html" target="_blank">&nbsp;CAREERS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="NEWS.html" target="_blank" style="color:#c83e2c;">&nbsp;PRESS</a>
+          <a class="nav-link" href="NEWS.html" target="_blank">&nbsp;PRESS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contact" style="color:#c83e2c;">&nbsp;CONTACT US</a>
+          <a class="nav-link" href="#contact" >&nbsp;CONTACT US</a>
         </li>
       </ul>
     </div>
@@ -79,6 +79,8 @@
 
 <div data-aos="fade-up">
 </div>
+
+
 <!--
 <iframe width="1006" height="600" src="https://www.youtube.com/embed/F1Y2KaTl4vQ"></iframe> -->
 <br>
@@ -232,8 +234,8 @@ Tulaa connects smallholder farmers to quality agricultural inputs, affordable fi
   </div>
 
 
-
-  <div class="hover09 column center">
+<div class="container center">
+  <div class="hover09 column">
     <div>
       <figure><img src="img/bloomberg.jpg" /></figure>
 
@@ -256,30 +258,33 @@ Tulaa connects smallholder farmers to quality agricultural inputs, affordable fi
       <figure><img src="img/nextbillion.jpg" /></figure>
     </div>
   </div>
-
+</div>
 
 
 
 
 <div class="center">
 <a href="NEWS.html">
-<button type="button" id="careers-button" href="NEWS.html" class="btn btn-outline-danger center">FIND OUT MORE...</button></a>
+<button type="button" id="careers-button" href="NEWS.html" class="btn btn-outline-danger">FIND OUT MORE...</button></a>
+
+
 </div>
-  <img src="img/pagebreak.jpg" class="center" id="pagebreak">
+
+<img src="img/pagebreak.jpg" class="center" id="pagebreak">
 
   <h2 id="partner-title" class="logo-title">OUR PARTNERS</h2>
 <div class="container center">
   <div class="hover10 column" style="margin-left:4%;margin-bottom:3%;">
 
     <div>
-      <figure><img src="img/Mavunalogo.png" style="width:40%;margin-left:10%;"/></figure>
+      <figure><img src="img/Mavunalogo.png" style="width:50%;margin-left:7%;"/></figure>
 
     </div>
     <div>
-      <figure><img src="img/toyota-logo.png" style="width:70%;margin-top:-8%;margin-left:-2vw;"/></figure>
+      <figure><img src="img/toyota-logo.png" style="width:80%;margin-top:-5%;margin-left:-3.5vw;"/></figure>
     </div>
     <div>
-      <figure><img src="img/OCP.png" style="width:33%;margin-left: 10%;"/></figure>
+      <figure><img src="img/OCP.png" style="width:43%;margin-left: 10%;"/></figure>
 
     </div>
     <div>
@@ -424,7 +429,21 @@ $(document).ready(function(){
       });
     } // End if
   });
+
 });
+$(document).ready(function(){
+            var scroll_pos = 0;
+            $(document).scroll(function() {
+                scroll_pos = $(this).scrollTop();
+                if(scroll_pos > 0) {
+                    $("navbar").css('background-color', 'white');
+                    $("nav a").css('color', '#c83e2c');
+                } else {
+                    $("nav").css('background-color', 'none');
+                    $("nav a").css('color', 'white');
+                }
+            });
+        });
 </script>
 <script>
   AOS.init();

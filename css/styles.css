@@ -21,13 +21,15 @@
   }
 
 .top-nav-collapse {
-  background-color: #fff;
+  background-color: white;
   color:black;
 }
 .cls-1{
   fill:black;
 
 }
+
+
 
 #who{
   margin-bottom: 20vh;
@@ -80,14 +82,7 @@
     background: transparent;
 }
 #careers-button{
-  /* display: block; */
-  margin-left: auto;
-  margin-right: auto;
-  width: 19%;
-  margin-top: -3%;
-  margin-bottom: 6%;
-  mix-blend-mode: multiply;
-
+  margin-left: 7%;
 }
 
 .left{
@@ -319,8 +314,8 @@ figure:hover+span {
 /* end of team grayscale */
 
 .hover09 figure {
-	width: 450%;
-	height: 220%;
+	width: 450px;
+	height: 220px;
 	margin: 0;
 	padding: 2%;
 	background: #fff;
@@ -332,8 +327,8 @@ figure:hover+span {
 .hover09 div {
 	position: relative;
 	float: left;
-	width: 350px;
-	height: 200px;
+	width: 320px;
+	height: 250px;
 	margin: 0 0 0 25px;
 	padding: 0;
 }
@@ -350,7 +345,7 @@ figure:hover+span {
 
 
 .hover10 figure {
-	width: 450px;
+	width: 420px;
 	height: 220px;
 	margin: 0;
 	padding: 2%;
@@ -363,7 +358,7 @@ figure:hover+span {
 .hover10 div {
 	position: relative;
 	float: left;
-	width: 240px;
+	width: 220px;
 	height: 200px;
 	margin: 0 0 0 25px;
 	padding: 0;
@@ -427,9 +422,7 @@ figure:hover+span {
     mix-blend-mode: multiply;
 
   }
-  #logo{
-    width:300%;
-  }
+
 
 h1{
   text-align:center;
@@ -602,13 +595,16 @@ footer{
 /* Adding color to the Navbar on mobile */
 @media only screen and (max-width: 768px) {
   .navbar {
-    background-color: #fff;
+    background-color: black;
     width:100%;
 
   }
   #navbarSupportedContent{
     font-size: 160%;
 
+  }
+  .navbar-toggler{
+    color:black;
   }
 
   }
@@ -619,10 +615,11 @@ footer{
 
 
 #logo{
-  width:128%;
-  margin-left: -9vw;
-  margin-top: -8vh;
-  margin-bottom: -8vh;
+  width:178%;
+  margin-left: -6vw;
+  margin-top: -1vh;
+  margin-bottom: -1vh;
+  mix-blend-mode: multiply;
 
 }
 #navbarSupportedContent{
