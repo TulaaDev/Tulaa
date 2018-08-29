@@ -8,19 +8,29 @@
   margin-top: -1vh;
 }
 .navbar-nav mr-auto{
-  margin-left: -20vw;
+  float:right;
 }
 /* Navbar animation */
 .navbar {
   background-color: transparent;
-  font-family: 'Raleway', sans-serif;}
+  font-family: 'VegurRegular';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 120%;
+  color:#c83e2c;
+  }
 
 .top-nav-collapse {
-  background-color: #1C2331;
+  background-color: #fff;
+  color:black;
 }
 .cls-1{
   fill:black;
 
+}
+
+#who{
+  margin-bottom: 20vh;
 }
 .fa {
   padding: 10px;
@@ -108,8 +118,8 @@
   margin-top: 6%;
 }
 #image2{
-  width:285%;
-  margin-left: -3vw;
+  width:205%;
+  margin-left: 3vw;
 }
  #section3{
    color:black;
@@ -135,7 +145,10 @@
   }
 
   title{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'VegurRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 250%;
   }
   .card-block{
     height:140%;
@@ -147,7 +160,7 @@
    margin-bottom: -90%;
  }
   .testimonial {
-    padding:3%;
+    width:100%;
     border: none;
   }
 
@@ -173,8 +186,23 @@
     margin-left: 10%;
     width:80%;
   }
+  .headshot{
+    width:130%;
+    margin-top: -18%;
+    margin-left: -15%;
+
+  }
+#team3{
+  width: 170%;
+  margin-left: -5vw;
+
+}
+#team4{
+  width:190%;
+  margin-left: -7vw;
+}
   #who-text{
-    font-size: 155%;
+    font-size: 165%;
   }
   .acumen{
     margin-left: 10vw;
@@ -182,7 +210,10 @@
   .card-title{
     text-align: center;
     margin-top:-20%;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'VegurRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 250%;
   }
   .rounded-circle{
     width:75%;
@@ -192,87 +223,198 @@
     margin-bottom: -3%;
     mix-blend-mode: multiply;
   }
+
   /* Gray Scale */
-  .hover08 figure img {
-  	-webkit-filter: grayscale(100%);
-  	filter: grayscale(100%);
-  	-webkit-transition: .3s ease-in-out;
-  	transition: .3s ease-in-out;
-    background-blend-mode: multiply;
-  }
-  .hover08 figure:hover img {
-  	-webkit-filter: grayscale(0);
-  	filter: grayscale(0);
-  }
+.hover08 figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover08 figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+h1+p a:hover {
+	text-decoration: none;
+}
+h2 {
+	margin: 60px 15px 0;
+	padding: 0;
+	font-weight: 300;
+}
+h2 span {
+	margin-left: 1em;
+	color: #aaa;
+	font-size: 85%;
+  margin-top: 10vh;
+}
+.column {
+	margin: 5px 15px 0;
+	padding: 0;
+}
+.column:last-child {
+	padding-bottom: 60px;
+}
+.column::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.column div {
+	position: relative;
+	float: left;
+	width: 250px;
+	height: 200px;
+	margin: 0 0 0 25px;
+	padding: 0;
+}
+.column div:first-child {
+	margin-left: 0;
+}
+.column div span {
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	z-index: -1;
+	display: block;
+	width: 200px;
+	padding-top: 70vh;
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	opacity: 0;
+  margin-top: 60vh;
+  font-family: 'VegurRegular';
+  font-weight: normal;
+  font-style: normal;
+  margin-left: -1vw;
+
+}
+.hover08 figure {
+	width: 220px;
+	height: 220px;
+	margin: 0;
+	padding: 10%;
+	background: #fff;
+	overflow: hidden;
+  margin-top: 30px;
+  border-radius: 70%;
+  margin-bottom: 10px;
+}
+figure:hover+span {
+	bottom: -126px;
+
+	opacity: 1;
+  width:100%;
+}
+#demo08{
+  margin-bottom: 10vh;
+  margin-left: 9%;
+}
+.row-two{
+  margin-top: 20%;
+  margin-left: -10vw;
+}
+/* end of team grayscale */
+
+.hover09 figure {
+	width: 450px;
+	height: 220px;
+	margin: 0;
+	padding: 2%;
+	background: #fff;
+	overflow: hidden;
+  margin-top: 30px;
+
+  margin-bottom: 10px;
+}
+.hover09 div {
+	position: relative;
+	float: left;
+	width: 350px;
+	height: 200px;
+	margin: 0 0 0 25px;
+	padding: 0;
+}
+.hover09 figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover09 figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
 
 
-  h1+p a:hover {
-  	text-decoration: none;
-  }
+.hover10 figure {
+	width: 450px;
+	height: 220px;
+	margin: 0;
+	padding: 2%;
+	background: #fff;
+	overflow: hidden;
+  margin-top: 30px;
 
-  h2 span {
-  	margin-left: -2em;
-  	color: #aaa;
-  	font-size: 550vw;
-    margin-top: -10%;
-  }
-  .column {
-  	margin: 15px 15px 0;
-  	padding: 0;
-  }
-  .column:last-child {
-  	padding-bottom: 60px;
-  }
-  .column::after {
-  	content: '';
-  	clear: both;
-  	display: block;
-  }
-  .column div {
-  	position: relative;
-  	float: left;
-  	width: 370px;
-  	height: 350px;
-  	/* margin: 2 -7 0 2px; */
-  	padding: 0;
+  margin-bottom: 10px;
+}
+.hover10 div {
+	position: relative;
+	float: left;
+	width: 240px;
+	height: 200px;
+	margin: 0 0 0 25px;
+	padding: 0;
+}
+.hover10 figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover10 figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
 
-  }
-  .column div:first-child {
-  	margin-left: 0;
-  }
-  .column div span {
-  	position: absolute;
-  	bottom: -20px;
-  	left: 0;
-  	z-index: -1;
-  	display: block;
-  	width: 400px;
-  	margin: 0;
-  	padding: 0;
-  	color: #444;
-  	font-size: 28px;
-  	text-decoration: none;
-  	text-align: center;
-  	-webkit-transition: .3s ease-in-out;
-  	transition: .3s ease-in-out;
-  	opacity: 0;
-    margin-top: 160px;
-  }
-  figure {
-  	width: 400px;
-  	height: 300px;
-  	margin: 0;
-  	padding: 4%;
-  	background: #fff;
-  	overflow: hidden;
-    mix-blend-mode: multiply;
-  }
-  figure:hover+span {
-  	bottom: -24px;
-  	opacity: 1;
-    margin-top: 20vh;
-  }
+.hover11 figure {
+	width: 450px;
+	height: 220px;
+	margin: 0;
+	padding: 2%;
+	background: #fff;
+	overflow: hidden;
+  margin-top: 30px;
 
+  margin-bottom: 10px;
+}
+.hover11 div {
+	position: relative;
+	float: left;
+	width: 280px;
+	height: 200px;
+	margin: 0 0 0 25px;
+	padding: 0;
+}
+.hover11 figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover11 figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+.logo-title{
+  margin-bottom: 5%;
+}
   #partners div figure{
     padding-right:-500%;
     margin-left: 10%;
@@ -288,12 +430,17 @@
     mix-blend-mode: multiply;
 
   }
-
+  #logo{
+    width:200vw;
+  }
 
 h1{
   text-align:center;
   font-size: 400%;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'VegurRegular';
+  font-weight: normal;
+  font-style: normal;
+
 }
 
 #infographic{
@@ -335,7 +482,7 @@ p{
   font-size: 145%;
   text-align: center;
   padding:1%;
-  margin-left: 11%;
+
   /* margin-right: 10%; */
 }
 .partner-logo{
@@ -344,109 +491,25 @@ p{
 h2 {
   text-align:center;
   font-size:275%;
-  color:red;
+  color:#c83e2c;
   margin-top:1%;
   margin-bottom:2%;
   margin-left: 10%;
   margin-right:10%;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'VegurRegular';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 250%;
 }
  .nav-link{
    font-size:90%;
+   color:grey;
  }
 .mytext{
   font-size: 110%;
   color:red;
 }
-.hovereffect {
-  width: 100%;
-  height: 100%;
-  float: left;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  cursor: default;
-  background: #1C2331;
-}
 
-.hovereffect .overlay {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  overflow: hidden;
-  top: 0;
-  left: 0;
-  padding: 50px 20px;
-}
-
-.hovereffect img {
-  display: block;
-  position: relative;
-  max-width: none;
-  width: calc(100% + 20px);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(-10px,0,0);
-  transform: translate3d(-10px,0,0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.hovereffect:hover img {
-  opacity: 0.2;
-  filter: alpha(opacity=40);
-  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
-
-}
-
-.hovereffect h2 {
-  text-transform: uppercase;
-  color: #fff;
-  text-align: center;
-  position: relative;
-  /* font-size: 15px; */
-  overflow: hidden;
-  padding: 0.5em 0;
-  background-color: transparent;
-}
-
-.hovereffect h2:after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background: #fff;
-  content: '';
-  -webkit-transition: -webkit-transform 0.35s;
-  transition: transform 0.35s;
-  -webkit-transform: translate3d(-100%,0,0);
-  transform: translate3d(-100%,0,0);
-}
-
-.hovereffect:hover h2:after {
-  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
-}
-
-.hovereffect a, .hovereffect p,.hovereffect li {
-  color: #FFF;
-  opacity: 0.9;
-  filter: alpha(opacity=0);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(100%,0,0);
-  transform: translate3d(100%,0,0);
-}
-
-.hovereffect:hover a, .hovereffect:hover p,.hovereffect:hover li {
-  opacity: 1;
-
-  filter: alpha(opacity=100);
-  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
-}
 #pagebreak{
   margin-bottom: -8vh;
   mix-blend-mode: multiply;
@@ -455,17 +518,19 @@ input{
   color:white;
 }
 h5{
-    font-family: 'Raleway', sans-serif;
-    font-size: 250%;
+  font-family: 'VegurRegular';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 250%;
 }
 footer{
   background-color:#1C2331;
-  height:57%;
+  height:12vh;
   margin-top: 20vh;
 
 }
 .card-header {
-  background-color: red;
+  background-color: #c83e2c;
 }
 
 .form-control {
@@ -494,11 +559,11 @@ footer{
 
   /* width:120%; */
 }
-#subscribe-form{
-  margin-top: 8%;
+
+
+#icon-container{
+  margin-top: -6.2%;
 }
-
-
 .right {
     position: absolute;
     right: 0px;
@@ -540,7 +605,7 @@ footer{
 /* Adding color to the Navbar on mobile */
 @media only screen and (max-width: 768px) {
   .navbar {
-    background-color: #1C2331;
+    background-color: #fff;
     width:100%;
 
   }
@@ -557,20 +622,17 @@ footer{
 
 
 #logo{
-  width:72%;
-  margin-left: -8vw;
-  margin-top: -10vh;
-  margin-bottom: -10vh;
+  width:128%;
+  margin-left: -9vw;
+  margin-top: -8vh;
+  margin-bottom: -8vh;
 
 }
 #navbarSupportedContent{
   font-size: 160%;
 }
 
-iframe{
-  margin-left: 10%;
-  margin-top: 5%;
-}
+
 .center{
   display: block;
   margin-left: auto;
@@ -628,11 +690,7 @@ iframe{
 #hover-partner{
   margin-left: 80vw;
 }
-  iframe{
-    margin-left: 10%;
-    width:75%;
-    height:280%;
-  }
+
   #infographic{
     width:105%;
     margin-top:-15vh;
@@ -699,13 +757,7 @@ iframe{
     #navbarSupportedContent{
       font-size: 180%;
     }
-    #headshots{
-      margin-left: -22%;
-    }
-    .headshot-size{
-      width:100%;
-      margin-left: 6em;
-    }
+
 
     #careers-button{
       margin-bottom: 40%;
@@ -743,9 +795,7 @@ iframe{
         height:auto;
         margin-left: -4vw;
       }
-      .hover08{
-        margin-left: -20vw;
-      }
+
       .navbar-toggler .icon-bar {
         margin: 7px;
         display: block;
@@ -857,10 +907,7 @@ iframe{
         margin-top: 3vh;
         font-size: 250%;
       }
-      #who-text{
-        margin-left: -18vw;
-        font-size: 120%;
-      }
+
       #who{
         margin-top: 10vh;
       }
@@ -868,9 +915,7 @@ iframe{
         font-size: 160%;
 
       }
-      p{
-        margin-left: 2%;
-      }
+
       .footer-text{
         margin-left: 3%;
         text-align: left;
@@ -906,9 +951,7 @@ iframe{
         margin-left: 3%;
         margin-bottom: 10%;
       }
-      .rounded-circle{
-        margin-bottom:1000%;
-      }
+
       .card-img-fluid{
         width:70%;
         height:auto;
@@ -940,6 +983,12 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
     margin-left: 10px;
 
   }
+  .testimonial{
+    margin-left: -9vw;
+  }
+  #card2,#card3{
+    margin-top: 70vh;
+  }
   .navbar-nav{
     margin-top:10vh;
   }
@@ -947,13 +996,33 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
     font-size: 7vw;
 
   }
+  #pictures figure {
+  	width: 370px;
+  	height: 300px;
+  	margin: 0;
+  	padding: 4%;
+  	background: #fff;
+  	overflow: hidden;
+    mix-blend-mode: multiply;
+  }
+  #partners2 figure {
+    width: 300px;
+    height: 220px;
+    margin: 0;
+    padding: 4%;
+    background: #fff;
+    overflow: hidden;
+    mix-blend-mode: multiply;
+    margin-left: 30%;
+    margin-top: 80%;
+  }
 
   #solution{
     margin-top: -10vh;
   }
   #partner-text{
     margin-left: -5%;
-    font-size: 107%;
+    font-size: 97%;
     padding:4%;
   }
 
@@ -967,13 +1036,11 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
   /* .headshot-size{
     margin-left: 10vw;
   } */
-  .testimonial{
-    height:350vh;
-    margin-top: -60vh;
-    margin-right: 30vw;
 
-  }
-
+#pictures{
+  margin-left: -40px;
+  margin-top: 10%;
+}
   #team{
     margin-top: 3vh;
     font-size: 250%;
@@ -1008,18 +1075,23 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
   .jumbotron{
     /* width:153%; */
     height:100vh;
-
     background-position: -4060px -400px;
     background-size: 900px 620px;
     background-repeat: no-repeat;
 
   }
   #bloomberg,#venture,#businessdaily,#agfunder,#nextbillion,#disruptafrica{
-    width:96%;
-
+    width:16%;
   }
+
+#businessdaily{
+  margin-top: -30em;
+}
+#disruptafrica{
+  margin-bottom: 10vh;
+}
   #nextbillion{
-    margin-top: -10vh;
+    margin-top: -80vh;
   }
   #partner-logo{
     margin-right: 60vw;
@@ -1049,15 +1121,13 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
     margin-bottom: -20vh;
   }
   #partners2{
-    margin-top: -94%;
+    margin-top: 94%;
     margin-left: -5vw;
     width:10%;
+    margin-bottom: 10em;
   }
-  #who-text{
-    margin-left: -17vw;
-    font-size: 130%;
 
-  }
+
 
   .Mavuna{
 
@@ -1072,15 +1142,12 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
     margin-bottom: -90em;
 
   }
-#image2{
-  height:90vw;
-  width:30vw;
-  margin-left: -6vw;
-}
+
 #careers-button{
   margin-right: 60em;
   width:16em;
   margin-bottom: 20%;
+  margin-top: 70em;
 
 }
 
@@ -1094,10 +1161,7 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
     margin-right: -70%;
     width:100%;
   }
-  #who-text{
-    width:110%;
-    font-size: 110%;
-  }
+
 
   #headshots{
     margin-bottom: 10vh;
@@ -1125,90 +1189,7 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
     width:75%;
     height:280%;
   }
-  /* Gray Scale */
-  .hover08 figure img {
-  	-webkit-filter: grayscale(100%);
-  	filter: grayscale(100%);
-  	-webkit-transition: .3s ease-in-out;
-  	transition: .3s ease-in-out;
-    background-blend-mode: multiply;
-  }
-  .hover08 figure:hover img {
-  	-webkit-filter: grayscale(0);
-  	filter: grayscale(0);
-  }
 
-
-  h1+p a:hover {
-  	text-decoration: none;
-  }
-
-  h2 span {
-  	margin-left: 1em;
-  	color: #aaa;
-  	font-size: 520vw;
-    margin-top: -60%;
-  }
-  .column {
-  	margin: 25px 15px 0;
-  	padding: 0;
-  }
-  .column:last-child {
-  	padding-bottom: 60px;
-  }
-  .column::after {
-  	content: '';
-  	clear: both;
-  	display: block;
-  }
-  .column div {
-  	position: relative;
-
-  	width: 105px;
-  	height: 330px;
-  	margin: 2 -7 0 2px;
-  	padding: 0;
-
-  }
-  .column div:first-child {
-  	margin-left: 0;
-  }
-  .column div span {
-  	position: absolute;
-  	bottom: -20px;
-  	left: 0;
-  	z-index: -1;
-  	display: block;
-  	width: 7px;
-  	margin: 0;
-  	padding: 0;
-  	color: #444;
-  	font-size: 20px;
-  	text-decoration: none;
-  	text-align: center;
-  	-webkit-transition: .3s ease-in-out;
-  	transition: .3s ease-in-out;
-  	opacity: 0;
-    margin-top: 160px;
-  }
-  figure {
-  	width: 300px;
-  	height: 300px;
-  	margin: 0;
-    margin-left: -28vw;
-  	padding: 1%;
-  	background: #fff;
-  	overflow: hidden;
-    mix-blend-mode: multiply;
-  }
-
-
-  figure:hover+span {
-  	bottom: -24px;
-  	opacity: 1;
-    margin-top: 7vh;
-
-  }
 
   #toyotalogo,#Mavunalogo,#OCPlogo{
     width:110%;
@@ -1311,6 +1292,9 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
   .footer input{
     width:79vw;
   }
+  #who-text{
+    font-size: 110%;
+  }
 
 
 }
@@ -1394,14 +1378,8 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
     width:130%;
     margin-left: -9vw;
   }
-  #who-text{
-    margin-left: -14vw;
-    font-size: 120%;
-  }
-  #partner-text{
-    margin-left: -15vw;
-    font-size: 115%;
-  }
+
+
   #cards{
     margin-bottom: 20vh;
   }
