@@ -194,12 +194,12 @@
   }
 #team3{
   width: 170%;
-  margin-left: -5vw;
+  margin-left: -36%;
 
 }
 #team4{
   width:190%;
-  margin-left: -7vw;
+  margin-left: -50%;
 }
   #who-text{
     font-size: 165%;
@@ -295,8 +295,8 @@ h2 span {
 
 }
 .hover08 figure {
-	width: 220px;
-	height: 220px;
+	width: 90%;
+	height: 110%;
 	margin: 0;
 	padding: 10%;
 	background: #fff;
@@ -315,15 +315,12 @@ figure:hover+span {
   margin-bottom: 10vh;
   margin-left: 9%;
 }
-.row-two{
-  margin-top: 20%;
-  margin-left: -10vw;
-}
+
 /* end of team grayscale */
 
 .hover09 figure {
-	width: 450px;
-	height: 220px;
+	width: 450%;
+	height: 220%;
 	margin: 0;
 	padding: 2%;
 	background: #fff;
@@ -383,8 +380,8 @@ figure:hover+span {
 }
 
 .hover11 figure {
-	width: 450px;
-	height: 220px;
+	width: 150%;
+	height: 120%;
 	margin: 0;
 	padding: 2%;
 	background: #fff;
@@ -431,7 +428,7 @@ figure:hover+span {
 
   }
   #logo{
-    width:200vw;
+    width:300%;
   }
 
 h1{
