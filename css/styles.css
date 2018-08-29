@@ -29,7 +29,10 @@
 
 }
 
-
+#solution{
+  padding: 8%;
+  margin-top: -12vh;
+}
 #partner-text{
   margin-bottom: 5%;
 }
@@ -539,11 +542,11 @@ h5{
   font-size: 250%;
 }
 footer{
-  background-color:#1C2331;
-  height:12vh;
-  margin-top: 20vh;
+
+  height:28vh;
 
 }
+
 .card-header {
   background-color: #c83e2c;
 }
@@ -568,12 +571,7 @@ footer{
   border-color: red;
 
 }
-.footer-text{
-  margin-left: -13%;
-  text-align: left;
 
-  /* width:120%; */
-}
 
 
 #icon-container{
@@ -585,6 +583,14 @@ footer{
     width: 300px;
     margin-top: -10%;
     padding: 10px;
+}
+.left {
+    position: absolute;
+    left: 0px;
+    width: 300px;
+    margin-top: -10%;
+    padding: 10px;
+
 }
 .favicon{
   width:4%;
