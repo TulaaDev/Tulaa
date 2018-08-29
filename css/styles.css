@@ -30,7 +30,9 @@
 }
 
 
-
+#partner-text{
+  margin-bottom: 5%;
+}
 #who{
   margin-bottom: 20vh;
 }
@@ -81,9 +83,7 @@
     margin-left: -5%;
     background: transparent;
 }
-#careers-button{
-  margin-left: 7%;
-}
+
 
 .left{
   display:inline-block;
@@ -138,6 +138,17 @@
     mix-blend-mode: multiply;
 
   }
+  svg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: -3%;
+    margin-bottom: -6%;
+    mix-blend-mode: multiply;
+
+
+  }
 
   title{
     font-family: 'VegurRegular';
@@ -149,11 +160,7 @@
     height:140%;
     margin-bottom: 10vh;
   }
- svg {
-   margin-left: 48.5%;
-   margin-top: -110%;
-   margin-bottom: -90%;
- }
+
   .testimonial {
     width:100%;
     border: none;
@@ -165,21 +172,21 @@
 
   }
   .card-deck{
-    width:90%;
+    width:120%;
     border: none;
     height:60vh;
     border: 0;
     background-color: transparent;
-    padding-left:10%;
-    margin-bottom: 10%;
+
+    margin-bottom: 20%;
 
 
   }
   .card-text{
-    font-size: 100%;
+    font-size: 110%;
     text-align: center;
-    margin-left: 10%;
-    width:80%;
+
+    width:100%;
   }
   .headshot{
     width:130%;
@@ -187,6 +194,16 @@
     margin-left: -15%;
 
   }
+  #card1{
+    width:110%;
+
+  }
+  #card1 img{
+    width:110%;
+  }
+
+
+
 #team3{
   width: 170%;
   margin-left: -36%;
@@ -329,9 +346,16 @@ figure:hover+span {
 	float: left;
 	width: 320px;
 	height: 250px;
-	margin: 0 0 0 25px;
+	/* margin: 0 0 0 25px; */
 	padding: 0;
+
 }
+#news{
+  margin-left: 6%;
+  margin-top: -10%;
+  margin-bottom: -10%;
+}
+
 .hover09 figure img {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
@@ -426,10 +450,11 @@ figure:hover+span {
 
 h1{
   text-align:center;
-  font-size: 400%;
+  font-size: 450%;
   font-family: 'VegurRegular';
   font-weight: normal;
   font-style: normal;
+
 
 }
 
@@ -529,7 +554,7 @@ footer{
 #contact{
   width:60%;
   height:195%;
-  margin-top: 3%;
+  padding-top: 12%;
   margin-bottom: 20%;
   color:white;
   opacity:0.9;
@@ -615,7 +640,7 @@ footer{
 
 
 #logo{
-  width:178%;
+  width:170%;
   margin-left: -6vw;
   margin-top: -1vh;
   margin-bottom: -1vh;
@@ -637,17 +662,10 @@ footer{
   mix-blend-mode: multiply;
 
 }
-#solution-section{
-  margin-top: 10vh;
-}
-#solution{
-  margin-top:100vh;
-}
 
-  .row{
-    margin-top: 2%;
-    margin-left: 2%;
-  }
+
+
+
 
 @media only screen and (max-width: 768px) {
 
