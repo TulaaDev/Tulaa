@@ -4,9 +4,9 @@
   margin-left: 0.1%;
 
 }
-#navbarSupportedContent{
+/* #navbarSupportedContent{
   margin-left: 30vw;
-}
+} */
 .center{
   display: block;
   margin-left: auto;
@@ -16,6 +16,19 @@
   margin-bottom: -6%;
   mix-blend-mode: multiply;
 
+}
+.navbar {
+  background-color: transparent;
+  font-family: 'VegurRegular';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 120%;
+  color:#c83e2c;
+  }
+
+.top-nav-collapse {
+  background-color: white;
+  color:black;
 }
 
 #icon-container{
