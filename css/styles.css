@@ -822,14 +822,7 @@ h5{
         font-size: 70%;
         margin-top: -8%;
       }
-      .slide-text{
-        font-size: 107%;
-        margin-right: -5%;
 
-      }
-      .slide-text-finance{
-        font-size: 100%;
-      }
 
       .card-deck{
         height:auto;
@@ -866,16 +859,17 @@ h5{
       }
 
       .hover08{
-        margin-left: -20vw;
+        margin-left: -30px;
       }
+
       /* #infographic{
         width:100%;
         margin-left: -2%;
 
       } */
-      #cards{
+      /* #cards{
         margin-left: 2.5%;
-      }
+      } */
       #investor-logo{
         width:3%;
         margin-left:-14%;
@@ -902,16 +896,7 @@ h5{
         width:122%;
 
       }
-      .global{
-        margin-top: -20vh;
-        width:96%;
-      }
-      .AHL {
-        margin-left: 28vw;
-      }
-      .investors{
-        margin-bottom: 1vh;
-      }
+
       #partner-title{
         margin-top: 10%;
       }
@@ -919,10 +904,6 @@ h5{
         height:-2vh;
       }
 
-
-      #toyotalogo{
-        margin-top: 2em;
-      }
       #parallax-two{
         margin-top: -50vh;
       }
@@ -936,12 +917,12 @@ h5{
         width:75%;
         height:280%;
       }
-      #solution{
-        margin-top:200vh;
+      .form-row{
+        margin-bottom: 25%;
       }
       #contact{
         width:90%;
-        margin-top: -20%;
+
       }
       #team{
         margin-top: 3vh;
@@ -955,11 +936,29 @@ h5{
         font-size: 160%;
 
       }
-
-      .footer-text{
-        margin-left: 3%;
-        text-align: left;
-        /* width:120%; */
+      #Syngentalogo{
+        margin-left: 14%;
+      }
+      #OCPlogo{
+        margin-left: 10%;
+        margin-top: 20%;
+      }
+      #toyotalogo{
+        margin-top: 30%;
+        margin-left: 5%;
+      }
+      #nextbillion{
+        margin-left: -10%;
+      }
+      #bloomberg{
+        margin-left: -10%;
+      }
+      #Mavunalogo{
+        margin-left: 7%;
+      }
+      .testimonial{
+        margin-left: 15px;
+        padding:20%;
       }
 
       .favicon{
@@ -972,15 +971,13 @@ h5{
       .favicon-container{
         margin-left: -6.5vw;
       }
-      .subscribe{
-        margin-left: 20vw;
-      }
+
       .logo-title{
         font-size: 240%;
-        margin-top: -36vh;
+        margin-top: -16vh;
       }
       .hover08{
-        margin-left: 8%;
+        margin-left: 2%;
       }
       #image2{
         width:100%;
@@ -995,19 +992,25 @@ h5{
       }
 
       .card-img-fluid{
-        width:70%;
+        width:90%;
         height:auto;
-        margin-bottom: 30%;
+        margin-bottom: 40%;
       }
       .right{
         margin-right: 20vw;
       }
-      footer{
-        height:45vh;
+      .card-text{
+        width:100%;
       }
-      .footer input{
-        width:79vw;
+      #card1{
+        width:100%;
+        padding:6%;
+        margin-left: 20px;
       }
+      #solution{
+        margin-top: 5vh;
+      }
+
 
 }
 /* iphone 5 media query */
