@@ -542,9 +542,7 @@ h5{
   font-size: 250%;
 }
 footer{
-
-  height:28vh;
-
+  height:30vh;
 }
 
 .card-header {
@@ -582,7 +580,8 @@ footer{
     right: 0px;
     width: 300px;
     margin-top: -10%;
-    padding: 10px;
+    padding: 7px;
+    margin-left: -80px;
 }
 .left {
     position: absolute;
