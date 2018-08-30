@@ -1,6 +1,4 @@
-.nav-link{
-  color:black;
-}
+
 #panel{
   background-image:url('../img/news1.jpeg');
   background-size:cover;
@@ -20,8 +18,30 @@
   margin-top:-2.5vh;
   color:black;
 }
+.navbar-nav mr-auto{
+  float:right;
+}
+/* Navbar animation */
+.navbar {
+  background-color: transparent;
+  font-family: 'VegurRegular';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 120%;
+  color:#c83e2c;
+  }
+
 .top-nav-collapse {
-  background-color: #1C2331;
-  opacity:0.97;
-  color:white;
+  background-color: white;
+  color:black;
+}
+h3{
+  margin-left: 8.5%;
+}
+.card{
+  height:40vh;
+  margin-top: 3%;
+}
+.date{
+  margin-left: -0.2%;
 }
