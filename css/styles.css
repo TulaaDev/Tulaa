@@ -29,6 +29,7 @@
 
 }
 
+
 #solution{
   padding: 8%;
   margin-top: -12vh;
@@ -97,6 +98,15 @@
 	position: relative;
 	}
 
+#card2{
+  margin-left: 30px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .a {
 	position: absolute;
@@ -165,8 +175,11 @@
   }
 
   .testimonial {
-    width:100%;
+    width:95%;
     border: none;
+    margin-left:54px;
+    margin-top: 26px;
+    margin-bottom: -10vh;
   }
 
   .card {
@@ -175,12 +188,11 @@
 
   }
   .card-deck{
-    width:120%;
+    width:97%;
     border: none;
     height:60vh;
     border: 0;
     background-color: transparent;
-
     margin-bottom: 20%;
 
 
@@ -188,34 +200,33 @@
   .card-text{
     font-size: 110%;
     text-align: center;
-
-    width:100%;
+    width:90%;
+  }
+  .partner-list{
+    margin-left:2px;
+  }
+  #press-logo{
+    width:90%;
   }
   .headshot{
-    width:130%;
-    margin-top: -18%;
-    margin-left: -15%;
+    width:133%;
+    height:192%;;
+    margin-top: -17%;
+    margin-left: -16%;
+    /* border-radius: 80%; */
 
   }
   #card1{
-    width:110%;
+    width:20%;
+
 
   }
   #card1 img{
     width:110%;
   }
 
-
-
-#team3{
-  width: 170%;
-  margin-left: -36%;
-
 }
-#team4{
-  width:190%;
-  margin-left: -50%;
-}
+
   #who-text{
     font-size: 165%;
   }
@@ -264,10 +275,10 @@ h2 span {
 	font-size: 85%;
   margin-top: 10vh;
 }
-.column {
+/* .column {
 	margin: 5px 15px 0;
 	padding: 0;
-}
+} */
 .column:last-child {
 	padding-bottom: 60px;
 }
@@ -276,12 +287,20 @@ h2 span {
 	clear: both;
 	display: block;
 }
+#demo08 .column div {
+	position: relative;
+	float: left;
+	width: 300px;
+	height: 250px;
+	margin: 0 0 0 25px;
+	padding: 0;
+}
 .column div {
 	position: relative;
 	float: left;
-	width: 250px;
+	width: 150px;
 	height: 200px;
-	margin: 0 0 0 25px;
+
 	padding: 0;
 }
 .column div:first-child {
@@ -310,26 +329,24 @@ h2 span {
 
 }
 .hover08 figure {
-	width: 90%;
-	height: 110%;
+	width: 83%;
+	height: 94%;
 	margin: 0;
 	padding: 10%;
 	background: #fff;
 	overflow: hidden;
   margin-top: 30px;
   border-radius: 70%;
-  margin-bottom: 10px;
+  margin-bottom:10px;
+  margin-top: 8vh;
 }
 figure:hover+span {
-	bottom: -126px;
-
+	bottom: -156px;
 	opacity: 1;
   width:100%;
+  margin-left: -10%;
 }
-#demo08{
-  margin-bottom: 10vh;
-  margin-left: 9%;
-}
+
 
 /* end of team grayscale */
 
@@ -369,24 +386,26 @@ figure:hover+span {
 	-webkit-filter: grayscale(0);
 	filter: grayscale(0);
 }
-
+.hover10{
+  margin-top: -5%;
+  margin-bottom: -5%;
+}
 
 .hover10 figure {
-	width: 420px;
+	width: 300px;
 	height: 220px;
 	margin: 0;
 	padding: 2%;
 	background: #fff;
 	overflow: hidden;
   margin-top: 30px;
-
   margin-bottom: 10px;
 }
 .hover10 div {
 	position: relative;
 	float: left;
-	width: 220px;
-	height: 200px;
+	width: 90px;
+	height: 500px;
 	margin: 0 0 0 25px;
 	padding: 0;
 }
@@ -399,6 +418,13 @@ figure:hover+span {
 .hover10 figure:hover img {
 	-webkit-filter: grayscale(0);
 	filter: grayscale(0);
+}
+.hover10 figure:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+#our-partners{
+  margin-top: 7%;
 }
 
 .hover11 figure {
@@ -457,9 +483,8 @@ h1{
   font-family: 'VegurRegular';
   font-weight: normal;
   font-style: normal;
-
-
 }
+
 
 #infographic{
   width:70%;
@@ -954,7 +979,9 @@ h5{
         font-size: 240%;
         margin-top: -36vh;
       }
-
+      .hover08{
+        margin-left: 8%;
+      }
       #image2{
         width:100%;
         margin-left: -3vw;
