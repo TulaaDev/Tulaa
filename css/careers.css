@@ -30,7 +30,9 @@
   background-color: white;
   color:black;
 }
-
+.hover08{
+  margin-bottom: -90em;
+}
 
 .fa {
   padding: 10px;
@@ -206,24 +208,36 @@ h3{
 
   text-align: center;
 }
-h4{
+/* h4{
   color:#c83e2c;
   float:right;
   font-size: 120%;
-}
+} */
 .badge{
   background-color:#c83e2c;
   margin-left: 45%;
-  width:60%;
+  width:10vw;
+  font-family: 'VegurRegular';
+  font-weight: normal;
+  font-style: normal;
 }
 h1{
   color:#c83e2c;
 }
-#demo08{
-  margin-bottom: 10vh;
+#benefits-container{
+  margin-top: 40vh;
 }
+h2 span {
+	margin-left: -1em;
+	color: #aaa;
+	font-size: 85%;
+  margin-top: 10vh;
+}
+/* #demo08{
+  margin-bottom: 10vh;
+} */
 .hover08{
-  margin-bottom: 70vh;
+  margin-bottom: 20vh;
 }
 .card{
   border-color: #c83e2c;
@@ -241,8 +255,20 @@ h1{
   text-align: left;
 
 }
+.column div {
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 100px;
 
-
+	padding: 0;
+}
+.column div:first-child {
+	margin-left: 0;
+}
+.headshot{
+  margin-bottom: -10vh;
+}
 
 #team{
   text-align: center;
