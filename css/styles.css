@@ -29,7 +29,9 @@
 
 }
 
-
+#navlink-who,#navlink-solution,#navlink-press,#navlink-careers,#navlink-contact{
+  color:white;
+}
 #solution{
   padding: 8%;
   margin-top: -12vh;
@@ -807,6 +809,7 @@ h5{
 
     #navlink-who,#navlink-solution,#navlink-press,#navlink-careers,#navlink-contact{
       color:#c83e2c;
+      margin-left: -18vw;
     }
     .navbar-toggler-icon{
       color:red;
@@ -815,11 +818,12 @@ h5{
       width:100%;
       background-position: -260px 5px;
     }
-    .nav-link{
+    /* .nav-link{
       color:red;
-    }
+    } */
     #navbarSupportedContent{
       font-size: 180%;
+      margin-right: 10vw;
 
     }
 
