@@ -974,10 +974,11 @@ h5{
         margin-left: 7%;
       }
       #AHL{
-        margin-bottom:300px;
+        margin-bottom:-10vh;
+        margin-left: 9%;
       }
       .testimonial{
-        margin-left: 15px;
+        margin-left: 17px;
         padding:20%;
       }
 
@@ -1020,12 +1021,13 @@ h5{
         margin-right: 20vw;
       }
       .card-text{
-        width:100%;
+        width:110%;
       }
       #card1{
         width:100%;
         padding:6%;
         margin-left: 20px;
+        margin-top: -10vh;
       }
       #solution{
         margin-top: 5vh;
@@ -1035,6 +1037,25 @@ h5{
         height:20%;
         background-color: white;
 
+      }
+      #card2{
+        width:100%;
+        margin-left: -6px;
+      }
+      #bob{
+        width:110%;
+      }
+      #address{
+        margin-right: 40%;
+        width:70%;
+      }
+      #social-icons{
+        width:80%;
+        margin-left: 10%;
+      }
+      #partner-cards{
+        margin-top: 10vh;
+        margin-bottom: -20vh;
       }
 
 
@@ -1125,7 +1146,9 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
     font-size: 250%;
   }
 
-
+  #AHL{
+    margin-bottom: -10vh;
+  }
   #logo{
 
     margin-bottom: -7em;
@@ -1147,7 +1170,7 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
 
 #card1{
   width:100%;
-  margin-top: 46em;
+  margin-top: 40em;
 
 
 }
@@ -1155,8 +1178,8 @@ footer{
   height:400vh;
 }
 #partner-cards{
-  height:225em;
-  margin-top: -110vh;
+  height:205em;
+  margin-top: -90vh;
 }
 #demo08{
   margin-left: 4vw;
@@ -1274,9 +1297,15 @@ figure:hover+span {
 
   h1{
     font-size: 290%;
+    margin-bottom: 30vh;
   }
   h2{
     font-size: 150%;
+
+  }
+  #pagebreak{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
   }
   /* .card-deck{
     margin-right: -70%;
@@ -1375,6 +1404,7 @@ figure:hover+span {
   }
   #section3{
     font-size: 210%;
+    margin-top: 10vh;
   }
   #investor h2{
     width:12em;
