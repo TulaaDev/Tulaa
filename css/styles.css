@@ -375,6 +375,12 @@ figure:hover+span {
   margin-top: -10%;
   margin-bottom: -10%;
 }
+#map{
+  background-position: -2800px 1500px;
+  background-size: 2000px 1000px;
+
+
+}
 
 .hover09 figure img {
 	-webkit-filter: grayscale(100%);
@@ -475,7 +481,9 @@ figure:hover+span {
     mix-blend-mode: multiply;
 
   }
-
+#contact-card{
+  margin-bottom: 10vh;
+}
 
 h1{
   text-align:center;
@@ -520,7 +528,9 @@ h1{
   margin-left: 25%;
 }
 
-
+.form-control{
+  color:white;
+}
 p{
   font-size: 145%;
   text-align: center;
@@ -568,8 +578,11 @@ h5{
 }
 
 
+
 .card-header {
-  background-color: #c83e2c;
+  background-color: #008f8a;
+  height:50%:
+
 }
 
 .form-control {
