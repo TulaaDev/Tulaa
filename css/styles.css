@@ -1069,15 +1069,24 @@ h5{
 and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
 {
   .navbar-toggler{
-    margin-left: -130%;
+    margin-left: -230%;
     margin-top: 157%;
+    margin-right: 20px;
   }
   .navbar-toggler-icon {
     width: 44px !important;
     height:34px !important;
     margin-top: 5px;
   }
-
+  i{
+    margin-right:
+  }
+  #logo{
+    margin-right: 10vw;
+  }
+  .navbar-brand{
+    margin-left: 8vw;
+  }
   .navbar{
 
     background-color: white;
@@ -1201,6 +1210,7 @@ figure:hover+span {
 
   #navlink-who,#navlink-solution,#navlink-press,#navlink-careers,#navlink-contact{
     color:#c83e2c;
+    margin-left: -28vw;
   }
   #bloomberg,#venture,#businessdaily,#agfunder,#nextbillion,#disruptafrica{
     width:16%;
@@ -1325,7 +1335,7 @@ figure:hover+span {
     font-size: 130%;
     margin-top: -5vh;
     /* margin-left: 18vw; */
-    text-align: center;
+
 
   }
   #focused{
@@ -1464,12 +1474,16 @@ figure:hover+span {
   }
   #address{
     margin-top: 10%;
-    margin-right:2em;
+    margin-right:4em;
 
   }
+  .page-footer{
+    height:70vh;
+  }
   footer{
-    margin-bottom: -80vh;
+    margin-bottom: 80vh;
     margin-top: 30vh;
+
 
   }
   #demo08 .column div {
@@ -1480,6 +1494,14 @@ figure:hover+span {
   	margin: 0 0 0 25px;
   	padding: 0;
   }
+  #social-icons{
+      margin-top: -18vh;
+      width:80%;
+      margin-left: -10%;
+
+
+  }
+
 
 
 
