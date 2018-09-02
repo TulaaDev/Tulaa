@@ -1061,6 +1061,9 @@ h5{
         margin-top: 10vh;
         margin-bottom: -20vh;
       }
+      .social-buttons{
+        margin-left: 16vw;
+      }
 
 
 }
@@ -1107,6 +1110,9 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
   #partner-heading{
     font-size: 7vw;
 
+  }
+  .footer-copyright{
+    margin-bottom: -40vh;
   }
   #pictures figure {
   	width: 370px;
@@ -1187,8 +1193,10 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
 
 
 }
-footer{
-  height:400vh;
+#social-icons{
+  width:120%;
+  margin-right: 100%;
+  margin-left: -10vw;
 }
 #partner-cards{
   height:205em;
@@ -1446,9 +1454,7 @@ figure:hover+span {
   #partner-title{
     margin-bottom: 17vh;
   }
-  .footer-text{
-    margin-left: 1em;
-  }
+
 
   .card-text{
     width:100%;
@@ -1463,29 +1469,26 @@ figure:hover+span {
     margin-bottom: 40vh;
     margin-left: -10vw;
   }
-  .fa{
+  /* .fa{
     width:19%;
     height:37%;
 
-  }
-  #social-icons{
-      margin-top: -18vh;
+  } */
 
-  }
   #address{
     margin-top: 10%;
-    margin-right:4em;
+    margin-left:-50vw;
 
   }
-  .page-footer{
-    height:70vh;
+  .social-buttons{
+    margin-left: 10vw;
   }
-  footer{
-    margin-bottom: 80vh;
-    margin-top: 30vh;
+  /* .page-footer{
+    height:80vh;
+    margin-bottom: -80vh;
+  } */
 
 
-  }
   #demo08 .column div {
   	position: relative;
   	float: left;
@@ -1494,13 +1497,11 @@ figure:hover+span {
   	margin: 0 0 0 25px;
   	padding: 0;
   }
-  #social-icons{
-      margin-top: -18vh;
-      width:80%;
-      margin-left: -10%;
+footer{
+  margin-bottom: -100vh;
+}
 
 
-  }
 
 
 
