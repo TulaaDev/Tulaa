@@ -32,48 +32,44 @@
 </head>
 
 <header>
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar smooth-scroll">
-  <div class="container">
+  <div id="topheader">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar smooth-scroll">
+        <div class="container">
 
+          <a class="navbar-brand active" href="index.html#">
+            <img src="img/tulaa-logo2.png" id="logo">
+          <span class="sr-only">(current)</span></a>
 
-    <a class="navbar-brand" href="">
-      <img src="img/tulaa-logo2.png" id="logo">
-    </a>
+          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars fa-1x" style="color:#c83e2c;margin-bottom:-1.2%;"></i>
+          </button>
 
-    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <i class="fa fa-bars fa-1x" style="color:#c83e2c;margin-bottom:-1.2%;"></i>
-    </button>
-    <!-- <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button> -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
+            <ul class="navbar-nav mr-auto">
 
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-      <ul class="navbar-nav mr-auto" style="margin-left:25.3%;">
-        <li class="nav-item">
-          <a class="nav-link" href="#solution" id="navlink-solution">OUR SOLUTION
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#who" id="navlink-who">&nbsp;WHO WE ARE</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="careers.html" target="_blank" id="navlink-careers">&nbsp;CAREERS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="press.html" target="_blank" id="navlink-press">&nbsp;PRESS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact" id="navlink-contact">CONTACT US</a>
-        </li>
-      </ul>
+              <li class="nav-item inactive">
+                <a class="nav-link " href="#solution" id="navlink-solution">OUR SOLUTION
+                </a>
+              </li>
+              <li class="nav-item inactive">
+                <a class="nav-link" href="#who" id="navlink-who">&nbsp;WHO WE ARE</a>
+              </li>
+              <li class="nav-item inactive">
+                <a class="nav-link" href="careers.html" id="navlink-careers">&nbsp;CAREERS</a>
+              </li>
+              <li class="nav-item inactive">
+                <a class="nav-link" href="press.html" id="navlink-press">&nbsp;PRESS</a>
+              </li>
+              <li class="nav-item inactive">
+                <a class="nav-link" href="#contact" id="navlink-contact">&nbsp;CONTACT US</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
-  </div>
-</nav>
 </header>
 
 
@@ -407,9 +403,10 @@ Tulaa connects smallholder farmers to quality agricultural inputs, affordable fi
   <br>
   <br>
         <div class="parallax-window" data-parallax="scroll" data-image-src="img/parallax3.jpeg" id="parallax-three">
-        <br>
-        <div data-aos="fade-up">
-        <div class="container-fluid center" style="width:65%;margin-bottom:10vh;margin-top:10vh;opacity:0.9;" id="contact">
+
+
+        <div class="container-fluid center" style="width:65%;margin-bottom:10vh;margin-top:10%;opacity:0.9;" id="contact">
+          <br>
           <!-- Default form contact -->
           <div class="card center" id="contact-card">
               <h5 class="card-header white-text text-center py-4">
@@ -456,7 +453,7 @@ Tulaa connects smallholder farmers to quality agricultural inputs, affordable fi
               </div>
           </div>
           <!-- Material form contact -->
-          </div>
+
 
           <!-- Footer -->
       <footer class="page-footer font-small teal pt-4" style="height:90%;">
@@ -575,16 +572,20 @@ $(document).ready(function(){
   });
 
 });
+
+
 $(document).ready(function(){
             var scroll_pos = 0;
             $(document).scroll(function() {
                 scroll_pos = $(this).scrollTop();
                 if(scroll_pos > 0) {
                     $("navbar").css('background-color', 'white');
-                    $("nav a").css('color', '#c83e2c');
-                } else {
+                    $("nav a").css('color', '#008f8a');
+
+                }
+                else {
                     $("nav").css('background-color', 'none');
-                    $("nav a").css('color', 'lightgrey');
+                    $("nav a").css('color', 'white');
                 }
             });
         });

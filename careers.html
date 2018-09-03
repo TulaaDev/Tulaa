@@ -27,43 +27,44 @@
   <title>TULAA</title>
   </head>
   <header>
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
-    <div class="container">
+    <div id="topheader2">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar smooth-scroll">
+          <div class="container">
+  <li style="list-style:none;">
+            <a class="navbar-brand active" href="index.html">
+              <img src="img/tulaa-logo2.png" id="logo">
+            <span class="sr-only">(current)</span></a>
+  </li>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+              aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fa fa-bars fa-1x" style="color:#c83e2c;margin-bottom:-1.2%;"></i>
+            </button>
 
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-      <a class="navbar-brand" href="index.html">
-        <img src="img/tulaa-logo2.png" id="logo">
-      </a>
+              <ul class="navbar-nav mr-auto" style="margin-left:16vw;">
 
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-        <ul class="navbar-nav mr-auto" style="margin-left:10.3%;">
-          <li class="nav-item">
-            <a class="nav-link" href="#solution">OUR SOLUTION
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#who">&nbsp;WHO WE ARE</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="careers.html" target="_blank">&nbsp;CAREERS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="press.html" target="_blank">&nbsp;PRESS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact" >CONTACT US</a>
-          </li>
-        </ul>
+                <li class="nav-item inactive">
+                  <a class="nav-link " href="index.html#solution" id="navlink-solution">OUR SOLUTION
+                  </a>
+                </li>
+                <li class="nav-item inactive">
+                  <a class="nav-link" href="index.html#who" id="navlink-who">&nbsp;WHO WE ARE</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="careers.html" id="navlink-careers">&nbsp;CAREERS<span class="sr-only">(current)</span></a></a>
+                </li>
+                <li class="nav-item inactive">
+                  <a class="nav-link" href="press.html" id="navlink-press">&nbsp;PRESS</a>
+                </li>
+                <li class="nav-item inactive">
+                  <a class="nav-link" href="index.html#contact" id="navlink-contact">&nbsp;CONTACT US</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
       </div>
-    </div>
-  </nav>
   </header>
 
 
@@ -308,6 +309,7 @@
               </div>
               <br>
           <img src="img/pagebreak.jpg" class="center" id="pagebreak">
+
       </div>
     <!-- / Collapsible element -->
     <div class="collapse" id="collapseExample2">
@@ -482,19 +484,22 @@
 
   </script>
     <script>
-     $(document).ready(function(){
-                 var scroll_pos = 0;
-                 $(document).scroll(function() {
-                     scroll_pos = $(this).scrollTop();
-                     if(scroll_pos > 0) {
-                         $("navbar").css('background-color', 'white');
-                         $("nav a").css('color', '#c83e2c');
-                     } else {
-                         $("nav").css('background-color', 'none');
-                         $("nav a").css('color', 'white');
-                     }
-                 });
-             });
+$(document).ready(function(){
+            var scroll_pos = 0;
+            $(document).scroll(function() {
+                scroll_pos = $(this).scrollTop();
+                if(scroll_pos > 0) {
+                    $("navbar").css('background-color', 'white');
+
+                    $("nav a").css('color', '#008f8a');
+
+                }
+                else {
+                    $("nav").css('background-color', 'none');
+                    $("nav li.inactive").css('color', 'white');
+                }
+            });
+        });
       </script>
 </body>
 </html>

@@ -7,9 +7,56 @@
   margin-left: -0.7vw;
   margin-top: -1vh;
 }
+
 .navbar-nav mr-auto{
   float:right;
+
 }
+/* Add a black background color to the top navigation */
+.navbar-nav {
+    margin-left: 385px;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.navbar-nav a {
+    /* float: right; */
+    display: block;
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    border-bottom: 3px solid transparent;
+    width:100%;
+
+}
+a:hover{
+  color:red;
+}
+.navbar-nav a:hover {
+    border-bottom: 3px solid #c83e2c;
+    color:red;
+}
+
+
+#topheader .navbar-nav li > a {
+	color: white;
+}
+
+#topheader .navbar-nav li.active > a {
+
+	color: #c83e2c;
+  border-bottom: 3px solid #c83e2c;
+}
+/* #topheader .navbar-nav li.inactive > a {
+	color: white;
+} */
+
+/* .navbar-nav a.active {
+    border-bottom: 3px solid red;
+    color:red;
+} */
 /* Navbar animation */
 .navbar {
   background-color: transparent;
@@ -17,7 +64,8 @@
   font-weight: normal;
   font-style: normal;
   font-size: 120%;
-  color:#c83e2c;
+  width:120%;
+  /* color:#c83e2c; */
   }
 
 .top-nav-collapse {
@@ -29,9 +77,6 @@
 
 }
 
-#navlink-who,#navlink-solution,#navlink-press,#navlink-careers,#navlink-contact{
-  color:white;
-}
 #solution{
   padding: 8%;
   margin-top: -12vh;
@@ -484,8 +529,11 @@ figure:hover+span {
 #contact-card{
   margin-bottom: 10vh;
   background-color: white;
-}
 
+}
+#contact{
+  padding-top: 10%;
+}
 h1{
   text-align:center;
   font-size: 450%;
@@ -496,8 +544,9 @@ h1{
 
 
 #infographic{
-  width:70%;
+  width:90%;
   margin-top:-15vh;
+  margin-bottom: -25vh;
   }
 .speech{
   font-size: 190%;
@@ -682,8 +731,8 @@ h5{
 
 
 #logo{
-  width:170%;
-  margin-left: -6vw;
+  width:140px;
+  margin-left: -16.5vw;
   margin-top: -1vh;
   margin-bottom: -1vh;
   mix-blend-mode: multiply;
@@ -809,7 +858,8 @@ h5{
 
     #navlink-who,#navlink-solution,#navlink-press,#navlink-careers,#navlink-contact{
       color:#c83e2c;
-      margin-left: -18vw;
+      margin-left: 130vw;
+      text-align: left;
     }
     .navbar-toggler-icon{
       color:red;
@@ -818,13 +868,17 @@ h5{
       width:100%;
       background-position: -260px 5px;
     }
-    /* .nav-link{
+    .nav-link{
       color:red;
-    } */
+    }
     #navbarSupportedContent{
       font-size: 180%;
       margin-right: 10vw;
 
+    }
+    .navbar-nav {
+        margin-left: -477px;
+        overflow: hidden;
     }
 
 
