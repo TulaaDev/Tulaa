@@ -246,7 +246,7 @@ h1{
   color:#c83e2c;
 }
 #benefits-container{
-  margin-top: 40vh;
+  margin-top: 20vh;
 }
 h2 span {
 	margin-left: -1em;
@@ -276,6 +276,9 @@ h2 span {
   text-align: left;
 
 }
+#benefits-text{
+  margin-top: 1%;
+}
 .column div {
 	position: relative;
 	float: left;
@@ -289,10 +292,20 @@ h2 span {
 }
 .headshot{
   margin-bottom: -10vh;
+  /* width:1000%; */
 }
 
 #team{
   text-align: center;
+  width:90%;
+
+  margin-top: 900vh;
+
+}
+#jumbo-title{
+  margin-top: 70vh;
+  color:white;
+  font-size: 410%;
 }
 .date{
   background-color: #c83e2c;
@@ -307,6 +320,9 @@ h2 span {
 
 #icon-container{
   margin-top: -6.2%;
+}
+#collapseExample,#collapseExample2{
+  margin-bottom: 10vh;
 }
 .right {
     position: absolute;
@@ -330,6 +346,109 @@ h2 span {
   background-blend-mode: multiply;
   margin-bottom: 2%;
 }
+
+/* Gray Scale */
+.hover01 figure img {
+-webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+-webkit-transition: .3s ease-in-out;
+transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+-webkit-filter: grayscale(0);
+filter: grayscale(0);
+}
+h1+p a:hover {
+text-decoration: none;
+}
+h2 {
+margin: 60px 15px 0;
+padding: 0;
+
+}
+h2 span {
+margin-left: 1em;
+color: #aaa;
+font-size: 85%;
+margin-top: 10vh;
+}
+.hover01 .column div {
+	position: relative;
+	float: left;
+	width: 300px;
+	height: 250px;
+	margin: 0 0 0 25px;
+	padding: 0;
+  margin-left: 5vw;
+}
+.hover01 .column div {
+	position: relative;
+	float: left;
+	width: 100px;
+	height: 200px;
+  margin-left: 5vw;
+
+	padding: 0;
+}
+.column div:first-child {
+	margin-left: 0;
+}
+.column div span {
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	z-index: -1;
+	display: block;
+	width: 500px;
+	padding-top: 70vh;
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	opacity: 0;
+  margin-top: 60vh;
+  font-family: 'VegurRegular';
+  font-weight: normal;
+  font-style: normal;
+  margin-left: 1vw;
+
+}
+.hover01 figure {
+	width: 123%;
+	height: 94%;
+	margin: 0;
+	padding: 10%;
+	background: #fff;
+	overflow: hidden;
+  margin-top: 30px;
+  border-radius: 80%;
+  margin-bottom:10px;
+  margin-top: 8vh;
+
+}
+figure{
+  margin-left: 5vw;
+}
+.hover01 figure:hover+span {
+	bottom: -120px;
+	opacity: 1;
+  margin-left: -10%;
+  width: 150%;
+}
+h4{
+  font-size: 90%;
+}
+h3{
+  font-size: 78%;
+}
+
+h5{
+  font-size:90%;
+}
+
+
 
 @media only screen and (min-width : 375px) and (max-width : 667px) {
 
