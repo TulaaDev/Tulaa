@@ -14,24 +14,28 @@
   text-align: center;
   border-bottom: 3px solid white;
   border-top: 3px solid white;
-  width:54%;
+  width:57%;
   padding-bottom: 4%;
   padding-top: 3%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 
-
   margin-bottom: -6%;
 
-
+}
+.social-button{
+  width:70%;
+}
+#address{
+  margin-top: -20%;
 }
 #header-text{
   border-bottom: 3px solid white;
   width:50%;
 }
 .layer {
-  background-color: rgba(81, 76, 76, 0.47);
+  background-color: rgba(81, 76, 76, 0.5);
   position: absolute;
   top: 0;
   left: 0;
