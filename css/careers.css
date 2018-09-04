@@ -40,7 +40,24 @@
       height: 100%;
 
   }
+  #jumbotron-text-two{
+    margin-top: 70vh;
+    color:#fff;
+    font-size:265%;
+    text-align: center;
+    border-bottom: 3px solid white;
+    border-top: 3px solid white;
+    width:30%;
+    padding-bottom: 4%;
+    padding-top: 3%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
+
+    margin-bottom: -6%;
+
+  }
 
   #topheader2 .navbar-nav li > a {
   	color: lightgrey;
@@ -298,7 +315,7 @@ h2 span {
 #team{
   text-align: center;
   width:90%;
-
+  margin-bottom: 6vh;
   margin-top: 900vh;
 
 }

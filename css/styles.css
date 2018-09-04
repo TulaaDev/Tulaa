@@ -6,19 +6,74 @@
   width:100.6%;
   margin-left: -0.7vw;
   margin-top: -1vh;
+}
+#jumbotron-text{
+  margin-top: 30vh;
+  color:#fff;
+  font-size:265%;
+  text-align: center;
+  border-bottom: 3px solid white;
+  border-top: 3px solid white;
+  width:54%;
+  padding-bottom: 4%;
+  padding-top: 3%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+  margin-bottom: -6%;
 
 
 }
+#header-text{
+  border-bottom: 3px solid white;
+  width:50%;
+}
 .layer {
-  background-color: rgba(81, 76, 76, 0.45);
+  background-color: rgba(81, 76, 76, 0.47);
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 96%;
 
 }
+.content .subheader {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    /* padding: 130px 0 0; */
+    background: url(../images/landing.jpg) no-repeat 50% 0%;
+    position: relative;
+    background-attachment: fixed;
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -ms-behavior: url(../js/backgroundsize.htc);
+}
 
+.content .subheader:after {
+    content: "";
+    background: url(../images/pattern/pattern.png) repeat;
+    background-size: 90%;
+    background-attachment: fixed;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 0;
+}
+
+.content .subheader h1 {
+    position: relative;
+    margin-top: 25%;
+    z-index: 100;
+}
 .navbar-nav mr-auto{
   float:right;
 
