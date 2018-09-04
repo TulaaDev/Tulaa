@@ -390,10 +390,10 @@ margin-top: 10vh;
 
 	padding: 0;
 }
-.column div:first-child {
+.hover01 .column div:first-child {
 	margin-left: 0;
 }
-.column div span {
+.hover01 .column div span {
 	position: absolute;
 	bottom: -20px;
 	left: 0;
