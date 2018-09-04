@@ -37,6 +37,13 @@
 }
 h3{
   margin-left: 8.5%;
+  font-size:200%;
+}
+p{
+  font-size:120%;
+}
+h4{
+  float:right;
 }
 .card{
   height:40vh;
