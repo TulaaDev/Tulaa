@@ -6,9 +6,10 @@
   width:100.6%;
   margin-left: -0.7vw;
   margin-top: -1vh;
+  background-position: 0px 50px;
 }
 #jumbotron-text{
-  margin-top: 30vh;
+  margin-top: 30%;
   color:#fff;
   font-size:265%;
   text-align: center;
@@ -27,6 +28,11 @@
 .social-button{
   width:70%;
 }
+
+.parallax-window{
+  margin-top: 10vh;
+  background-position: 0px 100px;
+}
 #address{
   margin-top: -20%;
 }
@@ -35,7 +41,7 @@
   width:50%;
 }
 .layer {
-  background-color: rgba(81, 76, 76, 0.5);
+  background-color: rgba(81, 76, 76, 0.3);
   position: absolute;
   top: 0;
   left: 0;
@@ -264,7 +270,7 @@ button {
    font-size: 300%;
  }
   #joinus{
-    margin-top: 3%;
+    margin-top: 2%;
     font-size: 160%;
     margin-bottom: 6%;
   }
@@ -422,6 +428,11 @@ h2 span {
 	height: 250px;
 	margin: 0 0 0 25px;
 	padding: 0;
+  margin-left: 20%;
+
+}
+#demo08{
+  margin-top: -20vh;
 }
 .column div {
 	position: relative;
@@ -457,7 +468,7 @@ h2 span {
 }
 .hover08 figure {
 	width: 83%;
-	height: 94%;
+	height: 98%;
 	margin: 0;
 	padding: 10%;
 	background: #fff;
@@ -969,10 +980,10 @@ h5{
       margin-right: 10vw;
 
     }
-    .navbar-nav {
+    /* .navbar-nav {
         margin-left: -477px;
         overflow: hidden;
-    }
+    } */
 
 
     #careers-button{
@@ -1210,6 +1221,9 @@ h5{
       }
       .social-buttons{
         margin-left: 16vw;
+      }
+      #infographic{
+        margin-bottom: 3vh;
       }
 
 
