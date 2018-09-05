@@ -26,55 +26,50 @@
 <!-- Material Design Bootstrap -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.9/css/mdb.min.css" rel="stylesheet">
 <!-- Bootstrap core CSS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 <link href="css/mdb.css" rel="stylesheet">
 <link href="css/mdb.min.css" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<header>
-  <div id="topheader">
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar smooth-scroll">
-        <div class="container">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-          <a class="navbar-brand active" href="index.html#">
-            <img src="img/tulaa-logo2.png" id="logo">
-          <span class="sr-only">(current)</span></a>
-
-          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fa fa-bars fa-1x" style="color:#c83e2c;margin-bottom:-1.2%;"></i>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-            <ul class="navbar-nav mr-auto">
-
-              <li class="nav-item inactive">
-                <a class="nav-link " href="#solution" id="navlink-solution">OUR SOLUTION
-                </a>
-              </li>
-              <li class="nav-item inactive">
-                <a class="nav-link" href="#who" id="navlink-who">&nbsp;WHO WE ARE</a>
-              </li>
-              <li class="nav-item inactive">
-                <a class="nav-link" href="careers.html" id="navlink-careers">&nbsp;CAREERS</a>
-              </li>
-              <li class="nav-item inactive">
-                <a class="nav-link" href="press.html" id="navlink-press">&nbsp;PRESS</a>
-              </li>
-              <li class="nav-item inactive">
-                <a class="nav-link" href="#contact" id="navlink-contact">&nbsp;CONTACT US</a>
-              </li>
-            </ul>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-white bg-white" id="navbar-example2">
+      <div class="d-flex flex-grow-1" id="topheader">
+          <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
+          <a class="navbar-brand d-none d-lg-inline-block" href="index.html">
+              <img src="img/tulaa-logo2.png" id="logo">
+          </a>
+          <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#">
+              <img src="//placehold.it/40?text=LOGO" alt="logo">
+          </a>
+          <div class="w-100 text-right">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
           </div>
-        </div>
-      </nav>
-    </div>
-</header>
+      </div>
+      <div class="collapse navbar-collapse flex-grow-1 text-right classic-tabs mx-2">
 
-
-<body>
-
+          <ul class="nav nav-tabs ml-auto flex-nowrap">
+              <li class="nav-item">
+                  <a href="#solution" class="nav-link m-2 menu-item nav-active">OUR SOLUTION</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#who" class="nav-link m-2 menu-item">WHO WE ARE</a>
+              </li>
+              <li class="nav-item">
+                  <a href="careers.html" class="nav-link m-2 menu-item">WORKING AT TULAA</a>
+              </li>
+              <li class="nav-item">
+                  <a href="press.html" class="nav-link m-2 menu-item">PRESS</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#contact" class="nav-link m-2 menu-item">CONTACT US </a>
+              </li>
+          </ul>
+      </div>
+  </nav>
 
 <div class="content">
         <div class="subheader">
@@ -89,17 +84,21 @@
 
 
 
+ <div data-spy="scroll" data-target="#navbar-example2" class="scrollspy-example z-depth-1 mt-4" data-offset="0">
 
 <div data-aos="fade-up">
-</div>
 
-<!--
-<iframe width="1006" height="600" src="https://www.youtube.com/embed/F1Y2KaTl4vQ"></iframe> -->
-<div data-aos="fade-up">
-<div id="solution">
-<section>
+<div id="solution" data-anchor="solution">
+
 <h1 style="margin-top:4%;">OUR SOLUTION</h1>
-<img src="img/pagebreak.jpg" class="center" id="pagebreak">
+
+<!-- page break svg -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 204.5 17.2" enable-background="new 0 0 204.5 17.2" xml:space="preserve">
+<line fill="none" stroke="#C24125" stroke-width="0.75" stroke-miterlimit="10" x1="13.8" y1="8" x2="190.8" y2="8" style="width:80%;"/>
+<circle fill="#C24125" cx="102.9" cy="8" r="2.1"/>
+</svg>
+<!-- page break svg -->
 
 <h2 style="color:#c83e2c;margin-top:4vh;" class="logo-title" id="logo-title">FOR OUR FARMERS</h2>
 <br>
@@ -107,9 +106,10 @@
 <br>
 
 <img src="img/infographic.jpg" class="center" id="infographic">
-</section>
+
 </div>
 </div>
+
 
 
 <div class="center" style="padding-bottom:5%;">
@@ -118,6 +118,8 @@
 <p id="partner-text">Our solution uses technology to lower the cost and risk for input suppliers,
 banks and off-takers to transact with rural customers and suppliers in Africa.</p>
 </div>
+
+
 <div data-aos="fade-up">
 <section id="partner-cards">
 <div class="center">
@@ -193,11 +195,18 @@ banks and off-takers to transact with rural customers and suppliers in Africa.</
 
 
   <br>
-<section id="who" >
+<section id="who" data-anchor="who">
   <div style="margin-top:-6vh;">
 <br>
 <h1 style="margin-top:10%;">WHO WE ARE</h1>
-<img src="img/pagebreak.jpg" class="center pagebreak2" id="pagebreak">
+<!-- page break svg -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 204.5 17.2" enable-background="new 0 0 204.5 17.2" xml:space="preserve">
+<line fill="none" stroke="#C24125" stroke-width="0.75" stroke-miterlimit="10" x1="13.8" y1="8" x2="190.8" y2="8" style="width:80%;"/>
+<circle fill="#C24125" cx="102.9" cy="8" r="2.1"/>
+</svg>
+<!-- page break svg -->
+
 <h2 class="center" >FOCUSED ON DELIVERING SCALABLE SOCIAL IMPACT IN RURAL AFRICA</h2>
 <div class="container-fluid">
 
@@ -284,10 +293,16 @@ Tulaa connects smallholder farmers to quality agricultural inputs, affordable fi
   <div class="parallax-window" data-parallax="scroll" data-image-src="img/farm2.jpg" id="farmlands-parallax"></div>
 
 
-<div id="press">
-  <h2 id="section3">WHAT PEOPLE ARE SAYING ABOUT US</h2>
-  <img src="img/pagebreak.jpg" class="center" id="pagebreak">
 
+  <h2 id="section3">WHAT PEOPLE ARE SAYING ABOUT US</h2>
+
+  <!-- page break svg -->
+  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+  	 viewBox="0 0 204.5 17.2" enable-background="new 0 0 204.5 17.2" xml:space="preserve">
+  <line fill="none" stroke="#C24125" stroke-width="0.75" stroke-miterlimit="10" x1="13.8" y1="8" x2="190.8" y2="8" style="width:80%;"/>
+  <circle fill="#C24125" cx="102.9" cy="8" r="2.1"/>
+  </svg>
+  <!-- page break svg -->
 
   <h2 style="color:#c83e2c;margin-top:-5%;">RECOGNITIONS</h2>
   <img src="img/awards2.jpg" class="center" id="awards"/>
@@ -377,8 +392,13 @@ Tulaa connects smallholder farmers to quality agricultural inputs, affordable fi
 </div>
 
 
-<img src="img/pagebreak.jpg" class="center" id="pagebreak">
-
+<!-- page break svg -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 204.5 17.2" enable-background="new 0 0 204.5 17.2" xml:space="preserve">
+<line fill="none" stroke="#C24125" stroke-width="0.75" stroke-miterlimit="10" x1="13.8" y1="8" x2="190.8" y2="8" style="width:80%;"/>
+<circle fill="#C24125" cx="102.9" cy="8" r="2.1"/>
+</svg>
+<!-- page break svg -->
 
 <div data-aos="fade-up">
   <h2 id="partner-title" class="logo-title">OUR PARTNERS</h2>
@@ -479,17 +499,17 @@ Tulaa connects smallholder farmers to quality agricultural inputs, affordable fi
       <footer class="page-footer font-small teal pt-4" style="height:90%;">
 
           <!-- Footer Links -->
-          <div class="container-fluid text-center text-md-left">
+          <div class="container text-center text-md-left">
 
             <!-- Grid row -->
             <div class="row">
 
               <!-- Grid column -->
-              <div class="col-md-3 col-xs-6 mx-auto" style="margin-top:1%;" id="footer-content">
+              <div class="col-md-9 col-xs-6 mx-auto" style="margin-top:1%;" id="footer-content">
 
                 <!-- Content -->
 
-                <strong id="address"><ul style="list-style:none;color:white;font-size:110%;margin-left:10%;">
+                <strong id="address"><ul style="list-style:none;color:white;font-size:130%;margin-left:-6vw;">
                   <li>UNIT 20, 4TH FLOOR</li>
                   <li>THE GREENHOUSE, NGONG ROAD</li>
                   <li>NAIROBI, KENYA</li>
@@ -497,10 +517,6 @@ Tulaa connects smallholder farmers to quality agricultural inputs, affordable fi
                   <li>info@tulaa.io</li></strong>
 
               </div>
-              <div class="col-md-6" >
-              <p style="margin-top:14vh;font-size:105%;">© 2018 Tulaa. All Rights Reserved.</p>
-            </div>
-            <div class="col-md-3">
               <!-- Grid column -->
               <div class="social-buttons">
                         <!-- Social buttons -->
@@ -531,17 +547,22 @@ Tulaa connects smallholder farmers to quality agricultural inputs, affordable fi
 
               </div>
             </div>
-          </div>
             <!-- Grid row -->
 
           </div>
           <!-- Footer Links -->
+
+
+
+          <!-- Copyright -->
+          <div class="footer-copyright text-center py-3">© 2018 Tulaa. All Rights Reserved.
 
           </div>
           <!-- Copyright -->
 
       </footer>
       <!-- Footer -->
+       </div>
 <script src="js/main.js"></script>
 
 
@@ -567,7 +588,9 @@ Tulaa connects smallholder farmers to quality agricultural inputs, affordable fi
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.9/js/mdb.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="js/parallax.js"></script>
+  1
 
+<script src="fixed-top-animated-menu.1.0.js"></script>
   <script src="js/scripts.js"></script>
 
 <script>
@@ -592,23 +615,11 @@ $(document).ready(function(){
   });
 
 });
+$( '#topheader .navbar-nav a' ).on( 'click', function () {
+	$( '#topheader .navbar-nav' ).find( 'li.active' ).removeClass( 'active' );
+	$( this ).parent( 'li' ).addClass( 'active' );
+});
 
-
-$(document).ready(function(){
-            var scroll_pos = 0;
-            $(document).scroll(function() {
-                scroll_pos = $(this).scrollTop();
-                if(scroll_pos > 0) {
-                    $("navbar").css('background-color', 'white');
-                    $("nav a").css('color', '#008f8a');
-
-                }
-                else {
-                    $("nav").css('background-color', 'none');
-                    $("nav a").css('color', 'white');
-                }
-            });
-        });
 </script>
 <script>
   AOS.init();

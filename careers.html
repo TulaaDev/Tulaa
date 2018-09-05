@@ -26,50 +26,45 @@
 <link rel="stylesheet" href="css/styles.css">
   <title>TULAA</title>
   </head>
-  <header>
-    <div id="topheader2">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar smooth-scroll">
-          <div class="container">
-  <li style="list-style:none;">
-            <a class="navbar-brand active" href="index.html">
-              <img src="img/tulaa-logo2.png" id="logo">
-            <span class="sr-only">(current)</span></a>
-  </li>
-            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-              aria-expanded="false" aria-label="Toggle navigation">
-              <i class="fa fa-bars fa-1x" style="color:#c83e2c;margin-bottom:-1.2%;"></i>
-            </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-              <ul class="navbar-nav mr-auto" style="margin-left:16vw;">
-
-                <li class="nav-item inactive">
-                  <a class="nav-link " href="index.html#solution" id="navlink-solution">OUR SOLUTION
-                  </a>
-                </li>
-                <li class="nav-item inactive">
-                  <a class="nav-link" href="index.html#who" id="navlink-who">&nbsp;WHO WE ARE</a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="careers.html" id="navlink-careers">&nbsp;CAREERS<span class="sr-only">(current)</span></a></a>
-                </li>
-                <li class="nav-item inactive">
-                  <a class="nav-link" href="press.html" id="navlink-press">&nbsp;PRESS</a>
-                </li>
-                <li class="nav-item inactive">
-                  <a class="nav-link" href="index.html#contact" id="navlink-contact">&nbsp;CONTACT US</a>
-                </li>
-              </ul>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-white bg-white" id="navbar-example2">
+        <div class="d-flex flex-grow-1" id="topheader">
+            <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
+            <a class="navbar-brand d-none d-lg-inline-block" href="index.html">
+                <img src="img/tulaa-logo2.png" id="logo">
+            </a>
+            <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#">
+                <img src="//placehold.it/40?text=LOGO" alt="logo">
+            </a>
+            <div class="w-100 text-right">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
             </div>
-          </div>
-        </nav>
-      </div>
-  </header>
+        </div>
+        <div class="collapse navbar-collapse flex-grow-1 text-right classic-tabs mx-2">
 
-
-
-  <body>
+            <ul class="nav nav-tabs ml-auto flex-nowrap">
+                <li class="nav-item">
+                    <a href="index.html#solution" class="nav-link m-2 menu-item ">OUR SOLUTION</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#who" class="nav-link m-2 menu-item">WHO WE ARE</a>
+                </li>
+                <li class="nav-item">
+                    <a href="careers.html" class="nav-link m-2 menu-item active">WORKING AT TULAA</a>
+                </li>
+                <li class="nav-item">
+                    <a href="press.html" class="nav-link m-2 menu-item">PRESS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#contact" class="nav-link m-2 menu-item">CONTACT US </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
     <div class="content">
             <div class="subheader">
@@ -83,79 +78,79 @@
 
 
 
-    <div class="container-fluid center team" style="width:94%;">
+    <div class="container-fluid center team" style="width:94%;" id="careers-team">
       <div class="row">
         <div class="col-xs-2 col-sm-2 col-md-3 col-lg-2 hover01 column">
-          <div >
-            <figure><img src="Tulaa Website Staff/Amos Njoroge - Product Lead.jpg" class="headshot" style="width:240%;margin-left:-8vw;margin-top:-12vh;"/></figure>
+          <div class="single-image">
+            <figure><img src="Tulaa Website Staff/Amos Njoroge - Product Lead.jpg" class="headshot" style="width:240%;margin-left:-70%;margin-top:-12vh;"/></figure>
             <span><h4 style="color:#c83e2c;"><strong>AMOS NJOROGE</strong></h4><h3>PRODUCT MANAGER</h3></span>
           </div>
         </div>
         <div class="col-xs-2 col-sm-2 col-md-3 col-lg-2 hover01 column">
-          <div >
-            <figure><img src="Tulaa Website Staff/Aadil Saxena - CFO(1).jpg" class="headshot" style="width:264%;height:180%;margin-left:-13vw;margin-top:-23%;"/></figure>
+          <div class="single-image">
+            <figure><img src="Tulaa Website Staff/Aadil Saxena - CFO(1).jpg" class="headshot" style="width:264%;height:180%;margin-left:-100%;margin-top:-23%;"/></figure>
             <span><h4 style="color:#c83e2c;"><strong>AADIL SAXENA</strong></h4><h3>CFO</h3></span>
           </div>
         </div>
         <div class="col-xs-2 col-sm-2 col-md-3 col-lg-2 hover01 column">
-          <div >
-            <figure><img src="Tulaa Website Staff/Abel Boreto - Head of Market Linkage.jpg" class="headshot" style="width:214%;height:180%;margin-left:-7vw;margin-top:-33%;"/></figure>
+          <div class="single-image">
+            <figure><img src="Tulaa Website Staff/Abel Boreto - Head of Market Linkage.jpg" class="headshot" style="width:214%;height:180%;margin-left:-50%;margin-top:-33%;"/></figure>
             <span><h4 style="color:#c83e2c;"><strong>ABEL BORETO</strong></h4><h3>HEAD OF MARKET LINKAGE</h3></span>
           </div>
         </div>
         <div class="col-xs-2 col-sm-2 col-md-3 col-lg-2 hover01 column">
-          <div >
-            <figure><img src="Tulaa Website Staff/Alex Royea - Product Manager.jpg" class="headshot" style="width:263%;margin-left:-11vw;margin-top:-20%;height:180%;"/></figure>
+          <div class="single-image">
+            <figure><img src="Tulaa Website Staff/Alex Royea - Product Manager.jpg" class="headshot" style="width:263%;margin-left:-90%;margin-top:-20%;height:180%;"/></figure>
             <span><h4 style="color:#c83e2c;"><strong>ALEX ROYEA</strong></h4><h3>PRODUCT MANAGER</h3></span>
           </div>
         </div>
         <div class="col-xs-2 col-sm-2 col-md-3 col-lg-2 hover01 column">
-          <div >
-            <figure><img src="Tulaa Website Staff/Cornelia Akinyi - Call Centre Manager.jpg" class="headshot" style="width:254%;height:180%;margin-left:-10vw;margin-top:-23%;"/></figure>
+          <div class="single-image">
+            <figure><img src="Tulaa Website Staff/Cornelia Akinyi - Call Centre Manager.jpg" class="headshot" style="width:254%;height:180%;margin-left:-80%;margin-top:-23%;"/></figure>
             <span><h4 style="color:#c83e2c;"><strong>CORNELIA AKINYI</strong></h4><h3>CALL CENTRE MANAGER</h3></span>
           </div>
         </div>
         <div class="col-xs-2 col-sm-2 col-md-3 col-lg-2 hover01 column">
-          <div >
-            <figure><img src="Tulaa Website Staff/Hillary Miller Wise - CEO.jpg" class="headshot" style="width:224%;height:150%;margin-left:-6.3vw;margin-top:-11%;"/></figure>
+          <div class="single-image">
+            <figure><img src="Tulaa Website Staff/Hillary Miller Wise - CEO.jpg" class="headshot" style="width:224%;height:150%;margin-left:-50.3%;margin-top:-11%;"/></figure>
             <span><h4 style="color:#c83e2c;"><strong>HILLARY MILLER-WISE</strong></h4><h3>CHIEF EXECUTIVE OFFICER</h3></span>
           </div>
         </div>
       </div>
         <div class="row">
           <div class="col-xs-2 col-sm-2 col-md-3 col-lg-2 hover01 column">
-            <div >
-              <figure><img src="Tulaa Website Staff/Isaac Khaguli - Android Engineer(2).jpg" class="headshot" style="width:193%;height:147%;margin-left:-3vw;margin-top:-38%;"/></figure>
+            <div class="single-image">
+              <figure><img src="Tulaa Website Staff/Isaac Khaguli - Android Engineer(2).jpg" class="headshot" style="width:193%;height:147%;margin-left:-28%;margin-top:-38%;"/></figure>
               <span><h4 style="color:#c83e2c;"><strong>ISAAC KHAGULI</strong></h4><h3>ANDROID ENGINEER</h3></span>
             </div>
           </div>
           <div class="col-xs-2 col-sm-2 col-md-3 col-lg-2 hover01 column">
-            <div >
-              <figure><img src="Tulaa Website Staff/Jane Mbonde - HR Officer(1).jpg" class="headshot" style="width:234%;height:160%;margin-left:-6.5vw;margin-top:-20%;"/></figure>
+            <div class="single-image">
+              <figure><img src="Tulaa Website Staff/Jane Mbonde - HR Officer(1).jpg" class="headshot" style="width:234%;height:160%;margin-left:-50.5%;margin-top:-20%;"/></figure>
               <span><h4 style="color:#c83e2c;"><strong>JANE MBONDE</strong></h4><h3>HR OFFICER</h3></span>
             </div>
           </div>
           <div class="col-xs-2 col-sm-2 col-md-3 col-lg-2 hover01 column">
-            <div >
-              <figure><img src="Tulaa Website Staff/Josphat Mutuku - QA Engineer(1).jpg" class="headshot" style="width:156%;height:120%;margin-left:-2vw;margin-top:-11%;"/></figure>
+            <div class="single-image">
+              <figure><img src="Tulaa Website Staff/Josphat Mutuku - QA Engineer(1).jpg" class="headshot" style="width:156%;height:120%;margin-left:-20%;margin-top:-11%;"/></figure>
               <span><h4 style="color:#c83e2c;"><strong>JOSPHAT MUTUKU</strong></h4><h3>QA ENGINEER</h3></span>
             </div>
           </div>
           <div class="col-xs-2 col-sm-2 col-md-3 col-lg-2 hover01 column">
-            <div >
-              <figure><img src="Tulaa Website Staff/Kevin Makanga Communications Intern.jpg" class="headshot" style="width:254%;height:180%;margin-left:-10vw;margin-top:-23%;"/></figure>
+            <div class="single-image">
+              <figure><img src="Tulaa Website Staff/Kevin Makanga Communications Intern.jpg" class="headshot" style="width:254%;height:180%;margin-left:-80%;margin-top:-23%;"/></figure>
               <span><h4 style="color:#c83e2c;"><strong>KEVIN MAKANGA</strong></h4><h3>COMMUNICATIONS INTERN</h3></span>
             </div>
           </div>
           <div class="col-xs-2 col-sm-2 col-md-3 col-lg-2 hover01 column">
-            <div >
-              <figure><img src="Tulaa Website Staff/Maureen Grace Waithera - Advisor.jpg" class="headshot" style="width:254%;height:180%;margin-left:-8vw;margin-top:-23%;"/></figure>
+            <div class="single-image">
+              <figure><img src="Tulaa Website Staff/Maureen Grace Waithera - Advisor.jpg" class="headshot" style="width:254%;height:180%;margin-left:-70%;margin-top:-23%;"/></figure>
               <span><h4 style="color:#c83e2c;"><strong>MAUREEN GRACE WAITHERA</strong></h4><h3>CALL CENTRE ADVISOR</h3></span>
             </div>
           </div>
           <div class="col-xs-2 col-sm-2 col-md-3 col-lg-2 hover01 column">
-            <div >
-              <figure><img src="Tulaa Website Staff/Maximillah Barasa - Finance and Admin Officer.jpg" class="headshot" style="width:250%;height:138%;margin-left:-9vw;margin-top:-29%;"/></figure>
+            <div class="single-image">
+              <figure><img src="Tulaa Website Staff/Maximillah Barasa - Finance and Admin Officer.jpg" class="headshot" style="width:250%;height:138%;margin-left:-60%;margin-top:-29%;"/></figure>
               <span><h4 style="color:#c83e2c;"><strong>MAXIMILLAH BARASA</strong></h4><h3>FINANCE & ADMIN OFFICER</h3></span>
             </div>
           </div>
@@ -163,39 +158,39 @@
     </div>
     <div class="row">
       <div class="col-xs-2 col-sm-2 col-md-3 col-lg-2 hover01 column">
-        <div >
-          <figure><img src="Tulaa Website Staff/Moses Abraham Musebe - Financial Accountant(1).jpg" class="headshot" style="width:203%;height:137%;margin-left:-4vw;margin-top:-20%;"/></figure>
+        <div class="single-image">
+          <figure><img src="Tulaa Website Staff/Moses Abraham Musebe - Financial Accountant(1).jpg" class="headshot" style="width:203%;height:137%;margin-left:-40%;margin-top:-20%;"/></figure>
           <span><h4 style="color:#c83e2c;"><strong>MOSES ABRAHAM MUSEBE</strong></h4><h3>FINANCIAL ACCOUNTANT</h3></span>
         </div>
       </div>
       <div class="col-xs-2 col-sm-2 col-md-3 col-lg-2 hover01 column">
-        <div >
-          <figure><img src="Tulaa Website Staff/Nancy Njeri - Sales and Distribution Assistant(1).jpg" class="headshot" style="width:203%;height:137%;margin-left:-8vw;margin-top:-20%;"/></figure>
+        <div class="single-image">
+          <figure><img src="Tulaa Website Staff/Nancy Njeri - Sales and Distribution Assistant(1).jpg" class="headshot" style="width:203%;height:137%;margin-left:-60%;margin-top:-20%;"/></figure>
           <span><h4 style="color:#c83e2c;"><strong>NANCY NJERI</strong></h4><h3>SALES & DISTRIBUTION ASSISTANT </h3></span>
         </div>
       </div>
 
       <div class="col-xs-2 col-sm-2 col-md-3 col-lg-2 hover01 column">
-        <div >
-          <figure><img src="Tulaa Website Staff/Phoebe Auma - Sales and Distribution Manager.jpg" class="headshot" style="width:203%;height:150%;margin-left:-4vw;margin-top:-17%;"/></figure>
+        <div class="single-image">
+          <figure><img src="Tulaa Website Staff/Phoebe Auma - Sales and Distribution Manager.jpg" class="headshot" style="width:203%;height:150%;margin-left:-40%;margin-top:-17%;"/></figure>
           <span><h4 style="color:#c83e2c;"><strong>PHOEBE AUMA</strong></h4><h3>SALES & DISTRIBUTION MANAGER</h3></span>
         </div>
       </div>
       <div class="col-xs-2 col-sm-2 col-md-3 col-lg-2 hover01 column">
-        <div >
-          <figure><img src="Tulaa Website Staff/Raunaq Sawhney - Bain Consultant.jpg" class="headshot" style="width:254%;height:180%;margin-left:-10vw;margin-top:-23%;"/></figure>
+        <div class="single-image">
+          <figure><img src="Tulaa Website Staff/Raunaq Sawhney - Bain Consultant.jpg" class="headshot" style="width:254%;height:180%;margin-left:-80%;margin-top:-23%;"/></figure>
           <span><h4 style="color:#c83e2c;"><strong>RAUNAQ SAWHNEY</strong></h4><h3>BAIN CONSULTANT</h3></span>
         </div>
       </div>
       <div class="col-xs-2 col-sm-2 col-md-3 col-lg-2 hover01 column">
-        <div >
-          <figure><img src="Tulaa Website Staff/Richard Gathogo - API Engineer(1).jpg" class="headshot" style="width:210%;height:136%;margin-left:-9vw;margin-top:-14%;"/></figure>
+        <div class="single-image">
+          <figure><img src="Tulaa Website Staff/Richard Gathogo - API Engineer(1).jpg" class="headshot" style="width:210%;height:136%;margin-left:-75%;margin-top:-14%;"/></figure>
           <span><h4 style="color:#c83e2c;"><strong>RICHARD GATHOGO</strong></h4><h3>API ENGINEER</h3></span>
         </div>
       </div>
       <div class="col-xs-2 col-sm-2 col-md-3 col-lg-2 hover01 column">
-        <div >
-          <figure><img src="Tulaa Website Staff/Samuel Wainaina - Software Engineer.jpg" class="headshot" style="width:210%;height:138%;margin-left:-6vw;margin-top:-26%;"/></figure>
+        <div class="single-image">
+          <figure><img src="Tulaa Website Staff/Samuel Wainaina - Software Engineer.jpg" class="headshot" style="width:210%;height:138%;margin-left:-50%;margin-top:-26%;"/></figure>
           <span><h4 style="color:#c83e2c;"><strong>SAMUEL WAINAINA</strong></h4><h3>SOFTWARE ENGINEER</h3></span>
         </div>
       </div>
@@ -203,27 +198,27 @@
 
     <div class="row">
       <div class="col-xs-2 col-sm-2 col-md-3 col-lg-2 hover01 column">
-        <div >
-          <figure><img src="Tulaa Website Staff/Sophia Uwase Communcation Intern.jpg" class="headshot" style="width:203%;height:137%;margin-left:-4vw;margin-top:-20%;"/></figure>
+        <div class="single-image">
+          <figure><img src="Tulaa Website Staff/Sophia Uwase Communcation Intern.jpg" class="headshot" style="width:203%;height:137%;margin-left:-30%;margin-top:-20%;"/></figure>
           <span><h4 style="color:#c83e2c;"><strong>SOPHIA UWASE</strong></h4><h3>COMMUNICATIONS INTERN</h3></span>
         </div>
       </div>
       <div class="col-xs-2 col-sm-2 col-md-3 col-lg-2 hover01 column">
-        <div >
-          <figure><img src="Tulaa Website Staff/Tristan - Consultant.jpg" class="headshot" style="width:230%;height:158%;margin-left:-8vw;margin-top:-27%;"/></figure>
+        <div class="single-image">
+          <figure><img src="Tulaa Website Staff/Tristan - Consultant.jpg" class="headshot" style="width:230%;height:158%;margin-left:-70%;margin-top:-27%;"/></figure>
           <span><h4 style="color:#c83e2c;"><strong>TRISTAN</strong></h4><h3>CONSULTANT </h3></span>
         </div>
       </div>
 
       <div class="col-xs-2 col-sm-2 col-md-3 col-lg-2 hover01 column">
-        <div >
-          <figure><img src="Tulaa Website Staff/Vishal Ajmera - CPO.jpg" class="headshot" style="width:173%;height:120%;margin-left:-4vw;margin-top:-10%;"/></figure>
+        <div class="single-image">
+          <figure><img src="Tulaa Website Staff/Vishal Ajmera - CPO.jpg" class="headshot" style="width:173%;height:120%;margin-left:-40%;margin-top:-10%;"/></figure>
           <span><h4 style="color:#c83e2c;"><strong>VISHAL AJMERA</strong></h4><h3>CPO</h3></span>
         </div>
       </div>
       <div class="col-xs-2 col-sm-2 col-md-3 col-lg-2 hover01 column">
         <div >
-          <figure><img src="Tulaa Website Staff/Wamboi Ngaruiya - Call Centre Advisor.jpg" class="headshot" style="width:204%;height:140%;margin-left:-6vw;margin-top:-23%;"/></figure>
+          <figure><img src="Tulaa Website Staff/Wamboi Ngaruiya - Call Centre Advisor.jpg" class="headshot" style="width:204%;height:140%;margin-left:-50%;margin-top:-23%;"/></figure>
           <span><h4 style="color:#c83e2c;"><strong>WAMBOI NGARUIYA</strong></h4><h3>CALL CENTRE ADVISOR</h3></span>
         </div>
       </div>
@@ -260,7 +255,13 @@
 
 <h2 id="team" class="center">OPEN POSITIONS</h2>
 
-<img src="img/pagebreak.jpg" class="center line" id="pagebreak" style="margin-bottom:2%;">
+<!-- page break svg -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   viewBox="0 0 204.5 17.2" enable-background="new 0 0 204.5 17.2" xml:space="preserve">
+<line fill="none" stroke="#C24125" stroke-width="0.75" stroke-miterlimit="10" x1="13.8" y1="8" x2="190.8" y2="8" style="width:80%;"/>
+<circle fill="#C24125" cx="102.9" cy="8" r="2.1"/>
+</svg>
+<!-- page break svg -->
 
 <div class="container-fluid center">
     <!-- Grid row -->
@@ -408,7 +409,13 @@
                   <!-- <h4 class="center"><a data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" style="color:#c83e2c;float:right;">X</a></h4></a> -->
               </div>
               <br>
-          <img src="img/pagebreak.jpg" class="center" id="pagebreak">
+              <!-- page break svg -->
+              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              	 viewBox="0 0 204.5 17.2" enable-background="new 0 0 204.5 17.2" xml:space="preserve">
+              <line fill="none" stroke="#C24125" stroke-width="0.75" stroke-miterlimit="10" x1="13.8" y1="8" x2="190.8" y2="8" style="width:80%;"/>
+              <circle fill="#C24125" cx="102.9" cy="8" r="2.1"/>
+              </svg>
+              <!-- page break svg -->
 
       </div>
     <!-- / Collapsible element -->
@@ -474,7 +481,13 @@
          </div>
         </div>
         <br>
-    <img src="img/pagebreak.jpg" class="center" id="pagebreak">
+        <!-- page break svg -->
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        	 viewBox="0 0 204.5 17.2" enable-background="new 0 0 204.5 17.2" xml:space="preserve">
+        <line fill="none" stroke="#C24125" stroke-width="0.75" stroke-miterlimit="10" x1="13.8" y1="8" x2="190.8" y2="8" style="width:80%;"/>
+        <circle fill="#C24125" cx="102.9" cy="8" r="2.1"/>
+        </svg>
+        <!-- page break svg -->
 
       </div>
     </div>
@@ -595,22 +608,7 @@
 
   </script>
     <script>
-$(document).ready(function(){
-            var scroll_pos = 0;
-            $(document).scroll(function() {
-                scroll_pos = $(this).scrollTop();
-                if(scroll_pos > 0) {
-                    $("navbar").css('background-color', 'white');
 
-                    $("nav a").css('color', '#008f8a');
-
-                }
-                else {
-                    $("nav").css('background-color', 'none');
-                    $("nav a").css('color', 'white');
-                }
-            });
-        });
       </script>
 </body>
 </html>
