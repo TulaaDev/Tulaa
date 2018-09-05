@@ -49,7 +49,9 @@
   height: 96%;
 
 }
-
+#parallax-three{
+  margin-bottom: -10vh;
+}
 .nav-tabs>.active>a, .nav-tabs>.active>a:hover, .nav-tabs>.active>a:focus {
     border-color: #d45500;
     border-bottom-color: transparent;
