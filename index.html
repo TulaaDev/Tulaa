@@ -36,13 +36,11 @@
 
   <nav class="navbar fixed-top navbar-expand-lg navbar-white bg-white" id="navbar-example2">
       <div class="d-flex flex-grow-1" id="topheader">
-          <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
-          <a class="navbar-brand d-none d-lg-inline-block" href="index.html">
+
+          <a class="navbar-brand d-none d-lg-inline-block nav-active nav-link" href="index.html">
               <img src="img/tulaa-logo2.png" id="logo">
           </a>
-          <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#">
-              <img src="//placehold.it/40?text=LOGO" alt="logo">
-          </a>
+
           <div class="w-100 text-right">
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
                   <span class="navbar-toggler-icon"></span>
@@ -53,7 +51,7 @@
 
           <ul class="nav nav-tabs ml-auto flex-nowrap">
               <li class="nav-item">
-                  <a href="#solution" class="nav-link m-2 menu-item nav-active">OUR SOLUTION</a>
+                  <a href="#solution" class="nav-link m-2 menu-item ">OUR SOLUTION</a>
               </li>
               <li class="nav-item">
                   <a href="#who" class="nav-link m-2 menu-item">WHO WE ARE</a>
@@ -67,6 +65,8 @@
               <li class="nav-item">
                   <a href="#contact" class="nav-link m-2 menu-item">CONTACT US </a>
               </li>
+
+
           </ul>
       </div>
   </nav>
@@ -192,7 +192,7 @@ banks and off-takers to transact with rural customers and suppliers in Africa.</
 </section>
 </div>
 <div class="parallax" style="height:200%;">
-<div class="parallax-window" data-parallax="scroll" data-image-src="Website Landing Page Images/IMG_8386.jpg" ></div></div>
+<div class="parallax-window" data-parallax="scroll" data-image-src="img/MFarm.jpg" ></div></div>
 
 
   <br>
@@ -411,9 +411,10 @@ Tulaa connects smallholder farmers to quality agricultural inputs, affordable fi
   <br>
         <div class="parallax-window" data-parallax="scroll" data-image-src="Website Landing Page Images/IMG_8386.jpg" id="parallax-three">
 
-
+</div>
         <div class="container-fluid center" style="width:65%;margin-bottom:10vh;margin-top:10%;opacity:0.9;" id="contact">
           <br>
+
           <!-- Default form contact -->
           <div class="card center" id="contact-card">
               <h5 class="card-header white-text text-center py-4">
@@ -463,20 +464,20 @@ Tulaa connects smallholder farmers to quality agricultural inputs, affordable fi
 
 
           <!-- Footer -->
-      <footer class="page-footer font-small teal pt-4" style="height:90%;">
+          <footer class="page-footer font-small teal pt-4" style="height:90%;" id="topheader">
 
           <!-- Footer Links -->
-          <div class="container text-center text-md-left">
+          <div class="container-fluid text-center text-md-left">
 
             <!-- Grid row -->
             <div class="row">
 
               <!-- Grid column -->
-              <div class="col-md-9 col-xs-6 mx-auto" style="margin-top:1%;" id="footer-content">
+              <div class="col-md-3 col-xs-6 mx-auto" style="margin-top:1%;" id="footer-content">
 
                 <!-- Content -->
 
-                <strong id="address"><ul style="list-style:none;color:white;font-size:130%;margin-left:-6vw;">
+                <strong id="address"><ul style="list-style:none;color:white;font-size:110%;margin-left:2vw;">
                   <li>UNIT 20, 4TH FLOOR</li>
                   <li>THE GREENHOUSE, NGONG ROAD</li>
                   <li>NAIROBI, KENYA</li>
@@ -484,6 +485,10 @@ Tulaa connects smallholder farmers to quality agricultural inputs, affordable fi
                   <li>info@tulaa.io</li></strong>
 
               </div>
+              <div class="col-md-6" >
+              <p style="margin-top:14vh;font-size:105%;">© 2018 Tulaa. All Rights Reserved.</p>
+            </div>
+            <div class="col-md-3">
               <!-- Grid column -->
               <div class="social-buttons">
                         <!-- Social buttons -->
@@ -514,22 +519,18 @@ Tulaa connects smallholder farmers to quality agricultural inputs, affordable fi
 
               </div>
             </div>
+          </div>
             <!-- Grid row -->
 
           </div>
           <!-- Footer Links -->
 
-
-
-          <!-- Copyright -->
-          <div class="footer-copyright text-center py-3">© 2018 Tulaa. All Rights Reserved.
-
           </div>
           <!-- Copyright -->
 
-      </footer>
-      <!-- Footer -->
-       </div>
+          </footer>
+          <!-- Footer -->
+
 <script src="js/main.js"></script>
 
 
@@ -586,6 +587,10 @@ $( '#topheader .navbar-nav a' ).on( 'click', function () {
 	$( '#topheader .navbar-nav' ).find( 'li.active' ).removeClass( 'active' );
 	$( this ).parent( 'li' ).addClass( 'active' );
 });
+
+$('[data-spy="scroll"]').each(function () {
+  var $spy = $(this).scrollspy('refresh')
+})
 
 </script>
 <script>
