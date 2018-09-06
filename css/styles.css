@@ -315,7 +315,10 @@ button {
     border: none;
     margin-left:54px;
     margin-top: 59px;
-    margin-bottom: -10vh;
+    margin-bottom: 10vh;
+  }
+  #scholar-waywa{
+    margin-left: 3%;
   }
 
   .card {
@@ -344,6 +347,7 @@ button {
   #press-logo{
     width:90%;
     margin-bottom: 2%;
+
   }
   .headshot{
     width:133%;
@@ -848,7 +852,9 @@ h5{
   font-size: 160%;
 }
 
-
+.testimonial .card-text{
+  font-size:90%;
+}
 .center{
   display: block;
   margin-left: auto;
