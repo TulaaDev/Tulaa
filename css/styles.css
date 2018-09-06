@@ -25,6 +25,8 @@
   margin-bottom: -6%;
 
 }
+
+
 .social-button{
   width:70%;
 }
@@ -950,6 +952,9 @@ h5{
       margin-top: -20%;;
 
     }
+    .jumbotron{
+      margin-top: -3vh;
+    }
     h1{
       font-size: 250%;
       margin-bottom: 20%;
@@ -961,13 +966,40 @@ h5{
       margin-bottom: 10%;
 
     }
-    .navbar{
-      width:100%;
-      background-color: white;
-      margin-top: -4em;
+
+    .nav-tabs{
+    width:100%;
+    margin-left: -10vw;
+    font-size: 1%;
+    text-align: left;
 
     }
+    #logo{
+      margin-top: -27vh;
+    }
 
+    .nav-item{
+      width:100%;
+
+    }
+    /* .navbar{
+
+      background-color: ;
+      margin-right: 10em;
+
+
+    } */
+.dark-blue-text,.fa-bars {
+    color: #c83e2c;
+}
+
+    /* .navbar-collapse{
+      margin-top: 10vh;
+    } */
+    .menu-item{
+        font-size: 9em;
+    }
+/*
     #navlink-who,#navlink-solution,#navlink-press,#navlink-careers,#navlink-contact{
       color:#c83e2c;
       margin-left: 130vw;
@@ -975,7 +1007,10 @@ h5{
     }
     .navbar-toggler-icon{
       color:red;
-    }
+    } */
+    /* .navbar{
+      margin-top: 10vh;
+    } */
     .jumbotron{
       width:100%;
       background-position: -260px 5px;
@@ -983,11 +1018,11 @@ h5{
     .nav-link{
       color:red;
     }
-    #navbarSupportedContent{
+    /* #navbarSupportedContent{
       font-size: 180%;
       margin-right: 10vw;
 
-    }
+    } */
     /* .navbar-nav {
         margin-left: -477px;
         overflow: hidden;
@@ -1023,7 +1058,7 @@ h5{
         height:auto;
         margin-left: -4vw;
       }
-
+/*
       .navbar-toggler .icon-bar {
         margin: 7px;
         display: block;
@@ -1040,7 +1075,7 @@ h5{
         width: 50px !important;
         height:37px !important;
 
-      }
+      } */
 
       #farmers{
         margin-top: 10%;
@@ -1240,7 +1275,7 @@ h5{
 @media only screen and (min-width: 320px) and (max-width: 568px)
 and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
 {
-  .navbar-toggler{
+  /* .navbar-toggler{
     margin-left: -230%;
     margin-top: 157%;
     margin-right: 20px;
@@ -1249,14 +1284,14 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
     width: 44px !important;
     height:34px !important;
     margin-top: 5px;
-  }
+  } */
   i{
     margin-right:
   }
   #logo{
     margin-right: 10vw;
   }
-  .navbar-brand{
+  /* .navbar-brand{
     margin-left: 8vw;
   }
   .navbar{
@@ -1264,7 +1299,7 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
     background-color: white;
     margin-top: -2em;
 
-  }
+  } */
   .testimonial{
     margin-left: -19vw;
   }
@@ -1272,10 +1307,10 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
     margin-top: 80vh;
     margin-left: -4vw;
   }
-  .navbar-nav{
+  /* .navbar-nav{
     margin-top:10vh;
     background-color: white;
-  }
+  } */
   #partner-heading{
     font-size: 7vw;
 
