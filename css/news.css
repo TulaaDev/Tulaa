@@ -30,7 +30,11 @@
   font-size: 120%;
   color:#c83e2c;
   }
-
+body{
+  font-family: 'VegurRegular';
+  font-weight: normal;
+  font-style: normal;
+}
 .top-nav-collapse {
   background-color: white;
   color:black;
@@ -38,11 +42,19 @@
 h3{
   margin-left: 8.5%;
   font-size:200%;
+  text-align: left;
+  color:#008f8a;
 }
 p{
   font-size:120%;
 }
 h4{
+  float:right;
+  color:#008f8a;
+  font-size: 220%;
+  margin-top: 10vh;
+}
+h5{
   float:right;
 }
 .card{
@@ -51,4 +63,7 @@ h4{
 }
 .date{
   margin-left: -0.2%;
+}
+.mt-3{
+  width:100%;
 }
