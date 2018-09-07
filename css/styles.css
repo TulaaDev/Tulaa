@@ -1,3 +1,24 @@
+body{
+  font-family: 'VegurRegular';
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.single-card .card-title{
+  font-size: 150%;
+}
+.single-card .card-text{
+  width: 100%;
+  font-size:110%;
+  text-align:left;
+  margin-left:-5%;
+}
+#testimonial .card-text{
+  font-size:110%;
+
+}
+
 .jumbotron{
   /* background-image: url("../img/jumbotron.jpg"); */
   background-size: cover;
@@ -51,8 +72,29 @@
   height: 96%;
 
 }
+.partner-logos{
+  margin-left: -8vw;
+  width:110%;
+}
+.investor-logos{
+  margin-left: 8vw;
+}
+
+.award{
+  width:75%;
+}
+.awards h4{
+  text-align: center;
+  margin-left: -3vw;
+}
+.awards{
+  width:90%;
+  margin-top: 40vh;
+}
+
 #parallax-three{
-  margin-bottom: -10vh;
+  margin-bottom: -20vh;
+
 }
 .nav-tabs>.active>a, .nav-tabs>.active>a:hover, .nav-tabs>.active>a:focus {
     border-color: #d45500;
@@ -269,13 +311,13 @@ button {
   margin-left: 3vw;
 }
  #section3{
-   color:black;
+   color:#008f8a;
    margin-top:5%;
    font-size: 300%;
  }
   #joinus{
     margin-top: 2%;
-    font-size: 160%;
+    font-size: 150%;
     margin-bottom: 6%;
   }
   .card-img-fluid{
@@ -348,7 +390,7 @@ button {
   }
   #press-logo{
     width:90%;
-    margin-bottom: 2%;
+    margin-bottom: -4%;
 
   }
   .headshot{
@@ -367,10 +409,12 @@ button {
   }
   #contact-card{
     background-color: white;
+
   }
 
   #who-text{
-    font-size: 165%;
+    font-size: 135%;
+    width:87%;
   }
   .acumen{
     margin-left: 10vw;
@@ -442,10 +486,38 @@ h2 span {
 #demo08{
   margin-top: -20vh;
 }
+#logos-section .column div {
+	position: relative;
+	float: left;
+	width: 50px;
+	height: 200px;
+	padding: 0;
+}
+
+#logos-section .hover08 figure {
+	width: 53%;
+	height: 98%;
+	margin: 0;
+	padding: 10%;
+	background: #fff;
+
+  border-radius: 70%;
+  margin-bottom:10px;
+  float:right;
+
+}
+
+#press-logo2 .column div {
+	position: relative;
+	float: left;
+	width: 140px;
+	height: 200px;
+	padding: 0;
+}
 .column div {
 	position: relative;
 	float: left;
-	width: 150px;
+	width: 300px;
 	height: 200px;
 	padding: 0;
 }
@@ -546,12 +618,24 @@ figure:hover+span {
 	filter: grayscale(0);
 }
 .hover10{
-  margin-top: -5%;
-  margin-bottom: -5%;
+  margin-top: 5%;
+  margin-bottom: -10%;
+
 }
 
 .hover10 figure {
-	width: 300px;
+	width: 200px;
+	height: 120px;
+	margin: 0;
+	padding: 2%;
+	background: #fff;
+	overflow: hidden;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+ .hover10 figure #toyotalogo {
+	width: 160px;
 	height: 220px;
 	margin: 0;
 	padding: 2%;
@@ -560,12 +644,29 @@ figure:hover+span {
   margin-top: 30px;
   margin-bottom: 10px;
 }
+
+#press-logo2 .hover10 figure {
+	width: 160px;
+	height: 170px;
+	margin: 0;
+	padding: 2%;
+	background: #fff;
+	overflow: hidden;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 1vw;
+}
+h3{
+  text-align: center;
+  color:#c83e2c;
+}
+}
 .hover10 div {
 	position: relative;
 	float: left;
-	width: 90px;
+	width: 30px;
 	height: 500px;
-	margin: 0 0 0 25px;
+	margin: 0 0 0 0px;
 	padding: 0;
 }
 .hover10 figure img {
@@ -644,10 +745,11 @@ figure:hover+span {
 }
 h1{
   text-align:center;
-  font-size: 450%;
+  font-size: 350%;
   font-family: 'VegurRegular';
   font-weight: normal;
   font-style: normal;
+  color:#008f8a;
 }
 
 
@@ -701,7 +803,6 @@ p{
 }
 h2 {
   text-align:center;
-  font-size:275%;
   color:#c83e2c;
   margin-top:1%;
   margin-bottom:2%;
@@ -710,7 +811,7 @@ h2 {
   font-family: 'VegurRegular';
   font-weight: normal;
   font-style: normal;
-  font-size: 260%;
+  font-size: 200%;
 }
  .nav-link{
    font-size:90%;
@@ -844,7 +945,7 @@ h5{
 
 #logo{
   width:140px;
-  /* margin-left: -3%; */
+  margin-left: 5%;
   margin-top: -1vh;
   margin-bottom: -1vh;
   mix-blend-mode: multiply;
@@ -1158,30 +1259,22 @@ h5{
         font-size: 160%;
 
       }
-      #Syngentalogo{
-        margin-left: 14%;
-      }
-      #OCPlogo{
-        margin-left: 10%;
-        margin-top: 20%;
-      }
-      #toyotalogo{
-        margin-top: 30%;
-        margin-left: 5%;
-      }
-      #nextbillion{
-        margin-left: -10%;
-      }
-      #bloomberg{
-        margin-left: -10%;
-      }
-      #Mavunalogo{
-        margin-left: 7%;
-      }
-      #AHL{
-        margin-bottom:-10vh;
-        margin-left: 9%;
-      }
+#nextbillion,#bloomberg{
+  width:80%;
+}
+#venture,#agfunder,#disruptafrica,#businessdaily{
+  width:200%;
+}
+#venture{
+  margin-left: 200px;
+}
+#bloomberg{
+  margin-left: -8vw;
+}
+
+#press-logo{
+  margin-left: 20vw;
+}
       .testimonial{
         margin-left: 17px;
         padding:20%;
