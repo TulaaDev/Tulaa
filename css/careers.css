@@ -230,6 +230,7 @@ h3{
   font-weight: normal;
   font-style: normal;
   font-size: 195%;
+
 }
 .details{
   list-style: none;
@@ -254,6 +255,11 @@ h1{
 #benefits-container{
   margin-top: 20vh;
 }
+#benefits-container h3{
+  color:black;
+}
+
+
 h2 span {
 	margin-left: -1em;
 	color: #aaa;
@@ -305,9 +311,11 @@ h2 span {
   text-align: center;
   width:90%;
   margin-bottom: 6vh;
-  margin-top: 900vh;
+  margin-top: 200vh;
 
 }
+
+
 #jumbo-title{
   margin-top: 70vh;
   color:white;
@@ -378,24 +386,16 @@ color: #aaa;
 font-size: 85%;
 margin-top: 10vh;
 }
-.hover01 .column div {
+#careers-team .column div {
 	position: relative;
 	float: left;
-	width: 300px;
-	height: 250px;
+	width: 170px;
+	height: 200px;
 	margin: 0 0 0 25px;
 	padding: 0;
-  margin-left: 5vw;
+  margin-left: 0.5%;
 }
-.hover01 .column div {
-	position: relative;
-	float: left;
-	width: 100px;
-	height: 200px;
-  margin-left: 5vw;
 
-	padding: 0;
-}
 .hover01 .column div:first-child {
 	margin-left: 0;
 }
@@ -422,7 +422,7 @@ margin-top: 10vh;
 
 }
 .hover01 figure {
-	width: 123%;
+	width: 103%;
 	height: 94%;
 	margin: 0;
 	padding: 10%;
@@ -434,9 +434,9 @@ margin-top: 10vh;
   margin-top: 8vh;
 
 }
-figure{
+/* figure{
   margin-left: 5vw;
-}
+} */
 .hover01 figure:hover+span {
 	bottom: -120px;
 	opacity: 1;
@@ -444,17 +444,32 @@ figure{
   width: 150%;
 }
 h4{
-  font-size: 90%;
+  font-size: 120%;
 }
 h3{
-  font-size: 78%;
+  font-size: 100%;
+  color:black;
 }
 
 h5{
   font-size:90%;
 }
+#careers-team span{
+  font-size: 110%;
+  margin-left: -3vw;
+  color:black;
+}
+#careers-team h3 {
+  color:black;
 
+}
+#careers-team h4 {
+  color:#c83e2c;
 
+}
+a{
+  color:black;
+}
 
 @media only screen and (min-width : 375px) and (max-width : 667px) {
 
