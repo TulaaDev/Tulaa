@@ -753,11 +753,15 @@ h1{
   color:#008f8a;
 }
 
-
+#collapseExample,#collapseExample2{
+  padding-top: 13%;
+  margin-top: -20vh;
+}
 #infographic{
-  width:90%;
-  margin-top:-20vh;
-  margin-bottom: -25vh;
+  width:70%;
+  margin-top:-2vh;
+  margin-bottom: -16vh;
+  mix-blend-mode: multiply;
   }
 .speech{
   font-size: 190%;
@@ -874,9 +878,12 @@ h5{
 }
 
 #partner-cards{
-  margin-bottom:-35vh;
-}
+  margin-bottom:-30vh;
 
+}
+#card1{
+  margin-bottom: -10vh;
+}
 
 #icon-container{
   margin-top: -6.2%;
