@@ -571,26 +571,8 @@ figure:hover+span {
 
 /* end of team grayscale */
 
-.hover09 figure {
-	width: 450px;
-	height: 220px;
-	margin: 0;
-	padding: 2%;
-	background: #fff;
-	overflow: hidden;
-  margin-top: 30px;
 
-  margin-bottom: 10px;
-}
-.hover09 div {
-	position: relative;
-	float: left;
-	width: 320px;
-	height: 250px;
-	/* margin: 0 0 0 25px; */
-	padding: 0;
 
-}
 #news{
   margin-left: 6%;
   margin-top: -10%;
@@ -769,6 +751,11 @@ h1{
 #cards{
   width:90%;
   margin-bottom: 8%;
+
+}
+#address{
+
+  margin-top: -2vh;
 
 }
 #investor{
@@ -1060,7 +1047,6 @@ h5{
    }
 }
 
-
 /* iphone 6/7/8 and plus  */
 @media only screen and (min-width : 375px) and (max-width : 667px) {
     section{
@@ -1069,17 +1055,36 @@ h5{
     }
     .jumbotron{
       margin-top: -3vh;
+      background-position: -5000px 500px;
     }
     h1{
       font-size: 250%;
-      margin-bottom: 20%;
+      margin-bottom: 10%;
 
+    }
+    .title{
+      margin-top: 2%;
+      margin-bottom: 2%;
+    }
+    .title-one{
+      margin-top: 10%;
+      margin-bottom: 20%;
+    }
+    #farmer-text{
+      margin-top: 20vh;
     }
     #pagebreak{
       width:100%;
       margin-top: -20%;
-      margin-bottom: 10%;
+      margin-bottom: 20vh;
 
+    }
+    #farmer-text,#partner-text{
+      margin-top: 10vh;
+    }
+    #press-title{
+      margin-top:-29vh;
+      margin-bottom: 5vh;
     }
 
     .nav-tabs{
@@ -1097,35 +1102,15 @@ h5{
       width:100%;
 
     }
-    /* .navbar{
 
-      background-color: ;
-      margin-right: 10em;
+    .dark-blue-text,.fa-bars {
+        color: #c83e2c;
+    }
 
-
-    } */
-.dark-blue-text,.fa-bars {
-    color: #c83e2c;
-}
-
-    /* .navbar-collapse{
-      margin-top: 10vh;
-    } */
     .menu-item{
         font-size: 9em;
     }
-/*
-    #navlink-who,#navlink-solution,#navlink-press,#navlink-careers,#navlink-contact{
-      color:#c83e2c;
-      margin-left: 130vw;
-      text-align: left;
-    }
-    .navbar-toggler-icon{
-      color:red;
-    } */
-    /* .navbar{
-      margin-top: 10vh;
-    } */
+
     .jumbotron{
       width:100%;
       background-position: -260px 5px;
@@ -1133,16 +1118,6 @@ h5{
     .nav-link{
       color:red;
     }
-    /* #navbarSupportedContent{
-      font-size: 180%;
-      margin-right: 10vw;
-
-    } */
-    /* .navbar-nav {
-        margin-left: -477px;
-        overflow: hidden;
-    } */
-
 
     #careers-button{
       margin-bottom: 40%;
@@ -1173,34 +1148,9 @@ h5{
         height:auto;
         margin-left: -4vw;
       }
-/*
-      .navbar-toggler .icon-bar {
-        margin: 7px;
-        display: block;
-        width: 22px;
-        height: 1px;
-        background-color: red;
-        border-radius: 1px;
-      }
-      .navbar-toggler{
-        margin-left: 80%;
-        margin-top: -12%;
-      }
-      .navbar-toggler-icon {
-        width: 50px !important;
-        height:37px !important;
-
-      } */
 
       #farmers{
         margin-top: 10%;
-      }
-      h2 {
-        text-align:center;
-
-        font-size:300%;
-        margin-bottom:2%;
-        margin-top:-3vh;
       }
 
       .hover08{
@@ -1246,7 +1196,7 @@ h5{
       }
       #logo{
         width:35%;
-        margin-bottom: -9.8em;
+        margin-bottom: -8.8em;
         margin-left: -1vw;
       }
       iframe{
@@ -1271,24 +1221,33 @@ h5{
       }
       h2{
         font-size: 160%;
-
+        margin-bottom: -9vh;
       }
-#nextbillion,#bloomberg{
-  width:80%;
-}
-#venture,#agfunder,#disruptafrica,#businessdaily{
-  width:200%;
-}
-#venture{
-  margin-left: 200px;
-}
-#bloomberg{
-  margin-left: -8vw;
-}
 
-#press-logo{
-  margin-left: 20vw;
-}
+
+      .partner-logos{
+        margin-bottom: 10vh;
+      }
+      #awards{
+        margin-bottom: 20vh;
+      }
+      #OCPlogo{
+        margin-left: -30vw;
+        width:1100%;
+      }
+      .hover10 figure {
+      	width: 270px;
+      	height: 120%;
+      	margin: 0;
+      	padding: 2%;
+      	background: #fff;
+      	overflow: hidden;
+        margin-top: 30px;
+        margin-bottom: 10px;
+      }
+      #press-logo{
+        margin-left:10%;
+      }
       .testimonial{
         margin-left: 17px;
         padding:20%;
@@ -1317,7 +1276,7 @@ h5{
         margin-left: -3vw;
       }
       #section3{
-        margin-bottom: 26%;
+        margin-bottom: 5%;
       }
       #joinus{
         margin-left: 3%;
@@ -1340,6 +1299,7 @@ h5{
         padding:6%;
         margin-left: 20px;
         margin-top: -10vh;
+        margin-bottom: 10%;
       }
       #solution{
         margin-top: 5vh;
@@ -1358,55 +1318,122 @@ h5{
         width:110%;
       }
       #address{
-        margin-right: 40%;
+        margin-left: 8vw;
+        margin-top: -2vh;
+        margin-bottom: -10vh;
         width:70%;
       }
       #social-icons{
         width:80%;
-        margin-left: 10%;
+        margin-left: -10vw;
       }
       #partner-cards{
         margin-top: 10vh;
         margin-bottom: -20vh;
       }
-      .social-buttons{
-        margin-left: 16vw;
+      #social-buttons{
+        margin-left: 2vw;
+        margin-top: -10vh;
       }
       #infographic{
         margin-bottom: 3vh;
+        margin-left: 3%;
+        margin-top: 2%;
+        width:95%;
+      }
+      #card1 .card-img-fluid{
+        margin-bottom: 10vh;
+      }
+      #demo08{
+        margin-left: -2vw;
+      }
+      #press{
+        margin-top: -28vh;
+        margin-bottom: 8vh;
+      }
+      #press-logo2{
+        margin-left: -12vw;
+      }
+      #our-investors,#our-partners{
+        margin-left: 35vw;
       }
 
 
+
+
 }
+/* iphone 6/7/8 plus */
+
+@media only screen
+and (min-width : 414px)
+and (max-width : 736px) {
+
+  #press-logo2{
+    margin-left: -2vw;
+
+  }
+  #our-investors,#our-partners{
+    margin-left: 20vw;
+  }
+  #Mavunalogo{
+    width: 10vw;
+  }
+  #logo{
+    margin-bottom: -9.5em;
+  }
+  #testimonial .card-text{
+    width:130%;
+    text-align: center;
+    margin-left: -4vw;
+
+  }
+  #testimonial .card{
+    margin-left: 2em;
+  }
+  #testimonial .card-text{
+    margin-left: -1.5em;
+  }
+  #emmanuel{
+    margin-right: 13vw;
+  }
+  #press-logo{
+    margin-left: 17vw;
+  }
+
+
+  }
+
+
+
+
+
+
 /* iphone 5 media query */
 @media only screen and (min-width: 320px) and (max-width: 568px)
 and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
 {
-  /* .navbar-toggler{
-    margin-left: -230%;
-    margin-top: 157%;
-    margin-right: 20px;
-  }
-  .navbar-toggler-icon {
-    width: 44px !important;
-    height:34px !important;
-    margin-top: 5px;
-  } */
+
   i{
     margin-right:
   }
-  #logo{
-    margin-right: 10vw;
-  }
-  /* .navbar-brand{
-    margin-left: 8vw;
-  }
-  .navbar{
 
-    background-color: white;
-    margin-top: -2em;
 
-  } */
+  .dark-blue-text,.fa-bars {
+      color: #c83e2c;
+      margin-left: -30vw;
+      margin-top: 0.5em;
+  }
+  .nav-tabs{
+  width:100%;
+  margin-left: -10vw;
+  font-size: 1%;
+  text-align: left;
+
+  }
+  .nav-item{
+    width:60%;
+
+  }
   .testimonial{
     margin-left: -19vw;
   }
@@ -1414,36 +1441,13 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
     margin-top: 80vh;
     margin-left: -4vw;
   }
-  /* .navbar-nav{
-    margin-top:10vh;
-    background-color: white;
-  } */
+
   #partner-heading{
     font-size: 7vw;
 
   }
   .footer-copyright{
     margin-bottom: -40vh;
-  }
-  #pictures figure {
-  	width: 370px;
-  	height: 300px;
-  	margin: 0;
-  	padding: 4%;
-  	background: #fff;
-  	overflow: hidden;
-    mix-blend-mode: multiply;
-  }
-  #partners2 figure {
-    width: 300px;
-    height: 220px;
-    margin: 0;
-    padding: 4%;
-    background: #fff;
-    overflow: hidden;
-    mix-blend-mode: multiply;
-    margin-left: 30%;
-    margin-top: 80%;
   }
 
   #solution{
@@ -1466,24 +1470,70 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
   #headshots{
     margin-left: 30vw;
   }
-
-#pictures{
+  #who{
+    margin-top: 36vh;
+  }
+/* #pictures{
   margin-left: -40px;
   margin-top: 10%;
-}
+} */
   #team{
     margin-top: 3vh;
     font-size: 250%;
   }
-
-  #AHL{
-    margin-bottom: -10vh;
+  #testimonial {
+    margin-top: -40em;
+    margin-bottom: 70em;
   }
+  #testimonial #card2{
+    margin-top: 45em;
+  }
+  #testimonial .single-card{
+    margin-top: 40em;
+  }
+
   #logo{
 
-    margin-bottom: -7em;
+    margin-bottom: -2.5em;
 
   }
+  .hover10 figure {
+    width: 260px;
+    height: 160px;
+    margin: 0;
+    padding: 2%;
+    background: #fff;
+    overflow: hidden;
+    /* margin-top: 30px; */
+    margin-bottom: 10px;
+    margin-left: 15vw;
+  }
+  #bloomberg{
+    margin-bottom: 80em;
+  }
+   #bloomberg-image{
+    margin-top: -10vh;
+  }
+
+  .title-one{
+    margin-top: -6.5em;
+    margin-bottom: -36em;
+  }
+  .layer1{
+    margin-top: -17em;
+    margin-bottom: -170em;
+  }
+  .farmer-section{
+    margin-top: -20vh;
+    margin-bottom: 10vh;
+  }
+  #infographic{
+    margin-left: 1vw;
+    margin-bottom: 2em;
+  }
+  /* #Layer_1{
+    margin-top: -30vh;
+  } */
   .partner-content{
     font-size: 50%;
     margin-top: -12%;
@@ -1500,22 +1550,33 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
 
 #card1{
   width:100%;
-  margin-top: 40em;
+  margin-top: 33em;
 
 
 }
-#social-icons{
-  width:120%;
-  margin-right: 100%;
-  margin-left: -10vw;
+/* #social-buttons{
+  width:99%;
+  margin-right: 1%;
+
+} */
+.social-buttons{
+
+  width:95%;
+  margin-top: -10vh;
+
+}
+#socials{
+  margin-right: 90em;
 }
 #partner-cards{
   height:205em;
-  margin-top: -90vh;
+  margin-top: -60vh;
+  margin-bottom: -60em;
 }
 #demo08{
   margin-left: 4vw;
   width:50%;
+  margin-bottom: 50em;
 }
 figure:hover+span {
 	bottom: -126px;
@@ -1548,35 +1609,6 @@ figure:hover+span {
     margin-left: -21vw;
   }
 
-#businessdaily{
-
-  margin-bottom:-7em;
-}
-#disruptafrica{
-  margin-top: -10em;
-  margin-bottom: 10vh;
-
-}
-#Mavunalogo{
-  margin-left: 200em;
-}
-  #nextbillion{
-    margin-top: 300vh;
-    width:110%;
-    margin-left: 10vw;
-  }
-  #OCPlogo{
-    margin-top: 10vh;
-    margin-left: -80vw;
-  }
-  #toyotalogo{
-    margin-bottom: 12vh;
-    margin-left: -20vw;
-  }
-  #Syngentalogo{
-    margin-left: 32vw;
-    margin-top: -3vh;
-  }
   .text-center{
     margin-top: -10vh;
     margin-bottom: 10vh;
@@ -1587,9 +1619,6 @@ figure:hover+span {
   }
   .testimonial{
     margin-left: 3%;
-  }
-  .headshot-size{
-    margin-left: -30vw;
   }
 
 
@@ -1606,19 +1635,6 @@ figure:hover+span {
 
 
 
-  .Mavuna{
-
-    margin-top: -5vh;
-    margin-left: 63%;
-    position:relative;
-
-  }
-  .OCP{
-    width:70%;
-    margin-top: -1em;
-    margin-bottom: -90em;
-
-  }
 
 #careers-button{
   margin-right: 60em;
@@ -1632,10 +1648,7 @@ figure:hover+span {
     font-size: 290%;
     margin-bottom: 30vh;
   }
-  h2{
-    font-size: 150%;
 
-  }
   #pagebreak{
     margin-top: 5vh;
     margin-bottom: 5vh;
@@ -1668,18 +1681,7 @@ figure:hover+span {
   h1{
     font-size: 210%;
   }
-  iframe{
-    margin-left: 10%;
-    width:75%;
-    height:280%;
-  }
 
-
-  #toyotalogo,#Mavunalogo,#OCPlogo{
-    width:110%;
-    position:relative;
-    margin-left: 120px;
-  }
 
   section .column div {
   	position: relative;
@@ -1700,13 +1702,7 @@ figure:hover+span {
     margin-left: 19%;
     margin-bottom: -10vh;
   }
-  .global{
-    width:30%;
-  }
-  #AHL{
 
-    margin-bottom: -5vh;
-  }
   #investor{
     margin-top: -17em;
     width:90%;
@@ -1730,11 +1726,12 @@ figure:hover+span {
     margin-left: 12vw;
     margin-top: 10%;
   }
-
+/*
   #joinus{
-    margin-top: -30%;
+    margin-top: 10vh;
     font-size: 120%;
-  }
+    margin-bottom: 80vh;
+  } */
   #section3{
     font-size: 210%;
     margin-top: 10vh;
@@ -1745,12 +1742,7 @@ figure:hover+span {
     margin-left: 0.5em;
 
   }
-  /* #partner-logo{
-    margin-bottom: -10vh;
-  }
-  #partner-title{
-    margin-top: 33%;
-  } */
+
   #contact{
     margin-top: 12em;
     background-color: white;
@@ -1788,7 +1780,8 @@ figure:hover+span {
 
   #address{
     margin-top: 10%;
-    margin-left:-50vw;
+    margin-left:-10vw;
+    margin-bottom: -10vh;
 
   }
   .social-buttons{
@@ -1799,17 +1792,59 @@ figure:hover+span {
     margin-bottom: -80vh;
   } */
 
-
+  #socials{
+    margin-bottom: -10vh;
+    margin-top: 10%;
+  }
   #demo08 .column div {
   	position: relative;
   	float: left;
   	width: 250px;
-  	height: 220px;
+  	height: 200px;
   	margin: 0 0 0 25px;
   	padding: 0;
+
   }
+  .joinus-text{
+    margin-top:10vh;
+  }
+
 footer{
   margin-bottom: -100vh;
+}
+#press{
+  margin-bottom: 7em;
+  margin-top: -27vh;
+}
+#press-logo2{
+  margin-left: -10vw;
+  /* margin-bottom: 30vh; */
+  margin-top: 2em;
+}
+#our-partners,#our-investors{
+  margin-top: 8vh;
+  margin-left: 29vw;
+}
+#testimonial .card-text{
+  margin-left: -1vw;
+  text-align: center;
+}
+#our-investors{
+  margin-top: 10vh;
+}
+#bloomberg{
+  margin-bottom: -2vh;
+  margin-left: 20vw;
+}
+#businessdaily{
+  margin-left: -10vw;
+}
+#nextbillion{
+  margin-top: 20vh;
+}
+#venture {
+  margin-top: -10em;
+  margin-bottom: 10em;
 }
 
 
