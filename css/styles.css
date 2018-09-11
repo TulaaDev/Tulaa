@@ -9,15 +9,20 @@ body{
   font-size: 150%;
 }
 .single-card .card-text{
-  width: 100%;
-  font-size:110%;
-  text-align:left;
-  margin-left:-5%;
+  text-align: left;
 }
+
 #testimonial .card-text{
   font-size:110%;
 
 }
+#partner-cards .single-card{
+  width:25%;
+}
+.last-card{
+  width:30%;
+}
+
 
 .jumbotron{
   /* background-image: url("../img/jumbotron.jpg"); */
@@ -402,11 +407,11 @@ button {
     /* border-radius: 80%; */
 
   }
-  #card1{
+  /* #card1{
     width:20%;
-  }
+  } */
   #card1 img{
-    width:110%;
+    width:100%;
   }
   #contact-card{
     background-color: white;
@@ -748,11 +753,11 @@ h1{
 .speech{
   font-size: 190%;
 }
-#cards{
+/* #cards{
   width:90%;
   margin-bottom: 8%;
 
-}
+} */
 #address{
 
   margin-top: -2vh;
@@ -866,7 +871,13 @@ h5{
 
 #partner-cards{
   margin-bottom:-30vh;
+  width:100%;
 
+} #partner-cards {
+  width:100%;
+}
+.partner-list{
+  width:120%;
 }
 #card1{
   margin-bottom: -10vh;
@@ -921,6 +932,13 @@ h5{
    opacity:0.66;
 
  }
+ #our-investors{
+   margin-bottom: -8%;
+ }
+ .investor-logos{
+   margin-top: 4vh;
+ }
+
 
 /* Adding color to the Navbar on mobile */
 @media only screen and (max-width: 768px) {
@@ -1006,9 +1024,6 @@ h5{
   #partner-logo{
     margin-left:-20vw;
   }
-#hover-partner{
-  margin-left: 80vw;
-}
 
   #infographic{
     width:105%;
@@ -1070,9 +1085,9 @@ h5{
       margin-top: 10%;
       margin-bottom: 20%;
     }
-    #farmer-text{
+    /* #farmer-text{
       margin-top: 20vh;
-    }
+    } */
     #pagebreak{
       width:100%;
       margin-top: -20%;
@@ -1105,6 +1120,8 @@ h5{
 
     .dark-blue-text,.fa-bars {
         color: #c83e2c;
+        margin-left: -25vw;
+        margin-bottom: 0.1em;
     }
 
     .menu-item{
@@ -1297,8 +1314,8 @@ h5{
       }
       #card1{
         width:100%;
-        padding:6%;
-        margin-left: 20px;
+        /* padding:6%; */
+        /* margin-left: 10px; */
         margin-top: -10vh;
         margin-bottom: 10%;
       }
@@ -1329,8 +1346,10 @@ h5{
         margin-left: -10vw;
       }
       #partner-cards{
-        margin-top: 10vh;
+        margin-top: 13vh;
         margin-bottom: -20vh;
+        margin-left: 12%;
+
       }
       #social-buttons{
         margin-left: 2vw;
@@ -1379,7 +1398,10 @@ h5{
       #partner-logos{
         margin-right: 17em;
       }
+      #partner-cards .card{
+        width:75%;
 
+      }
 
 
 
@@ -2004,6 +2026,13 @@ h2{
   #partner-cards{
    margin-top:-35em;
    margin-bottom: 350vh;
+   margin-left: 10%;
+  }
+
+
+  #partner-cards .card{
+    width:75%;
+
   }
   #who{
     margin-top: 36vh;
