@@ -3,6 +3,11 @@
   height:600px;
   margin-left: 0.1%;
 
+  background-image: url('img/team-photo.jpg');
+  background-repeat:none;
+  background-position: -1050% 1050%;
+  background-size:1500px 800px;
+
 }
 #navbarSupportedContent{
   margin-left: 13vw;
@@ -850,6 +855,19 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
   #open-positions{
     margin-bottom: -13vh;
   }
+  .content{
+    margin-top: -60vh;
+  }
+  /* .jumbotron{
+    width:99.8%;
+    height:600px;
+    margin-left: 0.1%;
+    background-image: url('img/team-photo.jpg');
+    background-repeat:none;
+    background-position: 500px 10px;
+    background-size:1500px 800px;
+
+  } */
 
 
 }
