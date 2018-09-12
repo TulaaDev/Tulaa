@@ -453,7 +453,7 @@ margin-top: 10vh;
   margin-left: 5vw;
 } */
 .hover01 figure:hover+span {
-	bottom: -60%;
+	bottom: -55%;
 	opacity: 1;
   margin-left: -10%;
   width: 150%;
