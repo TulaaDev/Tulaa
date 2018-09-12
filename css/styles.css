@@ -2258,7 +2258,7 @@ h2{
 }
 
 /* ipad */
-@media only screen
+/* @media only screen
 and (min-width : 768px)
 and (max-width : 1024px)  {
 
@@ -2370,12 +2370,12 @@ and (max-width : 1024px)  {
     text-align: center;
   }
 
-}
+} */
 
 
 /* ----------- iPad Pro ----------- */
 /* Portrait and Landscape */
-@media only screen
+/* @media only screen
   and (min-width: 1024px)
   and (max-width: 1366px)
   and (-webkit-min-device-pixel-ratio: 1.5) {
@@ -2458,7 +2458,7 @@ and (max-width : 1024px)  {
 
 
 
-}
+} */
 
 
 @media only screen
