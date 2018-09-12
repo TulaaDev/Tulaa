@@ -2460,7 +2460,7 @@ and (max-width : 1024px)  {
       background-color: white;
     }
     footer{
-      height:1205;
+      margin-bottom: -40em;
     }
 
 }

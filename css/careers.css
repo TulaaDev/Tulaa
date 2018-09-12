@@ -17,6 +17,20 @@
   mix-blend-mode: multiply;
 
 }
+h3{
+   font-size:230%;
+   margin-left:-20%;
+}
+.job-content h5{
+  text-align: center;
+}
+.hover01 h4{
+  font-size: 100%;
+}
+.hover01 h3{
+  font-size: 90%;
+  margin-left: 0.5vw;
+}
 /* .navbar {
   background-color: transparent;
   font-family: 'VegurRegular';
@@ -118,6 +132,9 @@
 #pagebreak{
   margin-bottom: -8vh;
   mix-blend-mode: multiply;
+}
+.collapse h5{
+  text-align: center;
 }
 
 
@@ -229,7 +246,7 @@ h3{
   font-family: 'VegurRegular';
   font-weight: normal;
   font-style: normal;
-  font-size: 195%;
+  font-size: 295%;
 
 }
 .details{
@@ -447,8 +464,9 @@ h4{
   font-size: 120%;
 }
 h3{
-  font-size: 100%;
+  font-size: 200%;
   color:black;
+  margin-left: -15vw;
 }
 
 h5{
@@ -568,9 +586,8 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
   }
 
 }
-/* h4{
-  font-size: 90%;
-} */
+
+/* iphone 6/7/8 and plus  */
 @media only screen and (min-width : 375px) and (max-width : 667px) {
     /* #careers-team{
       margin-left: 17%;
@@ -581,8 +598,8 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
     }
 
     .hover01 figure {
-    	width: 123%;
-    	height: 94%;
+    	width: 83%;
+    	height: 70%;
     	margin: 0;
     	padding: 10%;
     	background: #fff;
@@ -590,8 +607,9 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
       margin-top: 30px;
       border-radius: 80%;
       margin-bottom:10px;
-      margin-top: 8vh;
-      margin-bottom: 50vh;
+      margin-top: 8em;
+      margin-left: 13vw;
+
 
     }
     .single-image{
@@ -600,16 +618,21 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
       margin-right: -10%;
 
     }
-    figure:hover+span {
-    	bottom: -106px;
+    .hover01 figure:hover+span {
+    	bottom: -132px;
     	opacity: 1;
-      width:100%;
-      margin-left: -10%;
+      width:150%;
+      /* margin-left: 10em; */
+      font-size: 100%;
     }
-    /* #careers-team{
-      margin-right: -10%;
-      width:80%;
-    } */
+
+
+
+    .hover01 span {
+      font-size:5%;
+
+    }
+
     .fa-bars{
       margin-right: 10vw;
     }
@@ -623,5 +646,210 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
     .nav a{
       color:red;
     }
+    #careers-team{
+      margin-left: 13vw;
+      margin-top: -16vh;
+    }
+    #row-2,#row-3,#row-4{
+      margin-top: -6vh;
+    }
+    h3{
+      font-size: 180%;
+      color:black;
+      margin-left: 4vw;
+      text-align: left;
+    }
+    .card{
+      width:100%;
+    }
+    .card h5{
+      font-size:130%;
+
+    }
+    .card .row{
+      margin-top: -9vh;
+    }
+    .card ul {
+      margin-left: -10vw;
+    }
+    .card .badge{
+      background-color:#c83e2c;
+      margin-left: 75%;
+      width:20vw;
+      margin-bottom: 3vh;
+      margin-top: -50vh;
+      font-family: 'VegurRegular';
+      font-weight: normal;
+      font-style: normal;
+    }
+    .card h4{
+      margin-left: -30vw;
+    }
+    .layer1{
+      margin-top: 10%;
+      margin-bottom: -10vh;
+    }
+    .job-content .date{
+      margin-top: 20vh;
+      font-size: 200%;
+      height:90%;
+      margin-left: 5vw;
+    }
+    .job-content  h5{
+      margin-left: -7vw;
+      text-align: left;
+      font-size: 200%;
+    }
+    .job-content ul{
+      text-align: left;
+      width:100%;
+      margin-left: -17vw;
+    }
+    .collapse .badge{
+      width:30%;
+      margin-bottom: 10vh;
+    }
+    .collapse h5{
+      text-align: left;
+    }
+}
+/* iphone X media query */
+@media only screen and (min-width: 320px) and (max-width: 568px)
+and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
+{
+  .dark-blue-text,.fa-bars {
+      color: #c83e2c;
+      margin-left: 20em;
+      margin-top: 0.5em;
+
+  }
+}
+
+/* iphone 5 media query */
+@media only screen and (min-width: 320px) and (max-width: 568px)
+and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
+{
+
+  .hover01 figure {
+    width: 83%;
+    height: 70%;
+    margin: 0;
+    padding: 10%;
+    background: #fff;
+    overflow: hidden;
+    margin-top: 30px;
+    border-radius: 80%;
+    margin-bottom:10px;
+    margin-top: 8em;
+    margin-left: 14vw;
+  }
+
+  .hover01 figure:hover+span {
+    bottom: -130px;
+    opacity: 1;
+    width:150%;
+    /* margin-left: 10em; */
+    font-size: 100%;
+  }
+  .dark-blue-text,.fa-bars {
+      color: #c83e2c;
+      margin-left: 19vw;
+      margin-top: -0.5em;
+      margin-right: 7vw;
+  }
+  .navbar-toggler{
+    margin-left: 20em;
+  }
+  #row-2,#row-3,#row-4{
+    margin-top: -6vh;
+  }
+  #careers-team{
+    margin-left: 8%;
+    margin-top: -14vh;
+  }
+  #benefits-container h3{
+    margin-left: 2vw;
+    font-size: 160%;
+  }
+  .layer1{
+    margin-top: -50em;
+  }
+  .card{
+    width:110%;
+  }
+  .card h5{
+    font-size:120%;
+    margin-top: -4%;
+
+  }
+  .card-body{
+    width:100%;
+    height:300%;
+  }
+  .card .badge{
+    background-color:#c83e2c;
+    margin-left: 75%;
+    width:20vw;
+    margin-top: 6em;
+    margin-bottom: 1em;
+
+    font-family: 'VegurRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 35%;
+  }
+  .card .card-text{
+    margin-left: 10vw;
+  }
+  .card ul{
+  margin-left:-12vw;
+  margin-bottom: 10vh;
+  }
+  .last-badge{
+    margin-top: 10vh;
+  }
+  .card h4{
+    margin-top: -10vh;
+  }
+  .job-content .date{
+    margin-top: 20vh;
+    font-size: 200%;
+    height:90%;
+    margin-left: 4vw;
+  }
+  .job-content  h5{
+    margin-left: -8vw;
+    text-align: left;
+    font-size: 200%;
+  }
+  .job-content ul{
+    text-align: left;
+    width:100%;
+    margin-left: -18vw;
+  }
+  .job-content button{
+    margin-top: 20%;
+    margin-bottom: -10vh;
+  }
+  footer ul{
+    margin-top: 10vh;
+    margin-right: 3em;
+  }
+  .list-unstyled{
+    margin-left: -20vw;
+    margin-right: -10vw;
+    margin-top: 1em;
+
+  }
+  .title{
+    margin-top: 80vh;
+  }
+  #team{
+    margin-bottom: 5vh;
+  }
+  #open-positions{
+    margin-bottom: -13vh;
+  }
+
 
 }
