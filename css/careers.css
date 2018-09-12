@@ -36,16 +36,6 @@ h3{
   font-size: 90%;
   margin-left: 0.5vw;
 }
-/* .navbar {
-  background-color: transparent;
-  font-family: 'VegurRegular';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 120%;
-  color:white;
-  width:120%;
-  } */
-
 
   .layer2 {
       background-color: rgba(81, 76, 76, 0.45);
@@ -318,7 +308,6 @@ h2 span {
 	float: left;
 	width: 150px;
 	height: 100px;
-
 	padding: 0;
 }
 .column div:first-child {
@@ -416,6 +405,7 @@ margin-top: 10vh;
 	margin: 0 0 0 25px;
 	padding: 0;
   margin-left: 0.5%;
+  margin-bottom: 3em;
 }
 
 .hover01 .column div:first-child {
@@ -423,7 +413,7 @@ margin-top: 10vh;
 }
 .hover01 .column div span {
 	position: absolute;
-	bottom: -20px;
+	bottom: 20px;
 	left: 0;
 	z-index: -1;
 	display: block;
@@ -441,6 +431,8 @@ margin-top: 10vh;
   font-weight: normal;
   font-style: normal;
   margin-left: 1vw;
+  margin-bottom: 10em;
+
 
 }
 .hover01 figure {
@@ -452,15 +444,16 @@ margin-top: 10vh;
 	overflow: hidden;
   margin-top: 30px;
   border-radius: 80%;
-  margin-bottom:10px;
+  margin-bottom:200px;
   margin-top: 8vh;
+
 
 }
 /* figure{
   margin-left: 5vw;
 } */
 .hover01 figure:hover+span {
-	bottom: -120px;
+	bottom: -60%;
 	opacity: 1;
   margin-left: -10%;
   width: 150%;
@@ -736,7 +729,7 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
 {
 
   .hover01 figure {
-    width: 83%;
+    width: 93%;
     height: 70%;
     margin: 0;
     padding: 10%;
@@ -744,13 +737,13 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
     overflow: hidden;
     margin-top: 30px;
     border-radius: 80%;
-    margin-bottom:10px;
+    /* margin-bottom:10px; */
     margin-top: 8em;
     margin-left: 14vw;
   }
 
   .hover01 figure:hover+span {
-    bottom: -130px;
+    bottom: -119px;
     opacity: 1;
     width:150%;
     /* margin-left: 10em; */
@@ -765,11 +758,9 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
   .navbar-toggler{
     margin-left: 20em;
   }
-  #row-2,#row-3,#row-4{
-    margin-top: -6vh;
-  }
+
   #careers-team{
-    margin-left: 8%;
+    margin-left: 10%;
     margin-top: -14vh;
   }
   #benefits-container h3{
@@ -966,5 +957,122 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
       margin-top: -0.5em;
       margin-right: 2%;
   }
+
+}
+
+/* ipad */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)  {
+
+  .dark-blue-text,.fa-bars {
+      color: #c83e2c;
+      margin-left: -45vw;
+      margin-top: 6em;
+  }
+  .hover01 figure {
+    width: 90%;
+    height: 75%;
+    margin: 0;
+    padding: 10%;
+    background: #fff;
+    overflow: hidden;
+    margin-top: 30px;
+    border-radius: 80%;
+    margin-bottom:10px;
+    margin-top: 8em;
+    margin-left: 13vw;
+  }
+
+  .hover01 figure:hover+span {
+    bottom: -133px;
+    opacity: 1;
+    width:150%;
+    margin-left: 10em;
+    font-size: 100%;
+  }
+  #careers-team{
+    margin-left: -11%;
+    margin-top: -14vh;
+    width:90%:
+  }
+  #careers-team .column div {
+  	position: relative;
+  	float: left;
+  	width: 160px;
+  	height: 200px;
+  	margin: 0 0 0 25px;
+  	padding: 0;
+    margin-left: 0.5%;
+  }
+  .column div {
+  	position: relative;
+  	float: left;
+  	width: 100px;
+  	height: 100px;
+  	padding: 0;
+  }
+  #careers-team span{
+    margin-left: 3em;
+  }
+  #benefits-container h3{
+    margin-left: 2vw;
+    font-size: 160%;
+  }
+  .card{
+    margin-bottom: 10vh;
+  }
+  .card .badge{
+    background-color:#c83e2c;
+    margin-left: 75%;
+    width:12vw;
+    margin-top: -1.5em;
+    /* margin-bottom: 1em; */
+
+    font-family: 'VegurRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 65%;
+  }
+  .card ul{
+  margin-left:-6vw;
+  margin-bottom: 10vh;
+  font-size: 150%;
+  }
+  .card-body{
+    width:100%;
+    height:100%;
+  }
+  .card .row{
+    height:50%;
+  }
+  .card h5{
+    margin-top: 1vh;
+  }
+  .card h4{
+    margin-top: -6em;
+  }
+  .job-content .date{
+    margin-top: 20vh;
+    font-size: 200%;
+    height:110%;
+    width:15%;
+    margin-left: 4vw;
+    margin-bottom: 10vh;
+  }
+  .job-content  h5{
+    margin-left: -4vw;
+    text-align: left;
+    font-size: 200%;
+  }
+  .job-content ul{
+    text-align: left;
+    width:100%;
+    margin-left: -8vw;
+  }
+
+
+
+
 
 }

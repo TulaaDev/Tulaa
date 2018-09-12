@@ -1502,12 +1502,6 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
   }
 
 
-  /* .dark-blue-text,.fa-bars {
-      color: #c83e2c;
-      margin-left: 10vw;
-      margin-top: 0.5em;
-      margin-right: -10%;
-  } */
   .nav-tabs{
   width:100%;
   margin-left: -10vw;
@@ -2273,9 +2267,8 @@ and (max-width : 1024px)  {
   }
   .dark-blue-text,.fa-bars {
       color: #c83e2c;
-      margin-left: -25vw;
-      margin-top: 6em;
-
+      margin-left: -20vw;
+      margin-top: 6.5em;
   }
   .nav-tabs{
   width:110%;
