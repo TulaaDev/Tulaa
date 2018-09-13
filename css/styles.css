@@ -944,7 +944,7 @@ h5{
 }
 .dark-blue-text,.fa-bars {
     color: #c83e2c;
-  
+
 }
 /* Adding color to the Navbar on mobile */
 @media only screen and (max-width: 768px) {
@@ -1273,7 +1273,7 @@ h5{
         margin-left:10%;
       }
       .testimonial{
-        margin-left: 8vw;
+        margin-left: 7vw;
         padding:20%;
         margin-bottom: -60vh;
       }
@@ -1409,6 +1409,9 @@ h5{
       #partner-cards .card{
         width:75%;
 
+      }
+      .rael-sang .card-text{
+        margin-left: -7vw;
       }
 
 
