@@ -942,7 +942,10 @@ h5{
   margin-top: 20vh;
   margin-bottom: -10vh;
 }
-
+.dark-blue-text,.fa-bars {
+    color: #c83e2c;
+  
+}
 /* Adding color to the Navbar on mobile */
 @media only screen and (max-width: 768px) {
   .navbar {
