@@ -1368,19 +1368,20 @@ h5{
       #card1 .card-img-fluid{
         margin-bottom: 10vh;
       }
+      /* team images */
       #demo08{
-        margin-left: -2vw;
+        margin-left: -1.2em;
       }
       #press{
         margin-top: -28vh;
         margin-bottom: 2vh;
-        margin-left: 5vw;
+        margin-left: -0.7em;
       }
       #press-logo2{
         margin-left: -4em;
       }
       #our-investors,#our-partners{
-        margin-left: 35vw;
+        margin-left: 6em;
       }
       #testimonial .card-text{
         width:120%;
@@ -1420,6 +1421,11 @@ and (max-width : 736px) {
   #press-logo2{
     margin-left: -5em;
 
+  }
+  .dark-blue-text,.fa-bars {
+      color: #c83e2c;
+      margin-left: -50vw;
+      margin-top: 0.5em;
   }
   #our-investors,#our-partners{
     margin-left: 40vw;
