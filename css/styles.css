@@ -1124,7 +1124,7 @@ h5{
     .dark-blue-text,.fa-bars {
         color: #c83e2c;
         margin-left: -25vw;
-        margin-bottom: 0.1em;
+        margin-bottom: -5em;
     }
 
     .menu-item{
@@ -1424,8 +1424,8 @@ and (max-width : 736px) {
   }
   .dark-blue-text,.fa-bars {
       color: #c83e2c;
-      margin-left: -50vw;
-      margin-top: 0.5em;
+      margin-left: -30vw;
+      margin-top: 2.5em;
   }
   #our-investors,#our-partners{
     margin-left: 40vw;
