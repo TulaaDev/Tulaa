@@ -493,7 +493,7 @@ h2 span {
 
 }
 #demo08{
-  margin-top: -20vh;
+  margin-top: 13em;
 }
 #logos-section .column div {
 	position: relative;
@@ -568,7 +568,7 @@ h2 span {
   margin-top: 8vh;
 }
 figure:hover+span {
-	bottom: -156px;
+	bottom: -126px;
 	opacity: 1;
   width:100%;
   margin-left: -10%;
@@ -943,6 +943,8 @@ h5{
 
 }
 /* Adding color to the Navbar on mobile */
+
+
 @media only screen and (max-width: 768px) {
   .navbar {
     background-color: black;
@@ -990,16 +992,16 @@ h5{
 
 }
 footer{
-  height:50vh;
-  margin-bottom: -20%;
+  height:20vh;
+  background-color:
+
 
 }
+
 .footer-text{
   margin-left: 2%;
 }
-footer{
-  margin-bottom: -100vh;
-}
+
 .social-buttons{
 
   width:22em;
@@ -1012,6 +1014,10 @@ footer{
 
 
 @media screen and (max-width: 1199px) {
+  .icons{
+    margin-right: -10em;
+  }
+
   #logo{
     width:60%;
   }
@@ -1125,19 +1131,28 @@ footer{
   #press{
     margin-top: 17em;
   }
-  .social-buttons{
-    width:18.5em;
 
+  .icons{
+    margin-right: -5em;
   }
-  .list-unstyled{
-    margin-left: -5em;
-    margin-top: 1em;
 
-  }
 
 
 }
 @media only screen and (max-width:993px){
+  #icons{
+    margin-left: -4em;
+
+  }
+  #copyright{
+    font-size: 70%;
+    margin-top: 4em;
+    margin-left: -10%;
+  }
+  footer li{
+    font-size: 90%;
+    margin-left: -7em;
+  }
   #press{
     margin-top: 17em;
   }
@@ -1175,48 +1190,66 @@ footer{
   }
 }
 @media screen and (max-width:943px) and (max-width:911px){
-  .social-buttons{
-    width:17em;
-    margin-right: 33em;
 
-  }
   #press{
     margin-top: 19em;
   }
 }
 @media screen and (max-width:848px) and (max-width:800px){
-  .social-buttons{
-    width:16em;
-    margin-right: 33em;
+  #icons{
+    margin-left: -9em;
 
+  }
+  #copyright{
+    font-size: 70%;
+    margin-top: 4em;
+    margin-left: -10%;
+  }
+  footer li{
+    font-size: 80%;
   }
   #press{
     margin-top: 23em;
   }
-  .list-unstyled{
-    margin-left: -8em;
-    margin-top: 1em;
 
+}
+
+@media screen and (max-width:780px) {
+  #icons{
+    margin-left: -9em;
+
+  }
+  #copyright{
+    font-size: 70%;
+    margin-top: 4em;
+  }
+  #logo{
+    width:40%;
+  }
+  footer li{
+    font-size: 80%;
+    margin-left: 3%;
   }
 }
 @media screen and (max-width:768px) {
-  .social-buttons{
-    width:90%;
+  #icons{
+    margin-left: 1.29em;
 
+  }
+  #copyright{
+    font-size: 100%;
+    margin-top: -1em;
+    margin-left: 8%;
+  }
+  footer li{
+    font-size: 80%;
+    margin-left: 16%;
   }
   #press{
     margin-top: 25em;
   }
-  #address{
-    width:100%;
-    margin-top: 10vh;
-    margin-bottom: -10vh;
-  }
-  .list-unstyled{
-    margin-left: 8em;
-    margin-top: 1em;
 
-  }
+
   #our-investors{
     margin-top: 20vh;
   }
@@ -1250,35 +1283,13 @@ footer{
 }
 
 @media screen and (max-width:722px){
-  .social-buttons{
-    width:65%;
 
-  }
-  #address{
-    width:75%;
-    margin-top: 10vh;
-    margin-bottom: -10vh;
-  }
-  #all-rights{
-    width:75%;
-  }
   #press{
     margin-top: 27em;
   }
 }
 @media screen and (max-width:575px){
-  .social-buttons{
-    width:65%;
 
-  }
-  #address{
-    width:70%;
-    margin-top: 10vh;
-    margin-bottom: -10vh;
-  }
-  #all-rights{
-    width:80%;
-  }
   #demo08 .column div {
     position: relative;
     float: left;
@@ -1398,47 +1409,50 @@ footer{
 #all-investor-logos{
   margin-right: 6em;
 }
-.social-buttons{
-  width:56%;
 
-}
-#address{
-  width:55%;
-  margin-top: 10vh;
-  margin-bottom: -10vh;
-}
-#all-rights{
-  width:64%;
-}
-.list-unstyled{
-  margin-left: 3em;
-  margin-top: 1em;
-
-}
 
 
 }
 @media screen and (max-width:400px){
+
+  #icons{
+    margin-left: -1.29em;
+
+  }
+  #copyright{
+    font-size: 100%;
+    margin-top: -1em;
+    margin-left: -8%;
+  }
+  footer li{
+    font-size: 80%;
+    margin-left: -2%;
+  }
   #testimonial{
     padding-bottom:25em;
   }
   #press{
-    margin-top: 54em;
+    margin-top: 57em;
   }
   #demo08 .column div {
     position: relative;
     float: left;
-    width: 74%;
-    height: 45%;
+    width: 84%;
+    height: 55%;
     margin: 0 0 0 25px;
     padding: 0;
-    margin-left: 10%;
+    margin-left: 7%;
 
   }
   #who{
     margin-top: 6em;
   }
   #solution{
-    margin-top: 5em;
+    margin-top: 3em;
+  }
+  #jumbotron-text{
+
+    font-size:130%;
+    margin-top: 10em;
   }
 }
