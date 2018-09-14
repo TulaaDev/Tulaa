@@ -1405,6 +1405,23 @@ footer{
     width:60%;
 
   }
+  #partner-cards .card-text{
+    width:110%;
+    font-size: 95%;
+  }
+  #partner-cards .card-title{
+
+    font-size: 150%;
+  }
+  #solution{
+    margin-top: 7%;
+  }
+  #who{
+    margin-top: 10%;
+  }
+  #demo08{
+    margin-top: -16%;
+  }
 
 }
 @media screen and (max-width:724px){
@@ -1726,6 +1743,9 @@ text-align: left;
 }
 .icons{
   margin-left: 14%;
+}
+#demo08{
+  margin-top: 10em;
 }
 
 
