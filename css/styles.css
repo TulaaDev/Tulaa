@@ -829,7 +829,7 @@ h5{
   width:120%;
 }
 #card1{
-  margin-bottom: -30em;
+  margin-bottom: -60em;
 }
 
 #icon-container{
@@ -906,7 +906,7 @@ h5{
   font-size: 190%;
 }
 #partner-heading{
-  margin-top: 3em;
+  margin-top: 6em;
 }
 /* Adding color to the Navbar on mobile */
 
@@ -970,7 +970,7 @@ footer{
     color:black;
   }
   #partner-cards{
-    margin-bottom: 6em;
+    margin-bottom: -3em;
   }
 
   }
@@ -1012,7 +1012,7 @@ footer{
     width:130%;
   }
   #partner-cards{
-    margin-bottom: 10em;
+    margin-bottom: 3em;
   }
 }
 @media screen and (max-width: 1158px) {
@@ -1020,7 +1020,7 @@ footer{
     margin-top: 23em;
   }
   #partner-cards{
-    margin-bottom: 10em;
+    margin-bottom: 5em;
   }
 }
 
@@ -1034,7 +1034,7 @@ footer{
 
   }
   #partner-cards{
-    margin-bottom: 10em;
+    margin-bottom: 3em;
   }
 }
 
@@ -1137,9 +1137,9 @@ footer{
   #all-investor-logos{
     margin-left: -7vw;
   }
-  #partner-cards{
+  /* #partner-cards{
     margin-bottom:20vh;
-  }
+  } */
   #partner-cards .card-text{
     width:110%;
     margin-left: -10%;
@@ -1189,12 +1189,12 @@ footer{
 
   }
 }
-@media screen and (max-width:880px){
+@media screen and (max-width:879px){
   #partner-cards .card-title{
     font-size: 160%;
   }
   #partner-cards .card-text{
-    font-size: 100%;
+    font-size: 120%;
   }
   .nav-tabs{
   width:100%;
@@ -1206,6 +1206,9 @@ footer{
   .nav-item{
     width:60%;
 
+  }
+  #partner-cards{
+    margin-bottom: -20em;
   }
 }
 @media screen and (max-width:848px) and (max-width:800px){
@@ -1227,11 +1230,14 @@ footer{
     width:60%;
 
   }
+  #partner-cards{
+    margin-bottom: -10em;
+  }
 
 }
 @media screen and (max-width:798px) {
   #partner-cards{
-    margin-bottom:20vh;
+    margin-bottom:-20em;
   }
   #partner-cards .card-text{
     width:120%;
@@ -1337,17 +1343,53 @@ footer{
 
   }
 }
+@media screen and (max-width:767px){
+  #copyright{
+    margin-left: -23em;
+  }
+  #footer-text{
+    margin-left: 2em;
+  }
+  .hover08 figure {
+    width: 82%;
+    height: 72%;
+    margin: 0;
+    padding: 10%;
+    background: #fff;
+    overflow: hidden;
+    margin-top: 30px;
+    border-radius: 70%;
+    margin-bottom:2em;
+    margin-top: 8em;
+  }
 
+  figure:hover+span {
+    bottom: -12em;
+    opacity: 1;
+    width:160%;
+    margin-left: -7vw;
+    font-size: 90%;
+  }
+
+  #awards img{
+    width:40%;
+    margin-left: 27%;
+  }
+  #our-investors{
+    margin-top: 15%;
+  }
+
+}
 @media screen and (max-width:743px){
   #demo08{
-    margin-top: 5em;
+    margin-top: 1em;
   }
   figure:hover+span {
-    bottom: -16em;
+    bottom: -9em;
     opacity: 1;
     width:160%;
     margin-left: -10vw;
-    font-size: 80%;
+    font-size: 110%;
   }
   #demo08 h4{
     font-size: 110%;
@@ -1363,8 +1405,9 @@ footer{
     width:60%;
 
   }
+
 }
-@media screen and (max-width:722px){
+@media screen and (max-width:724px){
 
   #press{
     margin-top: 27em;
@@ -1394,6 +1437,24 @@ footer{
 
   }
 }
+
+@media screen and (max-width:703px){
+  #who{
+    margin-top: 3em;
+
+  }
+  #demo08{
+    margin-top: -10em;
+  }
+  #partner-cards{
+    margin-bottom: 4em;
+  }
+  #partner-cards .card-text{
+    width:120%;
+    margin-left: -11%;
+    font-size: 105%;
+  }
+}
 @media screen and (max-width:672px){
 #partner-cards{
   margin-bottom:20vh;
@@ -1401,24 +1462,24 @@ footer{
 #partner-cards .card-text{
   width:120%;
   margin-left: -11%;
-  font-size: 95%;
+  font-size: 105%;
 }
 #partner-cards .card-title{
   font-size: 130%;
 }
 #demo08 .column div {
-margin-top: -17em;
-margin-bottom: 2em;
+margin-top: 1em;
+margin-bottom: 20em;
 }
 #demo08 h4{
   font-size: 100%;
 }
 figure:hover+span {
-  bottom: -14em;
+  bottom: -9em;
   opacity: 1;
   width:160%;
   margin-left: -10vw;
-  font-size: 100%;
+  font-size: 130%;
 }
 #joinus{
   margin-top: 5em;
@@ -1643,10 +1704,7 @@ footer ul{
   margin-top: 3em;
   width:125%;
 }
-#copyright{
-  margin-top: -3em;
 
-}
 .nav-tabs{
 width:100%;
 margin-left: -10vw;
@@ -1657,6 +1715,17 @@ text-align: left;
 .nav-item{
   width:60%;
 
+}
+#copyright{
+  margin-left: -17em;
+
+}
+#footer-text{
+  margin-left: 14%;
+
+}
+.icons{
+  margin-left: 14%;
 }
 
 
@@ -1679,6 +1748,20 @@ text-align: left;
   .nav-item{
     width:60%;
 
+  }
+}
+@media only screen and (max-width:515px){
+
+  #copyright{
+    margin-left: -40vw;
+    margin-top: 10%;
+  }
+  #footer-text{
+    margin-left: 14%;
+
+  }
+  .icons{
+    margin-left: 14%;
   }
 }
 @media screen and (max-width:492px){
@@ -1898,9 +1981,7 @@ text-align: left;
     margin-left: -32vw;
     font-size: 120%;
   }
-  #icons{
-    margin-left: 2em;
-  }
+
   .nav-tabs{
   width:100%;
   margin-left: -10vw;
@@ -1912,6 +1993,17 @@ text-align: left;
     width:60%;
 
   }
+  .icons{
+    margin-left: 10%;
+  }
+  #footer-text{
+    margin-left: 6%;
+
+  }
+  #copyright{
+    margin-top: -3em;
+  }
+
 
 
 }
