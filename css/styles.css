@@ -998,6 +998,9 @@ footer{
   .layer{
     height:25em;
   }
+  #solution{
+    margin-top: -3em;
+  }
 }
 
 @media screen and (max-width: 1142px)  {
@@ -1075,18 +1078,29 @@ footer{
     padding: 0;
     /* margin-left: 20%; */
 
-  }
+  }  .nav-tabs{
+    width:100%;
+    margin-left: -10vw;
+    font-size: 1%;
+    text-align: left;
+
+    }
+
+
 }
+
 @media screen and (max-width:1008px){
   #press{
     margin-top: 17em;
   }
+
 
 }
 @media screen and (max-width:997px){
   #press{
     margin-top: 17em;
   }
+
 
 
 
@@ -1130,6 +1144,7 @@ footer{
     width:110%;
     margin-left: -10%;
   }
+
 }
 
 @media screen and (max-width:986px){
@@ -1145,11 +1160,33 @@ footer{
   #demo08{
     margin-top: -7em;
   }
+  .nav-tabs{
+  width:100%;
+  margin-left: -10vw;
+  font-size: 1%;
+  text-align: left;
+
+  }
+  .nav-item{
+    width:60%;
+
+  }
 }
 @media screen and (max-width:943px) and (max-width:911px){
 
   #press{
     margin-top: 19em;
+  }
+  .nav-tabs{
+  width:100%;
+  margin-left: -10vw;
+  font-size: 1%;
+  text-align: left;
+
+  }
+  .nav-item{
+    width:60%;
+
   }
 }
 @media screen and (max-width:880px){
@@ -1159,19 +1196,35 @@ footer{
   #partner-cards .card-text{
     font-size: 100%;
   }
-}
-@media screen and (max-width:848px) and (max-width:800px){
-  .social-buttons{
-    width:16em;
-    margin-right: 33em;
+  .nav-tabs{
+  width:100%;
+  margin-left: -10vw;
+  font-size: 1%;
+  text-align: left;
 
   }
+  .nav-item{
+    width:60%;
+
+  }
+}
+@media screen and (max-width:848px) and (max-width:800px){
+
   #press{
     margin-top: 23em;
   }
-  .list-unstyled{
-    margin-left: -8em;
-    margin-top: 1em;
+  #solution{
+    margin-top: -3em;
+  }
+  .nav-tabs{
+  width:100%;
+  margin-left: -10vw;
+  font-size: 1%;
+  text-align: left;
+
+  }
+  .nav-item{
+    width:60%;
 
   }
 
@@ -1184,6 +1237,18 @@ footer{
     width:120%;
     margin-left: -10%;
   }
+  .nav-tabs{
+  width:100%;
+  margin-left: -10vw;
+  font-size: 1%;
+  text-align: left;
+
+  }
+  .nav-item{
+    width:60%;
+
+  }
+
 }
 #partner-cards{
   margin-bottom:20vh;
@@ -1191,6 +1256,7 @@ footer{
 #partner-cards .card-text{
   width:110%;
   margin-left: -10%;
+}
 }
 @media screen and (max-width:768px) {
 
@@ -1259,6 +1325,17 @@ footer{
   footer ul{
     font-size: 60%;
   }
+  .nav-tabs{
+  width:100%;
+  margin-left: -10vw;
+  font-size: 1%;
+  text-align: left;
+
+  }
+  .nav-item{
+    width:60%;
+
+  }
 }
 
 @media screen and (max-width:743px){
@@ -1274,6 +1351,17 @@ footer{
   }
   #demo08 h4{
     font-size: 110%;
+  }
+  .nav-tabs{
+  width:100%;
+  margin-left: -10vw;
+  font-size: 1%;
+  text-align: left;
+
+  }
+  .nav-item{
+    width:60%;
+
   }
 }
 @media screen and (max-width:722px){
@@ -1293,6 +1381,17 @@ footer{
   }
   #partner-heading{
     margin-top: 4em;
+  }
+  .nav-tabs{
+  width:100%;
+  margin-left: -10vw;
+  font-size: 1%;
+  text-align: left;
+
+  }
+  .nav-item{
+    width:60%;
+
   }
 }
 @media screen and (max-width:672px){
@@ -1324,6 +1423,17 @@ figure:hover+span {
 #joinus{
   margin-top: 5em;
 }
+.nav-tabs{
+width:100%;
+margin-left: -10vw;
+font-size: 1%;
+text-align: left;
+
+}
+.nav-item{
+  width:60%;
+
+}
 
 }
 @media screen and (max-width:640px){
@@ -1332,6 +1442,17 @@ figure:hover+span {
   }
   #partner-cards .card-title{
     font-size: 120%;
+  }
+  .nav-tabs{
+  width:100%;
+  margin-left: -10vw;
+  font-size: 1%;
+  text-align: left;
+
+  }
+  .nav-item{
+    width:60%;
+
   }
 }
 @media screen and (max-width:610px){
@@ -1345,6 +1466,17 @@ figure:hover+span {
 }
 #partner-cards .card-title{
   font-size: 110%;
+}
+.nav-tabs{
+width:100%;
+margin-left: -10vw;
+font-size: 1%;
+text-align: left;
+
+}
+.nav-item{
+  width:60%;
+
 }
 }
 
@@ -1367,6 +1499,17 @@ figure:hover+span {
     width:160%;
     margin-left: -13vw;
     font-size: 80%;
+  }
+  .nav-tabs{
+  width:100%;
+  margin-left: -10vw;
+  font-size: 1%;
+  text-align: left;
+
+  }
+  .nav-item{
+    width:60%;
+
   }
 }
 @media screen and (max-width:575px){
@@ -1504,11 +1647,40 @@ footer ul{
   margin-top: -3em;
 
 }
+.nav-tabs{
+width:100%;
+margin-left: -10vw;
+font-size: 1%;
+text-align: left;
+
+}
+.nav-item{
+  width:60%;
+
+}
 
 
 
 }
 
+
+@media screen and (max-width:534px){
+  #solution{
+    margin-top: 3em;
+
+  }
+  .nav-tabs{
+  width:100%;
+  margin-left: -10vw;
+  font-size: 1%;
+  text-align: left;
+
+  }
+  .nav-item{
+    width:60%;
+
+  }
+}
 @media screen and (max-width:492px){
   .hover08 figure {
   	width: 83%;
@@ -1542,6 +1714,17 @@ footer ul{
   #partner-cards{
     margin-bottom:110em;
     margin-left: 20%;
+  }
+  .nav-tabs{
+  width:100%;
+  margin-left: -10vw;
+  font-size: 1%;
+  text-align: left;
+
+  }
+  .nav-item{
+    width:60%;
+
   }
   }
 @media screen and (max-width:475px){
@@ -1629,6 +1812,17 @@ footer ul{
   margin-top: 1em;
 
 }
+.nav-tabs{
+width:100%;
+margin-left: -10vw;
+font-size: 1%;
+text-align: left;
+
+}
+.nav-item{
+  width:60%;
+
+}
 
 
 }
@@ -1668,7 +1862,7 @@ footer ul{
   }
   #partner-cards{
     margin-bottom:113em;
-    margin-left:10%;
+    margin-left:15%;
   }
 
   #partner-cards .card-text{
@@ -1679,6 +1873,13 @@ footer ul{
   #partner-cards .card-title{
     font-size: 180%;
 
+  }
+  #partner-cards .card-img-fluid{
+    width:140%;
+
+  }
+  #partner-cards #card1{
+    width:60vw;
   }
   #partner-heading{
     margin-top: 3em;
@@ -1696,6 +1897,20 @@ footer ul{
     width:160%;
     margin-left: -32vw;
     font-size: 120%;
+  }
+  #icons{
+    margin-left: 2em;
+  }
+  .nav-tabs{
+  width:100%;
+  margin-left: -10vw;
+  font-size: 1%;
+  text-align: left;
+
+  }
+  .nav-item{
+    width:60%;
+
   }
 
 
