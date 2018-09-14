@@ -25,9 +25,7 @@ body{
 .last-card{
   width:30%;
 }
-#partner-heading{
-margin-top:10%;
-}
+
 
 .jumbotron{
   /* background-image: url("../img/jumbotron.jpg"); */
@@ -183,8 +181,6 @@ a:hover{
   background-color: transparent;
   border-color: transparent transparent!important;
   border-bottom: 3px solid #c83e2c!important ;
-
-
 
 }
 body {
@@ -666,35 +662,7 @@ h3{
   margin-top: 7%;
 }
 
-.hover11 figure {
-	width: 150%;
-	height: 120%;
-	margin: 0;
-	padding: 2%;
-	background: #fff;
-	overflow: hidden;
-  margin-top: 30px;
 
-  margin-bottom: 10px;
-}
-.hover11 div {
-	position: relative;
-	float: left;
-	width: 280px;
-	height: 200px;
-	margin: 0 0 0 25px;
-	padding: 0;
-}
-.hover11 figure img {
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.hover11 figure:hover img {
-	-webkit-filter: grayscale(0);
-	filter: grayscale(0);
-}
 
 .logo-title{
   margin-bottom: 5%;
@@ -745,11 +713,7 @@ h1{
   font-size: 190%;
 }
 
-#address{
 
-  margin-top: -2vh;
-
-}
 #investor{
   margin-top: 20%;
 
@@ -856,15 +820,11 @@ h5{
   color:#008f8a;
 }
 
-#partner-cards {
+/* #partner-cards{
+  margin-bottom:-3em;
   width:100%;
-}
-#partner-cards .card-text{
-  font-size: 130%;
-}
-#partner-cards .card-title{
-  font-size: 180%;
-}
+
+} */
 .partner-list{
   width:120%;
 }
@@ -938,22 +898,18 @@ h5{
     color: #c83e2c;
 
 }
+#partner-cards .card-text{
+  font-size: 130%;
+  width:90%;
+}
+#partner-cards .card-title{
+  font-size: 190%;
+}
+#partner-heading{
+  margin-top: 3em;
+}
 /* Adding color to the Navbar on mobile */
-@media only screen and (max-width: 768px) {
-  .navbar {
-    background-color: black;
-    width:100%;
 
-  }
-  #navbarSupportedContent{
-    font-size: 160%;
-
-  }
-  .navbar-toggler{
-    color:black;
-  }
-
-  }
 
 /* Footer color for sake of consistency with Navbar */
 .page-footer {
@@ -993,19 +949,31 @@ footer{
 .footer-text{
   margin-left: 2%;
 }
-footer{
+/* footer{
   margin-bottom: -20vh;
-}
-.social-buttons{
+} */
 
-  width:22em;
-
-
-}
 #socials{
   margin-right: 38em;
 }
+@media only screen and (max-width: 1208px) {
+  .navbar {
+    background-color: black;
+    width:100%;
 
+  }
+  #navbarSupportedContent{
+    font-size: 160%;
+
+  }
+  .navbar-toggler{
+    color:black;
+  }
+  #partner-cards{
+    margin-bottom: 6em;
+  }
+
+  }
 
 @media screen and (max-width: 1199px) {
   #logo{
@@ -1019,7 +987,7 @@ footer{
     margin-top: 13em;
   }
   #demo08{
-    margin-top: 10em;
+    margin-top: -2em;
   }
   #solution{
     margin-top: -10em;
@@ -1040,10 +1008,16 @@ footer{
   #address{
     width:130%;
   }
+  #partner-cards{
+    margin-bottom: 10em;
+  }
 }
 @media screen and (max-width: 1158px) {
   #press-section{
     margin-top: 23em;
+  }
+  #partner-cards{
+    margin-bottom: 10em;
   }
 }
 
@@ -1055,6 +1029,10 @@ footer{
     margin-top: 15em;
   }
 
+  }
+  #partner-cards{
+    margin-bottom: 10em;
+  }
 }
 
 
@@ -1137,8 +1115,8 @@ footer{
     margin: 0 0 0 25px;
     padding: 0;
 
-
   }
+
   #all-partner-logos{
     margin-left:-15vw;
   }
@@ -1169,13 +1147,17 @@ footer{
   }
 }
 @media screen and (max-width:943px) and (max-width:911px){
-  .social-buttons{
-    width:17em;
-    margin-right: 33em;
 
-  }
   #press{
     margin-top: 19em;
+  }
+}
+@media screen and (max-width:880px){
+  #partner-cards .card-title{
+    font-size: 160%;
+  }
+  #partner-cards .card-text{
+    font-size: 100%;
   }
 }
 @media screen and (max-width:848px) and (max-width:800px){
@@ -1192,6 +1174,7 @@ footer{
     margin-top: 1em;
 
   }
+
 }
 @media screen and (max-width:798px) {
   #partner-cards{
@@ -1278,19 +1261,23 @@ footer{
   }
 }
 
+@media screen and (max-width:743px){
+  #demo08{
+    margin-top: 5em;
+  }
+  figure:hover+span {
+    bottom: -16em;
+    opacity: 1;
+    width:160%;
+    margin-left: -10vw;
+    font-size: 80%;
+  }
+  #demo08 h4{
+    font-size: 110%;
+  }
+}
 @media screen and (max-width:722px){
-  .social-buttons{
-    width:65%;
 
-  }
-  #address{
-    width:75%;
-    margin-top: 10vh;
-    margin-bottom: -10vh;
-  }
-  #all-rights{
-    width:75%;
-  }
   #press{
     margin-top: 27em;
   }
@@ -1321,7 +1308,7 @@ footer{
   font-size: 130%;
 }
 #demo08 .column div {
-margin-top: -16em;
+margin-top: -17em;
 margin-bottom: 2em;
 }
 #demo08 h4{
@@ -1339,7 +1326,14 @@ figure:hover+span {
 }
 
 }
-
+@media screen and (max-width:640px){
+  #partner-cards .card-text{
+    font-size: 90%;
+  }
+  #partner-cards .card-title{
+    font-size: 120%;
+  }
+}
 @media screen and (max-width:610px){
 #partner-cards{
   margin-bottom:18vh;
@@ -1354,15 +1348,56 @@ figure:hover+span {
 }
 }
 
-
-@media screen and (max-width:575px){
-
-
+@media screen and (max-width:581px){
+  .hover08 figure {
+  	width: 68%;
+  	height: 72%;
+  	margin: 0;
+  	padding: 10%;
+  	background: #fff;
+  	overflow: hidden;
+    margin-top: 30px;
+    border-radius: 70%;
+    margin-bottom:2em;
+    margin-top: 12em;
+  }
   figure:hover+span {
-    bottom: -11em;
+    bottom: -16em;
     opacity: 1;
     width:160%;
-    margin-left: -22vw;
+    margin-left: -13vw;
+    font-size: 80%;
+  }
+}
+@media screen and (max-width:575px){
+
+  #demo08 .column div {
+    position: relative;
+    float: left;
+    width: 77%;
+    height: 60%;
+    margin: 0 0 0 25px;
+    padding: 0;
+    margin-left: 18%;
+
+  }
+  .hover08 figure {
+  	width: 103%;
+  	height: 198%;
+  	margin: 0;
+  	padding: 10%;
+  	background: #fff;
+  	overflow: hidden;
+    margin-top: 30px;
+    border-radius: 70%;
+    margin-bottom:2em;
+    margin-top: 2em;
+  }
+  figure:hover+span {
+    bottom: -12em;
+    opacity: 1;
+    width:160%;
+    margin-left: -18vw;
     font-size: 180%;
   }
   .hover08 figure {
@@ -1417,13 +1452,13 @@ figure:hover+span {
   margin-top: 10%;
 }
 #partner-cards{
-  margin-bottom:116em;
-  margin-left: 12%;
-  margin-top: 2em;
+  margin-bottom:110em;
+  margin-left: 18%;
+  margin-top: 3em;
 }
 #partner-cards .card-text{
-  width:110%;
-  margin-left: -4%;
+  width:117%;
+  margin-left: -10%;
   font-size: 125%;
 }
 #partner-cards .card-title{
@@ -1435,11 +1470,12 @@ figure:hover+span {
 
 }
 #partner-cards .card-img-fluid{
-  width:100vw;
+  width:230vw;
 }
 #partner-cards #card1{
-  width:68%;
+  width:60%;
 }
+
 #demo08 .column div {
   position: relative;
   float: left;
@@ -1454,19 +1490,19 @@ figure:hover+span {
 }
 #partner-heading{
   margin-top: 2em;
-  margin-bottom: 2em;
 }
-#jumbotron-text{
+#icons{
+  margin-left: -3em;
+  margin-top: -3em;
+}
+footer ul{
+  margin-bottom:-30em;
   margin-top: 3em;
+  width:125%;
 }
-#joinus{
-  margin-top: -50em;
-}
-#demo08{
-  margin-top: 2em;
-}
-#our-investors{
-  margin-top: 10%;
+#copyright{
+  margin-top: -3em;
+
 }
 
 
@@ -1599,9 +1635,10 @@ figure:hover+span {
 @media screen and (max-width:400px){
   #testimonial{
     padding-bottom:25em;
+    margin-left: 18%;
   }
   #press{
-    margin-top: 54em;
+    margin-top: 56em;
   }
   #demo08 .column div {
     position: relative;
@@ -1621,8 +1658,7 @@ figure:hover+span {
     font-size: 120%;
   }
   #demo08{
-    margin-left: 2.5%;
-    margin-top: 10%;
+    margin-left: 3.5%;
   }
   #who{
     margin-top: 6em;
@@ -1648,13 +1684,19 @@ figure:hover+span {
     margin-top: 3em;
   }
   #jumbotron-text{
-    margin-top: 3em;
+    margin-top: 4em;
+    font-size: 200%;
   }
   #logo{
     width:60%;
   }
-  #icons{
-    margin-left: 1em;
+  figure:hover+span {
+    bottom: -6em;
+    opacity: 1;
+    width:160%;
+    margin-left: -32vw;
+    font-size: 120%;
   }
+
 
 }
