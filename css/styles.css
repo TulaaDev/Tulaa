@@ -409,12 +409,10 @@ button {
     height:192%;;
     margin-top: -17%;
     margin-left: -16%;
-    /* border-radius: 80%; */
+
 
   }
-  /* #card1{
-    width:20%;
-  } */
+
   #card1 img{
     width:100%;
   }
@@ -472,10 +470,7 @@ h2 span {
 	font-size: 85%;
   margin-top: 10vh;
 }
-/* .column {
-	margin: 5px 15px 0;
-	padding: 0;
-} */
+
 .column:last-child {
 	padding-bottom: 60px;
 }
@@ -749,11 +744,7 @@ h1{
 .speech{
   font-size: 190%;
 }
-/* #cards{
-  width:90%;
-  margin-bottom: 8%;
 
-} */
 #address{
 
   margin-top: -2vh;
@@ -865,18 +856,20 @@ h5{
   color:#008f8a;
 }
 
-#partner-cards{
-  margin-bottom:8%;
+#partner-cards {
   width:100%;
-
-} #partner-cards {
-  width:100%;
+}
+#partner-cards .card-text{
+  font-size: 130%;
+}
+#partner-cards .card-title{
+  font-size: 180%;
 }
 .partner-list{
   width:120%;
 }
 #card1{
-  margin-bottom: -10vh;
+  margin-bottom: -30em;
 }
 
 #icon-container{
@@ -1061,29 +1054,11 @@ footer{
   #press{
     margin-top: 15em;
   }
-  .social-buttons{
-    width:20em;
 
-  }
 }
 
 
- @media screen and (max-width:1043px){
- .social-buttons{
-   width:19.5em;
-   margin-top: -10vh;
- }
- #address{
-   width:130%;
- }
- #our-investors{
-   margin-top: 0.5em;
-   margin-bottom: 1em;
- }
- #testimonial{
-   margin-top: 5em;
- }
- }
+
 @media screen and (max-width: 1063px)  {
   #demo08 .column div {
   	position: relative;
@@ -1097,12 +1072,22 @@ footer{
   }
 }
 
-@media screen and (max-width:1018px){
-  .social-buttons{
-    width:19.3em;
-   margin-right: 10vw;
+@media screen and (max-width:1043px){
 
-  }
+#our-investors{
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+#testimonial{
+  margin-top: 5em;
+}
+#solution{
+  margin-top: -3.5em;
+}
+}
+
+@media screen and (max-width:1018px){
+
   #demo08 .column div {
     position: relative;
     float: left;
@@ -1118,25 +1103,13 @@ footer{
   #press{
     margin-top: 17em;
   }
-  .social-buttons{
-    width:19.07em;
-    margin-right: 10vw;
 
-  }
 }
 @media screen and (max-width:997px){
   #press{
     margin-top: 17em;
   }
-  .social-buttons{
-    width:18.5em;
 
-  }
-  .list-unstyled{
-    margin-left: -5em;
-    margin-top: 1em;
-
-  }
 
 
 }
@@ -1144,11 +1117,7 @@ footer{
   #press{
     margin-top: 17em;
   }
-  .social-buttons{
-    width:19em;
-    margin-right: 10vw;
 
-  }
   #press-logo .hover10 figure {
   	width: 50%;
   	height: 180px;
@@ -1182,6 +1151,21 @@ footer{
   #partner-cards .card-text{
     width:110%;
     margin-left: -10%;
+  }
+}
+
+@media screen and (max-width:986px){
+  #icons{
+    margin-left: -2em;
+    width:19em;
+  }
+  footer ul{
+    margin-left: -30em;
+    font-size: 10%;
+    width:120%;
+  }
+  #demo08{
+    margin-top: -7em;
   }
 }
 @media screen and (max-width:943px) and (max-width:911px){
@@ -1226,10 +1210,7 @@ footer{
   margin-left: -10%;
 }
 @media screen and (max-width:768px) {
-  .social-buttons{
-    width:90%;
 
-  }
   #press{
     margin-top: 25em;
   }
@@ -1238,11 +1219,7 @@ footer{
     margin-top: 10vh;
     margin-bottom: -10vh;
   }
-  .list-unstyled{
-    margin-left: 8em;
-    margin-top: 1em;
 
-  }
   #our-investors{
     margin-top: 20vh;
   }
@@ -1253,8 +1230,8 @@ footer{
   #demo08 .column div {
     position: relative;
     float: left;
-    width: 125%;
-    height: 160px;
+    width: 119%;
+    height: 180px;
     margin: 0 0 0 25px;
     padding: 0;
     margin-left: -5%;
@@ -1265,7 +1242,7 @@ footer{
   	bottom: -15em;
   	opacity: 1;
     width:160%;
-    margin-left: -10vw;
+    margin-left: -13vw;
     font-size: 90%;
   }
   #solution{
@@ -1278,8 +1255,26 @@ footer{
     margin-bottom:30vh;
   }
   #partner-cards .card-text{
-    width:116%;
+    width:120%;
+    margin-left: -13%;
+    font-size: 110%;
+  }
+  #partner-cards .card-title{
+    font-size: 150%;
+  }
+  #our-investors{
+    margin-top: 0.2em;
+  }
+  #icons{
+    margin-left: -10vw;
+  }
+  #copyright{
+    font-size:90%;
+    margin-top: 10%;
     margin-left: -10%;
+  }
+  footer ul{
+    font-size: 60%;
   }
 }
 
@@ -1361,39 +1356,38 @@ figure:hover+span {
 
 
 @media screen and (max-width:575px){
-  .social-buttons{
-    width:65%;
 
-  }
-  #address{
-    width:70%;
-    margin-top: 10vh;
-    margin-bottom: -10vh;
-  }
-  #all-rights{
-    width:80%;
-  }
-  #demo08 .column div {
-    position: relative;
-    float: left;
-    width: 77%;
-    height: 60%;
-    margin: 0 0 0 25px;
-    padding: 0;
-    margin-left: 18%;
 
-  }
   figure:hover+span {
-    bottom: -6em;
+    bottom: -11em;
     opacity: 1;
     width:160%;
-    margin-left: -25vw;
+    margin-left: -22vw;
     font-size: 180%;
   }
+  .hover08 figure {
+  	width: 93%;
+  	height: 195%;
+  	margin: 0;
+  	padding: 10%;
+  	background: #fff;
+  	overflow: hidden;
+    margin-top: 30px;
+    border-radius: 70%;
+    margin-bottom:1em;
+    margin-top: 1em;
+  }
+
+  #press-logo{
+    margin-left: 8%;
 
 
+  }
   #press{
-    margin-top: 62em;
+    margin-top: 58em;
+    margin-bottom: 0.5em;
+    margin-left: 5%;
+
   }
   #testimonial .card{
     padding-bottom: 45em;
@@ -1423,27 +1417,28 @@ figure:hover+span {
   margin-top: 10%;
 }
 #partner-cards{
-  margin-bottom:100em;
-  margin-left: 20%;
+  margin-bottom:116em;
+  margin-left: 12%;
+  margin-top: 2em;
 }
 #partner-cards .card-text{
-  width:120%;
-  margin-left: -13%;
+  width:110%;
+  margin-left: -4%;
   font-size: 125%;
 }
 #partner-cards .card-title{
   font-size: 200%;
 }
 #card1{
-  margin-bottom: 33em;
-  width:100em;
+  margin-bottom: 35em;
+  width:65%;
 
 }
 #partner-cards .card-img-fluid{
-  width:220vw;
+  width:100vw;
 }
 #partner-cards #card1{
-  width:50%;
+  width:68%;
 }
 #demo08 .column div {
   position: relative;
@@ -1452,13 +1447,26 @@ figure:hover+span {
   height: 30%;
   margin: 0 0 0 25px;
   padding: 0;
-  margin-left: 12%;
+  margin-left: 14%;
   margin-bottom: -10em;
 
 
 }
 #partner-heading{
-  margin-top: -20em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+#jumbotron-text{
+  margin-top: 3em;
+}
+#joinus{
+  margin-top: -50em;
+}
+#demo08{
+  margin-top: 2em;
+}
+#our-investors{
+  margin-top: 10%;
 }
 
 
@@ -1599,14 +1607,22 @@ figure:hover+span {
     position: relative;
     float: left;
     width: 94%;
-    height: 70%;
+    height: 63%;
     margin: 0 0 0 25px;
     padding: 0;
     margin-left: 10%;
 
   }
+  figure:hover+span {
+    bottom: -6em;
+    opacity: 1;
+    width:160%;
+    margin-left: -30vw;
+    font-size: 120%;
+  }
   #demo08{
     margin-left: 2.5%;
+    margin-top: 10%;
   }
   #who{
     margin-top: 6em;
@@ -1615,7 +1631,8 @@ figure:hover+span {
     margin-top: 5em;
   }
   #partner-cards{
-    margin-bottom:113em
+    margin-bottom:113em;
+    margin-left:10%;
   }
 
   #partner-cards .card-text{
@@ -1635,6 +1652,9 @@ figure:hover+span {
   }
   #logo{
     width:60%;
+  }
+  #icons{
+    margin-left: 1em;
   }
 
 }
