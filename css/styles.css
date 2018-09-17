@@ -2160,6 +2160,15 @@ text-align: left;
   #icons{
     margin-left: -20%;
   }
+  #press{
+    margin-left: 10%;
+  }
+  #press-logo{
+    margin-left: 1.5%;
+  }
+  #all-partner-logos{
+    margin-left: 4em;
+  }
 }
 @media screen and (max-width:320px){
   #testimonial .card{
