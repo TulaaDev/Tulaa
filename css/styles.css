@@ -2154,7 +2154,12 @@ text-align: left;
   #jumbotron-text{
     margin-top: 110%;
   }
-
+  #footer-text{
+    margin-left: 1%;
+  }
+  #icons{
+    margin-left: -20%;
+  }
 }
 @media screen and (max-width:320px){
   #testimonial .card{
