@@ -1273,6 +1273,18 @@ and (max-width : 1024px)  {
   .card ul{
     margin-left: -3.4em;
   }
+  #main-title{
+    font-size: 90%;
+  }
+  #benefits-container h3{
+    margin-left: -2%;
+  }
+  #benefits-container #benefits-text{
+    margin-left: 5%;
+  }
+  .mt-3 .details2{
+    margin-left: -37%;
+  }
 }
 /* galaxy s5 */
 @media only screen and (max-width: 370px){
