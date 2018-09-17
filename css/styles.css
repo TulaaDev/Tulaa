@@ -1424,6 +1424,46 @@ footer{
   }
 
 }
+@media screen and (max-width:736px){
+  #solution{
+    margin-top: -3em;
+  }
+  #partner-cards .card-title{
+    font-size: 120%;
+  }
+  #partner-cards .card-text{
+    font-size: 90%;
+  }
+  #testimonial .card-text{
+    width:110%;
+  }
+  #testimonial {
+    margin-bottom: -11em;
+  }
+  #jumbotron-text{
+    margin-top: 1.9em;
+  }
+  #partner-heading{
+    margin-top: 2.5em;
+  }
+  #awards img{
+    margin-left: 30%;
+  }
+  #footer-text{
+    margin-top: 13%;
+    margin-bottom: -30em;
+  }
+  #copyright{
+    margin-top: -10%;
+  }
+  #icons{
+    margin-top: -10%;
+  }
+  footer .container{
+    margin-left: 5%;
+  }
+
+}
 @media screen and (max-width:724px){
 
   #press{
@@ -1512,6 +1552,40 @@ text-align: left;
   width:60%;
 
 }
+
+}
+
+@media screen and (max-width:667px){
+  #partner-cards{
+    margin-bottom: 18em;
+  }
+  #partner-cards .card-text{
+    width:120%;
+  }
+  #demo08{
+    margin-top: -4.8em;
+  }
+  #testimonial .card-text{
+    width:110%;
+    font-size: 100%;
+    text-align: center;
+  }
+  #testimonial {
+    margin-bottom: -16em;
+  }
+  #jumbotron-text{
+    font-size: 140%;
+    margin-top: 30%;
+  }
+  .layer{
+    height:90%;
+  }
+  #solution{
+    margin-top: -5em;
+  }
+  .nav-item{
+    height:6em;
+  }
 
 }
 @media screen and (max-width:640px){
@@ -1926,9 +2000,52 @@ text-align: left;
   width:60%;
 
 }
+}
+
+@media screen and (max-width:414px){
+  #who{
+    margin-top: 6em;
+  }
+  /* #partner-cards{
+    width:100%;
+    margin-left: 2%;
+  } */
+  #partner-cards .card-text{
+    font-size: 120%;
+
+  }
+  #partner-cards .card-title{
+    font-size: 180%;
+  }
+
+  #partner-cards .card-img-fluid{
+    width:300%;
+  }
+  #testimonial .card-text{
+    margin-left: -0.9em;
+  }
+  #emmanuel{
+    margin-left: -0.7em;
+    width: 90%;
+  }
+  #testimonial .card{
+    margin-bottom: -7em;
+  }
+  #jumbotron-text{
+    margin-top: 10em;
+    font-size: 210%;
+    width:100%;
+  }
+  #press-logo{
+    margin-top: -20em;
+  }
+  #testimonial{
+    margin-bottom: -36em;
+  }
 
 
 }
+
 @media screen and (max-width:400px){
   #testimonial{
     padding-bottom:25em;
