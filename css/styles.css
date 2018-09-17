@@ -2174,7 +2174,10 @@ text-align: left;
     width:50%;
   }
   .nav-item{
-  margin-top: 10%;
+  margin-top: 20%;
+  }
+  .nav-tabs{
+    margin-top: -10%;
   }
   #jumbotron-text{
     margin-top: 130%;
