@@ -1241,11 +1241,6 @@ footer{
   #press{
     margin-top: 25em;
   }
-  #address{
-    width:100%;
-    margin-top: 10vh;
-    margin-bottom: -10vh;
-  }
 
   #our-investors{
     margin-top: 20vh;
@@ -1560,9 +1555,7 @@ text-align: left;
   #solution{
     margin-top: -5em;
   }
-  .nav-item{
-    height:6em;
-  }
+  
   #logo{
     width:40%;
   }
@@ -1976,23 +1969,7 @@ text-align: left;
 #all-investor-logos{
   margin-right: 6em;
 }
-.social-buttons{
-  width:56%;
 
-}
-#address{
-  width:55%;
-  margin-top: 10vh;
-  margin-bottom: -10vh;
-}
-#all-rights{
-  width:64%;
-}
-.list-unstyled{
-  margin-left: 3em;
-  margin-top: 1em;
-
-}
 .nav-tabs{
 width:100%;
 margin-left: -10vw;
@@ -2173,12 +2150,12 @@ text-align: left;
   #logo{
     width:50%;
   }
-  .nav-item{
+  /* .nav-item{
   margin-top: 20%;
   }
   .nav-tabs{
     margin-top: -10%;
-  }
+  } */
   #jumbotron-text{
     margin-top: 130%;
   }
