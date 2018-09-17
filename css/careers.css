@@ -9,6 +9,9 @@
   background-size:1500px 800px;
 
 }
+#main-title{
+  font-size: 120%;
+}
 #navbarSupportedContent{
   margin-left: 13vw;
 }
@@ -59,16 +62,9 @@ h3{
     display: block;
     margin-left: auto;
     margin-right: auto;
-
-
     margin-bottom: -6%;
 
   }
-
-  #topheader .navbar-nav li > a {
-  	color: lightgrey;
-  }
-
 
 .top-nav-collapse {
   background-color: white;
@@ -237,7 +233,7 @@ p{
   margin-top:-3%;
 }
 h3{
-  /* margin-left: 9%; */
+
   font-family: 'VegurRegular';
   font-weight: normal;
   font-style: normal;
@@ -278,9 +274,7 @@ h2 span {
 	font-size: 85%;
   margin-top: 10vh;
 }
-/* #demo08{
-  margin-bottom: 10vh;
-} */
+
 .hover08{
   margin-bottom: 20vh;
 }
@@ -449,9 +443,7 @@ margin-top: 10vh;
 
 
 }
-/* figure{
-  margin-left: 5vw;
-} */
+
 .hover01 figure:hover+span {
 	bottom: -55%;
 	opacity: 1;
@@ -485,6 +477,10 @@ h5{
 }
 a{
   color:black;
+}
+.mt-3 ul{
+  margin-left:16%;
+  text-align: left;
 }
 
 @media only screen and (min-width : 375px) and (max-width : 667px) {
@@ -587,10 +583,7 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
 
 /* iphone 6/7/8 and plus  */
 @media only screen and (min-width : 375px) and (max-width : 667px) {
-    /* #careers-team{
-      margin-left: 17%;
-      width:50%;
-    } */
+
     figure{
       margin-top: 20vh;
     }
@@ -612,7 +605,6 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
     }
     .single-image{
       margin-top: 10vh;
-
       margin-right: -10%;
 
     }
@@ -634,13 +626,7 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
     .fa-bars{
       margin-right: 10vw;
     }
-    #navbarSupportedContent{
-      margin-left: -140vw;
-      color:red;
-    }
-    .navbar-nav{
-      margin-left: -26vw;
-    }
+
     .nav a{
       color:red;
     }
@@ -707,6 +693,16 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
     .collapse h5{
       text-align: left;
     }
+    .navbar-collapse{
+      background-color: white;
+    }
+    .card ul{
+      margin-left: -30%;
+    }
+    .mt-3 .details2{
+      margin-left: -40%;
+      width:130%;
+    }
 }
 /* iphone X media query */
 @media only screen and (min-width: 320px) and (max-width: 568px)
@@ -734,7 +730,7 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
     overflow: hidden;
     margin-top: 30px;
     border-radius: 80%;
-    /* margin-bottom:10px; */
+
     margin-top: 8em;
     margin-left: 14vw;
   }
@@ -743,7 +739,7 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
     bottom: -119px;
     opacity: 1;
     width:150%;
-    /* margin-left: 10em; */
+
     font-size: 100%;
   }
   .dark-blue-text,.fa-bars {
@@ -828,12 +824,7 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
     margin-top: 10vh;
     margin-right: 3em;
   }
-  .list-unstyled{
-    margin-left: -20vw;
-    margin-right: -10vw;
-    margin-top: 1em;
 
-  }
   .title{
     margin-top: 80vh;
   }
@@ -848,114 +839,7 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
   }
 
 }
-/* galaxy s5 */
-@media only screen and (max-width: 370px){
 
-  .hover01 figure {
-    width: 90%;
-    height: 75%;
-    margin: 0;
-    padding: 10%;
-    background: #fff;
-    overflow: hidden;
-    margin-top: 30px;
-    border-radius: 80%;
-    margin-bottom:10px;
-    margin-top: 8em;
-    margin-left: 13vw;
-  }
-
-  .hover01 figure:hover+span {
-    bottom: -133px;
-    opacity: 1;
-    width:150%;
-    /* margin-left: 10em; */
-    font-size: 100%;
-  }
-  #careers-team{
-    margin-left: 8%;
-    margin-top: -14vh;
-  }
-  #benefits-container h3{
-    margin-left: 2vw;
-    font-size: 160%;
-  }
-  .card{
-    width:110%;
-    margin-bottom: 10vh;
-    margin-left: -5%;
-  }
-  .card h5{
-    font-size:120%;
-    margin-top: -4%;
-
-  }
-  .card-body{
-    width:100%;
-    height:300%;
-  }
-  .card .badge{
-    background-color:#c83e2c;
-    margin-left: 75%;
-    width:20vw;
-    margin-top: 6em;
-    margin-bottom: 1em;
-
-    font-family: 'VegurRegular';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 35%;
-  }
-  .card .card-text{
-    margin-left: 10vw;
-  }
-  .card ul{
-  margin-left:-12vw;
-  margin-bottom: 10vh;
-  }
-  .last-badge{
-    margin-top: 10vh;
-  }
-  .card h4{
-    margin-top: -10vh;
-  }
-  .job-content .date{
-    margin-top: 20vh;
-    font-size: 200%;
-    height:110%;
-    width:30%;
-    margin-left: 4vw;
-    margin-bottom: 10vh;
-  }
-  .job-content  h5{
-    margin-left: -8vw;
-    text-align: left;
-    font-size: 200%;
-  }
-  .job-content ul{
-    text-align: left;
-    width:100%;
-    margin-left: -18vw;
-  }
-  .job-content button{
-    margin-top: 20%;
-
-  }
-  footer ul{
-
-    margin-right: 3em;
-  }
-  #row-2,#row-3,#row-4{
-    margin-top: -6vh;
-  }
-  .dark-blue-text,.fa-bars {
-      color: #c83e2c;
-      margin-left: 18em;
-      margin-top: -0.5em;
-      margin-right: 2%;
-  }
-
-}
 
 /* ipad */
 @media only screen
@@ -1070,6 +954,13 @@ and (max-width : 1024px)  {
     margin-left: -8vw;
   }
 
+
+}
+
+@media only screen and (max-width:1024px){
+  #careers-team{
+    margin-left: -6%;
+  }
 }
 @media only screen and (max-width:812px){
   .card h5{
@@ -1092,6 +983,14 @@ and (max-width : 1024px)  {
   }
 }
 
+@media only screen and (max-width:768px){
+  #hamburger{
+    margin-bottom: -6em;
+  }
+  .layer{
+    margin-bottom: -10em;
+  }
+}
 @media only screen and (max-width:767px){
   .job-content .date{
     margin-top: 20vh;
@@ -1116,6 +1015,7 @@ and (max-width : 1024px)  {
   }
 
 }
+
 @media only screen and (max-width:678px){
   #footer-container{
     margin-left: -1em;
@@ -1136,8 +1036,6 @@ and (max-width : 1024px)  {
     background-color:#c83e2c;
     margin-left: 75%;
     width:3em;
-
-
     font-family: 'VegurRegular';
     font-weight: normal;
     font-style: normal;
@@ -1159,9 +1057,42 @@ and (max-width : 1024px)  {
   #careers-team{
     margin-left: -3em;
   }
+  .subheader{
+    margin-top:-3em;
+  }
+  .dark-blue-text,.fa-bars {
+      color: #c83e2c;
+      margin-left: -1em;
+      margin-bottom: -80em;
+  }
+  #hamburger{
 
+    margin-top: 1em;
+    margin-bottom: -5em;
+    margin-left: -10em;
+
+  }
 
 }
+
+@media only screen and (max-width:640px){
+  .card ul{
+    margin-left: -17%;
+  }
+  .mt-3 .details2{
+    margin-left: -20%;
+  }
+  .mt-3 .badge{
+    margin-bottom: -20em;
+  }
+  .mt-3 .col-9{
+    margin-top: -10%;
+  }
+  #icons{
+    margin-bottom: -1em;
+  }
+}
+
 @media only screen and (max-width:575px){
   #careers-team{
     margin-left: 3em;
@@ -1218,11 +1149,54 @@ and (max-width : 1024px)  {
   .icons{
     margin-left: 14%;
   }
+  #hamburger{
+    margin-bottom: -2em;
 
-
-
+  }
 
 }
+@media only screen and (max-width:568px){
+    #careers-team{
+      margin-left: 15%;
+    }
+    .hover01 figure:hover+span {
+      bottom: -180px;
+
+    }
+    #benefits-container #benefits-text{
+      margin-left: 2%;
+      font-size: 98%;
+    }
+    #benefits-container #benefits{
+      font-size: 98%;
+    }
+    #benefits-container h3{
+      margin-bottom: 5%;
+    }
+    .card .col-9{
+      margin-top: 5em;
+    }
+    .layer1{
+      margin-top: 1em;
+    }
+    .mt-3 .col-9{
+      margin-top: -3em;
+      margin-left: 8%;
+    }
+    .mt-3 ul{
+      margin-left: -26%;
+    }
+    footer{
+      margin-bottom: -100em;
+    }
+
+    #hamburger{
+      margin-top: 2em;
+
+    }
+
+  }
+
 @media only screen and (max-width:515px){
   .card h5{
     font-size: 120%;
@@ -1239,6 +1213,29 @@ and (max-width : 1024px)  {
     margin-left: 14%;
   }
 }
+@media only screen and (max-width:414px){
+  #careers-team .caption{
+    margin-left: 20%;
+  }
+  .hover01 figure:hover+span {
+    bottom: -178px;
+  }
+  #careers-team{
+    margin-left: 6.5%;
+  }
+  #benefits-container h3{
+    margin-left: 8%;
+    margin-bottom: 8%;
+  }
+  #benefits-container{
+    margin-left: -2%;
+  }
+  #hamburger{
+    margin-left: -3em;
+  }
+  }
+
+
 
 @media only screen and (max-width:400px){
   .icons{
@@ -1261,4 +1258,161 @@ and (max-width : 1024px)  {
     margin-top: 3em;
     margin-bottom: -10em;
   }
+}
+/* galaxy s5 */
+@media only screen and (max-width: 370px){
+
+  .hover01 figure {
+    width: 90%;
+    height: 75%;
+    margin: 0;
+    padding: 10%;
+    background: #fff;
+    overflow: hidden;
+    margin-top: 30px;
+    border-radius: 80%;
+    margin-bottom:10px;
+    margin-top: 8em;
+    margin-left: 13vw;
+  }
+
+  .hover01 figure:hover+span {
+    bottom: -133px;
+    opacity: 1;
+    width:150%;
+    /* margin-left: 10em; */
+    font-size: 100%;
+  }
+  #careers-team{
+    margin-left: 8%;
+    margin-top: -14vh;
+  }
+  #benefits-container h3{
+    margin-left: 2vw;
+    font-size: 160%;
+  }
+  .card{
+    width:110%;
+    margin-bottom: 10vh;
+    margin-left: -5%;
+  }
+  .card h5{
+    font-size:120%;
+    margin-top: -4%;
+
+  }
+  .card-body{
+    width:100%;
+    height:300%;
+  }
+  .card .badge{
+    background-color:#c83e2c;
+    margin-left: 75%;
+    width:20vw;
+    margin-top: 6em;
+    margin-bottom: 1em;
+
+    font-family: 'VegurRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 35%;
+  }
+  .card .card-text{
+    margin-left: 10vw;
+  }
+  .card ul{
+  margin-left:-12vw;
+  margin-bottom: 10vh;
+  }
+  .last-badge{
+    margin-top: 10vh;
+  }
+  .card h4{
+    margin-top: -10vh;
+  }
+  .job-content .date{
+    margin-top: 20vh;
+    font-size: 200%;
+    height:110%;
+    width:30%;
+    margin-left: 4vw;
+    margin-bottom: 10vh;
+  }
+  .job-content  h5{
+    margin-left: -8vw;
+    text-align: left;
+    font-size: 200%;
+  }
+  .job-content ul{
+    text-align: left;
+    width:100%;
+    margin-left: -18vw;
+  }
+  .job-content button{
+    margin-top: 20%;
+
+  }
+  footer ul{
+
+    margin-right: 3em;
+  }
+  #row-2,#row-3,#row-4{
+    margin-top: -6vh;
+  }
+  .dark-blue-text,.fa-bars {
+      color: #c83e2c;
+      margin-left: 18em;
+      margin-top: -0.5em;
+      margin-right: 2%;
+  }
+
+}
+@media only screen and (max-width:360px){
+  #hamburger{
+    margin-bottom: -2em;
+  }
+}
+@media only screen and (max-width:337px){
+  #logo{
+    width:20%;
+  }
+}
+
+.dark-blue-text,.fa-bars {
+    color: #c83e2c;
+    margin-left: -1em;
+    margin-bottom: -80em;
+}
+}
+
+
+
+
+@media only screen and (max-width:320px){
+  #main-title{
+   font-size: 25%;
+ }
+ .jumbotron{
+   margin-bottom: -25em;
+ }
+ .card .badge{
+   margin-top: -4em;
+
+ }
+ .card .col-9{
+   margin-top: 0.7em;
+ }
+ .card .details{
+   margin-left: -30%;
+ }
+ .layer1{
+   margin-top: 3em;
+ }
+ .mt-3{
+   margin-left: -10%;
+ }
+ .mt-3 .col-9{
+   margin-top: -1em;
+ }
+
 }
