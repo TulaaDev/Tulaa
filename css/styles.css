@@ -410,7 +410,9 @@ button {
 
 
   }
-
+  #partner-cards{
+    margin-bottom: -10em;
+  }
   #card1 img{
     width:100%;
   }
@@ -2287,8 +2289,4 @@ text-align: left;
 }
 
 
-}
-
-#partner-cards{
-  margin-bottom: -8em;
 }
