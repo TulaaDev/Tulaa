@@ -55,7 +55,9 @@ body{
 
 }
 
-
+#all-investor-logos{
+  margin-top: 10%;
+}
 .social-button{
   width:70%;
 }
@@ -723,18 +725,7 @@ h1{
   width: 315px;
   padding: 0;
 }
-.AHL,.global,.acumen{
-  margin-left: 40%;
-}
-.acumen{
-  margin-left: 55%;
-}
-.AHL{
-  margin-left: 6%;
-}
-.global{
-  margin-left: 25%;
-}
+
 
 .form-control{
   color:white;
@@ -793,7 +784,7 @@ h5{
 
 #awards{
   width:70%;
-  /* margin-bottom: 10%; */
+
 }
 
 .form-control {
@@ -820,11 +811,6 @@ h5{
   color:#008f8a;
 }
 
-/* #partner-cards{
-  margin-bottom:-3em;
-  width:100%;
-
-} */
 .partner-list{
   width:120%;
 }
@@ -908,10 +894,8 @@ h5{
 #partner-heading{
   margin-top: 6em;
 }
-/* Adding color to the Navbar on mobile */
 
 
-/* Footer color for sake of consistency with Navbar */
 .page-footer {
   background-color: #1C2331; }
 
@@ -949,9 +933,6 @@ footer{
 .footer-text{
   margin-left: 2%;
 }
-/* footer{
-  margin-bottom: -20vh;
-} */
 
 #socials{
   margin-right: 38em;
@@ -1004,13 +985,7 @@ footer{
 }
 
 @media screen and (max-width: 1142px)  {
-  .social-buttons{
-    width:20em;
-    margin-top: -10vh;
-  }
-  #address{
-    width:130%;
-  }
+
   #partner-cards{
     margin-bottom: 3em;
   }
@@ -1048,7 +1023,6 @@ footer{
   	height: 250px;
   	margin: 0 0 0 25px;
   	padding: 0;
-    /* margin-left: 20%; */
 
   }
 }
@@ -1137,9 +1111,7 @@ footer{
   #all-investor-logos{
     margin-left: -7vw;
   }
-  /* #partner-cards{
-    margin-bottom:20vh;
-  } */
+
   #partner-cards .card-text{
     width:110%;
     margin-left: -10%;
@@ -2006,21 +1978,17 @@ text-align: left;
   #who{
     margin-top: 6em;
   }
-  /* #partner-cards{
-    width:100%;
-    margin-left: 2%;
-  } */
+
   #partner-cards .card-text{
     font-size: 120%;
+    width:110%;
 
   }
   #partner-cards .card-title{
     font-size: 180%;
   }
 
-  #partner-cards .card-img-fluid{
-    width:300%;
-  }
+
   #testimonial .card-text{
     margin-left: -0.9em;
   }
@@ -2042,6 +2010,30 @@ text-align: left;
   #testimonial{
     margin-bottom: -36em;
   }
+  #footer-text{
+    margin-top: -3em;
+    margin-left: 0.8em;
+  }
+  #copyright{
+    margin-top: -2em;
+    margin-left: -56%;
+  }
+  #icons{
+    margin-left: -25%;
+  }
+  #logo{
+    width:40%;
+  }
+  .dark-blue-text,.fa-bars {
+      color: #c83e2c;
+      margin-bottom: 2em;
+      margin-left: -1em;
+  }
+  #solution{
+    font-size: 95%;
+    margin-top: 20%;
+  }
+
 
 
 }
