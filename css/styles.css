@@ -1555,7 +1555,7 @@ text-align: left;
   #solution{
     margin-top: -5em;
   }
-  
+
   #logo{
     width:40%;
   }
@@ -2150,14 +2150,9 @@ text-align: left;
   #logo{
     width:50%;
   }
-  /* .nav-item{
-  margin-top: 20%;
-  }
-  .nav-tabs{
-    margin-top: -10%;
-  } */
+
   #jumbotron-text{
-    margin-top: 130%;
+    margin-top: 110%;
   }
 
 }
