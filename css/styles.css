@@ -2169,6 +2169,11 @@ text-align: left;
   #all-partner-logos{
     margin-left: 4em;
   }
+  .dark-blue-text,.fa-bars {
+      color: #c83e2c;
+      margin-bottom: 1.3em;
+      margin-left: 1em;
+  }
 }
 @media screen and (max-width:320px){
   #testimonial .card{
