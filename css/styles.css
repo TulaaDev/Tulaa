@@ -1434,7 +1434,9 @@ footer{
   footer .container{
     margin-left: 5%;
   }
-
+  #logo{
+    width:50%;
+  }
 }
 @media screen and (max-width:724px){
 
@@ -1558,6 +1560,9 @@ text-align: left;
   .nav-item{
     height:6em;
   }
+  #logo{
+    width:40%;
+  }
 
 }
 @media screen and (max-width:640px){
@@ -1600,8 +1605,8 @@ text-align: left;
 }
 .nav-item{
   width:60%;
-
 }
+
 }
 
 @media screen and (max-width:581px){
