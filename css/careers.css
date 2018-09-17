@@ -703,6 +703,7 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
       margin-left: -40%;
       width:130%;
     }
+
 }
 /* iphone X media query */
 @media only screen and (min-width: 320px) and (max-width: 568px)
@@ -1231,8 +1232,9 @@ and (max-width : 1024px)  {
     margin-left: -2%;
   }
   #hamburger{
-    margin-left: -3em;
+    margin-left: -9em;
   }
+
   }
 
 
@@ -1257,6 +1259,19 @@ and (max-width : 1024px)  {
   .card .badge{
     margin-top: 3em;
     margin-bottom: -10em;
+  }
+}
+
+@media only screen and (max-width: 375px){
+  #hamburger{
+    margin-bottom: -1em;
+    margin-left: -1em;
+  }
+  #logo{
+    width:80%;
+  }
+  .card ul{
+    margin-left: -3.4em;
   }
 }
 /* galaxy s5 */
@@ -1413,6 +1428,38 @@ and (max-width : 1024px)  {
  }
  .mt-3 .col-9{
    margin-top: -1em;
+ }
+
+}
+
+@media only screen and (max-width:320px){
+  #main-title{
+   font-size: 25%;
+ }
+ .jumbotron{
+   margin-bottom: -25em;
+ }
+ .card .badge{
+   margin-top: -4em;
+
+ }
+ .card .col-9{
+   margin-top: 0.7em;
+ }
+ .card .details{
+   margin-left: -30%;
+ }
+ .layer1{
+   margin-top: 3em;
+ }
+ .mt-3{
+   margin-left: -10%;
+ }
+ .mt-3 .col-9{
+   margin-top: -1em;
+ }
+ #hamburger{
+   margin-bottom: -1em;
  }
 
 }
