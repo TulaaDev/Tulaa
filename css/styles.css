@@ -2166,7 +2166,20 @@ text-align: left;
   }
 
 }
+@media screen and (max-width:375px){
+  #contact-card{
+    width:110%;
+  }
+  #logo{
+    width:50%;
+  }
+  .nav-item{
 
+  margin-top: 10%;
+
+  }
+
+}
 @media screen and (max-width:320px){
   #testimonial .card{
     margin-bottom: -6%;
