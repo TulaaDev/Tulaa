@@ -139,6 +139,17 @@ h5{
   .card h5{
     font-size: 90%;
   }
+  #panel .card-title{
+    margin-left: 6em;
+    font-size: 140%;
+  }
+  .dark-blue-text,.fa-bars {
+      color: #c83e2c;
+      margin-top: -3.8em;
+      margin-bottom: 1em;
+      margin-left: -1em;
+  }
+
 }
 
 @media screen and (max-width:957px){
@@ -185,6 +196,12 @@ h5{
   #read-more{
     font-size: 90%;
     margin-top: -1em;
+  }
+  .dark-blue-text,.fa-bars {
+      color: #c83e2c;
+      margin-top: -3.8em;
+      margin-bottom: 1em;
+      margin-right: -0.5em;
   }
 }
 @media screen and (max-width:611px){
