@@ -18,9 +18,22 @@
   margin-top:-2.5vh;
   color:black;
 }
+#content p{
+  font-size: 110%;
+}
 .navbar-nav mr-auto{
   float:right;
 }
+.card h3{
+  font-size:160%;
+  margin-top: 10em;
+
+}
+
+#team{
+  margin-top: 20%;
+}
+
 /* Navbar animation */
 .navbar {
   background-color: transparent;
@@ -104,9 +117,35 @@ h5{
   margin-top: -1.3em;
 }
 
-@media screen and (max-width:1088px){
+
+@media screen and (max-width:1199px){
+  .card h3{
+    margin-top: -1.6em;
+    font-size: 140%;
+  }
+  .card img{
+    margin-top: 0.7em;
+  }
+  .card p{
+
+    font-size: 110%;
+
+  }
+  .card{
+    width:125%;
+    margin-left: -7em;
+  }
+}
+@media screen and (max-width:1104px){
   .card-title{
     font-size: 160%;
+  }
+  .card{
+    width:106%;
+    margin-left:-4%;
+  }
+  .mt-3{
+    margin-left: 3%;
   }
 }
 
@@ -133,12 +172,14 @@ h5{
 }
 @media screen and (max-width:991px){
   .card h3{
-    margin-top: 1em;
+    margin-top: -1em;
     font-size: 150%;
+
   }
   .card h5{
     font-size: 90%;
   }
+
   #panel .card-title{
     margin-left: 6em;
     font-size: 140%;
@@ -149,7 +190,32 @@ h5{
       margin-bottom: 1em;
       margin-left: -1em;
   }
+  .card{
+    width:140%;
+    margin-left: -9em;
+  }
+  .collapse-content .badge{
+    font-size: 190%;
+    height:40%;
+    width:20%;
+    margin-top: 3%;
+    margin-left: 1%;
+  }
+  #icons{
+    width:200%;
+    margin-left: -3em;
+  }
+  #footer-text{
+    margin-left: -6em;
+  }
 
+
+}
+
+@media screen and (max-width:988px){
+  .card{
+    width:140%;
+  }
 }
 
 @media screen and (max-width:957px){
@@ -162,8 +228,26 @@ h5{
     margin-left: 6em;
     font-size: 140%;
   }
+  .card{
+    width:135%;
+    margin-left: -18%;
+  }
 }
-@media screen and (max-width:865px){
+
+@media screen and (max-width:927px){
+  .card{
+    width:125%;
+    margin-left: -13%;
+    margin-top: 5%;
+  }
+  .card h3{
+    margin-top: -0.1em;
+    font-size: 150%;
+  }
+}
+
+
+@media screen and (max-width:876px){
   #panel-title .badge {
     width:20%;
   }
@@ -171,19 +255,132 @@ h5{
     font-size: 140%;
     margin-top: -10%;
   }
+  .card{
+    width:120%;
+    margin-left: -11%;
+  }
+
+
 }
 
 
-@media screen and (max-width:767px){
+
+
+@media screen and (max-width:768px){
   .card h3{
+    margin-top: 1.3em;
+    font-size: 150%;
+  }
+  .collapse-content .badge{
+    font-size: 160%;
+    height:40%;
+    width:20%;
+    margin-top: 3%;
+    margin-left: 1%;
+  }
+  .card{
     margin-top: 3em;
+    margin-left: -2em;
+    width:108%;
+  }
+  .collapse-content h4{
+    font-size: 150%;
+  }
+  #footer-text{
+    margin-left: -2em;
+  }
+  /* #copyright{
+    margin-left: -34em;
+  } */
+  #icons{
+    width:130%;
+
+
+  }
+  #panel-title{
+    height:20%;
+    margin-top: 0.5%;
+    width:104%;
+  }
+  #panel-title .badge{
+
+    font-size: 250%;
+
+  }
+  #stories .row{
+    margin-bottom: -7em;
+  }
+  #team{
+    margin-top: 2em;
+  }
+}
+@media screen and (max-width:736px){
+  #panel-title .badge {
+    width:14%;
+    font-size: 150%;
+  }
+  #panel .card-title{
+    font-size: 106%;
+    margin-top: -6%;
+  }
+  #footer-text{
+    margin-left: 10%;
+  }
+  #copyright{
+    margin-left:-60%;
+  }
+  #icons{
+    margin-left: -18%;
+  }
+  .card{
+    width:140%;
+    margin-left: -20%;
+  }
+  .card h3{
+    margin-top: -0.3em;
     font-size: 150%;
   }
 }
 
+
+
+@media screen and (max-width:680px){
+  .card{
+    width:125%;
+    margin-left: -4em;
+  }
+  .card h3{
+    margin-top: 3.5em;
+    font-size: 120%;
+    margin-left: 1em;
+  }
+  #footer-text{
+    margin-left: 2em;
+    margin-top: -1em;
+  }
+  #copyright{
+    margin-left: -25em;
+  }
+  #icons{
+    width:90%;
+    margin-left: -8em;
+  }
+  #read-more{
+    margin-top: 2%;
+  }
+  .collapse-content h4{
+    margin-bottom: -10em;
+    text-align: left;
+  }
+  .collapse-content .badge{
+    margin-bottom: -10em;
+  }
+
+
+}
 @media screen and (max-width:667px){
   .card h3{
-    margin-top: 4em;
+    margin-top: 0.5em;
     font-size: 120%;
     margin-left: 1em;
   }
@@ -191,7 +388,7 @@ h5{
     font-size: 99%;
   }
   .card img{
-    margin-top: 120%;
+    margin-top: 80%;
   }
   #read-more{
     font-size: 90%;
@@ -202,6 +399,14 @@ h5{
       margin-top: -3.8em;
       margin-bottom: 1em;
       margin-right: -0.5em;
+  }
+  #panel-title .badge {
+    width:15%;
+    font-size: 110%;
+  }
+  #panel .card-title{
+    margin-top: -7%;
+    text-align: left;
   }
 }
 @media screen and (max-width:611px){
@@ -229,7 +434,7 @@ h5{
     margin-left: 2.5em;
   }
 }
-@media screen and (max-width:550px){
+@media screen and (max-width:566px){
   #panel .card-title{
     margin-top: -15%;
     font-size: 100%;
@@ -238,16 +443,20 @@ h5{
   #panel-title .badge {
     width:30%;
   }
+  .card{
+    width:100%;
+    margin-left:-2%;
+  }
 }
 
-@media screen and (max-width:488px){
+@media screen and (max-width:518px){
   .card h3{
     margin-top: 4.6em;
 
   }
   .card{
-    width:105%;
-    margin-left: -4%;
+    width:100%;
+    margin-left: -2%;
   }
   #panel{
     width:93%;
@@ -278,6 +487,82 @@ h5{
     text-align: left;
   }
 }
+
+@media screen and (max-width:414px) {
+  .fa-bars{
+    margin-left: -3.5em;
+    margin-bottom: 1em;
+  }
+  .card h3{
+    margin-top: 8em;
+  }
+  #copyright{
+    margin-left: -9em;
+  }
+  #icons{
+    margin-left: -6em;
+  }
+  #date{
+    margin-top:10em;
+    margin-bottom: 10em;
+    width:100%;
+    font-size: 70%;
+    margin-left: 2%;
+
+  }
+  #date .badge{
+    margin-top: -1.4em;
+    height:3em;
+    margin-bottom: 3em;
+    width:18%;
+  }
+#date h4{
+  font-size:150%;
+  margin-left: 2.3em;
+  margin-top: 52em;
+  text-align: left;
+  width:120%;
+
+}
+
+  #content p{
+    font-size: 80%;
+    margin-left: 2%;
+    width:90%;
+  }
+  #panel-title .badge{
+    font-size: 200%;
+    width:30%;
+  }
+  #panel-title{
+    height:22%;
+    width:120%;
+    margin-left: -4%;
+  }
+  #panel-title h4{
+    margin-left: 7%;
+  }
+  #team{
+    margin-top: 26%;
+  }
+
+  #stories .row{
+    height:40em;
+    /* margin-top: -4em; */
+  }
+  #stories h3{
+    margin-top: 3em;
+  }
+  #stories h5{
+    margin-top: 4%;
+  }
+
+}
+@media screen and (max-width:411px) {
+  footer{
+    margin-top: 23%;
+  }
+}
 @media screen and (max-width:404px) {
   #copyright{
     margin-left: -10em;
@@ -285,5 +570,171 @@ h5{
   #icons{
     margin-left: -6em;
     width:90%;
+  }
+}
+
+@media screen and (max-width:375px) {
+  #panel-title .badge {
+    width:30%;
+    font-size: 180%;
+  }
+  #panel .card-title{
+    margin-top: -25%;
+    font-size: 100%;
+    margin-left: 35%;
+    text-align: left;
+  }
+  #panel{
+    margin-left: 4.5%;
+    width:90%;
+  }
+  #logo{
+    width:50%;
+  }
+  .fa-bars{
+    margin-left: -3em;
+  }
+  #icons{
+    margin-left: 2em;
+  }
+  .card h3{
+    margin-top: 13.5em;
+    font-size: 116%;
+  }
+  .card p{
+    font-size:85%;
+  }
+  .card h5{
+    margin-top:10%;
+  }
+  .card img{
+    margin-top: -48em;
+  }
+  .card{
+    padding-bottom: 30%;
+    margin-top: -0.2em;
+  }
+  #date{
+    margin-top:10em;
+    margin-bottom: 10em;
+    width:100%;
+    font-size: 70%;
+
+  }
+  #date .badge{
+    margin-top: 1.4em;
+    margin-bottom: 3em;
+    height:3em;
+
+  }
+#date h4{
+  font-size:150%;
+  margin-left: 5.3em;
+  margin-top: 22em;
+  text-align: left;
+  width:120%;
+
+}
+
+  #content p{
+    font-size: 80%;
+    margin-left: -2%;
+    width:90%;
+  }
+  #stories .row{
+    height:40em;
+  }
+  #stories h3{
+    margin-top: 2em;
+  }
+  #stories img{
+    margin-top: 6em;
+  }
+  #team{
+    margin-top: 26%;
+  }
+  footer{
+    margin-top: 20%;
+  }
+
+}
+
+@media screen and (max-width:360px) {
+  /* .card h3{
+    margin-top:3em;
+  } */
+  #footer-text{
+    margin-left: 1em;
+  }
+  #icons{
+    margin-left: 4%;
+  }
+  .card img{
+    margin-bottom: -1em;
+    margin-top: -20em;
+  }
+  #panel-title .badge {
+    width:30%;
+    font-size: 150%;
+  }
+  #stories .row{
+    height:45%;
+    margin-top: -4em;
+  }
+  #stories h3{
+    margin-top: 2em;
+  }
+  #team{
+    margin-top: 26%;
+  }
+
+}
+
+@media screen and (max-width:320px) {
+  #stories .row{
+    height:68%;
+    margin-top: -4em;
+  }
+  #stories h3{
+    margin-top:0.7em;
+  }
+  #icons{
+    width:100%;
+  }
+  #copyright{
+    margin-left: -5em;
+  }
+  #footer-text{
+    font-size: 90%;
+  }
+  #date .badge{
+    width:24%;
+  }
+  #date{
+    margin-top: -1em;
+  }
+  #panel-title .badge {
+    width:27%;
+
+    font-size: 135%;
+
+  }
+  #panel{
+    width:93.9%;
+    height:120%;
+    margin-left: 2.5%;
+  }
+  #panel-title h4{
+    margin-top: -4em;
+  }
+  #panel-title{
+    margin-top: 10%;
+    height:93%;
+    width:120%;
+    margin-left: -6%;
+  }
+  /* .card-title{
+    font-size: 10%;
+  } */
   }
 }

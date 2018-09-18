@@ -939,6 +939,9 @@ footer{
 #socials{
   margin-right: 38em;
 }
+#partner-section-one{
+  margin-bottom: -12em;
+}
 @media only screen and (max-width: 1208px) {
   .navbar {
     background-color: black;
@@ -2239,6 +2242,10 @@ text-align: left;
       margin-bottom: 1.3em;
       margin-left: 1em;
   }
+  #awards img{
+    margin-left: 1.5em;
+  }
+
 }
 @media screen and (max-width:320px){
   #testimonial .card{
