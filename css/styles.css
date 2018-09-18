@@ -58,17 +58,12 @@ body{
 #all-investor-logos{
   margin-top: 10%;
 }
-.social-button{
-  width:70%;
-}
 
 .parallax-window{
   margin-top: 10vh;
   background-position: 0px 100px;
 }
-#address{
-  margin-top: -20%;
-}
+
 #header-text{
   border-bottom: 3px solid white;
   width:50%;
@@ -577,7 +572,9 @@ figure:hover+span {
 
 /* end of team grayscale */
 
-
+.footer{
+  width:75%;
+}
 
 #news{
   margin-left: 6%;
@@ -2225,8 +2222,11 @@ text-align: left;
   #footer-text{
     margin-left: 1%;
   }
+  #copyright{
+    margin-left:-18%;
+  }
   #icons{
-    margin-left: -20%;
+    margin-left: -16%;
   }
   #press{
     margin-left: 10%;
