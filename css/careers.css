@@ -261,7 +261,8 @@ h1{
   color:#c83e2c;
 }
 #benefits-container{
-  margin-top: 20vh;
+  margin-top: 15vh;
+  margin-bottom: -6vh;
 }
 #benefits-container h3{
   color:black;
@@ -483,6 +484,9 @@ a{
   text-align: left;
 }
 
+.footer{
+  width:100%;
+}
 @media only screen and (min-width : 375px) and (max-width : 667px) {
 
   .card{

@@ -4,6 +4,8 @@ body{
   font-style: normal;
 
 }
+
+
 .container-fluid{
   display:flex;
   flex-wrap: nowrap;
@@ -104,7 +106,7 @@ body{
     border-bottom-color: transparent;
 }
 .nav-tabs {
-   border-bottom: 1px solid transparent;
+   border-bottom: 2px solid transparent;
 }
 
 .nav-tabs:hover{
@@ -170,14 +172,14 @@ body{
 }
 
 
-a:hover{
+nav a:hover{
   color:#c83e2c;
 }
 .nav-tabs a:hover {
 
   background-color: transparent;
   border-color: transparent transparent!important;
-  border-bottom: 3px solid #c83e2c!important ;
+  border-bottom: 2px solid #c83e2c!important ;
 
 }
 body {
@@ -576,6 +578,11 @@ figure:hover+span {
   width:75%;
 }
 
+
+.nav-item a:hover {
+    color:#c83e2c;
+}
+
 #news{
   margin-left: 6%;
   margin-top: -10%;
@@ -924,17 +931,9 @@ h5{
   mix-blend-mode: multiply;
 
 }
-footer{
-  height:29vh;
-  margin-bottom: -20%;
 
-}
-.footer-text{
-  margin-left: 2%;
-}
-
-#socials{
-  margin-right: 38em;
+.footer{
+  width:100%;
 }
 #partner-section-one{
   margin-bottom: -12em;
