@@ -2441,12 +2441,10 @@ text-align: left;
 .title{
   font-size: 310%;
 }
-/* #partner-cards .card{
+#partner-cards #card1{
   margin-bottom: 30em;
-} */
-#partner-cards .card-text{
-  font-size: 900%;
 }
+
 #jumbotron-text{
   margin-top: 10em;
 }
