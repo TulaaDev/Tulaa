@@ -2390,7 +2390,7 @@ text-align: left;
   }
   #partner-cards .card{
     margin-bottom: 34em;
-    width:430em;
+    /* width:430em; */
   }
   #logo{
     width:50%;
@@ -2441,9 +2441,9 @@ text-align: left;
 .title{
   font-size: 310%;
 }
-#partner-cards .card{
+/* #partner-cards .card{
   margin-bottom: 30em;
-}
+} */
 #jumbotron-text{
   margin-top: 10em;
 }
