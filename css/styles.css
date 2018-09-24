@@ -215,6 +215,10 @@ body {
   fill:black;
 
 }
+.mit h4{
+  margin-left: 10%;
+}
+
 
 #solution{
   padding: 8%;
@@ -1352,6 +1356,9 @@ h5{
   #our-investors{
     margin-top: 15%;
   }
+  .facebook h4{
+    margin-left: 2%;
+  }
 }
 
 
@@ -2053,8 +2060,9 @@ text-align: left;
   }
 
   #partner-cards .card-text{
-    font-size: 120%;
-    width:110%;
+    font-size: 130%;
+    width:145%;
+    margin-left: -2em;
 
   }
   #partner-cards .card-title{
@@ -2063,10 +2071,10 @@ text-align: left;
 
 
   #testimonial .card-text{
-    margin-left: -0.9em;
+    margin-left: -0.7em;
   }
   #emmanuel{
-    margin-left: -0.7em;
+    margin-left: 0.3em;
     width: 90%;
   }
   #testimonial .card{
@@ -2089,7 +2097,7 @@ text-align: left;
   }
   #copyright{
     margin-top: -2em;
-    margin-left: -56%;
+    margin-left: -32%;
   }
   #icons{
     margin-left: -25%;
@@ -2126,6 +2134,36 @@ text-align: left;
   }
   #press-section{
     margin-left: -1em;
+  }
+  .mit{
+    margin-left: -3em;
+    width:100%;
+  }
+  .mit h4{
+    font-size: 130%;
+    margin-left: 23%;
+  }
+  .footer{
+    width:70%;
+  }
+  .facebook{
+    margin-left: 26%;
+  }
+  .facebook h4{
+    font-size: 130%;
+    margin-left: -17%;
+  }
+  figure:hover+span {
+    bottom: -6em;
+    opacity: 1;
+    width:110%;
+    margin-left: -10vw;
+    font-size: 130%;
+  }
+
+
+  #demo08{
+    margin-top: -5em;
   }
 }
 
@@ -2256,7 +2294,7 @@ text-align: left;
     margin-left: -16%;
   }
   #press{
-    margin-left: 10%;
+    margin-left: 16%;
   }
   #press-logo{
     margin-left: 1.5%;
@@ -2274,6 +2312,7 @@ text-align: left;
   }
   #testimonial {
     width:87%;
+    margin-left: 18%;
 
   }
   #testimonial .card-text{
@@ -2299,13 +2338,48 @@ text-align: left;
   #partner-cards .card-title{
     font-size: 160%;
   }
+  .mit{
+    margin-left: -3em;
+    width:100%;
+  }
+  .mit h4{
+    font-size: 130%;
+    margin-left: 23%;
+  }
+  .footer{
+    width:70%;
+  }
+  .facebook{
+    margin-left: 26%;
+  }
+  .facebook h4{
+    font-size: 130%;
+    margin-left: -17%;
+  }
+  figure:hover+span {
+    bottom: -6em;
+    opacity: 1;
+    width:110%;
+    margin-left: -10vw;
+    font-size: 130%;
+  }
+  #press-section{
+    margin-left: 3%;
+  }
+  #card2{
+    margin-left: 2%;
+  }
+  #demo08{
+    margin-top: -5em;
+  }
+
 }
 @media screen and (max-width:360px){
   #press{
-    margin-top: 74em;
+    margin-top: 60em;
   }
   #press-section{
-    margin-left: 5%;
+    margin-left: 3%;
   }
   #partner-cards .card-title{
     font-size:160%;
@@ -2320,6 +2394,15 @@ text-align: left;
   }
   #logo{
     width:50%;
+  }
+  #testimonial{
+    margin-top: -2em;
+  }
+  .investor-logos{
+    margin-left: 27.5%;
+  }
+  #our-investors{
+    margin-left: -4em;
   }
 
 
@@ -2370,11 +2453,53 @@ text-align: left;
 .dark-blue-text,.fa-bars {
     color: #c83e2c;
     margin-bottom: 1.3em;
-    margin-left: -1em;
+    margin-left: 1.3em;
 }
 #press-section{
   margin-left: 3%;
 }
+.mit{
+  margin-left: -3em;
+  width:100%;
+}
+.mit h4{
+  font-size: 130%;
+  margin-left: 23%;
+}
+.facebook{
+  margin-left: 26%;
+}
+.facebook h4{
+  font-size: 130%;
+  margin-left: -17%;
+}
+.footer{
+  width:80%;
+}
+#copyright{
+  margin-top: 0.2%;
+  margin-bottom: 4%;
+}
+#testimonial{
+  margin-left: 3.4em;
+}
+#our-partners, #our-investors{
+  margin-left: 1%;
+}
+figure:hover+span {
+  bottom: -6em;
+  opacity: 1;
+  width:110%;
+  margin-left: -10vw;
+  font-size: 130%;
+}
+#demo08{
+  margin-top: -5em;
+}
+.investor-logos{
+  margin-left: 3.5%;
+}
+
 
 
 }
