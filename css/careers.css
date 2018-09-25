@@ -1241,7 +1241,12 @@ and (max-width : 1024px)  {
 
   }
 
-
+@media only screen and (max-width:411px){
+  .hover01 figure{
+    width:110%;
+    margin-left: 38%;
+  }
+}
 
 @media only screen and (max-width:400px){
   .icons{
@@ -1271,8 +1276,9 @@ and (max-width : 1024px)  {
     margin-bottom: -1em;
     margin-left: -1em;
   }
+
   #logo{
-    width:80%;
+    width:70%;
   }
   .card ul{
     margin-left: -3.4em;
@@ -1289,13 +1295,23 @@ and (max-width : 1024px)  {
   .mt-3 .details2{
     margin-left: -37%;
   }
-}
+  .hover01 figure{
+    height: 97%;
+    }
+  #open-positions{
+    text-align: center;
+    margin-bottom: -10%;
+    margin-top: 15%;
+  }
+
+  }
+
 /* galaxy s5 */
 @media only screen and (max-width: 370px){
 
   .hover01 figure {
-    width: 90%;
-    height: 75%;
+    width: 98%;
+    height: 85%;
     margin: 0;
     padding: 10%;
     background: #fff;
@@ -1304,15 +1320,15 @@ and (max-width : 1024px)  {
     border-radius: 80%;
     margin-bottom:10px;
     margin-top: 8em;
-    margin-left: 13vw;
+    margin-left: 16vw;
   }
 
   .hover01 figure:hover+span {
-    bottom: -133px;
+    bottom: -163px;
     opacity: 1;
     width:150%;
-    /* margin-left: 10em; */
     font-size: 100%;
+    margin-left: -40em;
   }
   #careers-team{
     margin-left: 8%;
