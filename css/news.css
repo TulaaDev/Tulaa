@@ -2,12 +2,13 @@
   background-image:url('../img/news1.jpeg');
   background-size:cover;
   background-repeat:no-repeat;
-  width:95%;margin-left:3%;
+  width:108%;
   height:60vh;
   background-position: -100px -106px;
-  background-size:1350px 1000px;"
-  margin-bottom:15%;
-  margin-top: 9em;
+  background-size:1350px 1000px;
+  margin: auto;
+
+
 }
 #panel-title{
   background-color: white;
@@ -18,11 +19,18 @@
   margin-top:-2.5vh;
   color:black;
 }
+#top-panel{
+  margin-top: 10em;
+  margin-left: 2%;
+}
 #content p{
   font-size: 110%;
 }
 .navbar-nav mr-auto{
   float:right;
+}
+nav a:hover{
+  color:#c83e2c;
 }
 .card h3{
   font-size:160%;
@@ -819,4 +827,7 @@ h5{
       margin-left: 1.3em;
   }
 
+}
+nav a:hover{
+  color:#c83e2c;
 }

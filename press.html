@@ -974,19 +974,6 @@
 
 
     <script>
-    $(document).ready(function(){
-                var scroll_pos = 0;
-                $(document).scroll(function() {
-                    scroll_pos = $(this).scrollTop();
-                    if(scroll_pos > 0) {
-                        $("navbar").css('background-color', '#c83e2c;');
-                        $("nav a").css('color', '#008f8a');
-                    } else {
-                        $("nav").css('background-color', 'none');
-                        $("nav a").css('color', '#c83e2c;');
-                    }
-                });
-            });
 
 
         $('.collapse-content').on("shown.bs.collapse", function(){
@@ -994,13 +981,6 @@
             scrollTop: $(this).offset().top - 20
         }, 'slow');
     });
-//     $('#collapseExample6').on("shown.bs.collapse", function(){
-//     $('html, body').animate({
-//         scrollTop: $(this).offset().top - 20
-//     }, 'slow');
-// });
-
-
 
     $(".btn-outline-danger").click(function(){
     $(".collapse").collapse('hide');

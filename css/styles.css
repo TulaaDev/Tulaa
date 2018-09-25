@@ -80,7 +80,6 @@ body{
 
 }
 .partner-logos{
-
   width:110%;
 }
 
@@ -600,7 +599,6 @@ figure:hover+span {
 #awards-list{
   list-style: none;
   font-size:200%;
-  /* margin-left: -12vw; */
   margin-top: 6vh;
 }
 
@@ -721,6 +719,7 @@ h1{
   margin-bottom: -16vh;
   mix-blend-mode: multiply;
   }
+
 .speech{
   font-size: 190%;
 }
@@ -736,16 +735,15 @@ h1{
   padding: 0;
 }
 
-
 .form-control{
   color:white;
 }
+
 p{
   font-size: 145%;
   text-align: center;
   padding:1%;
 
-  /* margin-right: 10%; */
 }
 .partner-logo{
   font-size: 210%;
@@ -1055,17 +1053,14 @@ h5{
     height: 250px;
     margin: 0 0 0 25px;
     padding: 0;
-    /* margin-left: 20%; */
 
-  }  .nav-tabs{
+  }
+   .nav-tabs{
     width:100%;
     margin-left: -10vw;
     font-size: 1%;
     text-align: left;
-
     }
-
-
 }
 
 @media screen and (max-width:1008px){
@@ -1241,85 +1236,6 @@ h5{
   margin-left: -10%;
 }
 }
-/* @media screen and (max-width:768px) {
-
-  #press{
-    margin-top: 25em;
-  }
-
-  #our-investors{
-    margin-top: 20vh;
-  }
-  #awards img{
-    width:50%;
-    margin-left: 15vw;
-  }
-  #demo08 .column div {
-    position: relative;
-    float: left;
-    width: 119%;
-    height: 180px;
-    margin: 0 0 0 25px;
-    padding: 0;
-    margin-left: -5%;
-    margin-top:-10em;
-
-  }
-  figure:hover+span {
-  	bottom: -15em;
-  	opacity: 1;
-    width:160%;
-    margin-left: -13vw;
-    font-size: 90%;
-  }
-  #solution{
-    margin-top: 2vh;
-  }
-  #jumbotron-text{
-    margin-top: 10%;
-  }
-  #partner-cards{
-    margin-bottom:10vh;
-  }
-  #partner-cards .card-text{
-    width:120%;
-    margin-left: -13%;
-    font-size: 110%;
-  }
-  #partner-cards .card-title{
-    font-size: 150%;
-  }
-  #our-investors{
-    margin-top: 0.2em;
-  }
-  #icons{
-    margin-left: -10vw;
-  }
-  #copyright{
-    font-size:90%;
-    margin-top: 10%;
-    margin-left: -10%;
-  }
-  footer ul{
-    font-size: 60%;
-  }
-  .nav-tabs{
-  width:100%;
-  margin-left: -10vw;
-  font-size: 1%;
-  text-align: left;
-
-  }
-  .nav-item{
-    width:60%;
-
-  }
-  #solution{
-    margin-top: 90em;
-  }
-} */
-
-
 
 @media screen and (max-width:767px){
   #copyright{
