@@ -565,27 +565,30 @@ h5{
   .footer{
     width:90%;
   }
+  #content button{
+    margin-left: -10%;
+  }
 
 
 }
 @media screen and (max-width:411px) {
   footer{
     margin-top: 23%;
-
   }
-  /* .fa-bars{
-    margin-bottom: 2em;
-    margin-left: 1.5em;
-  } */
+
   #icons{
     width:130%;
   }
   #footer-text{
-    margin-left: -1%;
+    margin-left: 11%;
   }
-  /* .footer{
-    width:110%;
-  } */
+  #copyright{
+    margin-left: -15%;
+  }
+  #content .badge{
+    margin-top: 30%;
+    width:25%;
+  }
 }
 @media screen and (max-width:404px) {
   #copyright{
@@ -604,13 +607,13 @@ h5{
 
   }
   #panel .card-title{
-    margin-top: -28%;
+    margin-top: -24%;
     font-size: 92%;
     text-align: left;
   }
   #panel{
     margin:auto;
-    width:90%;
+    width:95%;
   }
   #top-panel{
     margin-top: 6em;
@@ -644,7 +647,7 @@ h5{
     margin-top: -48em;
   }
   .card{
-    padding-bottom: -10%;
+    padding-bottom: -7%;
     margin-top: -0.2em;
   }
   #date{
@@ -668,7 +671,10 @@ h5{
   width:120%;
 
 }
+#content h4{
+  font-size: 180%;
 
+}
   #content p{
     font-size: 80%;
     margin-left: -2%;
@@ -694,11 +700,17 @@ h5{
     width:67%;
   }
   #stories{
-    margin-bottom: -5em;
+    margin-bottom: 10%;
   }
   #content .badge{
-    margin-top: -6em;
+    margin-top: -3%;
     width:25%;
+  }
+  #content{
+    padding-left: 10%;
+  }
+  #content button{
+    margin-left: -10%;
   }
 
 
@@ -743,6 +755,14 @@ h5{
       margin-bottom: 1.3em;
       margin-left: 1.3em;
   }
+  #panel{
+    margin:auto;
+    width:90%;
+  }
+  #top-panel{
+    margin-top: 6em;
+  }
+
 
 }
 
@@ -782,7 +802,7 @@ h5{
   }
 
   #panel .card-title{
-    margin-top: -4em;
+    margin-top: -5.2em;
   }
   #panel-title{
     margin-top: 1%;
