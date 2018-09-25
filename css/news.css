@@ -494,9 +494,10 @@ h5{
 }
 
 @media screen and (max-width:414px) {
-  .fa-bars{
-    margin-left: -3.5em;
-    margin-bottom: 1em;
+  .dark-blue-text,.fa-bars {
+      color: #c83e2c;
+      margin-bottom: 1.3em;
+      margin-left: 1.3em;
   }
   .card h3{
     margin-top: 8em;
@@ -781,6 +782,11 @@ h5{
   }
   #logo{
     width:50%;
+  }
+  .dark-blue-text,.fa-bars {
+      color: #c83e2c;
+      margin-bottom: 1.3em;
+      margin-left: 1.3em;
   }
 
 }
