@@ -695,6 +695,11 @@ h5{
   .footer{
     width:70%;
   }
+  .dark-blue-text,.fa-bars {
+      color: #c83e2c;
+      margin-bottom: 1.3em;
+      margin-left: 1.3em;
+  }
 
 }
 
@@ -732,6 +737,10 @@ h5{
   }
   .fa-bars{
     margin-bottom: 1em;
+  }.dark-blue-text,.fa-bars {
+      color: #c83e2c;
+      margin-bottom: 1.3em;
+      margin-left: 1.3em;
   }
 
 }
