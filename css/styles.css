@@ -800,15 +800,10 @@ h5{
   height:195%;
   padding-top: 12%;
   margin-bottom: 20%;
-  color:white;
-  /* opacity:0.9; */
+
 
 }
-@-moz-document url-prefix() {
-  #contact-section .card{
-    background-color: white;
-  }
-}
+
 
 
 
