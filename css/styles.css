@@ -941,6 +941,8 @@ h5{
 #partner-section-one{
   margin-bottom: -12em;
 }
+
+
 @media only screen and (max-width: 1208px) {
   .navbar {
     background-color: black;
@@ -2425,7 +2427,5 @@ figure:hover+span {
 .investor-logos{
   margin-left: 3.5%;
 }
-
-
 
 }
