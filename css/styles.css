@@ -693,11 +693,13 @@ h3{
   }
 #contact-card{
   margin-bottom: 10vh;
-
 }
+
 #contact{
   padding-top: 10%;
+  /* opacity: 0.5; */
 }
+
 h1{
   text-align:center;
   font-size: 350%;
@@ -2438,16 +2440,16 @@ figure:hover+span {
 
 }
 #contact-section input::placeholder{
-  color:white;
+  color:#008f8a;
   font-size: 130%;
 }
 #contact-section input{
   color:black;
 }
 #contact-section textarea::placeholder{
-  color:white;
+  color:#008f8a;
   font-size: 130%;
 }
 #contact-section .card{
-  background-color: #008f8a;
+  background-color: #fff!important;
 }
