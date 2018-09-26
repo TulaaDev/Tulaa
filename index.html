@@ -30,7 +30,7 @@
 
 <link href="css/mdb.css" rel="stylesheet">
 <link href="css/mdb.min.css" rel="stylesheet">
-<link href="css/bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" href="css/bootstrap.css" >
 <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -442,58 +442,52 @@ Tulaa connects smallholder farmers to quality agricultural inputs, affordable fi
           <br>
 
           <!-- Default form contact -->
-          <section style="-ms-background-color:white;width:90%;margin:auto;">
+
           <div id="contact-section">
-          <div class="card white center" id="contact-card">
+          <div class="card center" id="contact-card">
 
               <h5 class="card-header white-text text-center py-4">
                   CONTACT US
               </h5>
               <!--Card content-->
               <div class="card-body px-lg-5 pt-0" >
+                  <form class="text-center mytext" >
+                      <div class="md-form mt-3">
+                          <input type="text" id="materialContactFormName" class="form-control" style="height:4vh;" placeholder="NAME:">
 
-                  <!-- Form -->
-                  <form class="text-center mytext" style="color: red;">
+                      </div>
+                      <div class="md-form">
+                          <input type="email" id="materialContactFormEmail" class="form-control" style="height:4vh;" placeholder="EMAIL:">
 
-                      <!-- Name -->
-                      <div class="md-form mt-3">
-                          <input type="text" id="materialContactFormName" class="form-control mytext" style="height:4vh;">
-                          <label for="materialContactFormName" style="color:#008f8a;font-size:85%;">NAME</label>
                       </div>
-                      <!-- E-mail -->
+
+                      <div class="md-form mt-3">
+                          <input type="text" id="materialContactFormOrganization" class="form-control" style="height:4vh;" placeholder="ORGANIZATION:">
+
+                      </div>
+
+                      <div class="md-form mt-3">
+                          <input type="text" id="materialContactFormCountry" class="form-control" style="height:4vh;color:white;" placeholder="COUNTRY:">
+
+                      </div>
+
                       <div class="md-form">
-                          <input type="email" id="materialContactFormEmail" class="form-control" style="height:4vh;">
-                          <label for="materialContactFormEmail" style="color:#008f8a;font-size:85%;">E-MAIL</label>
-                      </div>
-                      <!-- Organization -->
-                      <div class="md-form mt-3">
-                          <input type="text" id="materialContactFormOrganization" class="form-control" style="height:4vh;">
-                          <label for="materialContactFormName" style="color:#008f8a;font-size:85%;">ORGANIZATION</label>
-                      </div>
-                      <!-- Country -->
-                      <div class="md-form mt-3">
-                          <input type="text" id="materialContactFormCountry" class="form-control" style="height:4vh;color:white;">
-                          <label for="materialContactFormName" style="color:#008f8a;font-size:85%;">COUNTRY</label>
-                      </div>
-                      <!--Message-->
-                      <div class="md-form">
-                          <textarea type="text" id="materialContactFormMessage" class="form-control md-textarea" rows="3"></textarea>
-                          <label for="materialContactFormMessage" style="color:#008f8a;font-size:85%;">MESSAGE</label>
+                          <textarea type="text" id="materialContactFormMessage" class="form-control md-textarea" rows="3" placeholder="MESSAGE:"></textarea>
+
                       </div>
                       <br>
-                      <!-- Send button -->
-                      <button class="btn btn-outline-info btn-rounded btn-blockmy-4 waves-effect" type="submit" style="color:#008f8a;"><span style="font-size:150%;">Send</span></button>
 
+                      <button class="btn btn-outline-light btn-rounded btn-blockmy-4 waves-effect" type="submit" style="color:#008f8a;"><span style="font-size:150%;">Send</span></button>
                   </form>
                 </div>
-                  <!-- Form -->
               </div>
           </div>
         </div>
+
       </div>
 
           <!-- Material form contact -->
-</section>
+
 </div>
 
 
@@ -558,6 +552,14 @@ Tulaa connects smallholder farmers to quality agricultural inputs, affordable fi
   </footer>
   <!-- Footer -->
 <script src="js/main.js"></script>
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.11/js/mdb.min.js"></script>
 
   <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
   <!-- Bootstrap tooltips -->
@@ -566,7 +568,7 @@ Tulaa connects smallholder farmers to quality agricultural inputs, affordable fi
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
 
-  <script type="text/javascript" src="js/mdb.min.js"></script>
+
   <!-- Initializations -->
   <script type="text/javascript">
     // Animations initialization
@@ -574,9 +576,7 @@ Tulaa connects smallholder farmers to quality agricultural inputs, affordable fi
   </script>
   <!-- JQuery -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.9/js/mdb.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script type="text/javascript" src="js/mdb.min.js"></script>
   <script src="js/parallax.js"></script>
 
 <script>

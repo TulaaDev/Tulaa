@@ -691,7 +691,6 @@ h3{
   }
 #contact-card{
   margin-bottom: 10vh;
-  -ms-background-color: white;
 
 }
 #contact{
@@ -944,6 +943,10 @@ h5{
 #partner-section-one{
   margin-bottom: -12em;
 }
+input::placeholder {
+  color:white;
+}
+::-webkit-input-placeholder { color: #333; }
 
 
 @media only screen and (max-width: 1208px) {
@@ -2431,4 +2434,18 @@ figure:hover+span {
   margin-left: 3.5%;
 }
 
+}
+#contact-section input::placeholder{
+  color:white;
+  font-size: 130%;
+}
+#contact-section input{
+  color:black;
+}
+#contact-section textarea::placeholder{
+  color:white;
+  font-size: 130%;
+}
+#contact-section .card{
+  background-color: #008f8a;
 }
