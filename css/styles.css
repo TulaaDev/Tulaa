@@ -691,7 +691,7 @@ h3{
   }
 #contact-card{
   margin-bottom: 10vh;
-  /* background-color: white; */
+  -ms-background-color: white;
 
 }
 #contact{
