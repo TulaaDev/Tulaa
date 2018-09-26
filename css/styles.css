@@ -919,6 +919,10 @@ h5{
 
 .testimonial .card-text{
   font-size:90%;
+  margin-left: 8%;
+}
+.testimonial #emmanuel{
+  margin-left: 4%;
 }
 .center{
   display: block;
@@ -2088,6 +2092,9 @@ text-align: left;
   #copyright{
     margin-left: -20%;
   }
+  #partner-cards{
+    margin-left: 23%;
+  }
 }
 
 @media screen and (max-width:400px){
@@ -2293,6 +2300,7 @@ text-align: left;
   }
   #press-section{
     margin-left: 3%;
+
   }
   #partner-cards .card-title{
     font-size:160%;
@@ -2314,6 +2322,10 @@ text-align: left;
   .investor-logos{
     margin-left: 27.5%;
   }
+  .investor-logos{
+    width:80%;
+  }
+
   #our-investors{
     margin-left: -4em;
   }
