@@ -413,10 +413,10 @@ button {
   #card1 img{
     width:100%;
   }
-  #contact-card{
+  /* #contact-card{
     background-color: white;
 
-  }
+  } */
 
   #who-text{
     font-size: 135%;
@@ -691,7 +691,7 @@ h3{
   }
 #contact-card{
   margin-bottom: 10vh;
-  background-color: white;
+  /* background-color: white; */
 
 }
 #contact{
