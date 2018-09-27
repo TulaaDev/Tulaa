@@ -919,10 +919,12 @@ input::placeholder {
 #parallax-three{
   min-height:1000px;
   margin-bottom: -17em;
+  margin-top: 10%;
+
 }
 #contact-card{
-  /* margin-bottom: 14em; */
-  margin-top: -2em;
+  margin-bottom: 1em;
+  margin-top: -4em;
 }
 footer{
   margin-top: 7em;
