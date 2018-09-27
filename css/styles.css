@@ -917,12 +917,12 @@ input::placeholder {
   color:white;
 }
 #parallax-three{
-  height:70em;
-  margin-top: 10%;
-  margin-bottom: -10em;
-
+  min-height:1000px;
+  margin-bottom: -20em;
 }
-
+footer{
+  margin-top: 7em;
+}
 
 @media only screen and (max-width: 1208px) {
   .navbar {
