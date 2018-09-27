@@ -2,35 +2,35 @@ body{
   font-family: 'VegurRegular';
   font-weight: normal;
   font-style: normal;
-
 }
-
 
 .container-fluid{
   display:flex;
   flex-wrap: nowrap;
 }
+
 .single-card .card-title{
   font-size: 150%;
 }
+
 .single-card .card-text{
   text-align: left;
 }
 
 #testimonial .card-text{
   font-size:110%;
-
 }
+
 #partner-cards .single-card{
   width:25%;
 }
+
 .last-card{
   width:30%;
 }
 
 
 .jumbotron{
-  /* background-image: url("../img/jumbotron.jpg"); */
   background-size: cover;
   background-repeat: no-repeat;
   height:101vh;
@@ -52,7 +52,6 @@ body{
   display: block;
   margin-left: auto;
   margin-right: auto;
-
   margin-bottom: -6%;
 
 }
@@ -99,7 +98,7 @@ body{
 }
 
 #parallax-three{
-  margin-bottom: -20vh;
+  margin-bottom: -10vh;
 
 }
 .nav-tabs>.active>a, .nav-tabs>.active>a:hover, .nav-tabs>.active>a:focus {
@@ -166,15 +165,12 @@ body{
 }
 .navbar-nav mr-auto{
   float:right;
-
 }
-
 
 nav a:hover{
   color:#c83e2c;
 }
 .nav-tabs a:hover {
-
   background-color: transparent;
   border-color: transparent transparent!important;
   border-bottom: 2px solid #c83e2c!important ;
@@ -184,16 +180,15 @@ body {
   position: relative;
 }
 
-
 /* svg line break */
 #Layer_1{
   margin-bottom: 4%;
 }
 
-
 .navbar{
   background-color: white;
 }
+
 .nav-item a{
   font-size: 120%;
   font-family: 'VegurRegular';
@@ -201,8 +196,6 @@ body {
   font-style: normal;
   color:#008f8a;
   border: 2px solid transparent;
-
-
 }
 
 .top-nav-collapse {
@@ -216,7 +209,6 @@ body {
 .mit h4{
   margin-left: 10%;
 }
-
 
 #solution{
   padding: 8%;
@@ -311,20 +303,24 @@ button {
   font-size:370%;
   margin-top: 6%;
 }
+
 #image2{
   width:205%;
   margin-left: 3vw;
 }
+
  #section3{
    color:#008f8a;
    margin-top:5%;
    font-size: 300%;
  }
+
   #joinus{
     margin-top: 2%;
     font-size: 150%;
     margin-bottom: 3%;
   }
+
   .card-img-fluid{
     width:70%;
     margin-bottom: 40%;
@@ -334,8 +330,8 @@ button {
     margin-top: -3%;
     margin-bottom: 30%;
     mix-blend-mode: multiply;
-
   }
+
   .single-card svg{
     display: block;
     margin-left: auto;
@@ -344,9 +340,8 @@ button {
     margin-top: -3%;
     margin-bottom: -6%;
     mix-blend-mode: multiply;
-
-
   }
+
 .parallax-window{
   min-height: 400px;
 }
@@ -375,8 +370,8 @@ button {
   .card {
     border: 0;
     background-color: transparent;
-
   }
+
   .card-deck{
     width:97%;
     border: none;
@@ -384,41 +379,37 @@ button {
     border: 0;
     background-color: transparent;
     margin-bottom: 20%;
-
-
   }
+
   .card-text{
     font-size: 110%;
     text-align: center;
     width:90%;
   }
+
   .partner-list{
     margin-left:2px;
   }
+
   #press-logo{
     width:90%;
     margin-bottom: -4%;
     margin-top: -6%;
-
   }
+
   .headshot{
     width:133%;
     height:192%;;
     margin-top: -17%;
     margin-left: -16%;
-
-
   }
+
   #partner-cards{
     margin-bottom: -10em;
   }
   #card1 img{
     width:100%;
   }
-  /* #contact-card{
-    background-color: white;
-
-  } */
 
   #who-text{
     font-size: 135%;
@@ -506,11 +497,9 @@ h2 span {
 	margin: 0;
 	padding: 10%;
 	background: #fff;
-
   border-radius: 70%;
   margin-bottom:10px;
   float:right;
-
 }
 
 #press-logo2 .column div {
@@ -578,8 +567,8 @@ figure:hover+span {
 
 .footer{
   width:75%;
+  margin-top: -10vh;
 }
-
 
 .nav-item a:hover {
     color:#c83e2c;
@@ -644,7 +633,7 @@ h3{
   text-align: center;
   color:#c83e2c;
 }
-}
+
 .hover10 div {
 	position: relative;
 	float: left;
@@ -671,8 +660,6 @@ h3{
   margin-top: 7%;
 }
 
-
-
 .logo-title{
   margin-bottom: 5%;
 }
@@ -697,7 +684,7 @@ h3{
 
 #contact{
   padding-top: 10%;
-  /* opacity: 0.5; */
+
 }
 
 h1{
@@ -792,7 +779,6 @@ h5{
 
 #awards{
   width:70%;
-
 }
 
 .form-control {
@@ -803,12 +789,7 @@ h5{
   height:195%;
   padding-top: 12%;
   margin-bottom: 20%;
-
-
 }
-
-
-
 
 #headshots{
   margin-bottom: 3%;
@@ -864,20 +845,6 @@ h5{
 }
 
 
- #gradient{
-   background: linear-gradient(
-   to bottom,
-   white,
-   transparent);
-   margin-top:12.5%;
-   color:grey;
-   background-color:black;
-   width:102%;
-   margin-left:-2vw;
-   font-size:337%;
-   opacity:0.66;
-
- }
  #our-investors{
    margin-bottom: -8%;
  }
@@ -906,10 +873,10 @@ h5{
   margin-top: 6em;
 }
 
-
 .page-footer {
-  background-color: #1C2331; }
+  background-color: #1C2331;
 
+}
 
 #logo{
   width:90%;
@@ -917,8 +884,8 @@ h5{
   margin-top: -1vh;
   margin-bottom: -1vh;
   mix-blend-mode: multiply;
-
 }
+
 #navbarSupportedContent{
   font-size: 160%;
 }
@@ -938,7 +905,6 @@ h5{
   margin-top: -3%;
   margin-bottom: -6%;
   mix-blend-mode: multiply;
-
 }
 
 .footer{
@@ -950,7 +916,9 @@ h5{
 input::placeholder {
   color:white;
 }
-::-webkit-input-placeholder { color: #333; }
+#parallax-three{
+  height:200%;
+}
 
 
 @media only screen and (max-width: 1208px) {
