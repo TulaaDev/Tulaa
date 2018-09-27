@@ -3,43 +3,31 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-
-
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
   <link href="css/mdb.min.css" rel="stylesheet">
   <link rel="shortcut icon" type="image/png" sizes="200x200" href="img/favicon-tulaa2.png"/>
-
-  <!-- Your custom styles (optional) -->
-
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/vegur" type="text/css"/>
   <link href="css/mdb.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/careers.css">
-
   <link rel="stylesheet" href="css/news.css">
-
   <title>Press | Tulaa</title>
   </head>
   <div id="topheader">
     <nav class="navbar fixed-top navbar-expand-lg navbar-inverse white">
-
         <a class="navbar-brand" href="index.html"><img src="img/tulaa-logo2.png" id="logo" style="margin-left:-0.2vw;"></a>
-
+        <!-- button for collapse on mobile devices -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
             aria-expanded="false" aria-label="Toggle navigation" style="margin-bottom:-10vh;margin-left:2%;">
             <span class="dark-red-text" style="color: #c83e2c;"><i class="fa fa-bars fa-1x" style="color: #c83e2c;"></i></span>
         </button>
-
-
         <div class="collapse navbar-collapse flex-grow-1 text-right classic-tabs mx-1" id="navbarNavDropdown">
             <ul class="nav nav-tabs ml-auto flex-wrap">
               <li class="nav-item">
@@ -58,203 +46,189 @@
                   <a href="index.html#contact" class="nav-link m-2 menu-item">CONTACT US </a>
               </li>
             </ul>
-
         </div>
-    </nav>
-  </div>
+      </nav>
+    </div>
+
   <body>
 
-<a data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3" data-target="#collapseExample3">
-<div class="container" id="top-panel">
-<div class="card card-body" id="panel" style="margin-bottom:3%;">
-  <div class="row row-striped" id="panel-title">
+    <!-- Top panel is wrapped in a link to make for easier access to the endpoint -->
+    <a data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3" data-target="#collapseExample3">
+    <div class="container" id="top-panel">
+    <div class="card card-body" id="panel" style="margin-bottom:3%;">
+      <div class="row row-striped" id="panel-title">
 
-    <span class="badge date article" style="height:100%;">27 OCT <br>2018</span>
+        <span class="badge date article" style="height:100%;">27 OCT <br>2018</span>
+        </div>
+        <h4 class="card-title">Kenya’s Tulaa announces $627,000 seed round from AHL Venture Partners</strong></h4>
+      </div>
     </div>
-    <h4 class="card-title">Kenya’s Tulaa announces $627,000 seed round from AHL Venture Partners</strong></h4>
-  </div>
-</div>
-</div>
+    </div>
+    <!-- Read more tag corresponds to top panel -->
+    <h5 id="read-more"><a data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3" style="color:#c83e2c;margin-left:-40%;margin-bottom:4%;" > READ MORE</a></h5>
 
-<h5 id="read-more"><a data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3" style="color:#c83e2c;margin-left:-40%;margin-bottom:4%;" > READ MORE</a></h5>
-<div class="container" id="stories">
-<div class="row" style="margin-left:1%;width:100%;margin-bottom:5%;">
-    <div class="col-md-12 mb-12">
-
-        <div class="card example-1 scrollbar-cyan bordered-cyan" style="height:80vh;">
-            <div class="card-body">
-
-              <a data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3" data-target="#collapseExample3" class="collapse-content">
-
-                <div class="row row-striped">
-                  <div class="col-2 text-right">
-                    <img src="img/news4.jpeg" style="width:200%;">
-
-                  </div>
-                  <div class="col-9" style="margin-left:22%;margin-top:-25vh;">
-                    <h3 class="text-uppercase">Kenya’s Tulaa announces $627,000 seed round from AHL Venture Partners</h3>
-                  <p style="margin-top:2%;text-align:left;margin-left:7.5%;">Tulaa ‐a credit platform for smallholder farmers ‐ has announced that it recently closed a seed round of $627,000. Tulaa, a platform for smallholder farmers to access inputs, credit and markets in Kenya, announced today 24/07/2018 a seed round of investment of $627,000 led by AHL Venture Partners, wrote Tulaa. The round, which Tulaa says</p>
-                    <h5><a data-toggle="collapse3" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3" class="collapse-content"style="color:#c83e2c;"> READ MORE</a></h5>
-</a>
-                  </div>
-                </div>
+    <!-- Card container with scrollable stories and clickable sections that expand the rest of the story. Feel free to replace Collapse Example href's and id's with title of articles where appropriate -->
+      <div class="container" id="stories">
+        <div class="row" style="margin-left:1%;width:100%;margin-bottom:5%;">
+          <div class="col-md-12 mb-12">
+            <div class="card example-1 scrollbar-cyan bordered-cyan" style="height:80vh;">
+              <div class="card-body">
+                      <!-- Collapse Example 3 -->
+                      <a data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3" data-target="#collapseExample3" class="collapse-content">
+                        <div class="row row-striped">
+                          <div class="col-2 text-right">
+                            <img src="img/news4.jpeg" style="width:200%;">
+                            </div>
+                              <div class="col-9" style="margin-left:22%;margin-top:-25vh;">
+                                <h3 class="text-uppercase">Kenya’s Tulaa announces $627,000 seed round from AHL Venture Partners</h3>
+                              <p style="margin-top:2%;text-align:left;margin-left:7.5%;">Tulaa ‐a credit platform for smallholder farmers ‐ has announced that it recently closed a seed round of $627,000. Tulaa, a platform for smallholder farmers to access inputs, credit and markets in Kenya, announced today 24/07/2018 a seed round of investment of $627,000 led by AHL Venture Partners, wrote Tulaa. The round, which Tulaa says</p>
+                                <h5><a data-toggle="collapse3" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3" class="collapse-content"style="color:#c83e2c;"> READ MORE</a></h5>
+                              </a>
+                              </div>
+                            </div>
+                            <hr>
+                        <!-- Collapse Example 4 -->
+                        <a data-toggle="collapse" href="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4" data-target="#collapseExample4" class="collapse-content">
+                          <div class="row row-striped">
+                            <div class="col-2 text-right">
+                              <img src="img/news2.jpeg" style="width:200%;">
+                          </div>
+                          <div class="col-9" style="margin-left:22%;margin-top:-25vh;">
+                            <h3 class="text-uppercase">Kenyan Startup Tulaa Secures USD 627 K in Seed Round Led By AHL Venture Partners</h3>
+                            <p style="margin-top:2%;text-align:left;margin-left:7.5%;">In a move that is expected to bolster expansion plans and further the development of the platform’s technology, Kenyan Agri-Tech/Fin-Tech enterprise, Tulaa, has secured a seed round investment reported to be in the region of USD 627 K. The latest funding round for the Kenyan startup which has set its sights on empowering smallholder farmers </p>
+                            <h5><a data-toggle="collapse"  aria-expanded="false" aria-controls="collapseExample" data-target="#collapseExample4" class="collapse-content" style="color:#c83e2c;">READ MORE</a></h5>
+                          </div>
+                        </div>
+                      </a>
+                      <hr>
+                      <!-- Collapse Example 5 -->
+                      <a data-toggle="collapse" href="#collapseExample5" aria-expanded="false" aria-controls="collapseExample6" data-target="#collapseExample6" class="collapse-content">
+                      <div class="row row-striped">
+                        <div class="col-2 text-right">
+                          <img src="img/news3.jpeg" style="width:210%;">
+                        </div>
+                        <div class="col-9" style="margin-left:22%;margin-top:-25vh;">
+                          <h3 class="text-uppercase">BREAKING EXCLUSIVE: Tulaa Raises $627k Seed Round for Smallholder Fintech</h3>
+                        <p style="margin-top:2%;text-align:left;margin-left:7.5%;">Tulaa, a Kenyan fintech startup for smallholder farmers, has raised $627k in seed funding in a round led by AHL Venture Partners, one of the largest impact-focused venture capital firms in Africa. The oversubscribed round also attracted investment from other impact investment funds Global Partnerships/Eleos Social Venture Fund, Beyond Capital, and Rafiki Ventures. Tulaa uses </p>
+                          <h5><a data-toggle="collapse" href="#collapseExample6" aria-expanded="false" aria-controls="collapseExample6" class="collapse-content"style="color:#c83e2c;">READ MORE</a></h5>
+                        </div>
+                      </div>
+                    </a>
+                    <hr>
+                    <!-- Collapse Example 7 -->
+                    <a data-toggle="collapse" href="#collapseExample7" aria-expanded="false" aria-controls="collapseExample7" data-target="#collapseExample7" class="collapse-content">
+                    <div class="row row-striped">
+                      <div class="col-2 text-right">
+                        <img src="img/news2.jpeg" style="width:200%;">
+                      </div>
+                      <div class="col-9" style="margin-left:22%;margin-top:-25vh;">
+                        <h3 class="text-uppercase">Esoko announces restructuring to focus on m-commerce and data collection</h3>
+                      <p style="margin-top:2%;text-align:left;margin-left:7.5%;">Esoko, a pioneering social enterprise in the field of mobile agriculture, is pleased to announce that it has restructured the company and spun-off its m-commerce and data collection businesses into two new companies. This new structure allows for greater focus and growth in divergent products developed by Esoko. Tulaa, the new mobile commerce business, enables </p>
+                        <h5><a data-toggle="collapse"  aria-expanded="false" aria-controls="collapseExample7" data-target="#collapseExample7" class="collapse-content" style="color:#c83e2c;">READ MORE</a></h5>
+                      </div>
+                    </div>
+                  </a>
 
                 <hr>
+                <!-- Collapse Example 8 -->
+                <a data-toggle="collapse" href="#collapseExample8" aria-expanded="false" aria-controls="collapseExample8" data-target="#collapseExample8" class="collapse-content">
+                  <div class="row row-striped">
+                    <div class="col-2 text-right">
+                      <img src="img/news2.jpeg" style="width:200%;">
+                  </div>
+                  <div class="col-9" style="margin-left:22%;margin-top:-25vh;">
+                    <h3 class="text-uppercase">Accra-based beautician uses e-wallet to help with her mother’s farm</h3>
+                    <p style="margin-top:2%;text-align:left;margin-left:7.5%;"> Nana Yaa Tuah is from Techiman, in the Brong Ahafo Rehion of Ghana. She registered onto Fasiba in November 2016, and was the first person to lay away money on the platform. She opted for the maize standard pack</p>
+                    <h5><a data-toggle="collapse"  aria-expanded="false" aria-controls="collapseExample8" data-target="#collapseExample8" class="collapse-content" style="color:#c83e2c;">READ MORE</a></h5>
+                  </div>
+                </div>
+              </a>
 
+              <hr>
 
-                <a data-toggle="collapse" href="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4" data-target="#collapseExample4" class="collapse-content">
+                <a data-toggle="collapse" href="#collapseExample9" aria-expanded="false" aria-controls="collapseExample9" data-target="#collapseExample9" class="collapse-content">
+                <div class="row row-striped">
+                  <div class="col-2 text-right">
+                    <img src="img/news2.jpeg" style="width:200%;">
+                  </div>
+                  <div class="col-9" style="margin-left:22%;margin-top:-25vh;">
+                    <h3 class="text-uppercase">Insight on Baseline Study of Smallholder Farmers in Ghana</h3>
+                    <p style="margin-top:2%;text-align:left;margin-left:7.5%;">Summary Fasiba, Esoko ‘s latest innovative technological solution, is designed to help smallholder farmers overcome the challenge of lack of access to affordable and quality inputs to increase productivity. The solution aims at creating a two-sided market for the supply and purchase of inputs, information services on Good Agricultural Practices (GAPs) and digital financial services. </p>
+                    <h5><a data-toggle="collapse"  aria-expanded="false" aria-controls="collapseExample9" data-target="#collapseExample9" class="collapse-content" style="color:#c83e2c;">READ MORE</a></h5>
+                  </div>
+                </div>
+              </a>
+
+              <hr>
+                  <!-- Collapse Example 10 -->
+                <a data-toggle="collapse" href="#collapseExample10" aria-expanded="false" aria-controls="collapseExample10" data-target="#collapseExample10" class="collapse-content">
 
                 <div class="row row-striped">
                   <div class="col-2 text-right">
                     <img src="img/news2.jpeg" style="width:200%;">
                   </div>
                   <div class="col-9" style="margin-left:22%;margin-top:-25vh;">
-                    <h3 class="text-uppercase">Kenyan Startup Tulaa Secures USD 627 K in Seed Round Led By AHL Venture Partners</h3>
-                  <p style="margin-top:2%;text-align:left;margin-left:7.5%;">In a move that is expected to bolster expansion plans and further the development of the platform’s technology, Kenyan Agri-Tech/Fin-Tech enterprise, Tulaa, has secured a seed round investment reported to be in the region of USD 627 K. The latest funding round for the Kenyan startup which has set its sights on empowering smallholder farmers </p>
-                    <h5><a data-toggle="collapse"  aria-expanded="false" aria-controls="collapseExample" data-target="#collapseExample4" class="collapse-content" style="color:#c83e2c;">READ MORE</a></h5>
-
+                    <h3 class="text-uppercase">Esoko registers its 1,000th farmer on the Fasiba platform!</h3>
+                    <p style="margin-top:2%;text-align:left;margin-left:7.5%;">Since the launch of Fasiba in Ghana last year November, Esoko’s team of agents have been on the field all across the country sensitizing and registering smallholder farmers (SHF) onto the platform. Our aim has been to encourage SHFs to lay-away money when they have it, in order to afford quality agric inputs on the platform,</p>
+                    <h5><a data-toggle="collapse"  aria-expanded="false" aria-controls="collapseExample10" data-target="#collapseExample10" class="collapse-content" style="color:#c83e2c;">READ MORE</a></h5>
                   </div>
                 </div>
               </a>
-                <hr>
 
-                <a data-toggle="collapse" href="#collapseExample5" aria-expanded="false" aria-controls="collapseExample6" data-target="#collapseExample6" class="collapse-content">
+              <hr>
+          <!-- Collapse Example 11 -->
+                <a data-toggle="collapse" href="#collapseExample11" aria-expanded="false" aria-controls="collapseExample11" data-target="#collapseExample11" class="collapse-content">
 
                 <div class="row row-striped">
-                  <div class="col-2 text-right">
-                    <img src="img/news3.jpeg" style="width:210%;">
-                  </div>
-                  <div class="col-9" style="margin-left:22%;margin-top:-25vh;">
-                    <h3 class="text-uppercase">BREAKING EXCLUSIVE: Tulaa Raises $627k Seed Round for Smallholder Fintech</h3>
-                  <p style="margin-top:2%;text-align:left;margin-left:7.5%;">Tulaa, a Kenyan fintech startup for smallholder farmers, has raised $627k in seed funding in a round led by AHL Venture Partners, one of the largest impact-focused venture capital firms in Africa. The oversubscribed round also attracted investment from other impact investment funds Global Partnerships/Eleos Social Venture Fund, Beyond Capital, and Rafiki Ventures. Tulaa uses </p>
-                    <h5><a data-toggle="collapse" href="#collapseExample6" aria-expanded="false" aria-controls="collapseExample6" class="collapse-content"style="color:#c83e2c;">READ MORE</a></h5>
-
-                  </div>
-                </div>
-              </a>
-
-                <hr>
-              <a data-toggle="collapse" href="#collapseExample7" aria-expanded="false" aria-controls="collapseExample7" data-target="#collapseExample7" class="collapse-content">
-
-              <div class="row row-striped">
                 <div class="col-2 text-right">
                   <img src="img/news2.jpeg" style="width:200%;">
                 </div>
                 <div class="col-9" style="margin-left:22%;margin-top:-25vh;">
-                  <h3 class="text-uppercase">Esoko announces restructuring to focus on m-commerce and data collection</h3>
-                <p style="margin-top:2%;text-align:left;margin-left:7.5%;">Esoko, a pioneering social enterprise in the field of mobile agriculture, is pleased to announce that it has restructured the company and spun-off its m-commerce and data collection businesses into two new companies. This new structure allows for greater focus and growth in divergent products developed by Esoko. Tulaa, the new mobile commerce business, enables </p>
-                  <h5><a data-toggle="collapse"  aria-expanded="false" aria-controls="collapseExample7" data-target="#collapseExample7" class="collapse-content" style="color:#c83e2c;">READ MORE</a></h5>
-
+                  <h3 class="text-uppercase">Harnessing Open Data for Sustainable Development
+                </h3>
+                <p style="margin-top:2%;text-align:left;margin-left:7.5%;">Since its inception, Esoko has been a fervent supporter of open data. Our social enterprise began by collecting data and sharing this information with farmers over SMS. Studies conducted on Esoko show that access to this data has helped smallholder farmers increase their income levels. More details of these findings will be given later in the </p>
+                  <h5><a data-toggle="collapse"  aria-expanded="false" aria-controls="collapseExample11" data-target="#collapseExample11" class="collapse-content" style="color:#c83e2c;">READ MORE</a></h5>
                 </div>
               </div>
             </a>
-
           <hr>
 
-          <a data-toggle="collapse" href="#collapseExample8" aria-expanded="false" aria-controls="collapseExample8" data-target="#collapseExample8" class="collapse-content">
+          <!-- Collapse Example 12 -->
+            <a data-toggle="collapse" href="#collapseExample12" aria-expanded="false" aria-controls="collapseExample12" data-target="#collapseExample12" class="collapse-content">
+              <div class="row row-striped">
+                <div class="col-2 text-right">
+                <img src="img/news2.jpeg" style="width:200%;">
+                </div>
+                <div class="col-9" style="margin-left:22%;margin-top:-25vh;">
+                <h3 class="text-uppercase">Esoko announces restructuring to focus on m-commerce and data collection</h3>
+                <p style="margin-top:2%;text-align:left;margin-left:7.5%;">Esoko Ghana, a leader in rural information service delivery, has officially launched its office branch in Tamale, in the Northern Region of Ghana. The launch activities took place over the 23rd to 24th of August 2016; starting with a 3-hour float through the streets of Tamale, a launch ceremony and culminating with Esoko’s second open </p>
+                <h5><a data-toggle="collapse"  aria-expanded="false" aria-controls="collapseExample12" data-target="#collapseExample12" class="collapse-content" style="color:#c83e2c;">READ MORE</a></h5>
+                </div>
+              </div>
+            </a>
+          <hr>
+            <!-- Collapse Example 13 -->
+              <a data-toggle="collapse" href="#collapseExample13" aria-expanded="false" aria-controls="collapseExample13" data-target="#collapseExample13" class="collapse-content">
+                <div class="row row-striped">
+                  <div class="col-2 text-right">
+                  <img src="img/news2.jpeg" style="width:200%;">
+                </div>
+                <div class="col-9" style="margin-left:22%;margin-top:-25vh;">
+                <h3 class="text-uppercase">Leveraging mobile technology in farming</h3>
 
-          <div class="row row-striped">
-            <div class="col-2 text-right">
-              <img src="img/news2.jpeg" style="width:200%;">
+                <p style="margin-top:2%;text-align:left;margin-left:7.5%;">Mobile technology continues to expand its ability to assist various sectors, including the agricultural industry. In Africa, 40% of the population now have access to internet browsing on their phones according to It News Africa, while ownership of smartphones continue to increase in the continent. As mobile device usage strengthens in Africa, projects related </p>
+                <h5><a data-toggle="collapse"  aria-expanded="false" aria-controls="collapseExample13" data-target="#collapseExample13" class="collapse-content" style="color:#c83e2c;">READ MORE</a></h5>
+
+              </div>
             </div>
-            <div class="col-9" style="margin-left:22%;margin-top:-25vh;">
-              <h3 class="text-uppercase">Accra-based beautician uses e-wallet to help with her mother’s farm</h3>
-            <p style="margin-top:2%;text-align:left;margin-left:7.5%;"> Nana Yaa Tuah is from Techiman, in the Brong Ahafo Rehion of Ghana. She registered onto Fasiba in November 2016, and was the first person to lay away money on the platform. She opted for the maize standard pack</p>
-              <h5><a data-toggle="collapse"  aria-expanded="false" aria-controls="collapseExample8" data-target="#collapseExample8" class="collapse-content" style="color:#c83e2c;">READ MORE</a></h5>
-
-            </div>
-          </div>
-        </a>
-
-        <hr>
-      <a data-toggle="collapse" href="#collapseExample9" aria-expanded="false" aria-controls="collapseExample9" data-target="#collapseExample9" class="collapse-content">
-
-      <div class="row row-striped">
-        <div class="col-2 text-right">
-          <img src="img/news2.jpeg" style="width:200%;">
-        </div>
-        <div class="col-9" style="margin-left:22%;margin-top:-25vh;">
-          <h3 class="text-uppercase">Insight on Baseline Study of Smallholder Farmers in Ghana</h3>
-        <p style="margin-top:2%;text-align:left;margin-left:7.5%;">Summary Fasiba, Esoko ‘s latest innovative technological solution, is designed to help smallholder farmers overcome the challenge of lack of access to affordable and quality inputs to increase productivity. The solution aims at creating a two-sided market for the supply and purchase of inputs, information services on Good Agricultural Practices (GAPs) and digital financial services. </p>
-          <h5><a data-toggle="collapse"  aria-expanded="false" aria-controls="collapseExample9" data-target="#collapseExample9" class="collapse-content" style="color:#c83e2c;">READ MORE</a></h5>
-
+          </a>
         </div>
       </div>
-    </a>
-
-    <hr>
-  <a data-toggle="collapse" href="#collapseExample10" aria-expanded="false" aria-controls="collapseExample10" data-target="#collapseExample10" class="collapse-content">
-
-  <div class="row row-striped">
-    <div class="col-2 text-right">
-      <img src="img/news2.jpeg" style="width:200%;">
-    </div>
-    <div class="col-9" style="margin-left:22%;margin-top:-25vh;">
-      <h3 class="text-uppercase">Esoko registers its 1,000th farmer on the Fasiba platform!</h3>
-    <p style="margin-top:2%;text-align:left;margin-left:7.5%;">Since the launch of Fasiba in Ghana last year November, Esoko’s team of agents have been on the field all across the country sensitizing and registering smallholder farmers (SHF) onto the platform. Our aim has been to encourage SHFs to lay-away money when they have it, in order to afford quality agric inputs on the platform,</p>
-      <h5><a data-toggle="collapse"  aria-expanded="false" aria-controls="collapseExample10" data-target="#collapseExample10" class="collapse-content" style="color:#c83e2c;">READ MORE</a></h5>
-
     </div>
   </div>
-</a>
-
-<hr>
-<a data-toggle="collapse" href="#collapseExample11" aria-expanded="false" aria-controls="collapseExample11" data-target="#collapseExample11" class="collapse-content">
-
-<div class="row row-striped">
-<div class="col-2 text-right">
-  <img src="img/news2.jpeg" style="width:200%;">
-</div>
-<div class="col-9" style="margin-left:22%;margin-top:-25vh;">
-  <h3 class="text-uppercase">Harnessing Open Data for Sustainable Development
-</h3>
-<p style="margin-top:2%;text-align:left;margin-left:7.5%;">Since its inception, Esoko has been a fervent supporter of open data. Our social enterprise began by collecting data and sharing this information with farmers over SMS. Studies conducted on Esoko show that access to this data has helped smallholder farmers increase their income levels. More details of these findings will be given later in the </p>
-  <h5><a data-toggle="collapse"  aria-expanded="false" aria-controls="collapseExample11" data-target="#collapseExample11" class="collapse-content" style="color:#c83e2c;">READ MORE</a></h5>
-
-</div>
-</div>
-</a>
-
-<hr>
-<a data-toggle="collapse" href="#collapseExample12" aria-expanded="false" aria-controls="collapseExample12" data-target="#collapseExample12" class="collapse-content">
-
-<div class="row row-striped">
-<div class="col-2 text-right">
-  <img src="img/news2.jpeg" style="width:200%;">
-</div>
-<div class="col-9" style="margin-left:22%;margin-top:-25vh;">
-  <h3 class="text-uppercase">Esoko announces restructuring to focus on m-commerce and data collection</h3>
-
-<p style="margin-top:2%;text-align:left;margin-left:7.5%;">Esoko Ghana, a leader in rural information service delivery, has officially launched its office branch in Tamale, in the Northern Region of Ghana. The launch activities took place over the 23rd to 24th of August 2016; starting with a 3-hour float through the streets of Tamale, a launch ceremony and culminating with Esoko’s second open </p>
-  <h5><a data-toggle="collapse"  aria-expanded="false" aria-controls="collapseExample12" data-target="#collapseExample12" class="collapse-content" style="color:#c83e2c;">READ MORE</a></h5>
-
-</div>
-</div>
-</a>
-
-<hr>
-<a data-toggle="collapse" href="#collapseExample13" aria-expanded="false" aria-controls="collapseExample13" data-target="#collapseExample13" class="collapse-content">
-
-<div class="row row-striped">
-<div class="col-2 text-right">
-  <img src="img/news2.jpeg" style="width:200%;">
-</div>
-<div class="col-9" style="margin-left:22%;margin-top:-25vh;">
-  <h3 class="text-uppercase">Leveraging mobile technology in farming</h3>
-
-<p style="margin-top:2%;text-align:left;margin-left:7.5%;">Mobile technology continues to expand its ability to assist various sectors, including the agricultural industry. In Africa, 40% of the population now have access to internet browsing on their phones according to It News Africa, while ownership of smartphones continue to increase in the continent. As mobile device usage strengthens in Africa, projects related </p>
-  <h5><a data-toggle="collapse"  aria-expanded="false" aria-controls="collapseExample13" data-target="#collapseExample13" class="collapse-content" style="color:#c83e2c;">READ MORE</a></h5>
-
-</div>
-</div>
-</a>
-            </div>
-        </div>
-    </div>
-</div>
 </div>
 
-
+<!-- Collapse Example 3 -->
 <div class="container collapse-content" id="content" >
         <div class="collapse" id="collapseExample3">
             <div class="mt-3 center">
@@ -307,21 +281,18 @@
                 </div>
               </div>
               <br>
+            </div>
+          </div>
 
-      </div>
-</div>
-
+<!-- Collapse Example 4 -->
 <div class="container" id="content">
         <div class="collapse collapse-content" id="collapseExample4">
             <div class="mt-3 center">
               <div class="row row-striped" id="date">
-
                 <span class="badge date article">30 JUL<br>2018</span>
-
-
                 <div class="col-9">
                   <h4 class="text-uppercase info-title" style="text-align:left;margin-top:2%;margin-left:10vw;"><strong>Kenyan Startup Tulaa Secures USD 627 K in Seed Round Led By AHL Venture Partners</strong></h4>
-              </div>
+                </div>
                 </div>
                 <p style="margin-top:5%;text-align:left;font-size:110%;">
 
@@ -361,21 +332,17 @@
                 </div>
               </div>
               <br>
-
-      </div>
-</div>
-
+            </div>
+          </div>
+<!-- Collapse Example 5 -->
 <div class="container" id="content">
         <div class="collapse collapse-content" id="collapseExample5">
             <div class="mt-3 center">
               <div class="row row-striped" id="date">
-
                 <span class="badge date article">30 JUL<br>2018</span>
-
-
                 <div class="col-9">
                   <h4 class="text-uppercase info-title" style="text-align:left;margin-top:2%;margin-left:10vw;"><strong>Kenyan fintech Tulaa closes $627k seed round led by AHL Ventures Partners</strong></h4>
-              </div>
+                </div>
                 </div>
                 <p style="margin-top:5%;text-align:left;font-size:110%;">
 
@@ -405,12 +372,11 @@
                  </div>
                 </div>
               </div>
-              <br>
+            <br>
+          </div>
+        </div>
 
-      </div>
-</div>
-
-
+<!-- Collapse Example 6 -->
 <div class="container" id="content">
         <div class="collapse collapse-content" id="collapseExample6">
             <div class="mt-3 center">
@@ -461,11 +427,10 @@
                 </div>
               </div>
               <br>
+            </div>
+          </div>
 
-      </div>
-</div>
-
-
+<!-- Collapse Example 7 -->
 <div class="container">
         <div class="collapse collapse-content" id="collapseExample7">
             <div class="mt-3 center">
@@ -518,11 +483,10 @@
                 </div>
               </div>
               <br>
+            </div>
+          </div>
 
-      </div>
-</div>
-
-
+<!-- Collapse Example 8 -->
 <div class="container">
         <div class="collapse collapse-content" id="collapseExample8">
             <div class="mt-3 center">
@@ -548,12 +512,11 @@
                 </div>
               </div>
               <br>
-
-      </div>
-</div>
-
+            </div>
+          </div>
 
 
+<!-- Collapse Example 9 -->
 <div class="container">
         <div class="collapse collapse-content" id="collapseExample9">
             <div class="mt-3 center">
@@ -642,11 +605,10 @@
                 </div>
               </div>
               <br>
+            </div>
+          </div>
 
-      </div>
-</div>
-
-
+<!-- Collapse Example 10 -->
 <div class="container">
         <div class="collapse collapse-content" id="collapseExample10">
             <div class="mt-3 center">
@@ -684,10 +646,10 @@
                 </div>
               </div>
               <br>
+            </div>
+          </div>
 
-      </div>
-</div>
-
+<!-- Collapse Example 11 -->
 <div class="container">
         <div class="collapse collapse-content" id="collapseExample11">
             <div class="mt-3 center">
@@ -740,9 +702,9 @@
                 </div>
               </div>
               <br>
-
-      </div>
-</div>
+            </div>
+          </div>
+          <!-- Collapse Example 12 -->
 
 <div class="container">
         <div class="collapse collapse-content" id="collapseExample12">
@@ -801,12 +763,11 @@
                 </div>
               </div>
               <br>
-
-      </div>
-</div>
-
+            </div>
+          </div>
+<!-- Collapse Example 12 -->
 <div class="container">
-        <div class="collapse collapse-content" id="collapseExample8">
+        <div class="collapse collapse-content" id="collapseExample12">
             <div class="mt-3 center">
               <div class="row row-striped" id="date">
 
@@ -830,10 +791,10 @@
                 </div>
               </div>
               <br>
+            </div>
+          </div>
 
-      </div>
-</div>
-
+<!-- Collapse Example 13 -->
 <div class="container">
         <div class="collapse collapse-content" id="collapseExample13">
             <div class="mt-3 center">
@@ -880,20 +841,16 @@
                 </div>
               </div>
               <br>
+            </div>
+          </div>
 
-      </div>
-</div>
 <!-- Footer -->
 <footer class="page-footer font-small blue-grey lighten-5">
-
     <div style="background-color:#008f8a;">
       <div class="container footer">
 
-        <!-- Grid row-->
         <div class="row py-4 d-flex align-items-center">
 
-
-          <!-- Grid column -->
           <div class="col-md-4 col-lg-4  mb-4 mb-md-0" id="footer-text">
           <ul style="list-style:none;color:white;font-size:120%;margin-left:-17%;" class="mb-0">
                     <li>UNIT 20, 4TH FLOOR</li>
@@ -901,19 +858,14 @@
                     <li>NAIROBI, KENYA</li>
                     <li>+254 743 710 252</li>
                     <li>info@tulaa.io</li>
-
           </div>
-          <!-- Grid column -->
-          <!-- Copyright -->
 
           <div class=" col-md-4  col-lg-4 text-center text-white copy-right" style="color:white;margin-top:10%;"><div id="copyright">© 2018 Tulaa. All Rights Reserved.
           </div>
           </div>
-          <!-- Copyright -->
 
-          <!-- Grid column -->
           <div class="col-md-4 col-lg-4 text-center text-md-right icons" style="margin-top:2%;">
-  <div id="icons">
+            <div id="icons">
             <!-- Facebook -->
             <a class="fb-ic" href="https://web.facebook.com/tulaanews?_rdc=1&_rdr" target="_blank">
               <i class="fa fa-facebook white-text mr-1"> </i>
@@ -931,12 +883,8 @@
             <a class="yt-ic" href="https://www.youtube.com/user/esokonetworks" target="_blank">
               <i class="fa fa-youtube white-text mr-1"> </i>
             </a>
-
           </div>
-          <!-- Grid column -->
-
         </div>
-        <!-- Grid row-->
       </div>
       </div>
     </div>
@@ -947,9 +895,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/parallax.js"></script>
 
-    <!-- <script type='text/javascript' src='jquery.js'></script> -->
-
-
     <!-- JQuery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Bootstrap tooltips -->
@@ -958,18 +903,11 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.9/js/mdb.min.js"></script>
-
-
-
-<script>
-        // Animations initialization
-        new WOW().init();
-      </script>
-
-
     <script>
-
-
+    // Animations initialization
+    new WOW().init();
+    </script>
+    <script>
         $('.collapse-content').on("shown.bs.collapse", function(){
         $('html, body').animate({
             scrollTop: $(this).offset().top - 20
@@ -980,7 +918,5 @@
     $(".collapse").collapse('hide');
 });
     </script>
-</body>
-
-
+  </body>
 </html>

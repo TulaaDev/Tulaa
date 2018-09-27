@@ -8,7 +8,7 @@ body{
   display:flex;
   flex-wrap: nowrap;
 }
-
+/* styling for partner cards */
 .single-card .card-title{
   font-size: 150%;
 }
@@ -16,20 +16,14 @@ body{
 .single-card .card-text{
   text-align: left;
 }
-
-#testimonial .card-text{
-  font-size:110%;
-}
-
 #partner-cards .single-card{
   width:25%;
 }
-
-.last-card{
-  width:30%;
+/* styling for testimonial cards */
+#testimonial .card-text{
+  font-size:110%;
 }
-
-
+/* jumbotron styling to position background image */
 .jumbotron{
   background-size: cover;
   background-repeat: no-repeat;
@@ -39,6 +33,7 @@ body{
   margin-top: -1vh;
   background-position: 0px 50px;
 }
+/* styling to make jumbotron text position ontop of overlay */
 #jumbotron-text{
   margin-top: 30%;
   color:#fff;
@@ -55,20 +50,7 @@ body{
   margin-bottom: -6%;
 
 }
-
-#all-investor-logos{
-  margin-top: 10%;
-}
-
-.parallax-window{
-  margin-top: 10vh;
-  background-position: 0px 100px;
-}
-
-#header-text{
-  border-bottom: 3px solid white;
-  width:50%;
-}
+/* jumbotron overlay to make text visible */
 .layer {
   background-color: rgba(81, 76, 76, 0.12);
   position: absolute;
@@ -79,12 +61,30 @@ body{
 
 }
 
+/* styling to parallax images */
+.parallax-window{
+  margin-top: 10vh;
+  background-position: 0px 100px;
+}
+#parallax-three{
+  margin-bottom: -10vh;
 
+}
+
+#header-text{
+  border-bottom: 3px solid white;
+  width:50%;
+}
+
+
+#all-investor-logos{
+  margin-top: 10%;
+}
 .partner-logos{
   width:110%;
 }
 
-
+/* Recognition section */
 .award{
   width:75%;
 }
@@ -97,10 +97,7 @@ body{
   margin-top: 40vh;
 }
 
-#parallax-three{
-  margin-bottom: -10vh;
-
-}
+/* navigation tabs */
 .nav-tabs>.active>a, .nav-tabs>.active>a:hover, .nav-tabs>.active>a:focus {
     border-color: #d45500;
     border-bottom-color: transparent;
@@ -220,6 +217,7 @@ body {
 #who{
   margin-bottom: 20vh;
 }
+/* styling for social media buttons in footer */
 .fa {
   padding: 10px;
   font-size: 30px;
@@ -264,7 +262,9 @@ body {
     Width:104.9%;
     margin-left: -5%;
     background: transparent;
+    min-height: 400px;
 }
+
 
 
 .left{
@@ -272,49 +272,23 @@ body {
   padding:10%;
 }
 
-.fadehover {
-	position: relative;
-	}
+  /* testimonial card two */
+  #card2{
+    margin-left: 30px;
+  }
 
-#card2{
-  margin-left: 30px;
-}
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  #team {
+    font-size:370%;
+    margin-top: 6%;
+  }
 
-.a {
-	position: absolute;
-	left: 0;
-	top: 0;
-	z-index: 10;
-        }
-
-.b {
-	position: absolute;
-	left: 0;
-	top: 0;
-	}
-
-#team {
-  font-size:370%;
-  margin-top: 6%;
-}
-
-#image2{
-  width:205%;
-  margin-left: 3vw;
-}
-
- #section3{
-   color:#008f8a;
-   margin-top:5%;
-   font-size: 300%;
- }
-
+  /* text pertaining to joining the team underneath team headshots */
   #joinus{
     margin-top: 2%;
     font-size: 150%;
@@ -331,7 +305,7 @@ button {
     margin-bottom: 30%;
     mix-blend-mode: multiply;
   }
-
+   /* red dot styling within testimonial cards */
   .single-card svg{
     display: block;
     margin-left: auto;
@@ -342,9 +316,7 @@ button {
     mix-blend-mode: multiply;
   }
 
-.parallax-window{
-  min-height: 400px;
-}
+
   title{
     font-family: 'VegurRegular';
     font-weight: normal;
@@ -435,6 +407,7 @@ button {
     mix-blend-mode: multiply;
   }
 
+/* Gray scale hover specifically for the team photos */
   /* Gray Scale */
 .hover08 figure img {
 	-webkit-filter: grayscale(100%);
@@ -469,6 +442,7 @@ h2 span {
 	clear: both;
 	display: block;
 }
+
 #demo08 .column div {
 	position: relative;
 	float: left;
@@ -483,6 +457,8 @@ h2 span {
   margin-top: -20vh;
   margin-bottom: 5em;
 }
+
+/* Grayscale hover effect specifically for the logos section */
 #logos-section .column div {
 	position: relative;
 	float: left;
@@ -589,7 +565,7 @@ figure:hover+span {
   font-size:200%;
   margin-top: 6vh;
 }
-
+/* hover images styling for investor and partner logos */
 .hover10{
   margin-top: 5%;
   margin-bottom: -10%;
@@ -695,7 +671,7 @@ h1{
   font-style: normal;
   color:#008f8a;
 }
-
+/* Collapse example on navbar */
 #collapseExample,#collapseExample2{
   padding-top: 13%;
   margin-top: -20vh;
@@ -829,20 +805,6 @@ h5{
     padding: 10px;
 
 }
-.favicon{
-  width:4%;
-  height:5%;
-  margin-left: 1vw;
-  background-blend-mode: multiply;
-  margin-bottom: 2%;
-}
-.subscribe{
-  margin-left: 22vw;
-}
-
-.section2{
-  width:300vw;
-}
 
 
  #our-investors{
@@ -917,14 +879,14 @@ input::placeholder {
   color:white;
 }
 #parallax-three{
-  min-height:1000px;
+  min-height:900px;
   margin-bottom: -17em;
   margin-top: 10%;
 
 }
 #contact-card{
   margin-bottom: 1em;
-  margin-top: -4em;
+  margin-top: -5em;
 }
 footer{
   margin-top: 7em;
@@ -2300,7 +2262,7 @@ text-align: left;
   }
   #partner-cards .card{
     margin-bottom: 34em;
-    /* width:430em; */
+
   }
   #logo{
     width:50%;
@@ -2327,95 +2289,96 @@ text-align: left;
     margin-bottom: -6%;
   }
 
-#emmanuel{
-  margin-left: 2%;
-}
-#press{
-  margin-top: 72em;
-}
-#press-section{
-  margin-left: -6%;
-}
-#all-investor-logos, #all-partner-logos{
-  margin-left:78%;
-}
-#copyright{
-  margin-left: -14.5%;
-}
-#footer-text{
-  margin-top: -14%;
-  margin-left: -2%;
-}
-#icons{
-  margin-left: -20%;
-}
-#contact-card{
-  width:110%;
-}
-.title{
-  font-size: 310%;
-}
-#partner-cards #card1{
-  margin-bottom: 30em;
+  #emmanuel{
+    margin-left: 2%;
+  }
+  #press{
+    margin-top: 72em;
+  }
+  #press-section{
+    margin-left: -6%;
+  }
+  #all-investor-logos, #all-partner-logos{
+    margin-left:78%;
+  }
+  #copyright{
+    margin-left: -14.5%;
+  }
+  #footer-text{
+    margin-top: -14%;
+    margin-left: -2%;
+  }
+  #icons{
+    margin-left: -20%;
+  }
+  #contact-card{
+    width:110%;
+  }
+  .title{
+    font-size: 310%;
+  }
+  #partner-cards #card1{
+    margin-bottom: 30em;
+  }
+
+  #jumbotron-text{
+    margin-top: 10em;
+  }
+  #logo{
+    width:35%;
+  }
+  .dark-blue-text,.fa-bars {
+      color: #c83e2c;
+      margin-bottom: 1.3em;
+      margin-left: 1.3em;
+  }
+  #press-section{
+    margin-left: 3%;
+  }
+  .mit{
+    margin-left: -3em;
+    width:100%;
+  }
+  .mit h4{
+    font-size: 130%;
+    margin-left: 23%;
+  }
+  .facebook{
+    margin-left: 26%;
+  }
+  .facebook h4{
+    font-size: 130%;
+    margin-left: -17%;
+  }
+  .footer{
+    width:80%;
+  }
+  #copyright{
+    margin-top: 0.2%;
+    margin-bottom: 4%;
+  }
+  #testimonial{
+    margin-left: 3.4em;
+  }
+  #our-partners, #our-investors{
+    margin-left: 1%;
+  }
+  figure:hover+span {
+    bottom: -6em;
+    opacity: 1;
+    width:110%;
+    margin-left: -10vw;
+    font-size: 130%;
+  }
+  #demo08{
+    margin-top: -5em;
+  }
+  .investor-logos{
+    margin-left: 3.5%;
+  }
 }
 
-#jumbotron-text{
-  margin-top: 10em;
-}
-#logo{
-  width:35%;
-}
-.dark-blue-text,.fa-bars {
-    color: #c83e2c;
-    margin-bottom: 1.3em;
-    margin-left: 1.3em;
-}
-#press-section{
-  margin-left: 3%;
-}
-.mit{
-  margin-left: -3em;
-  width:100%;
-}
-.mit h4{
-  font-size: 130%;
-  margin-left: 23%;
-}
-.facebook{
-  margin-left: 26%;
-}
-.facebook h4{
-  font-size: 130%;
-  margin-left: -17%;
-}
-.footer{
-  width:80%;
-}
-#copyright{
-  margin-top: 0.2%;
-  margin-bottom: 4%;
-}
-#testimonial{
-  margin-left: 3.4em;
-}
-#our-partners, #our-investors{
-  margin-left: 1%;
-}
-figure:hover+span {
-  bottom: -6em;
-  opacity: 1;
-  width:110%;
-  margin-left: -10vw;
-  font-size: 130%;
-}
-#demo08{
-  margin-top: -5em;
-}
-.investor-logos{
-  margin-left: 3.5%;
-}
-
-}
+/* styling for contact card section */
 #contact-section input::placeholder{
   color:#008f8a;
   font-size: 130%;
