@@ -922,6 +922,7 @@ input::placeholder {
 }
 #contact-card{
   margin-bottom: 10em;
+  margin-top: -15em;
 }
 footer{
   margin-top: 7em;
