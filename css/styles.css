@@ -917,7 +917,10 @@ input::placeholder {
   color:white;
 }
 #parallax-three{
-  height:200%;
+  height:100%;
+  margin-top: 10%;
+  margin-bottom: -10em;
+
 }
 
 
