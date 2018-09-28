@@ -8,6 +8,11 @@ body{
   display:flex;
   flex-wrap: nowrap;
 }
+#section3{
+  color:#008f8a;
+  font-size: 310%;
+  margin-top: 4%;
+}
 /* styling for partner cards */
 .single-card .card-title{
   font-size: 150%;
