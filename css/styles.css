@@ -1,3 +1,10 @@
+
+@media only screen and (max-width: 2560px) {
+  #solutions h1{
+    font-size: 900%;
+  }
+}
+
 body{
   font-family: 'VegurRegular';
   font-weight: normal;
@@ -21,9 +28,10 @@ body{
 .single-card .card-text{
   text-align: left;
 }
-#partner-cards .single-card{
+/* #partner-cards .single-card{
   width:25%;
-}
+} */
+
 /* styling for testimonial cards */
 #testimonial .card-text{
   font-size:110%;
@@ -460,8 +468,7 @@ h2 span {
 
 }
 #demo08{
-  margin-top: -20vh;
-  margin-bottom: 5em;
+  margin:auto;
 }
 
 /* Grayscale hover effect specifically for the logos section */
@@ -820,7 +827,7 @@ h5{
    margin-top: 4vh;
  }
 #press{
-  margin-top: 8em;
+  /* margin-top: 8em; */
   margin-bottom: -10vh;
 }
 #press-section{
@@ -925,9 +932,9 @@ footer{
       color: #c83e2c;
       margin-top: -0.5em;
   }
-  #press{
+  /* #press{
     margin-top: 13em;
-  }
+  } */
   #demo08{
     margin-top: -2em;
   }
@@ -947,31 +954,31 @@ footer{
 
 @media screen and (max-width: 1142px)  {
 
-  #partner-cards{
+  /* #partner-cards{
     margin-bottom: 3em;
-  }
+  } */
 }
 @media screen and (max-width: 1158px) {
   #press-section{
     margin-top: 23em;
   }
-  #partner-cards{
+  /* #partner-cards{
     margin-bottom: 5em;
-  }
+  } */
 }
 
 @media screen and (max-width: 1120px) {
   #press-section{
     margin-top: 23em;
   }
-  #press{
+  /* #press{
     margin-top: 15em;
-  }
+  } */
 
   }
-  #partner-cards{
+  /* #partner-cards{
     margin-bottom: 3em;
-  }
+  } */
 }
 
 
@@ -1022,25 +1029,25 @@ footer{
 }
 
 @media screen and (max-width:1008px){
-  #press{
+  /* #press{
     margin-top: 17em;
-  }
+  } */
 
 
 }
 @media screen and (max-width:997px){
-  #press{
+  /* #press{
     margin-top: 17em;
-  }
+  } */
 
 
 
 
 }
 @media only screen and (max-width:993px){
-  #press{
+  /* #press{
     margin-top: 17em;
-  }
+  } */
 
   #press-logo .hover10 figure {
   	width: 50%;
@@ -1104,9 +1111,9 @@ footer{
 }
 @media screen and (max-width:943px) and (max-width:911px){
 
-  #press{
+  /* #press{
     margin-top: 19em;
-  }
+  } */
   .nav-tabs{
   width:100%;
   margin-left: -10vw;
@@ -1143,9 +1150,9 @@ footer{
 }
 @media screen and (max-width:848px) and (max-width:800px){
 
-  #press{
+  /* #press{
     margin-top: 23em;
-  }
+  } */
   #solution{
     margin-top: -3em;
   }
@@ -1186,9 +1193,9 @@ footer{
   }
 
 }
-#partner-cards{
+/* #partner-cards{
   margin-bottom:20vh;
-}
+} */
 #partner-cards .card-text{
   width:110%;
   margin-left: -10%;
@@ -1237,18 +1244,18 @@ footer{
 
 
 @media only screen and (max-width: 768px){
-  #solution{
+  /* #solution{
     margin-top: 6em;
-  }
-  #who{
+  } */
+  /* #who{
     margin-top: 6em;
-  }
+  } */
   .layer{
     height:97%;
   }
-  #jumbotron-text{
+  /* #jumbotron-text{
     margin-top: 15em;
-  }
+  } */
   #partner-cards .card-text{
     font-size: 140%;
     width:120%;
@@ -1266,7 +1273,7 @@ footer{
     margin-top: -10%;
   }
   #press{
-    margin-top: 6em;
+    /* margin-top: 6em; */
     margin-bottom: 0.3em;
     margin-left: -2%;
   }
@@ -1281,9 +1288,22 @@ footer{
       margin-bottom: 3em;
 
   }
-  #demo08{
-    margin-top: -14em;
+  .hover08 figure{
+    width:100%;
+    height:90%;
+    margin-top: 37.5%;
+    /* margin-left: 10%; */
   }
+  figure:hover+span {
+    bottom: -8em;
+    opacity: 1;
+    width:160%;
+    margin-left: -7vw;
+    font-size: 90%;
+  }
+  /* #demo08{
+    margin-top: -14em;
+  } */
 
 }
 @media screen and (max-width:743px){
@@ -1331,9 +1351,9 @@ footer{
 
 }
 @media screen and (max-width:736px){
-  #solution{
+  /* #solution{
     margin-top: -3em;
-  }
+  } */
   #partner-cards .card-title{
     font-size: 120%;
   }
@@ -1377,12 +1397,12 @@ footer{
 }
 @media screen and (max-width:724px){
 
-  #press{
+  /* #press{
     margin-top: 27em;
-  }
-  #partner-cards{
+  } */
+  /* #partner-cards{
     margin-bottom:30vh;
-  }
+  } */
   #partner-cards .card-text{
     width:120%;
     margin-left: -11%;
@@ -1414,9 +1434,9 @@ footer{
   #demo08{
     margin-top: -10em;
   }
-  #partner-cards{
+  /* #partner-cards{
     margin-bottom: 4em;
-  }
+  } */
   #partner-cards .card-text{
     width:120%;
     margin-left: -11%;
@@ -1424,9 +1444,9 @@ footer{
   }
 }
 @media screen and (max-width:672px){
-#partner-cards{
+/* #partner-cards{
   margin-bottom:20vh;
-}
+} */
 #partner-cards .card-text{
   width:120%;
   margin-left: -11%;
@@ -1467,9 +1487,9 @@ text-align: left;
 }
 
 @media screen and (max-width:667px){
-  #partner-cards{
+  /* #partner-cards{
     margin-bottom: 18em;
-  }
+  } */
   #partner-cards .card-text{
     width:120%;
   }
@@ -1491,9 +1511,9 @@ text-align: left;
   .layer{
     height:90%;
   }
-  #solution{
+  /* #solution{
     margin-top: -5em;
-  }
+  } */
 
   #logo{
     width:40%;
@@ -1501,9 +1521,9 @@ text-align: left;
 
 }
 @media screen and (max-width:640px){
-  #partner-cards{
+  /* #partner-cards{
     margin-bottom: 10em;
-  }
+  } */
   #partner-cards .card-text{
     font-size: 90%;
   }
@@ -1526,9 +1546,9 @@ text-align: left;
   }
 }
 @media screen and (max-width:610px){
-#partner-cards{
+/* #partner-cards{
   margin-bottom:18vh;
-}
+} */
 #partner-cards .card-text{
   width:120%;
   margin-left: -13%;
@@ -1632,7 +1652,7 @@ text-align: left;
 
   }
   #press{
-    margin-top: 58em;
+    /* margin-top: 58em; */
     margin-bottom: 0.5em;
     margin-left: 5%;
 
@@ -1664,11 +1684,11 @@ text-align: left;
 #who{
   margin-top: 10%;
 }
-#partner-cards{
+/* #partner-cards{
   margin-bottom:110em;
   margin-left: 18%;
   margin-top: 3em;
-}
+} */
 #partner-cards .card-text{
   width:117%;
   margin-left: -10%;
@@ -1682,9 +1702,9 @@ text-align: left;
   width:65%;
 
 }
-#partner-cards .card-img-fluid{
+/* #partner-cards .card-img-fluid{
   width:230vw;
-}
+} */
 #partner-cards #card1{
   width:60%;
 }
@@ -1754,10 +1774,10 @@ text-align: left;
   #jumbotron-text{
     margin-top: 6em;
   }
-  #partner-cards{
+  /* #partner-cards{
     margin-left: 25%;
     margin-bottom: 125em;
-  }
+  } */
   #testimonial .card-text{
     margin-left: -1em;
   }
@@ -1765,9 +1785,9 @@ text-align: left;
     margin-left: -0.5em;
     width:90%;
   }
-  #press{
+  /* #press{
     margin-top: 67em;
-  }
+  } */
 }
 @media screen and (max-width:534px){
   #solution{
@@ -1830,10 +1850,10 @@ text-align: left;
   #demo08 h4{
     font-size: 120%;
   }
-  #partner-cards{
+  /* #partner-cards{
     margin-bottom:110em;
     margin-left: 20%;
-  }
+  } */
   .nav-tabs{
   width:100%;
   margin-left: -10vw;
@@ -1867,9 +1887,9 @@ text-align: left;
     margin-left: -25vw;
     font-size: 120%;
   }
-  #press{
+  /* #press{
     margin-top: 67em;
-  }
+  } */
   #testimonial .card{
     padding-bottom: 49em;
     width:70%;
@@ -1929,9 +1949,9 @@ text-align: left;
 }
 
 @media screen and (max-width:414px){
-  #who{
+  /* #who{
     margin-top: 6em;
-  }
+  } */
 
   #partner-cards .card-text{
     font-size: 130%;
@@ -1996,16 +2016,16 @@ text-align: left;
 
   }
 
-  #press{
+  /* #press{
     margin-top: 68em;
-  }
+  } */
   #our-investors, #our-partners{
     margin-top: 10%;
     margin-left: -0.5em;
   }
-  #partner-section-one{
+  /* #partner-section-one{
     margin-bottom: 10%;
-  }
+  } */
   #press-section{
     margin-left: -1em;
   }
@@ -2059,9 +2079,9 @@ text-align: left;
     padding-bottom:25em;
     margin-left: 18%;
   }
-  #press{
+  /* #press{
     margin-top: 56em;
-  }
+  } */
   #demo08 .column div {
     position: relative;
     float: left;
@@ -2088,10 +2108,10 @@ text-align: left;
   #solution{
     margin-top: 5em;
   }
-  #partner-cards{
+  /* #partner-cards{
     margin-bottom:113em;
     margin-left:15%;
-  }
+  } */
 
   #partner-cards .card-text{
     width:120%;
@@ -2202,16 +2222,16 @@ text-align: left;
     height:90%;
     margin-top: 10%;
   }
-  #press{
+  /* #press{
     margin-top: 60em;
-  }
+  } */
   #our-investors, #our-partners{
     margin-top: 10%;
     margin-left: -1.2em;
   }
-  #partner-section-one{
+  /* #partner-section-one{
     margin-bottom: 10%;
-  }
+  } */
   #partner-cards .card-title{
     font-size: 160%;
   }
@@ -2249,12 +2269,15 @@ text-align: left;
   #demo08{
     margin-top: -5em;
   }
+  #press{
+    margin-top: 120%;
+  }
 
 }
 @media screen and (max-width:360px){
-  #press{
+  /* #press{
     margin-top: 60em;
-  }
+  } */
   #press-section{
     margin-left: 3%;
 
@@ -2266,10 +2289,10 @@ text-align: left;
     width:134%;
     margin-left: -18%;
   }
-  #partner-cards .card{
+  /* #partner-cards .card{
     margin-bottom: 34em;
 
-  }
+  } */
   #logo{
     width:50%;
   }
@@ -2286,6 +2309,13 @@ text-align: left;
   #our-investors{
     margin-left: -4em;
   }
+  #contact-card h5{
+    font-size: 220%;
+  }
+  .facebook{
+    margin-top: 10%;
+  }
+
 
 
 
@@ -2298,9 +2328,9 @@ text-align: left;
   #emmanuel{
     margin-left: 2%;
   }
-  #press{
+  /* #press{
     margin-top: 72em;
-  }
+  } */
   #press-section{
     margin-left: -6%;
   }
@@ -2323,9 +2353,9 @@ text-align: left;
   .title{
     font-size: 310%;
   }
-  #partner-cards #card1{
+  /* #partner-cards #card1{
     margin-bottom: 30em;
-  }
+  } */
 
   #jumbotron-text{
     margin-top: 10em;
@@ -2384,6 +2414,7 @@ text-align: left;
   }
 }
 
+
 /* styling for contact card section */
 #contact-section input::placeholder{
   color:#008f8a;
@@ -2404,4 +2435,26 @@ text-align: left;
 }
 #awards a{
   color:black;
+}
+
+#for-our-partners .card-title{
+  color:#008f8a;
+  font-size: 171%;
+}
+#for-our-partners{
+  padding-bottom:3%;
+}
+
+#for-our-partners li{
+  font-size: 120%;
+}
+#testimonials p{
+  font-size: 2.5vh;
+}
+
+#testimonials .card-title{
+  font-size: 190%;
+}
+#testimonials{
+  width:90%;
 }

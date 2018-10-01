@@ -1470,6 +1470,7 @@ and (max-width : 1024px)  {
  }
  .jumbotron{
    margin-bottom: -25em;
+   height:20%;
  }
  .card .badge{
    margin-top: -4em;
