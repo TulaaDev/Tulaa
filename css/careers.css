@@ -1279,10 +1279,10 @@ and (max-width : 1024px)  {
 }
 
 @media only screen and (max-width: 375px){
-  /* #hamburger{
-    margin-bottom: -2em;
+  #hamburger{
+    margin-bottom: -4em;
     margin-left: -1em;
-  } */
+  }
 
   #logo{
     width:70%;
