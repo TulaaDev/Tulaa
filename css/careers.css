@@ -9,6 +9,7 @@
   background-size:1500px 800px;
 
 }
+
 #main-title{
   font-size: 120%;
 }
@@ -1154,10 +1155,10 @@ and (max-width : 1024px)  {
   .icons{
     margin-left: 14%;
   }
-  #hamburger{
+  /* #hamburger{
     margin-bottom: -2em;
 
-  }
+  } */
 
 }
 @media only screen and (max-width:568px){
@@ -1196,7 +1197,7 @@ and (max-width : 1024px)  {
     }
 
     #hamburger{
-      margin-top: 2em;
+      margin-right: -5%;
 
     }
 
@@ -1216,6 +1217,11 @@ and (max-width : 1024px)  {
   }
   .icons{
     margin-left: 14%;
+  }
+}
+@media only screen and (max-width:431px){
+  #hamburger{
+    margin-top: -6%;
   }
 }
 @media only screen and (max-width:414px){
