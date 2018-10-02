@@ -1,15 +1,7 @@
-.jumbotron{
-  width:99.8%;
-  height:600px;
-  margin-left: 0.1%;
 
-  background-image: url('img/team-photo.jpg');
-  background-repeat:none;
-  background-position: -1050% 1050%;
-  background-size:1500px 800px;
-
+.parallax-window{
+  margin-top: -10em;
 }
-
 #main-title{
   font-size: 120%;
 }
@@ -968,6 +960,7 @@ and (max-width : 1024px)  {
     margin-left: -6%;
   }
 
+
 }
 @media only screen and (max-width:812px){
   .card h5{
@@ -1474,6 +1467,7 @@ and (max-width : 1024px)  {
 @media only screen and (max-width:320px){
   #main-title{
    font-size: 25%;
+   margin-top:-10em;
  }
  .jumbotron{
    margin-bottom: -25em;
@@ -1497,6 +1491,13 @@ and (max-width : 1024px)  {
  }
  .mt-3 .col-9{
    margin-top: -1em;
+ }
+ .parallax-window{
+   margin-bottom: -25em;
+
+ }
+ #hamburger{
+   margin-top: 1em;
  }
 
 
