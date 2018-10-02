@@ -967,6 +967,7 @@ and (max-width : 1024px)  {
   #careers-team{
     margin-left: -6%;
   }
+  
 }
 @media only screen and (max-width:812px){
   .card h5{
