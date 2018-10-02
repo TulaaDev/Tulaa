@@ -426,20 +426,19 @@ margin-top: 10vh;
 .hover01 figure {
 	width: 103%;
 	height: 94%;
-	margin: 0;
+	margin: auto;
 	padding: 10%;
 	background: #fff;
 	overflow: hidden;
-  margin-top: 30px;
+
   border-radius: 80%;
-  margin-bottom:200px;
-  margin-top: 8vh;
+
 
 
 }
 
 .hover01 figure:hover+span {
-	bottom: -55%;
+	bottom: -25%;
 	opacity: 1;
   margin-left: -10%;
   width: 150%;
@@ -839,6 +838,8 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
 }
 
 
+
+
 /* ipad */
 @media only screen
 and (min-width : 768px)
@@ -849,7 +850,7 @@ and (max-width : 1024px)  {
       margin-left: -45vw;
       margin-top: 6em;
   }
-  .hover01 figure {
+  /* .hover01 figure {
     width: 90%;
     height: 75%;
     margin: 0;
@@ -890,10 +891,10 @@ and (max-width : 1024px)  {
   	width: 100px;
   	height: 100px;
   	padding: 0;
-  }
-  #careers-team span{
+  } */
+  /* #careers-team span{
     margin-left: 3em;
-  }
+  } */
   #benefits-container h3{
     margin-left: 2vw;
     font-size: 160%;
@@ -955,13 +956,66 @@ and (max-width : 1024px)  {
 
 }
 
-@media only screen and (max-width:1024px){
-  #careers-team{
-    margin-left: -6%;
-  }
 
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1024px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 2) {
+.hover01 figure:hover+span {
+	bottom: -17%;
+	opacity: 1;
+  margin-left: 25em;
+  width: 140%;
+}
+#careers-team{
+  margin:auto;
+}
+ .hover01 figure {
+  width: 90%;
+  height: 75%;
+  margin: auto;
+  padding: 10%;
+  background: #fff;
+  overflow: hidden;
+  border-radius: 80%;
 
 }
+#benefits-container{
+  margin-top: -2.5em;
+}
+#open-positions{
+  margin-top: 10%;
+  margin-bottom: -8%;
+}
+.card .badge{
+  font-size: 80%;
+  margin-top: 0.5em;
+}
+.card h5{
+  font-size: 270%;
+}
+
+.card ul{
+  font-size: 150%;
+}
+.card .row{
+  margin-bottom: -8%;
+}
+
+.card h4{
+  font-size: 140%;
+}
+.job-content .badge{
+  margin-top: 3em;
+}
+
+}
+
+
+
+
+
 @media only screen and (max-width:812px){
   .card h5{
     font-size: 140%;

@@ -148,8 +148,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
     margin-top: -2.6%;
   }
 
+
   #read-more{
     margin-right: 5em;
+    font-size: 120%;
   }
   #top-panel #panel-title{
     height:17%;
@@ -246,7 +248,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     margin-top: 0.198%;
   }
   #panel .card-title{
-    margin-top: -6%;
+    margin-top: 2%;
     margin-left: 13%;
   }
   #panel-title{
@@ -269,6 +271,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
     margin-top: 30%;
     margin-left: -40%;
   }
+  .row h5{
+    font-size: 140%;
+  }
+
 
 }
 @media screen and (max-width:991px){
@@ -405,7 +411,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
   #panel-title .badge{
     margin-top: -0.1%;
-    font-size: 230%;
+    font-size: 220%;
 
   }
   #stories .row{
@@ -420,6 +426,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
   #hamburger{
     margin-bottom: 10em;
+  }
+  #read-more{
+    margin-right: 3em;
   }
 
 }
