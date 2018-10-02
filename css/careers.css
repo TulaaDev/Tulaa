@@ -967,7 +967,7 @@ and (max-width : 1024px)  {
   #careers-team{
     margin-left: -6%;
   }
-  
+
 }
 @media only screen and (max-width:812px){
   .card h5{
@@ -1279,10 +1279,10 @@ and (max-width : 1024px)  {
 }
 
 @media only screen and (max-width: 375px){
-  #hamburger{
-    margin-bottom: -1em;
+  /* #hamburger{
+    margin-bottom: -2em;
     margin-left: -1em;
-  }
+  } */
 
   #logo{
     width:70%;
@@ -1498,8 +1498,6 @@ and (max-width : 1024px)  {
  .mt-3 .col-9{
    margin-top: -1em;
  }
- #hamburger{
-   margin-bottom: -1em;
- }
+
 
 }

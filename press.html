@@ -56,7 +56,7 @@
     <a data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3" data-target="#collapseExample3">
     <div class="container" id="top-panel">
     <div class="card card-body" id="panel" style="margin-bottom:3%;">
-      <div class="row row-striped" id="panel-title">
+      <div class="row row-striped panel-title" id="panel-title">
 
         <span class="badge date article" style="height:100%;">27 OCT <br>2018</span>
         </div>
@@ -65,7 +65,7 @@
     </div>
     </div>
     <!-- Read more tag corresponds to top panel -->
-    <h5 id="read-more"><a data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3" style="color:#c83e2c;margin-left:-40%;margin-bottom:4%;" > READ MORE</a></h5>
+    <h5 id="read-more"><a data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3" style="color:#c83e2c;margin:auto;" > READ MORE</a></h5>
 
     <!-- Card container with scrollable stories and clickable sections that expand the rest of the story. Feel free to replace Collapse Example href's and id's with title of articles where appropriate -->
       <div class="container" id="stories">
@@ -209,7 +209,7 @@
           <hr>
             <!-- Collapse Example 13 -->
               <a data-toggle="collapse" href="#collapseExample13" aria-expanded="false" aria-controls="collapseExample13" data-target="#collapseExample13" class="collapse-content">
-                <div class="row row-striped">
+                <div class="row row-striped" id="last-row">
                   <div class="col-2 text-right">
                   <img src="img/news2.jpeg" style="width:200%;">
                 </div>
@@ -851,7 +851,7 @@
 
         <div class="row py-4 d-flex align-items-center">
 
-          <div class="col-md-4 col-lg-4  mb-4 mb-md-0" id="footer-text">
+          <div class=" col-xs-4 col-sm-4 col-md-4 col-lg-4  col-xl-4 mb-4 mb-md-0" id="footer-text">
           <ul style="list-style:none;color:white;font-size:120%;margin-left:-17%;" class="mb-0">
                     <li>UNIT 20, 4TH FLOOR</li>
                     <li>THE GREENHOUSE, NGONG ROAD</li>
@@ -860,11 +860,11 @@
                     <li>info@tulaa.io</li>
           </div>
 
-          <div class=" col-md-4  col-lg-4 text-center text-white copy-right" style="color:white;margin-top:10%;"><div id="copyright">© 2018 Tulaa. All Rights Reserved.
+          <div class=" col-xs-4 col-sm-4 col-md-4  col-lg-4 col-xl-4 text-center text-white copy-right" style="color:white;margin-top:10%;"><div id="copyright">© 2018 Tulaa. All Rights Reserved.
           </div>
           </div>
 
-          <div class="col-md-4 col-lg-4 text-center text-md-right icons" style="margin-top:2%;">
+          <div class=" col-xs-4 col-sm-4 col-md-4 col-lg-4  col-xl-4 text-center text-md-right icons" style="margin-top:2%;">
             <div id="icons">
             <!-- Facebook -->
             <a class="fb-ic" href="https://web.facebook.com/tulaanews?_rdc=1&_rdr" target="_blank">
@@ -916,6 +916,11 @@
 
     $(".btn-outline-danger").click(function(){
     $(".collapse").collapse('hide');
+});
+    </script>
+    <script>
+    $('.nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
 });
     </script>
   </body>

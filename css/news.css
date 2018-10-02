@@ -2,7 +2,7 @@
   background-image:url('../img/news1.jpeg');
   background-size:cover;
   background-repeat:no-repeat;
-  width:108%;
+
   height:60vh;
   background-position: -100px -106px;
   background-size:1350px 1000px;
@@ -12,11 +12,11 @@
 }
 #panel-title{
   background-color: white;
-  width:103%;
+  width:103.5%;
   margin-left: -1.5%;
-  height:27%;
+  height:27.3%;
   opacity:0.4;
-  margin-top:-2.7vh;
+  margin-top:-2.8vh;
   color:black;
 }
 #top-panel{
@@ -130,6 +130,81 @@ h5{
 .footer{
   width:100%;
 }
+#content{
+  margin-top: -10%;
+}
+/*iPad Pro 9.7"*/
+/* Portrait */
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1024px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 2) {
+  #panel{
+    height:40vh;
+  }
+  #panel-title{
+    height:18vh;
+    margin-top: -2.6%;
+  }
+
+  #read-more{
+    margin-right: 5em;
+  }
+  #top-panel #panel-title{
+    height:17%;
+  }
+  #stories .row{
+    margin-bottom: -10em;
+  }
+  #stories p{
+    font-size: 140%;
+  }
+  #stories h3{
+    margin-top: 1.5%;
+    font-size: 190%;
+  }
+  #stories img{
+    margin-top: 2em;
+  }
+
+
+
+
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 1366px)
+and (max-device-width: 1366px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 2) {
+  #panel{
+    margin: auto;
+  }
+  #read-more{
+    margin-right: 10%;
+  }
+  #panel-title{
+    height:20%;
+    margin-top: -1.7%;
+  }
+  #panel-title .badge{
+    font-size: 280%;
+  }
+  #top-panel h4{
+    font-size: 200%;
+    margin-top: -7%;
+  }
+  #stories h3{
+    margin-top:10%;
+  }
+  #content{
+    margin-bottom: 20%;
+    margin-top: -25%;
+  }
+}
+
 
 @media screen and (max-width:1199px){
   .card h3{
@@ -168,10 +243,15 @@ h5{
     font-size: 200%;
     width:15%;
     margin-left: -0.2em;
-    margin-top: -0.099%;
+    margin-top: 0.198%;
   }
   #panel .card-title{
-    margin-top: -2.4em;
+    margin-top: -6%;
+    margin-left: 13%;
+  }
+  #panel-title{
+    height:19.99%;
+    width:103.6%;
   }
   #top-panel{
     width:90%;
@@ -185,6 +265,11 @@ h5{
   .card h5{
     margin-top: -1em;
   }
+  #copyright{
+    margin-top: 30%;
+    margin-left: -40%;
+  }
+
 }
 @media screen and (max-width:991px){
   .card h3{
@@ -314,13 +399,13 @@ h5{
 
   }
   #panel-title{
-    height:20%;
+    height:15%;
     margin-top: 0.5%;
-    width:104%;
+    width:105%;
   }
   #panel-title .badge{
-
-    font-size: 250%;
+    margin-top: -0.1%;
+    font-size: 230%;
 
   }
   #stories .row{
@@ -329,6 +414,14 @@ h5{
   #team{
     margin-top: 2em;
   }
+  #copyright{
+    margin-top: 30%;
+    margin-left: -40%;
+  }
+  #hamburger{
+    margin-bottom: 10em;
+  }
+
 }
 @media screen and (max-width:736px){
   #panel-title .badge {
