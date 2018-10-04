@@ -90,7 +90,11 @@ body{
 }
 
 #solution-container{
-  margin-top: 20em;
+  margin-top: 1em;
+
+}
+#solution{
+  padding-top: 1%;
 }
 
 .title-text{
@@ -400,7 +404,7 @@ body {
     margin-bottom: 4em;
   }
 .joinus-text{
-  margin-top: -26vh;
+  margin-top: -20%;
 }
 
   .acumen{
@@ -912,10 +916,23 @@ and (-webkit-min-device-pixel-ratio: 2) {
   .mit h4{
     margin-left: 15%;
   }
-  /* #solution{
-    margin-top: -4%;
-  } */
+  #solution{
+    margin-top: 40em;
+  }
 
+  #trio-team{
+    margin-bottom: 5%;
+  }
+
+}
+
+@media only screen and (max-width: 1280px) {
+  #solution{
+    margin-top: 48vh;
+  }
+  #trio-team{
+    margin-bottom: 10%;
+  }
 }
 
 @media only screen and (max-width: 1208px) {
@@ -930,6 +947,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
   .navbar-toggler{
     color:black;
+  }
+  #solution{
+    margin-top: 70em;
   }
 
 
@@ -994,10 +1014,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 
 @media screen and (max-width:1024px){
-  #who{
+  /* #who{
     margin-top:10%;
 
-  }
+  } */
   .layer{
     height:96.5%;
   }
@@ -1013,11 +1033,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
   } */
 
   #jumbotron-text{
-    margin-top: 14em;
-    font-size: 360%;
+    margin-top: 10em;
+
   }
   #trio-team{
-    margin-top: -16em;
+    /* margin-top: -16em; */
     margin-left: -3em;
     margin-bottom: 18%;
   }
@@ -1032,13 +1052,30 @@ and (-webkit-min-device-pixel-ratio: 2) {
     margin-top: 87vh;
   } */
   #solution{
-    margin-top: 65em;
+    margin-top: 23em;
+  }
+  .joinus-text{
+    margin-top: -27%;
   }
 
-
-
-
-
+}
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1366px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 2){
+  #solution{
+    margin-top: 63em;
+  }
+  #jumbotron-text{
+    margin-top: 20em;
+  }
+  #trio-team{
+    margin-top: -15em;
+  }
+  .joinus-text{
+    margin-top: -20em;
+  }
 }
 
 
@@ -1270,11 +1307,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
     margin-left: 1%;
     margin-top: -40%;
   }
-  #trio-team{
+  /* #trio-team{
     margin-top: -13em;
     margin-bottom: 8em;
     margin-left: -5%;
-  }
+  } */
   #jumbotron-text{
     margin-top: 7.8em;
   }
