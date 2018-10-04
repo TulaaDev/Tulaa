@@ -961,10 +961,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 
 .card ul{
-  font-size: 150%;
+  font-size: 680%;
 }
 .card .row{
-  margin-bottom: -8%;
+  margin-bottom: -10vh;
 }
 
 .card h4{
@@ -976,12 +976,34 @@ and (-webkit-min-device-pixel-ratio: 2) {
 #parallax{
   margin-top: -8em;
 }
+.row{
+  margin-bottom: -300em;
+}
 
 }
 
 
 
-
+@media only screen and (max-width:1024px){
+  .card .row{
+    margin-bottom: -3em;
+  }
+  .card{
+    margin-left: 1.5%;
+  }
+  #open-positions{
+    margin-bottom: -6%;
+  }
+  #benefits-container{
+    margin-top: -0.5%;
+  }
+  #benefits-container h3{
+    margin-left: -10vw;
+  }
+  #parallax{
+    margin-top: -3em;
+  }
+}
 
 @media only screen and (max-width:812px){
   .card h5{
@@ -1014,6 +1036,33 @@ and (-webkit-min-device-pixel-ratio: 2) {
   #parallax{
     margin-top: -5em;
   }
+  #careers-team figure{
+    width:85%;
+    height:70%;
+  }
+  #careers-team span{
+    margin-left: -2.3em;
+    bottom:-1em;
+  }
+  #benefits-container{
+    margin-top: -6em;
+    margin-bottom: 2%;
+  }
+  #open-positions{
+    margin-bottom: -10%;
+  }
+  .card h5{
+    font-size: 210%;
+    margin-top: 7%;
+  }
+  .card ul{
+    font-size: 130%;
+    margin-left: -10%;
+  }
+  .card .row{
+    margin-bottom: -6%;
+  }
+
 
 }
 @media only screen and (max-width:767px){
@@ -1038,6 +1087,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   #footer-text{
     margin-left: 2em;
   }
+
 
 }
 

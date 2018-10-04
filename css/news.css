@@ -424,8 +424,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
     margin-top: 30%;
     margin-left: -40%;
   }
-  #hamburger{
-    margin-bottom: 10em;
+  .fa-bars{
+    margin-bottom: 3em;
   }
   #read-more{
     margin-right: 3em;
