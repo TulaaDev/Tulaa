@@ -1383,6 +1383,30 @@ and (-webkit-min-device-pixel-ratio: 2) {
     margin-top: -5em;
   }
 
+  #careers-team figure{
+    width:110%;
+    height:90%;
+  }
+  #careers-team span{
+    bottom:-10em;
+
+
+  }
+  .hover01 figure:hover+span {
+    bottom: -163px;
+    opacity: 1;
+    width:165%;
+    font-size: 100%;
+    margin-left: 40em;
+  }
+  #benefits-container{
+    margin-top: 25%;
+  }
+  .card h4{
+    margin-right:-3em;
+  }
+
+
   }
 
 /* galaxy s5 */
