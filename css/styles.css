@@ -2250,9 +2250,14 @@ figure:hover+span {
     margin-top: 30px;
     margin-bottom: -10px;
   }
+  #bloomerg-techmoran  #techmoran{
+
+    margin-left: 10vw;
+  }
+
   #all-partner-logos .hover10 figure {
   	width: 90%;
-  	height: 280px;
+  	height: 220px;
   	margin: 0;
   	padding: 2%;
   	background: #fff;
@@ -2267,6 +2272,11 @@ figure:hover+span {
   #press-title{
     margin-left: 25vw;
   }
+  #solution{
+    font-size: 90%;
+    margin-top: 23em;
+  }
+  #
 
 
 }
