@@ -468,6 +468,9 @@ h5{
   color:#c83e2c;
 
 }
+#open-positions{
+  margin-bottom: -6vh;
+}
 a{
   color:black;
 }
@@ -1062,6 +1065,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
   .card .row{
     margin-bottom: -6%;
+  }
+  .job-content .mt-3{
+    margin-top: -95em;
+  }
+  .card {
+    margin-bottom: -10em;
   }
 
 
