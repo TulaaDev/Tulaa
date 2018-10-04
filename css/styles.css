@@ -55,9 +55,11 @@ body{
   background-repeat: no-repeat;
   height:101vh;
   width:100.6%;
-  margin-left: -0.7vw;
-  margin-top: -1vh;
-  background-position: 0px 50px;
+  position:absolute;
+  padding-bottom: 10em;
+  background-position: center 10%;;
+  display:block;
+
 }
 /* styling to make jumbotron text position ontop of overlay */
 #jumbotron-text{
@@ -84,7 +86,19 @@ body{
   left: 0;
   width: 100%;
   height: 96%;
+
 }
+
+#solution-container{
+  margin-top: 20em;
+}
+
+.title-text{
+
+  position:sticky;
+  margin-top: 5em;
+}
+
 
 
 
@@ -101,6 +115,10 @@ body{
 #header-text{
   border-bottom: 3px solid white;
   width:50%;
+}
+#contact-section{
+  padding-top: 5vh;
+
 }
 
 
@@ -203,7 +221,7 @@ body {
 
 /* svg line break */
 #Layer_1{
-  margin-bottom: 4%;
+  margin-bottom: 2%;
 }
 
 .navbar{
@@ -231,10 +249,7 @@ body {
   margin-left: 10%;
 }
 
-#solution{
-  padding: 8%;
-  margin-top: -12vh;
-}
+
 #partner-text{
   margin-bottom: 5%;
 }
@@ -329,17 +344,6 @@ body {
     margin-bottom: 30%;
     mix-blend-mode: multiply;
   }
-   /* red dot styling within testimonial cards */
-  /* .single-card svg{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    margin-top: -3%;
-    margin-bottom: -6%;
-    mix-blend-mode: multiply;
-  } */
-
 
 
   title{
@@ -368,21 +372,6 @@ body {
     border: 0;
     background-color: transparent;
   }
-/*
-  .card-deck{
-    width:97%;
-    border: none;
-    height:60vh;
-    border: 0;
-    background-color: transparent;
-    margin-bottom: 20%;
-  }
-
-  .card-text{
-    font-size: 110%;
-    text-align: center;
-    width:90%;
-  } */
 
   .partner-list{
     margin-left:2px;
@@ -401,9 +390,6 @@ body {
     margin-left: -16%;
   }
 
-  /* #partner-cards{
-    margin-bottom: -10em;
-  } */
   #card1 img{
     width:100%;
   }
@@ -414,7 +400,7 @@ body {
     margin-bottom: 4em;
   }
 .joinus-text{
-  margin-top: -10em;
+  margin-top: -26vh;
 }
 
   .acumen{
@@ -483,10 +469,9 @@ h2 span {
   /* margin-left: 20%; */
 
 }
-/* #demo08{
-  margin:auto;
-} */
-
+#press-logo2{
+  margin-top: 5%;
+}
 /* Grayscale hover effect specifically for the logos section */
 #logos-section .column div {
 	position: relative;
@@ -927,9 +912,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
   .mit h4{
     margin-left: 15%;
   }
-  #solution{
+  /* #solution{
     margin-top: -4%;
-  }
+  } */
 
 }
 
@@ -946,9 +931,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   .navbar-toggler{
     color:black;
   }
-  #partner-cards{
-    margin-bottom: -3em;
-  }
+
 
   }
 
@@ -964,18 +947,18 @@ and (-webkit-min-device-pixel-ratio: 2) {
   #demo08{
     margin-top: -2em;
   }
-  #solution{
+  /* #solution{
     margin-top: -10em;
-  }
+  } */
   #jumbotron-text{
     margin-top: 3.2em;
   }
   .layer{
     height:25em;
   }
-  #solution{
-    margin-top: -3em;
-  }
+  /* #solution{
+    margin-top: 28em;
+  } */
 }
 
 
@@ -1005,9 +988,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 #testimonial{
   margin-top: 5em;
 }
-#solution{
-  margin-top: -3.5em;
-}
+/* #solution{
+  margin-top: 80.5vh;
+} */
 }
 
 @media screen and (max-width:1024px){
@@ -1025,13 +1008,13 @@ and (-webkit-min-device-pixel-ratio: 2) {
   #partner-heading{
     margin-top: 27%;
   }
-  #jumbotron-text{
+  /* #jumbotron-text{
     margin-top: 60vh;
-  }
+  } */
 
 
   #trio-team{
-    margin-top: -16em;
+    /* margin-top: -16em; */
     margin-left: -3em;
   }
   #for-our-partners ul{
@@ -1041,9 +1024,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
   #copyright{
     margin-top: 4vh;
   }
-  #solution{
-    margin-top: 10%;
-  }
+  /* #solution{
+    margin-top: 87vh;
+  } */
 
 
 
@@ -1159,6 +1142,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
     width:60%;
 
   }
+  .title-text{
+
+    position:sticky;
+    margin-top: 5em;
+  }
+
 }
 @media screen and (max-width:879px){
 
@@ -1173,15 +1162,13 @@ and (-webkit-min-device-pixel-ratio: 2) {
     width:60%;
 
   }
-  #partner-cards{
-    margin-bottom: -20em;
-  }
+
 }
 @media screen and (max-width:848px) and (max-width:800px){
 
-  #solution{
-    margin-top: -3em;
-  }
+  /* #solution{
+    margin-top: 30em;
+  } */
   .nav-tabs{
   width:100%;
   margin-left: -10vw;
@@ -1193,9 +1180,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     width:60%;
 
   }
-  #partner-cards{
-    margin-bottom: -10em;
-  }
+
 
 }
 @media screen and (max-width:798px) {
@@ -1214,45 +1199,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 }
 
-
-
-@media screen and (max-width:767px){
-  #copyright{
-    margin-left: -23em;
-  }
-  #footer-text{
-    margin-left: 2em;
-  }
-  .hover08 figure {
-    width: 82%;
-    height: 72%;
-    margin: auto;
-    padding: 10%;
-    background: #fff;
-    overflow: hidden;
-
-    border-radius: 70%;
-
-  }
-
-  figure:hover+span {
-    bottom: -12em;
-    opacity: 1;
-    width:160%;
-    margin-left: -7vw;
-    font-size: 90%;
-  }
-
-  #awards img{
-    width:40%;
-    margin-left: 27%;
-  }
-
-  .awards{
-    margin-top: 70%;
-  }
-
-}
 
 
 @media only screen and (max-width: 768px){
@@ -1303,9 +1249,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
   #who{
     margin-top: 10%;
   }
-  #solution{
-    margin-top: 10%;
-  }
+  /* #solution{
+    margin-top: 70em;
+  } */
   #testimonials .card-body h4{
     font-size: 178%;
     width:105%;
@@ -1318,7 +1264,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     margin-top: -40%;
   }
   #trio-team{
-    margin-top: -17em;
+    margin-top: -13em;
     margin-bottom: 8em;
     margin-left: -5%;
   }
@@ -1353,6 +1299,24 @@ and (-webkit-min-device-pixel-ratio: 2) {
     margin-top: 7vh;
   }
 
+}
+@media screen and (max-width:767px){
+  .layer{
+    height:95%;
+  }
+  #jumbotron-text{
+    margin-top: 33%;
+  }
+  .fa-bars{
+    margin-bottom: 6.5vh;
+  }
+
+  #who{
+    margin-top: -2%;
+  }
+  #footer-text{
+    width:120%;
+  }
 
 }
 @media screen and (max-width:743px){
@@ -1381,9 +1345,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
   }
 
-  #solution{
+  /* #solution{
     margin-top: 7%;
-  }
+  } */
   #who{
     margin-top: 10%;
   }
@@ -1744,6 +1708,9 @@ text-align: left;
 #press-title{
   margin-right: 3em;
 }
+#bloomerg-techmoran{
+  margin-left: 15%;
+}
 
 
 
@@ -1981,10 +1948,7 @@ figure:hover+span {
       margin-bottom: 2em;
       margin-left: -1em;
   }
-  #solution{
-    font-size: 95%;
-    margin-top: 20%;
-  }
+
   #awards img{
     margin-left: 1.5em;
   }
@@ -2061,6 +2025,9 @@ figure:hover+span {
     margin-top: 30px;
     margin-bottom: -10px;
   }
+  #solutions-container{
+    margin-top: 300em;
+  }
 
 
 
@@ -2078,6 +2045,9 @@ figure:hover+span {
   }
   #partner-cards{
     margin-left: 23%;
+  }
+  #solution{
+    margin-top: 58vh;
   }
 }
 
@@ -2110,9 +2080,9 @@ figure:hover+span {
   #who{
     margin-top: 6em;
   }
-  #solution{
+  /* #solution{
     margin-top: 5em;
-  }
+  } */
 
 
   #partner-heading{
@@ -2353,7 +2323,18 @@ figure:hover+span {
   margin-left:0.7vw;
 }
 #our-partners-one{
-  margin-left: -5vw;
+  margin-left:-3.3em;
+}
+#all-partner-logos .hover10 figure {
+  width: 90%;
+  height: 190px;
+  margin: 0;
+  padding: 2%;
+  background: #fff;
+  overflow: hidden;
+  margin-top: 30px;
+  margin-bottom: -5px;
+  margin-left: -19vw;
 }
 
 
@@ -2408,38 +2389,39 @@ figure:hover+span {
     margin-left: 3.4em;
   }
 
-  figure:hover+span {
-    bottom: -6em;
-    opacity: 1;
-    width:110%;
-    margin-left: -10vw;
-    font-size: 110%;
-  }
+
   #demo08{
     margin-top: -5em;
   }
   #trio-team{
     margin-right: 2vw;
   }
-  #trio-team figure{
-    height:80%;
+
+  #trio-team span{
+    bottom:-4em;
+    margin-left: -3vw;
   }
-  .investor-logos{
+  /* .investor-logos{
     margin-left: 0.5%;
-  }
-  #press-logo2 #our-partners{
+  } */
+  /* #press-logo2 #our-partners{
     margin-left: 0.8em;
-  }
+  } */
   .investor-title{
     margin-right:-8%;
   }
   #new-press{
     margin-right: 4vw;
   }
-  /* #our-partners-one{
-    margin-left: -1.2em;
-    padding-top: 13%;
-  } */
+  #solution{
+    margin-top: -3em;
+  }
+  #trio-team figure{
+    height:90%;
+  }
+  #our-partners-one{
+    margin-left:-3.3em;
+  }
 
 }
 
