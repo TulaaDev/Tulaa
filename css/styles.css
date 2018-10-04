@@ -1012,10 +1012,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
     margin-top: 60vh;
   } */
 
-
+  #jumbotron-text{
+    margin-top: 14em;
+    font-size: 360%;
+  }
   #trio-team{
-    /* margin-top: -16em; */
+    margin-top: -16em;
     margin-left: -3em;
+    margin-bottom: 18%;
   }
   #for-our-partners ul{
     font-size:100%;
@@ -1027,6 +1031,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
   /* #solution{
     margin-top: 87vh;
   } */
+  #solution{
+    margin-top: 65em;
+  }
 
 
 
@@ -1297,6 +1304,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
   #copyright{
     margin-top: 7vh;
+  }
+  #solution{
+    margin-top: 40em;
   }
 
 }
