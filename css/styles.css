@@ -1475,21 +1475,21 @@ and (-webkit-min-device-pixel-ratio: 2){
 
 #demo08 .column div {
 margin-top: 1em;
-margin-bottom: 20em;
+margin-bottom: 20%;
 }
 #demo08 h4{
   font-size: 100%;
 }
 figure:hover+span {
-  bottom: -9em;
+  bottom: -7em;
   opacity: 1;
   width:160%;
   margin-left: -10vw;
   font-size: 130%;
 }
-#joinus{
+/* #joinus{
   margin-top: 5em;
-}
+} */
 .nav-tabs{
 width:100%;
 margin-left: -10vw;
@@ -1626,7 +1626,7 @@ figure:hover+span {
   }
 
   figure:hover+span {
-    bottom: -12em;
+    bottom: -6em;
     opacity: 1;
     width:160%;
     margin-left: -18vw;
@@ -1686,18 +1686,7 @@ figure:hover+span {
 }
 
 
-#demo08 .column div {
-  position: relative;
-  float: left;
-  width: 70%;
-  height: 30%;
-  margin: 0 0 0 25px;
-  padding: 0;
-  margin-left: 14%;
-  margin-bottom: -10em;
 
-
-}
 #partner-heading{
   margin-top: 2em;
 }
@@ -1738,7 +1727,7 @@ text-align: left;
 }
 
 #trio-team figure{
-  height:200%;
+  height:120%;
 }
 #trio-team{
   margin-top: 10%;
@@ -1895,10 +1884,10 @@ text-align: left;
 #new-press{
   margin-left: -10%;
 }
-#trio-team figure{
+/* #trio-team figure{
   height:180%;
 
-}
+} */
 
 }
 @media screen and (max-width:436px){
@@ -2013,7 +2002,7 @@ figure:hover+span {
 
   #trio-team figure{
     height:270px;
-    margin-left: 1.8em;
+    /* margin-left: 1.8em; */
     margin-top: 33vh;
   }
 
