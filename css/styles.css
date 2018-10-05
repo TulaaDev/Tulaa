@@ -920,25 +920,6 @@ and (min-device-width: 1920px){
 
 }
 
-and (orientation: landscape)
-and (-webkit-min-device-pixel-ratio: 2)
-@media only screen
-and (min-device-width: 1366px)
-and (max-device-width: 1366px)
-and (orientation: landscape)
-and (-webkit-min-device-pixel-ratio: 2) {
-  .mit h4{
-    margin-left: 15%;
-  }
-  /* #solution{
-    margin-top: 40em;
-  } */
-
-  /* #trio-team{
-    margin-bottom: 5%;
-  } */
-
-}
 
 @media only screen and (max-width: 1280px) {
   /* #solution{
