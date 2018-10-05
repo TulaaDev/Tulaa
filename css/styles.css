@@ -55,7 +55,7 @@ body{
   background-repeat: no-repeat;
   height:101vh;
   width:100.6%;
-  position:absolute;
+  position:relative;
   background-position: center 10%;
 
 
@@ -94,11 +94,11 @@ body{
 
 
 
-.title-text{
+/* .title-text{
 
   position:sticky;
   margin-top: 5em;
-}
+} */
 
 
 
@@ -906,17 +906,17 @@ footer{
 
 @media only screen
 and (min-device-width: 1920px){
-  #solution{
+  /* #solution{
     margin-top: 5em;
-  }
+  } */
   #trio-team{
     padding-bottom: 7%;
     margin-left: 6vw;
   }
 
-  #solution-container{
+  /* #solution-container{
     margin-top: 60em;
-  }
+  } */
 
 }
 
@@ -1189,26 +1189,7 @@ and (-webkit-min-device-pixel-ratio: 2){
 
   }
 }
-@media screen and (max-width:943px) and (max-width:911px){
 
-  .nav-tabs{
-  width:100%;
-  margin-left: -10vw;
-  font-size: 1%;
-  text-align: left;
-
-  }
-  .nav-item{
-    width:60%;
-
-  }
-  .title-text{
-
-    position:sticky;
-    margin-top: 5em;
-  }
-
-}
 @media screen and (max-width:879px){
 
   .nav-tabs{
@@ -1226,9 +1207,6 @@ and (-webkit-min-device-pixel-ratio: 2){
 }
 @media screen and (max-width:848px) and (max-width:800px){
 
-  /* #solution{
-    margin-top: 30em;
-  } */
   .nav-tabs{
   width:100%;
   margin-left: -10vw;
@@ -2494,9 +2472,7 @@ figure:hover+span {
   #new-press{
     margin-right: 4vw;
   }
-  #solution{
-    margin-top: -3em;
-  }
+
   #trio-team figure{
     height:90%;
   }
@@ -2557,8 +2533,8 @@ figure:hover+span {
 
 
 #solution{
-  padding-top: 0.1%;
-  margin-top: 65vh;
-  display:block;
+  padding-top: 12.1%;
+  margin-top: -10%;
+
 
 }
