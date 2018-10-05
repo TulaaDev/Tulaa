@@ -906,12 +906,16 @@ footer{
 
 @media only screen
 and (min-device-width: 1920px){
-  /* #solution{
-    margin-top: 50em;
-  } */
+  #solution{
+    margin-top: 5em;
+  }
   #trio-team{
     padding-bottom: 7%;
     margin-left: 6vw;
+  }
+
+  #solution-container{
+    margin-top: 60em;
   }
 
 }
@@ -2553,7 +2557,8 @@ figure:hover+span {
 
 
 #solution{
-
-  margin-top: 110vh;
+  padding-top: 0.1%;
+  margin-top: 65vh;
   display:block;
+
 }
