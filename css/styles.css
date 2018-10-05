@@ -1991,24 +1991,26 @@ figure:hover+span {
     margin-left: 1.5em;
   }
   figure:hover+span {
-    bottom: -22.6em;
+    bottom: -12.6em;
     opacity: 1;
     width:120%;
-    margin-left: -1.5vw;
+    margin-left: -2.5vw;
     font-size: 150%;
   }
 
 
-
+#trio-team span{
+  margin-left: -10vw;
+}
   #trio-team figure{
     height:270px;
     /* margin-left: 1.8em; */
-    margin-top: 33vh;
+    margin-top: 13vh;
   }
 
-  #demo08{
-    margin-top: -10em;
-  }
+  /* #demo08{
+    margin-top: 10em;
+  } */
 
 
   #press-logo h2{
@@ -2067,7 +2069,7 @@ figure:hover+span {
     margin-top: 300em;
   } */
   #who-text{
-    margin-bottom: -10em;
+    margin-bottom: -5em;
   }
 
 
@@ -2224,11 +2226,11 @@ figure:hover+span {
     margin-left: 16%;
   }
   figure:hover+span {
-    bottom: -5em;
+    bottom: -9.5em;
     opacity: 1;
-    width:110%;
-    margin-left: -14vw;
-    font-size: 180%;
+    width:90%;
+    margin-left: -20vw;
+    font-size: 160%;
   }
   #press-section{
     margin-left: 3%;
@@ -2246,18 +2248,19 @@ figure:hover+span {
   }
   #trio-team figure{
     width:85%;
-    height:96%;
-    margin-top: -3em;
+    height:95%;
+
   }
   #trio-team{
-    margin-top:-5vh;
-    margin-left: -20%;
+    margin-top:5vh;
+    margin-left: -3%;
   }
   #trio-team span h4{
     margin-left: -2vw;
   }
   #trio-team span{
     margin-left: -3%;
+
   }
 
   .investor-title{
@@ -2449,12 +2452,13 @@ figure:hover+span {
     margin-top: -5em;
   }
   #trio-team{
-    margin-right: 2vw;
+    margin-right: 12vw;
   }
 
   #trio-team span{
     bottom:-4em;
-    margin-left: -3vw;
+    margin-left: 2vw;
+    font-size: 100%;
   }
   /* .investor-logos{
     margin-left: 0.5%;
@@ -2470,7 +2474,8 @@ figure:hover+span {
   }
 
   #trio-team figure{
-    height:90%;
+    height:110%;
+    width:110%;
   }
   #our-partners-one{
     margin-left:-3.3em;
