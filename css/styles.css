@@ -56,11 +56,12 @@ body{
   height:101vh;
   width:100.6%;
   position:absolute;
-  padding-bottom: 10em;
-  background-position: center 10%;;
-  display:block;
+  background-position: center 10%;
+
+
 
 }
+
 /* styling to make jumbotron text position ontop of overlay */
 #jumbotron-text{
   margin-top: 30%;
@@ -81,21 +82,17 @@ body{
 /* jumbotron overlay to make text visible */
 .layer {
   background-color: rgba(81, 76, 76, 0.12);
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
   height: 96%;
+  background-size: cover;
 
 }
 
-#solution-container{
-  margin-top: 1em;
 
-}
-#solution{
-  padding-top: 1%;
-}
+
 
 .title-text{
 
@@ -907,7 +904,20 @@ footer{
 }
 
 
+@media only screen
+and (min-device-width: 1920px){
+  /* #solution{
+    margin-top: 50em;
+  } */
+  #trio-team{
+    padding-bottom: 7%;
+    margin-left: 6vw;
+  }
 
+}
+
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 2)
 @media only screen
 and (min-device-width: 1366px)
 and (max-device-width: 1366px)
@@ -916,9 +926,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
   .mit h4{
     margin-left: 15%;
   }
-  #solution{
+  /* #solution{
     margin-top: 40em;
-  }
+  } */
 
   #trio-team{
     margin-bottom: 5%;
@@ -927,9 +937,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 
 @media only screen and (max-width: 1280px) {
-  #solution{
+  /* #solution{
     margin-top: 48vh;
-  }
+  } */
   #trio-team{
     margin-bottom: 10%;
   }
@@ -948,9 +958,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
   .navbar-toggler{
     color:black;
   }
-  #solution{
+  /* #solution{
     margin-top: 70em;
-  }
+  } */
 
 
   }
@@ -967,18 +977,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
   #demo08{
     margin-top: -2em;
   }
-  /* #solution{
-    margin-top: -10em;
-  } */
-  #jumbotron-text{
+
+  /* #jumbotron-text{
     margin-top: 3.2em;
-  }
-  .layer{
-    height:25em;
-  }
-  /* #solution{
-    margin-top: 28em;
   } */
+  /* .layer{
+    height:25em;
+  } */
+
 }
 
 
@@ -1027,10 +1033,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
 
 
-  #jumbotron-text{
+  /* #jumbotron-text{
     margin-top: 10em;
 
-  }
+  } */
   #trio-team{
     /* margin-top: -16em; */
     margin-left: -3em;
@@ -1046,9 +1052,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
   /* #solution{
     margin-top: 87vh;
   } */
-  #solution{
+  /* #solution{
     margin-top: 23em;
-  }
+  } */
   .joinus-text{
     margin-top: -27%;
   }
@@ -1070,12 +1076,12 @@ and (min-device-width: 1024px)
 and (max-device-width: 1366px)
 and (orientation: portrait)
 and (-webkit-min-device-pixel-ratio: 2){
-  #solution{
+  /* #solution{
     margin-top: 63em;
-  }
-  #jumbotron-text{
+  } */
+  /* #jumbotron-text{
     margin-top: 20em;
-  }
+  } */
   #trio-team{
     margin-top: -15em;
   }
@@ -1318,9 +1324,9 @@ and (-webkit-min-device-pixel-ratio: 2){
     margin-bottom: 8em;
     margin-left: -5%;
   } */
-  #jumbotron-text{
+  /* #jumbotron-text{
     margin-top: 13.8em;
-  }
+  } */
   #facebook-award {
     margin-top: 5em;
     margin-left:-7em;
@@ -1348,9 +1354,9 @@ and (-webkit-min-device-pixel-ratio: 2){
   #copyright{
     margin-top: 7vh;
   }
-  #solution{
+  /* #solution{
     margin-top: 42em;
-  }
+  } */
   #contact-section{
     margin-top: -8em;
   }
@@ -1365,9 +1371,9 @@ and (-webkit-min-device-pixel-ratio: 2){
   .layer{
     height:95%;
   }
-  #jumbotron-text{
+  /* #jumbotron-text{
     margin-top: 33%;
-  }
+  } */
   .fa-bars{
     margin-bottom: 6.5vh;
   }
@@ -1425,9 +1431,9 @@ and (-webkit-min-device-pixel-ratio: 2){
   #testimonial {
     margin-bottom: -11em;
   }
-  #jumbotron-text{
+  /* #jumbotron-text{
     margin-top: 1.9em;
-  }
+  } */
   #partner-heading{
     margin-top: 2.5em;
   }
@@ -1529,10 +1535,10 @@ text-align: left;
   #testimonial {
     margin-bottom: -16em;
   }
-  #jumbotron-text{
+  /* #jumbotron-text{
     font-size: 140%;
     margin-top: 30%;
-  }
+  } */
   .layer{
     height:90%;
   }
@@ -1784,9 +1790,9 @@ text-align: left;
 
       margin-left: -4em;
   }
-  #jumbotron-text{
+  /* #jumbotron-text{
     margin-top: 6em;
-  }
+  } */
 
   #testimonial .card-text{
     margin-left: -1em;
@@ -1800,10 +1806,10 @@ text-align: left;
   } */
 }
 @media screen and (max-width:534px){
-  #solution{
+  /* #solution{
     margin-top: 3em;
 
-  }
+  } */
   .nav-tabs{
   width:100%;
   margin-left: -10vw;
@@ -2086,9 +2092,9 @@ figure:hover+span {
     margin-top: 30px;
     margin-bottom: -10px;
   }
-  #solutions-container{
+  /* #solutions-container{
     margin-top: 300em;
-  }
+  } */
 
 
 
@@ -2107,9 +2113,9 @@ figure:hover+span {
   #partner-cards{
     margin-left: 23%;
   }
-  #solution{
+  /* #solution{
     margin-top: 58vh;
-  }
+  } */
 }
 
 @media screen and (max-width:400px){
@@ -2325,7 +2331,7 @@ figure:hover+span {
   }
   #solution{
     font-size: 90%;
-    margin-top: 23em;
+    /* margin-top: 23em; */
   }
 
 
@@ -2436,9 +2442,9 @@ figure:hover+span {
     font-size: 310%;
   }
 
-  #jumbotron-text{
+  /* #jumbotron-text{
     margin-top: 10em;
-  }
+  } */
   #logo{
     width:35%;
   }
@@ -2543,5 +2549,11 @@ figure:hover+span {
 
 #demo08{
   margin-top: -10%;
+}
 
+
+#solution{
+
+  margin-top: 110vh;
+  display:block;
 }

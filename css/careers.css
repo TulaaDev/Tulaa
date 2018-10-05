@@ -841,6 +841,20 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
 }
 
 @media only screen
+and (min-device-width: 1920px){
+  #parallax{
+    margin-top: -5vh;
+    margin-bottom: 10em;
+  }
+  #careers-team span{
+    margin-left: -2.3vw;
+  }
+  #benefits-container h3{
+    margin-left: -25vw;
+  }
+
+}
+@media only screen
 and (min-device-width: 1366px)
 and (max-device-width: 1366px)
 and (orientation: landscape)
@@ -1323,15 +1337,36 @@ and (-webkit-min-device-pixel-ratio: 2) {
   #parallax{
     margin-top: -5em;
   }
+  .card{
+    margin-bottom: 10%;
+  }
+  #careers-team figure{
+    width:120%;
+    height:97%;
+    margin-bottom: 12vh;
+  }
+  #careers-team span{
+    bottom: -10.2em;
+    margin-left: -4em;
+  }
+  /* #careers-team{
+    margin-left: 10vw;
+  } */
 
   }
 
-@media only screen and (max-width:411px){
-  .hover01 figure{
-    width:110%;
-    margin-left: 38%;
+/* @media only screen and (max-width:411px){
+
+  #careers-team figure{
+    width:117%;
+    height:95%;
+    margin-bottom: 10vh;
   }
-}
+  #careers-team span{
+    bottom: -9.9em;
+    margin-left: -4em;
+  }
+} */
 
 @media only screen and (max-width:400px){
   .icons{
@@ -1399,7 +1434,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
   #careers-team span{
     bottom:-10em;
 
-
+  }
+  #careers-team{
+    margin-left: 3vw;
   }
   .hover01 figure:hover+span {
     bottom: -163px;
@@ -1414,6 +1451,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
   .card h4{
     margin-right:-3em;
   }
+  #careers-team figure{
+    margin-left: 17vw;
+  }
+
 
 
   }
@@ -1527,8 +1568,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 }
 @media only screen and (max-width:360px){
-  #hamburger{
-    margin-bottom: -2em;
+
+  #careers-team{
+    margin-left: 1.2vw;
   }
 }
 @media only screen and (max-width:337px){
