@@ -44,7 +44,7 @@ nav a:hover{
 }
 .card h3{
   font-size:160%;
-  margin-top: 10em;
+  margin-top: 12em;
 
 }
 
@@ -1055,4 +1055,10 @@ nav a:hover{
 }
 #read-more{
   margin-left: -4em;
+}
+.card h3{
+  margin-top: 1.5vh;
+}
+#stories img{
+  margin-top: 1vh;
 }
