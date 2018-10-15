@@ -1031,3 +1031,6 @@ nav a:hover{
 #top-panel .card-header{
   height:15vh;
 }
+#stories {
+  font-size: 2vh;
+}
