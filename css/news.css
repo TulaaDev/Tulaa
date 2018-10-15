@@ -8,7 +8,6 @@
   display:flex;
   height:70vh;
 
-
 }
 
 #top-panel h4{
@@ -722,9 +721,7 @@ and (-webkit-min-device-pixel-ratio: 2){
   #panel-title{
     margin-top: -2.8vh;
   }
-  #top-panel .card-header{
-    height:20vw;
-  }
+
   #top-panel .badge{
     width:15vw;
     height:6vh;
@@ -735,9 +732,8 @@ and (-webkit-min-device-pixel-ratio: 2){
     font-size: 4vw;
   }
   #top-panel .card-header{
-    height:15vh;
+    height:29vw;
   }
-
 }
 @media screen and (max-width:411px) {
   footer{
@@ -931,6 +927,11 @@ and (-webkit-min-device-pixel-ratio: 2){
     font-size: 2.2vh;
 
   }
+  #stories{
+    margin-left: 5vw;
+    font-size: 8vh;
+  }
+
 
 
 }
@@ -1029,7 +1030,7 @@ nav a:hover{
   padding-top: 5vh;
 }
 #top-panel .card-header{
-  height:15vh;
+  height:10vw;
 }
 #stories {
   font-size: 2vh;
