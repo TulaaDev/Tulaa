@@ -26,7 +26,7 @@ body{
   margin: auto;
 } */
 .container-fluid{
-  display:flex;
+  /* display:flex; */
   flex-wrap: nowrap;
 }
 #section3{
@@ -385,7 +385,7 @@ body {
   #who-text{
     font-size: 3vh;
     width:87%;
-    margin-bottom: 4vh;
+
   }
 
   .acumen{
@@ -509,12 +509,12 @@ h2 span {
   bottom:-17vw;
 } */
 
-#demo08{
+/* #demo08{
   padding-top: 3vh;
 
-}
+} */
 figure:hover+span {
-	bottom: -16vw;
+	bottom: -17.5vw;
 	opacity: 1;
   width:107%;
   margin-left: -1vw;
@@ -552,17 +552,17 @@ figure:hover+span {
   margin-top: 6vh;
 }
 /* hover images styling for investor and partner logos */
-.hover10{
+/* .hover10{
   margin-top: 5%;
   margin-bottom: -10%;
 
-}
+} */
 
 .hover10 figure {
-	width: 125%;
+	width: 270vw;
 	height: 120px;
 	margin: 0;
-	padding: 2%;
+	/* padding: 2%; */
 	background: #fff;
 	overflow: hidden;
   margin-top: 30px;
@@ -637,7 +637,7 @@ h3{
   }
  .partners2{
    padding:8%;
-   margin-left: 20%;;
+   margin-left: 20%;
    mix-blend-mode: multiply;
 
  }
@@ -896,7 +896,7 @@ footer{
   }
 
   #demo08{
-    margin-top: -2em;
+    /* margin-top: -2em; */
   }
 
 }
@@ -963,6 +963,10 @@ footer{
     margin-bottom: 10px;
     margin-left: 1vw;
   }
+  /* #trio-team span{
+    bottom:-15vw;
+  } */
+
 
 }
 @media only screen
@@ -973,6 +977,9 @@ and (-webkit-min-device-pixel-ratio: 2){
 
   #trio-team{
     margin-top: -15em;
+  }
+  #trio-team span{
+    bottom:-95vw;
   }
 
 }
@@ -1129,9 +1136,10 @@ and (-webkit-min-device-pixel-ratio: 2){
     margin-bottom: 0.3em;
     margin-left: -2%;
   }
-  #testimonial .card-text{
-    width: 110%;
-  }
+  /* #testimonials p{
+    width: 22vw;
+  } */
+
 
   .dark-blue-text,.fa-bars {
       color: #c83e2c;
@@ -1141,14 +1149,15 @@ and (-webkit-min-device-pixel-ratio: 2){
   .hover08 figure{
     width:90%;
     height:100%;
-    margin-top: 37.5%;
+
 
   }
   figure:hover+span {
-    bottom: -11em;
+    bottom: -4.9em;
     opacity: 1;
-    width:120%;
+    width:110%;
     margin-left: -2vw;
+    font-size: 3vh;
 
   }
   #who{
@@ -1164,7 +1173,7 @@ and (-webkit-min-device-pixel-ratio: 2){
   }
   #demo08{
     margin-left: 1%;
-    margin-top: -40%;
+    /* margin-top: -40%; */
   }
 
   #facebook-award {
@@ -1194,15 +1203,24 @@ and (-webkit-min-device-pixel-ratio: 2){
   /* #copyright{
     margin-top: 7vh;
   } */
+  #press-logo .hover10 figure {
+  	margin-left: 10vw;
+
+
+  }
+
 
   #contact-section{
     margin-top: -8em;
   }
-  #bloomerg-techmoran .hover10 figure {
-    width: 75%;
+  /* #bloomerg-techmoran .hover10 figure {
+    width: 85%;
+    padding-left: 4vw;
+  } */
+#icons{
+  padding: 10%;
+}
 
-
-  }
 
 }
 @media screen and (max-width:767px){
@@ -1611,14 +1629,6 @@ text-align: left;
 }
 @media only screen and (max-width:515px){
 
-  /* #copyright{
-    margin-left: -40vw;
-    margin-top: 10%;
-  } */
-  /* #footer-text{
-    margin-left: 14%;
-
-  } */
   .icons{
     margin-left: 14%;
   }
@@ -1773,14 +1783,7 @@ figure:hover+span {
   #testimonial{
     margin-bottom: -36em;
   }
-  /* #footer-text{
-    margin-top: -3em;
-    margin-left: 0.8em;
-  } */
-  /* #copyright{
-    margin-top: -2em;
-    margin-left: -32%;
-  } */
+
   #icons{
     margin-left: -25%;
   }
@@ -1800,7 +1803,7 @@ figure:hover+span {
     margin-left: 1.5em;
   }
   figure:hover+span {
-
+    bottom:-10em;
     opacity: 1;
     width:113%;
     margin-left: -10.5vw;
@@ -2028,7 +2031,7 @@ figure:hover+span {
   }
 
   figure:hover+span {
-    bottom: -8.4em;
+    bottom: -10.4em;
     opacity: 1;
     width:93%;
 
@@ -2063,9 +2066,6 @@ figure:hover+span {
 
   }
 
-  /* .investor-title{
-    margin-top: 12%;
-  } */
   #for-our-partners{
     margin-top: 13%;
   }
@@ -2140,17 +2140,20 @@ figure:hover+span {
   margin-top: -7em;
 }
 
-#press-logo2{
+/* #press-logo2{
   margin-left: 2em;
-}
+} */
 
 #all-partner-logos .hover10 figure {
   width: 90%;
   height: 190%;
-
 }
+#trio-team span{
+  bottom: -10em;
+}
+
 #icons{
-  width:150%;
+  width:91vw;
 }
 
 
@@ -2207,12 +2210,13 @@ figure:hover+span {
     margin-top: -5em;
   }
   #trio-team{
-    margin-right: 12vw;
+    margin-right: 6vw;
   }
 
   #trio-team span{
-    bottom:-16em;
-    margin-left: 2vw;
+    bottom:-10em;
+    margin-left: -15vw;
+    width:160%;
 
   }
 
@@ -2229,7 +2233,7 @@ figure:hover+span {
     font-size: 4vh;
   }
   #icons{
-    width:140%;
+    width:97vw;
   }
 
 }
@@ -2293,9 +2297,9 @@ figure:hover+span {
   width:90%;
 }
 
-#demo08{
-  margin-top: -3%;
-}
+/* #demo08{
+  margin-top: 1%;
+} */
 
 #solution{
   padding-top: 12.1%;
@@ -2314,7 +2318,7 @@ figure:hover+span {
   margin-bottom: 20vh;
 }
 #press-logo #bloomerg-techmoran figure {
-  height:16vh;
+  height:106%;
 }
 .img-circle {
     border-radius: 50%;
