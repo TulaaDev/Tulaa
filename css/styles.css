@@ -946,8 +946,8 @@ footer{
   }
   #for-our-partners ul{
     font-size:100%;
-
   }
+
   /* #copyright{
     margin-top: 4vh;
   } */
@@ -966,6 +966,7 @@ footer{
   /* #trio-team span{
     bottom:-15vw;
   } */
+
 
 
 }
@@ -1228,9 +1229,9 @@ and (-webkit-min-device-pixel-ratio: 2){
     height:95%;
   }
 
-  .fa-bars{
+  /* .fa-bars{
     margin-bottom: 6.5vh;
-  }
+  } */
 
   #who{
     margin-top: -2%;
@@ -2277,7 +2278,7 @@ figure:hover+span {
 
 #for-our-partners .card-title{
   color:#008f8a;
-  font-size: 4vh;
+  font-size: 3.4vh;
 }
 #for-our-partners{
   padding-bottom:3%;
