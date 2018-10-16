@@ -1112,12 +1112,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
   #footer-container{
     margin-left: 1em;
   }
-  #copyright{
+  /* #copyright{
     margin-left: -23em;
-  }
-  #footer-text{
+  } */
+  /* #footer-text{
     margin-left: 2em;
-  }
+  } */
 
 
 }
@@ -1194,9 +1194,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
   .mt-3 .col-9{
     margin-top: -10%;
   }
-  #icons{
+  /* #icons{
     margin-bottom: -1em;
-  }
+  } */
 }
 
 @media only screen and (max-width:575px){
@@ -1244,14 +1244,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
   #careers-team .caption{
     margin-left: 3em;
   }
-  #copyright{
+  /* #copyright{
     margin-left: -17em;
     margin-top: 10em;
-  }
-  #footer-text{
+  } */
+  /* #footer-text{
     margin-left: 14%;
 
-  }
+  } */
   .icons{
     margin-left: 14%;
   }
@@ -1304,14 +1304,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
   .card h5{
     font-size: 120%;
   }
-  #copyright{
+  /* #copyright{
     margin-left: -40vw;
     margin-top: 10em;
-  }
-  #footer-text{
+  } */
+  /* #footer-text{
     margin-left: 14%;
 
-  }
+  } */
   .icons{
     margin-left: 14%;
   }
@@ -1373,9 +1373,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 
 @media only screen and (max-width:400px){
-  .icons{
+  /* .icons{
     margin-left: -10%;
-  }
+  } */
   #footer-text{
     margin-left: 6%;
 

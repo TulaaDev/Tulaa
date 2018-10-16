@@ -948,9 +948,9 @@ footer{
     font-size:100%;
 
   }
-  #copyright{
+  /* #copyright{
     margin-top: 4vh;
-  }
+  } */
 
   #press-logo2 .hover10 figure {
   	width: 130px;
@@ -1039,10 +1039,10 @@ and (-webkit-min-device-pixel-ratio: 2){
 }
 
 @media screen and (max-width:986px){
-  #icons{
+  /* #icons{
     margin-left: -2em;
     width:19em;
-  }
+  } */
   footer ul{
     margin-left: -30em;
     font-size: 10%;
@@ -1191,9 +1191,9 @@ and (-webkit-min-device-pixel-ratio: 2){
   #press-logo2{
     margin-top: 3%;
   }
-  #copyright{
+  /* #copyright{
     margin-top: 7vh;
-  }
+  } */
 
   #contact-section{
     margin-top: -8em;
@@ -1217,9 +1217,9 @@ and (-webkit-min-device-pixel-ratio: 2){
   #who{
     margin-top: -2%;
   }
-  #footer-text{
+  /* #footer-text{
     width:120%;
-  }
+  } */
 
 }
 @media screen and (max-width:743px){
@@ -1271,16 +1271,16 @@ and (-webkit-min-device-pixel-ratio: 2){
   #awards img{
     margin-left: 30%;
   }
-  #footer-text{
+  /* #footer-text{
     margin-top: 13%;
-    margin-bottom: -30em;
-  }
-  #copyright{
+
+  } */
+  /* #copyright{
     margin-top: -10%;
-  }
-  #icons{
+  } */
+  /* #icons{
     margin-top: -10%;
-  }
+  } */
   footer .container{
     margin-left: 5%;
   }
@@ -1540,14 +1540,14 @@ text-align: left;
   width:60%;
 
 }
-#copyright{
+/* #copyright{
   margin-left: -17em;
 
-}
-#footer-text{
+} */
+/* #footer-text{
   margin-left: 14%;
 
-}
+} */
 .icons{
   margin-left: 14%;
 }
@@ -1611,14 +1611,14 @@ text-align: left;
 }
 @media only screen and (max-width:515px){
 
-  #copyright{
+  /* #copyright{
     margin-left: -40vw;
     margin-top: 10%;
-  }
-  #footer-text{
+  } */
+  /* #footer-text{
     margin-left: 14%;
 
-  }
+  } */
   .icons{
     margin-left: 14%;
   }
@@ -1773,14 +1773,14 @@ figure:hover+span {
   #testimonial{
     margin-bottom: -36em;
   }
-  #footer-text{
+  /* #footer-text{
     margin-top: -3em;
     margin-left: 0.8em;
-  }
-  #copyright{
+  } */
+  /* #copyright{
     margin-top: -2em;
     margin-left: -32%;
-  }
+  } */
   #icons{
     margin-left: -25%;
   }
@@ -1903,9 +1903,9 @@ figure:hover+span {
   #contact-card{
     width:105%;
   }
-  #copyright{
+  /* #copyright{
     margin-left: -20%;
-  }
+  } */
 
 
 }
@@ -1972,13 +1972,13 @@ figure:hover+span {
   .icons{
     margin-left: 10%;
   }
-  #footer-text{
+  /* #footer-text{
     margin-left: 6%;
 
-  }
-  #copyright{
+  } */
+  /* #copyright{
     margin-top: -3em;
-  }
+  } */
 
 }
 @media screen and (max-width:375px){
@@ -2102,6 +2102,9 @@ figure:hover+span {
   #press-logo2 h3{
     margin-left: -13vw;
   }
+  #icons{
+    width:130%;
+  }
 
 
 
@@ -2144,6 +2147,9 @@ figure:hover+span {
   height: 190%;
 
 }
+#icons{
+  width:150%;
+}
 
 
 }
@@ -2159,10 +2165,10 @@ figure:hover+span {
   #copyright{
     margin-left: -14.5%;
   }
-  #footer-text{
+  /* #footer-text{
     margin-top: -14%;
     margin-left: -2%;
-  }
+  } */
   #icons{
     margin-left: -20%;
   }
@@ -2219,6 +2225,9 @@ figure:hover+span {
   }
   #our-partners-one{
     font-size: 4vh;
+  }
+  #icons{
+    width:140%;
   }
 
 }
