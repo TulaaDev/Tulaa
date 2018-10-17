@@ -1676,10 +1676,6 @@ text-align: left;
 .right-press{
   margin-left: -2em;;
 }
-/*
-.fa-bars{
-  margin-bottom: 1em;
-} */
 
 .nav-tabs{
 width:100%;
@@ -2019,7 +2015,7 @@ figure:hover+span {
     margin-left: 2%;
   }
   #demo08{
-    margin-top: -12em;
+    margin-top: -1em;
   }
 
   #press-container{
@@ -2177,10 +2173,7 @@ figure:hover+span {
   #copyright{
     margin-left: -14.5%;
   }
-  /* #footer-text{
-    margin-top: -14%;
-    margin-left: -2%;
-  } */
+
   #icons{
     margin-left: -20%;
   }
