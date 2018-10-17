@@ -1296,9 +1296,7 @@ and (-webkit-min-device-pixel-ratio: 2){
   margin-top: -10em;
 }
 
-  /* #contact-section{
-    margin-top: -8em;
-  } */
+
 
 @media screen and (max-width:767px){
   .layer{
@@ -2166,9 +2164,9 @@ figure:hover+span {
 
 #contact{
 
-  padding-top: 26vh;
-  margin-top:-10vh;
-  margin-bottom: 17vh;
+  padding-top: 16vh;
+  margin-top:-20vh;
+
 }
 #who{
   margin-top:-15vh;
