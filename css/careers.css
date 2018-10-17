@@ -485,8 +485,8 @@ a{
 
 #careers-team .caption{
   bottom:-4vw;
-  width:150%;
-  margin-left: -3.5vw;
+  width:139%;
+
 
 }
 @media only screen and (min-width : 375px) and (max-width : 667px) {
@@ -923,7 +923,7 @@ and (max-width : 1024px)  {
     margin-top: -6em;
   }
   .job-content .date{
-    margin-top: 20vh;
+    /* margin-top: 20vh; */
     font-size: 200%;
     height:110%;
     width:15%;
@@ -940,6 +940,7 @@ and (max-width : 1024px)  {
     width:100%;
     margin-left: -8vw;
   }
+
 
 
 }
@@ -1111,11 +1112,14 @@ and (max-device-width: 768px)
 and (orientation: portrait)
 and (-webkit-min-device-pixel-ratio: 2) {
   #careers-team .caption{
-    margin-left: -2.5em;
+    margin-left: -2em;
   }
   #careers-team{
     padding-bottom: 12%;
   }
+ .headshot{
+   margin-left: -1vw;
+ }
 }
 @media only screen and (max-width:767px){
   .job-content .date{

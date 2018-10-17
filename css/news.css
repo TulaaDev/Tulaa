@@ -56,7 +56,7 @@ nav a:hover{
   margin-top: 20%;
 }
 #cards{
-  margin-bottom: 10em;
+  /* margin-bottom: 10em; */
   margin-top: 10vh;
 
 }
@@ -161,6 +161,13 @@ h5{
 #top-panel{
   width:100vw;
 
+}
+
+#cards h3{
+  font-size: 131.8%;
+}
+#cards .summary{
+  font-size: 105%;
 }
 
 
@@ -346,22 +353,13 @@ and (-webkit-min-device-pixel-ratio: 2){
     width:103.6%;
   }
 
-
-
-  /* #copyright{
-    margin-top: 30%;
-    margin-left: -40%;
-  } */
   .row h5{
     font-size: 140%;
   }
   #panel{
     margin-left: 4em;
+  }
 
-  }
-  .mt-3{
-    margin-bottom: 10%;
-  }
   #stories .card{
     margin-bottom: 16%;
   }
@@ -375,7 +373,13 @@ and (-webkit-min-device-pixel-ratio: 2){
     margin-bottom: 2em;
   }
   #content .collapse{
-    margin-top: -23em;
+    margin-top: -13em;
+  }
+  #cards{
+    margin-bottom: -11em;
+  }
+  #content .badge{
+    margin-top: -1em;
   }
 
 
@@ -485,19 +489,16 @@ and (-webkit-min-device-pixel-ratio: 2){
   #team{
     margin-top: 2em;
   }
-  /* #copyright{
-    margin-top: 30%;
-    margin-left: -40%;
-  } */
+
   .fa-bars{
     margin-bottom: 3em;
   }
-
-/*
-  .mt-3{
-    margin-bottom: 10%;
-  } */
-
+  #cards h3{
+    font-size: 131.8%;
+  }
+  #cards .summary{
+    font-size: 90%;
+  }
 
 
 }
@@ -512,23 +513,11 @@ and (-webkit-min-device-pixel-ratio: 2){
     margin-top: -6%;
   }
 
-  /* #copyright{
-    margin-left:-60%;
-  } */
-
-
-
 }
 
 
 
 @media screen and (max-width:680px){
-
-
-
-  /* #copyright{
-    margin-left: -25em;
-  } */
 
   #read-more{
     margin-top: 2%;
@@ -591,14 +580,6 @@ and (-webkit-min-device-pixel-ratio: 2){
 }
 
 @media screen and (max-width:574px){
-  /* #icons{
-    margin-left: -15em;
-    width:110%;
-  } */
-  /* #copyright{
-    margin-left: -24em;
-    margin-top: -2em;
-  } */
 
   #top-panel .media-heading{
     font-size: 3vh;
@@ -1167,8 +1148,11 @@ nav a:hover{
    }
 
    #content .badge{
-     margin-top: 27em;
+     margin-top: 15em;
      width:25%;
+   }
+   #content p{
+     margin-top: 1%;
    }
    #cards{
      margin-top: 26em;
@@ -1189,14 +1173,8 @@ nav a:hover{
  } */
  #cards ul a:hover{
    color:#c83e2c;
-   font-size:20vh;
+
  }
  #cards h3:hover{
    color:#c83e2c;
- }
- #cards .summary{
-   font-size: 2vh;
- }
- #cards h3{
-   font-size: 2.5vh;
  }
