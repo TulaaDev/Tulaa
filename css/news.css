@@ -875,9 +875,9 @@ and (-webkit-min-device-pixel-ratio: 2){
   footer{
     margin-top: 40vw;
   }
-  /* #content{
+  #content{
     margin-top: 10vh;
-  } */
+  }
   #top-panel .card-header{
     height:200vw;
   }
