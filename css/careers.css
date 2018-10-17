@@ -433,16 +433,8 @@ margin-top: 10vh;
 
   border-radius: 80%;
 
-
-
 }
 
-/* .hover01 figure:hover+span {
-	bottom: -25%;
-	opacity: 1;
-  margin-left: -10%;
-  width: 150%;
-} */
 h4{
   font-size: 120%;
 }
@@ -594,21 +586,6 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
       margin-top: 20vh;
     }
 
-    /* .hover01 figure {
-    	width: 83%;
-    	height: 70%;
-    	margin: 0;
-    	padding: 10%;
-    	background: #fff;
-    	overflow: hidden;
-      margin-top: 30px;
-      border-radius: 80%;
-      margin-bottom:10px;
-      margin-top: 8em;
-      margin-left: 13vw;
-
-
-    } */
     .single-image{
       margin-top: 10vh;
       margin-right: -10%;
@@ -728,19 +705,6 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
 and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
 {
 
-  /* .hover01 figure {
-    width: 93%;
-    height: 70%;
-    margin: 0;
-    padding: 10%;
-    background: #fff;
-    overflow: hidden;
-    margin-top: 30px;
-    border-radius: 80%;
-
-    margin-top: 8em;
-    margin-left: 14vw;
-  } */
 
   .hover01 figure:hover+span {
     bottom: -119px;
@@ -945,31 +909,28 @@ and (max-width : 1024px)  {
 
 }
 
-
+@media screen and (min-width: 1440px) {
+  #careers-team .caption{
+    bottom:-30%;
+    margin-left: -20%;
+  }
+  .job-content .badge{
+    height:10%;
+  }
+  .job-content {
+    padding-top: 5%;
+  }
+  }
 @media only screen
 and (min-device-width: 1024px)
 and (max-device-width: 1024px)
 and (orientation: portrait)
 and (-webkit-min-device-pixel-ratio: 2) {
-/* .hover01 figure:hover+span {
-	bottom: -17%;
-	opacity: 1;
-  margin-left: 25em;
-  width: 140%;
-} */
+
 #careers-team{
   margin-left:2vw;
 }
- /* .hover01 figure {
-  width: 90%;
-  height: 75%;
-  margin: auto;
-  padding: 10%;
-  background: #fff;
-  overflow: hidden;
-  border-radius: 80%;
 
-} */
 #benefits-container{
   margin-top: -2.5em;
 }
@@ -1003,6 +964,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 .row{
   margin-bottom: -300em;
+}
+.fa-bars{
+  margin-top: 2em;
 }
 
 
@@ -1119,6 +1083,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
  .headshot{
    margin-left: -1vw;
+ }
+ .fa-bars{
+   margin-bottom: 2em;
  }
 }
 @media only screen and (max-width:767px){
@@ -1661,6 +1628,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 
 }
+
+
+
 @media only screen
 and (min-device-width: 1024px)
 and (max-device-width: 1024px)
@@ -1669,12 +1639,18 @@ and (-webkit-min-device-pixel-ratio: 2) {
   #careers-team {
     margin-left: 5vw;
   }
-  #hamburger{
-    margin-right: 2vw;
-    margin-bottom: -3vh;
-  }
+
   #careers-team .caption{
-    margin-left: -4.3vw;
+    margin-left: -3.3vw;
     bottom:-6vh;
   }
+  .job-content {
+    margin-top: -20vw;
+  }
+  #benefits-container{
+    padding-top: 10%;
+  }
+}
+#hamburger{
+  margin-bottom: -1em;
 }
