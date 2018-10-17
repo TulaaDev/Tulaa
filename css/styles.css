@@ -1296,9 +1296,9 @@ and (-webkit-min-device-pixel-ratio: 2){
   margin-top: -10em;
 }
 
-  #contact-section{
+  /* #contact-section{
     margin-top: -8em;
-  }
+  } */
 
 @media screen and (max-width:767px){
   .layer{
