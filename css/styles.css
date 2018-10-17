@@ -723,7 +723,7 @@ h1{
 
 #for-our-partners .card-title{
   color:#008f8a;
-  font-size: 90%;
+  font-size: 3.5vh;
 }
 #for-our-partners{
   padding-bottom:3%;
@@ -2315,4 +2315,8 @@ figure:hover+span {
 }
 .card-header{
   background-color: #c83e2c;
+}
+#for-our-partners .card-title{
+  color:#008f8a;
+  font-size: 3.5vh;
 }
