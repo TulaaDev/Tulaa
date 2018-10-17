@@ -1422,6 +1422,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
     margin-left: -9vw;
     bottom:-9vw;
   }
+  #card{
+    margin-bottom: 14em;
+  }
   /* #careers-team span{
     margin-left: -10vw;
   } */
