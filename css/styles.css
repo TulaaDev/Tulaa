@@ -20,11 +20,17 @@ body{
   display: flex;
   align-items: center;
 }
+.view:hover .mask{
+  opacity: 0.77;
+  background-color: #c83e2c;
+}
+
+.view p{
+  font-size: 120%;
+}
 
 
-/* #all-partner-logos{
-  margin: auto;
-} */
+
 .container-fluid{
   /* display:flex; */
   flex-wrap: nowrap;
@@ -105,28 +111,12 @@ body{
   border-bottom: 3px solid white;
   width:50%;
 }
-/* #contact-section{
-  padding-top: 5vh;
-
-} */
-
 
 .partner-logos{
   width:110%;
 }
 
 /* Recognition section */
-.award{
-  width:75%;
-}
-.awards h4{
-  text-align: center;
-  margin-left: -3vw;
-}
-.awards{
-  width:90%;
-  margin-top: 40vh;
-}
 
 /* navigation tabs */
 .nav-tabs>.active>a, .nav-tabs>.active>a:hover, .nav-tabs>.active>a:focus {
@@ -372,17 +362,10 @@ body {
   }
 
   #press-logo{
-    /* width:90%; */
-    /* margin-bottom: -4%; */
+
     margin-top: -6%;
   }
 
-  .headshot{
-    width:133%;
-    height:192%;;
-    margin-top: -17%;
-    margin-left: -16%;
-  }
 
   #card1 img{
     width:100%;
@@ -411,46 +394,12 @@ body {
 
 /* Gray scale hover specifically for the team photos */
   /* Gray Scale */
-.hover08 figure img {
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.hover08 figure:hover img {
-	-webkit-filter: grayscale(0);
-	filter: grayscale(0);
-}
-h1+p a:hover {
-	text-decoration: none;
-}
-h2 {
-	margin: 60px 15px 0;
-	padding: 0;
 
-}
-h2 span {
-	margin-left: 1em;
-	color: #aaa;
-	font-size: 85%;
-  margin-top: 10vh;
-}
 
-/* .column:last-child {
-	padding-bottom: 60px;
-} */
 .column::after {
 	content: '';
 	clear: both;
 	display: block;
-}
-
-#demo08 .column div {
-	position: relative;
-	width: 90%;
-	height: 60%;
-	margin: auto;
-  display:flex;
 }
 
 
@@ -470,7 +419,6 @@ h2 span {
 }
 .column div {
 	position: absolute;
-
   display:flex;
 	width: 300%;
 	height: 200vh;
@@ -478,59 +426,6 @@ h2 span {
 }
 .column div:first-child {
 	margin-left: 0;
-}
-.column div span {
-	position: absolute;
-	bottom: -20%;
-	left: 0;
-	z-index: -1;
-	display: block;
-	width: 200px;
-	padding-top: 70vh;
-	color: black;
-	text-decoration: none;
-	text-align: center;
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-	opacity: 0;
-  margin-top: 60vh;
-  font-family: 'VegurRegular';
-  font-weight: normal;
-  font-style: normal;
-  margin-left: -1vw;
-
-}
-.hover08 figure {
-	width: 58vh;
-	height: 25vw;
-	padding: 10%;
-	background: #fff;
-	overflow: hidden;
-  margin:auto;
-  border-radius: 70%;
-  padding-bottom: -10em;
-  /* display:flex; */
-
-}
-
-/* #demo08 .vishal span{
-  bottom:-17vw;
-} */
-
-/* #demo08{
-  padding-top: 3vh;
-
-} */
-figure:hover+span {
-	bottom: -17.5vw;
-	opacity: 1;
-  width:107%;
-  margin-left: -1vw;
-}
-
-
-#bob{
-  margin-left: 4%;
 }
 
 /* end of team grayscale */
@@ -549,28 +444,14 @@ figure:hover+span {
   margin-top: -10%;
   margin-bottom: -10%;
 }
-#award{
-  width:60%;
-  margin-left: 10%;
-  margin-bottom: 10%;
-}
-#awards-list{
-  list-style: none;
-  font-size:200%;
-  margin-top: 6vh;
-}
-/* hover images styling for investor and partner logos */
-/* .hover10{
-  margin-top: 5%;
-  margin-bottom: -10%;
 
-} */
+
+/* hover images styling for investor and partner logos */
 
 .hover10 figure {
 	width: 270vw;
 	height: 120px;
 	margin: 0;
-	/* padding: 2%; */
 	background: #fff;
 	overflow: hidden;
   margin-top: 30px;
@@ -658,10 +539,6 @@ h3{
   margin-bottom: 10vh;
 }
 
-/* #contact{
-  padding-top: 10%;
-
-} */
 
 h1{
   text-align:center;
@@ -682,10 +559,6 @@ h1{
   margin-bottom: -16vh;
   mix-blend-mode: multiply;
   }
-
-.speech{
-  font-size: 190%;
-}
 
 /* styling for contact card section */
 #contact-section input::placeholder{
@@ -804,10 +677,6 @@ h2 {
    font-size:90%;
    color:grey;
  }
-.mytext{
-  font-size: 110%;
-  color:red;
-}
 
 #pagebreak{
   margin-bottom: -8vh;
@@ -979,14 +848,6 @@ footer{
   #logo{
     width:60%;
   }
-  /* .dark-blue-text,.fa-bars {
-      color: #c83e2c;
-      margin-top: -0.5em;
-  } */
-
-  #demo08{
-    /* margin-top: -2em; */
-  }
 
 }
 
@@ -998,9 +859,7 @@ footer{
 
 }
 @media screen and (min-width: 1120px) {
-  #demo08{
-    margin-top: 10em;
-  }
+
 
   }
 
@@ -1067,30 +926,18 @@ footer{
 
 
   }
-  /* #trio-team span{
-    bottom:-15vw;
-  } */
-/* .fa-bars{
-  margin-bottom: -2em;
-} */
-
 
 
 }
-@media only screen
+/* @media only screen
 and (min-device-width: 1024px)
 and (max-device-width: 1366px)
 and (orientation: portrait)
 and (-webkit-min-device-pixel-ratio: 2){
 
-  /* #trio-team{
-    margin-top: -15em;
-  } */
-  #trio-team span{
-    bottom:-95vw;
-  }
 
-}
+
+} */
 
 
 @media screen and (max-width:1018px){
@@ -1119,15 +966,7 @@ and (-webkit-min-device-pixel-ratio: 2){
     margin-bottom: 10px;
 
   }
-  #demo08 .column div {
-    position: relative;
-    float: left;
-    width: 115%;
-    height: 210px;
-    margin: 0 0 0 25px;
-    padding: 0;
 
-  }
 
 #venture{
   width:1100%;
@@ -1354,19 +1193,7 @@ and (-webkit-min-device-pixel-ratio: 2){
   #partner-heading{
     margin-top: 2.5em;
   }
-  #awards img{
-    margin-left: 30%;
-  }
-  /* #footer-text{
-    margin-top: 13%;
 
-  } */
-  /* #copyright{
-    margin-top: -10%;
-  } */
-  /* #icons{
-    margin-top: -10%;
-  } */
   footer .container{
     margin-left: 5%;
   }
@@ -1503,25 +1330,7 @@ figure:hover+span {
 }
 
 @media screen and (max-width:581px){
-  .hover08 figure {
-  	width: 68%;
-  	height: 72%;
-  	margin: 0;
-  	padding: 10%;
-  	background: #fff;
-  	overflow: hidden;
-    margin-top: 30px;
-    border-radius: 70%;
-    margin-bottom:2em;
-    margin-top: 12em;
-  }
-  figure:hover+span {
-    bottom: -16em;
-    opacity: 1;
-    width:160%;
-    margin-left: -13vw;
-    font-size: 80%;
-  }
+
   .nav-tabs{
   width:100%;
   margin-left: -10vw;
@@ -1535,37 +1344,6 @@ figure:hover+span {
   }
 }
 @media screen and (max-width:575px){
-
-  #demo08 .column div {
-    position: relative;
-    float: left;
-    width: 77%;
-    height: 60%;
-    margin: 0 0 0 25px;
-    padding: 0;
-    margin-left: 18%;
-
-  }
-
-  figure:hover+span {
-    bottom: -6em;
-    opacity: 1;
-    width:160%;
-    margin-left: -18vw;
-    /* font-size: 180%; */
-  }
-  .hover08 figure {
-  	width: 93%;
-  	height: 195%;
-  	margin: 0;
-  	padding: 10%;
-  	background: #fff;
-  	overflow: hidden;
-    margin-top: 30px;
-    border-radius: 70%;
-    margin-bottom:1em;
-    margin-top: 1em;
-  }
 
   #testimonial .card{
     padding-bottom: 45em;
@@ -1634,13 +1412,6 @@ text-align: left;
   margin-top: 10em;
 }
 
-#trio-team figure{
-  height:120%;
-}
-#trio-team{
-  margin-top: 10%;
-  margin-left: 10%;
-}
 #press-logo2 .row{
   margin-left: 3.3em;
 }
@@ -1695,13 +1466,6 @@ text-align: left;
   }
 }
 @media screen and (max-width:492px){
-
-
-  #demo08 h4{
-    font-size: 90%;
-    margin-top: -6em;
-    margin-left: 10%;
-  }
 
   .nav-tabs{
   width:100%;
@@ -1794,19 +1558,7 @@ text-align: left;
 #recognition{
   margin-left: -1%;
 }
-#trio-team figure{
-  height:100%;
-}
-#trio-team{
-  margin-left: -10%;
-}
-figure:hover+span {
-  bottom: -8em;
-  opacity: 1;
-  width:160%;
-  margin-left: -18vw;
 
-}
 #who{
   margin-top: 20%;
 }
@@ -1817,7 +1569,6 @@ figure:hover+span {
   #who{
     margin-top: 6em;
   }
-
 
   #testimonial .card-text{
     margin-left: -0.7em;
@@ -1850,44 +1601,6 @@ figure:hover+span {
   #logo{
     width:40%;
   }
-  /* .dark-blue-text,.fa-bars {
-      color: #c83e2c;
-      margin-bottom: 2em;
-      margin-left: -1em;
-  } */
-
-  #awards img{
-    margin-left: 1.5em;
-  }
-  figure:hover+span {
-    bottom:-10em;
-    opacity: 1;
-    width:113%;
-    margin-left: -10.5vw;
-
-  }
-
-
-#trio-team span{
-  margin-left: -2vh;
-  font-size: 8vh;
-}
-#trio-team h4{
-  margin-left: 2vw;
-  font-size: 8vh;
-}
-#demo08 #vishal {
-  height:68%;
-  width:72%;
-}
-#demo08 .column div {
-	position: relative;
-	width: 70%;
-	height: 67%;
-}
-#demo08{
-  margin-left: 4vw;
-}
 
 
   #press-logo h2{
@@ -1984,26 +1697,7 @@ figure:hover+span {
     margin-left: 18%;
   }
 
-  #demo08 .column div {
-    position: relative;
-    float: left;
-    width: 94%;
-    height: 63%;
-    margin: 0 0 0 25px;
-    padding: 0;
-    margin-left: 10%;
 
-  }
-  figure:hover+span {
-    bottom: -6em;
-    opacity: 1;
-    width:160%;
-    margin-left: -30vw;
-
-  }
-  #demo08{
-    margin-left: 3.5%;
-  }
   #who{
     margin-top: 6em;
   }
@@ -2017,13 +1711,6 @@ figure:hover+span {
   }
   #logo{
     width:60%;
-  }
-  figure:hover+span {
-    bottom: -6em;
-    opacity: 1;
-    width:160%;
-    margin-left: -32vw;
-    font-size: 120%;
   }
 
   .nav-tabs{
@@ -2058,9 +1745,6 @@ figure:hover+span {
       color: #c83e2c;
 
   }
-  #awards img{
-    margin-left: 1.5em;
-  }
 
   #testimonial .card-text{
     margin-left: -0.5em;
@@ -2077,41 +1761,15 @@ figure:hover+span {
     width:70%;
   }
 
-  figure:hover+span {
-    bottom: -10.4em;
-    opacity: 1;
-    width:93%;
-
-    font-size: 140vw;
-  }
-
   #card2{
     margin-left: 2%;
-  }
-  #demo08{
-    margin-top: -10em;
   }
 
   #press-container{
     margin-top: -16em;
     margin-bottom: 13em;
   }
-  #trio-team figure{
-    width:85%;
-    height:110%;
 
-  }
-  #trio-team{
-    margin-top:66%;
-    margin-left: -3%;
-  }
-  #trio-team span h4{
-    margin-left: -2vw;
-  }
-  #trio-team span{
-    margin-left: -3%;
-
-  }
 
   #for-our-partners{
     margin-top: 13%;
@@ -2225,9 +1883,7 @@ figure:hover+span {
   width: 90%;
   height: 190%;
 }
-#trio-team span{
-  bottom: -10em;
-}
+
 
 #icons{
   width:86vw;
@@ -2280,29 +1936,11 @@ figure:hover+span {
   }
 
 
-  #demo08{
-    margin-top: -5em;
-  }
-  #trio-team{
-    margin-right: 6vw;
-  }
-
-  #trio-team span{
-    bottom:-10em;
-    margin-left: -15vw;
-    width:160%;
-
-  }
 
   .investor-title{
     margin-right:-8%;
   }
 
-
-  #trio-team figure{
-    height:110%;
-    width:110%;
-  }
   #our-partners-one{
     font-size: 4vh;
   }
