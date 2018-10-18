@@ -244,17 +244,21 @@ h3{
 }
 .details{
   list-style: none;
+  margin-left: -3vw;
 }
-.details2{
-  list-style: none;
 
-  text-align: center;
+.job-content .details2{
+  list-style: none;
+  margin-left: 15.3vw;
+
+
 }
+
 
 .badge{
   background-color:#c83e2c;
   margin-left: 45%;
-  width:10vw;
+  width:12vw;
   font-family: 'VegurRegular';
   font-weight: normal;
   font-style: normal;
