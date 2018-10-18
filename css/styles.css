@@ -29,12 +29,6 @@ body{
   font-size: 120%;
 }
 
-
-
-.container-fluid{
-  /* display:flex; */
-  flex-wrap: nowrap;
-}
 #section3{
   color:#008f8a;
   font-size: 6vh;
@@ -200,7 +194,7 @@ body {
 
 /* svg line break */
 #Layer_1{
-  margin-bottom: 2vh;
+
   margin-top: 0.5vh;
 }
 .farmer-section{
@@ -664,8 +658,7 @@ p{
 h2 {
   text-align:center;
   color:#c83e2c;
-  margin-top:1%;
-  margin-bottom:2%;
+  /* margin-bottom:2%; */
   margin-left: 10%;
   margin-right:10%;
   font-family: 'VegurRegular';
@@ -1821,10 +1814,8 @@ text-align: left;
 }
 
 #contact{
-
   padding-top: 16vh;
   margin-top:-20vh;
-
 }
 #who{
   margin-top:-15vh;
@@ -1835,8 +1826,6 @@ text-align: left;
 
 }
 @media screen and (max-width:360px){
-
-
   #logo{
     width:50%;
   }
