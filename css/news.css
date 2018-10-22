@@ -482,6 +482,9 @@ and (-webkit-min-device-pixel-ratio: 2){
     margin-top: -1.5em;
     text-align: left;
   }
+  #top-panel .badge{
+    height:10%;
+  }
 
   #stories .row{
     margin-bottom: -7em;
