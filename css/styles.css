@@ -21,18 +21,7 @@ video {
   align-items: center;
   justify-content: center;
 }
-h1 {
-  color: white;
-  font-family: 'Nobile', sans-serif;
-  font-size: 9vw;
-  text-align: center;
-}
-h1 {
-  color: white;
-  font-family: 'Nobile', sans-serif;
-  font-size: 9vw;
-  text-align: center;
-}
+
 body{
   font-family: 'VegurRegular';
   font-weight: normal;
@@ -672,6 +661,7 @@ h3{
   }
 #contact-card{
   margin-bottom: 10vh;
+
 }
 
 
@@ -844,8 +834,8 @@ h5{
 #contact{
   width:100%;
   height:195%;
-  padding-top: 10vh;
-  margin-top:-10vh;
+  padding-top: 20vh;
+  margin-top:-18vh;
   margin-bottom: 17vh;
 }
 
@@ -1781,7 +1771,10 @@ text-align: left;
 #emmanuel{
   margin-left: 5%;
 }
-
+#team .view p{
+    font-size: 30%;
+    padding: 15%;
+  }
 }
 
 @media screen and (max-width:400px){
@@ -1843,7 +1836,7 @@ text-align: left;
     margin-left: -0.5em;
   }
   #emmanuel{
-    margin-left: 0.3em;
+    margin-left: 0.8em;
   }
   #testimonial .card {
     height:90%;
@@ -1868,27 +1861,7 @@ text-align: left;
     margin-top: 13%;
   }
 
-  #bloomerg-techmoran .hover10 figure {
-  	width: 1405%;
-  	height: 130%;
-  	margin: 0;
-  	padding: 2%;
-  	background: #fff;
-  	overflow: hidden;
-    margin-top: 30px;
-    margin-bottom: -10px;
-  }
-  #bloomerg-techmoran .row{
-    margin-left: -12.5vw;
-  }
-  #bloomerg-techmoran  #techmoran{
-    margin-left: 10vw;
-  }
 
-
-  #bloomerg-techmoran{
-    margin-bottom: 25%;
-  }
   #press-title{
     margin-left: 25vw;
   }
@@ -1906,7 +1879,7 @@ text-align: left;
 }
 #solution{
   margin-top: -10vw;
-  padding-top:30vw;
+  /* padding-top:30vw; */
 }
 
 #contact{
@@ -1917,6 +1890,10 @@ text-align: left;
   margin-top:-15vh;
   padding-top:24%;
 }
+#team .view p{
+    font-size: 24%;
+    padding: 15%;
+  }
 
 
 
@@ -1962,6 +1939,9 @@ text-align: left;
 
 #icons{
   width:86vw;
+}
+#emmanuel{
+  margin-left: 4vw;
 }
 
 
