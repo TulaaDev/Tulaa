@@ -749,6 +749,9 @@ and (-webkit-min-device-pixel-ratio: 2){
   #top-panel .card-header{
     height:25vw;
   }
+  #cards{
+    margin-bottom: 3em;
+  }
 
 }
 @media screen and (max-width:411px) {
@@ -1023,10 +1026,11 @@ nav a:hover{
      margin-bottom: -5em;
 
    }
-   #content .collapse{
+   /* #content .collapse{
      margin-top: -23em;
 
-   }
+   } */
+
    #other h5{
      margin-top: 2vh;
    }
@@ -1047,9 +1051,6 @@ nav a:hover{
    }
    #content .form-row{
     margin-bottom: 1em;
-    }
-    #content .collapse-content{
-      margin-top: -110vw;
     }
 
 

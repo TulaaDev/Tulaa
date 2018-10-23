@@ -134,13 +134,6 @@ body{
   font-size: 45%;
 }
 
-.single-card .card-title{
-  font-size: 150%;
-}
-
-.single-card .card-text{
-  text-align: left;
-}
 
 /* styling for testimonial cards */
 #testimonial .card-text{
@@ -188,10 +181,6 @@ body{
 
 }
 
-
-
-
-/* Recognition section */
 
 /* navigation tabs */
 .nav-tabs>.active>a, .nav-tabs>.active>a:hover, .nav-tabs>.active>a:focus {
@@ -321,6 +310,7 @@ iframe{
   background: #bb0000;
   color: white;
 }
+ 
 
 #partners-investors img {
   filter: gray; /* IE6-9 */
@@ -365,8 +355,6 @@ iframe{
     background: transparent;
     min-height: 400px;
 }
-
-
 
 
   button {
@@ -438,7 +426,6 @@ iframe{
     font-family: 'VegurRegular';
     font-weight: normal;
     font-style: normal;
-
     color:#008f8a;
 
   }
@@ -452,40 +439,13 @@ iframe{
     color:#c83e2c;
 }
 
-#news{
-  margin-left: 6%;
-  margin-top: -10%;
-  margin-bottom: -10%;
-}
+
 
 h3{
   text-align: center;
   color:#c83e2c;
 }
 
-#our-partners{
-  margin-top: 6%;
-}
-
-.logo-title{
-  margin-bottom: 5%;
-}
-  #partners div figure{
-    padding-right:-500%;
-    margin-left: 10%;
-    width:380%;
-  }
- .partners2{
-   padding:8%;
-   margin-left: 20%;
-   mix-blend-mode: multiply;
-
- }
-  .partners{
-    margin-bottom: -30vh;
-    mix-blend-mode: multiply;
-
-  }
 #contact-card{
   margin-bottom: 10vh;
 
@@ -565,15 +525,6 @@ h1{
   color:#008f8a;
   font-size: 2vw;
 }
-/* #investor{
-  margin-top: 20%;
-
-}
-#investor .column div{
-  position: relative;
-  width: 315px;
-  padding: 0;
-} */
 
 .form-control{
   color:white;
@@ -589,7 +540,6 @@ p{
 h2 {
   text-align:center;
   color:#c83e2c;
-  /* margin-bottom:2%; */
   margin-left: 10%;
   margin-right:10%;
   font-family: 'VegurRegular';
@@ -885,12 +835,6 @@ footer{
     margin-left: -1%;
   }
 
-  #press-title{
-    margin-top: 2em;
-  }
-  .investor-title{
-    margin-top: 4em;
-  }
   #our-partners-one{
     margin-top: 15%;
     margin-bottom: -5%;
@@ -899,12 +843,7 @@ footer{
 .job-content{
   margin-top: -10em;
 }
-/* .solution-card p{
-  font-size: 80%;
-  text-align: center;
-  padding-top: 0.5vw;
 
-} */
 .solution-card p{
   font-size: small;
   text-align: center;
@@ -1282,40 +1221,14 @@ text-align: left;
   }
 
 
-
-  .investor-title{
-    margin-top: 10vh;
-  }
-  #press-title{
-    margin-right: 18vw;
-    margin-top: 20em;
-  }
-  #bloomerg-techmoran{
-    margin-left: 2em;
-    margin-bottom: 15%;
-  }
-
   .logos{
     margin-left: -2vw;
-  }
-  #bloomerg-techmoran .hover10 figure {
-  	width: 95%;
-  	height: 160%;
-  	margin: 0;
-  	padding: 2%;
-  	background: #fff;
-  	overflow: hidden;
-    margin-top: 30px;
-    margin-bottom: -10px;
   }
 
   #who-text{
     margin-bottom: -5em;
   }
 
-  .joinus-text{
-    margin-top: -12vh;
-  }
   h1{
     margin-top:8vh;
   }
@@ -1348,9 +1261,9 @@ text-align: left;
     width:105%;
   }
 
-#emmanuel{
-  margin-left: 5%;
-}
+  #emmanuel{
+    margin-left: 5%;
+  }
 
 }
 
@@ -1421,17 +1334,10 @@ text-align: left;
     width:70%;
   }
 
-
-
-
   #for-our-partners{
     margin-top: 13%;
   }
 
-
-  #press-title{
-    margin-left: 25vw;
-  }
   #solution{
     font-size: 90%;
   }
@@ -1539,16 +1445,7 @@ text-align: left;
   #testimonial{
     margin-left: 3.4em;
   }
-  /* .solution-card p{
-    font-size: 2.5vh;
-    text-align: center;
-    padding-top: 1.5vh;
-  } */
 
-
-  .investor-title{
-    margin-right:-8%;
-  }
 
   #our-partners-one{
     font-size: 4vh;
