@@ -94,32 +94,29 @@ body{
   height:118%;
 }
 .solution-card p{
-  font-size: 1.5vw;
+  font-size: medium;
   text-align: center;
-  padding-top: 3.5vh;
+  padding-top: 8%;
+
 }
 .solution-card h4{
   text-align: center;
   color:#008f8a;
-  font-size: 3.5vh;
+  font-size: x-large;
 }
 .solution-card .card span p{
-  font-size: 0.9em;
+  font-size: small;
 }
 
 
 
-#press{
-  margin-top: 10%;
-  margin-left: 10vw;
-  margin-bottom: 20vh;
-}
 #recognition a{
   color:grey
 }
 #recognition a:hover{
   color:#008f8a;
 }
+
 .vcenter {
   display: flex;
   align-items: center;
@@ -129,15 +126,9 @@ body{
   background-color: #c83e2c;
 }
 
-#team .view {
-  font-size: 120%;
-}
-#team .white-text {
-  font-size: 80%;
-}
 #team .view p{
-  font-size: 22%;
-  padding: 12%;
+  font-size: large;
+  padding: 10%;
 }
 #team h4{
   font-size: 45%;
@@ -231,40 +222,6 @@ body{
     font-size: 2.9vh;
 }
 
-
-/* overlay styling in jumbotron */
-.content .subheader {
-    width: 100%;
-    height: auto;
-    display: inline-block;
-    position: relative;
-    background-attachment: fixed;
-    text-align: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    -ms-behavior: url(../js/backgroundsize.htc);
-}
-
-.content .subheader:after {
-    content: "";
-    background-size: 90%;
-    background-attachment: fixed;
-    opacity: 0.2;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: 0;
-}
-
-.content .subheader h1 {
-    position: relative;
-    margin-top: 25%;
-    z-index: 100;
-}
 .navbar-nav mr-auto{
   float:right;
 }
@@ -292,6 +249,7 @@ iframe{
 #Layer_1{
 
   margin-top: 0.4vh;
+  padding:-4%;
 }
 
 .navbar{
@@ -315,14 +273,9 @@ iframe{
   fill:black;
 
 }
-.mit h4{
-  margin-left: 10%;
-}
 
 
-#partner-text{
-  margin-bottom: 5%;
-}
+
 #who{
   margin-top:-16vh;
   padding-top:4%;
@@ -367,10 +320,6 @@ iframe{
 .fa-youtube {
   background: #bb0000;
   color: white;
-}
-
-#caption{
-  margin-left: -2vw;
 }
 
 #partners-investors img {
@@ -419,15 +368,6 @@ iframe{
 
 
 
-.left{
-  display:inline-block;
-  padding:10%;
-}
-
-  /* testimonial card two */
-  #card2{
-    margin-left: 30px;
-  }
 
   button {
     display: flex;
@@ -482,18 +422,6 @@ iframe{
     background-color: transparent;
   }
 
-  .partner-list{
-    margin-left:2px;
-  }
-
-  #press-logo{
-    margin-top: -6%;
-  }
-
-
-  #card1 img{
-    width:100%;
-  }
 
   #who-text{
     font-size: 3vh;
@@ -515,45 +443,6 @@ iframe{
 
   }
 
-
-/* Gray scale hover specifically for the team photos */
-  /* Gray Scale */
-
-
-.column::after {
-	content: '';
-	clear: both;
-	display: block;
-}
-
-
-#press-logo2{
-  margin-top: 5%;
-}
-/* Grayscale hover effect specifically for the logos section */
-
-
-/*
-#press-logo2 .column div {
-	position: relative;
-	float: left;
-	width: 140px;
-	height: 200px;
-	padding: 0;
-} */
-.column div {
-	position: absolute;
-  display:flex;
-	width: 300%;
-	height: 200vh;
-	padding: 0;
-}
-.column div:first-child {
-	margin-left: 0;
-}
-
-/* end of team grayscale */
-
 .footer{
   width:75%;
   margin-top: -10vh;
@@ -569,73 +458,11 @@ iframe{
   margin-bottom: -10%;
 }
 
-
-/* hover images styling for investor and partner logos */
-
-/* .hover10 figure {
-	width: 270vw;
-	height: 120px;
-	margin: 0;
-	background: #fff;
-	overflow: hidden;
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
-
- .hover10 figure #toyotalogo {
-	width: 160px;
-	height: 220px;
-	margin: 0;
-	padding: 2%;
-	background: #fff;
-	overflow: hidden;
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
-
-#press-logo2 .hover10 figure {
-	width: 118%;
-	height: 100%;
-	margin: 0;
-	padding: 2%;
-	background: #fff;
-	overflow: hidden;
-  margin-top: 30px;
-  margin-bottom: 10px;
-  margin-left: 1vw;
-}
-.right-press figure{
-  height:100%;
-  width:200%;
-} */
-
 h3{
   text-align: center;
   color:#c83e2c;
 }
 
-/* .hover10 div {
-	position: relative;
-	float: left;
-	width: 40%;
-	height: 500%;
-	margin: 0 0 0 0px;
-	padding: 0;
-}
-.hover10 figure img {
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.hover10 figure:hover img {
-	-webkit-filter: grayscale(0);
-	filter: grayscale(0);
-}
-.hover10 figure:hover+span {
-	bottom: -36px;
-	opacity: 1;
-} */
 #our-partners{
   margin-top: 6%;
 }
@@ -678,12 +505,7 @@ h1{
   padding-top: 13%;
   margin-top: -20vh;
 }
-#infographic{
-  width:70%;
-  margin-top:-2vh;
-  margin-bottom: -16vh;
-  mix-blend-mode: multiply;
-  }
+
 
 /* styling for contact card section */
 #contact-section input::placeholder{
@@ -712,12 +534,7 @@ h1{
   background-color: #c83e2c;
   font-size: 2.3vh;
 }
-#awards a:hover{
-  color:#d3d1d1;
-}
-#awards a{
-  color:black;
-}
+
 
 #for-our-partners .card-title{
   color:#008f8a;
@@ -741,21 +558,6 @@ h1{
   width:90%;
 }
 
-#press-logo a{
-  color:grey;
-
-}
-#press-logo a:hover{
-  color:#008f8a;
-}
-#press{
-  margin-top: 10%;
-  margin-left: 10vw;
-  margin-bottom: 20vh;
-}
-#press-logo #bloomerg-techmoran figure {
-  height:106%;
-}
 .img-circle {
     border-radius: 50%;
 }
@@ -763,7 +565,7 @@ h1{
   color:#008f8a;
   font-size: 2vw;
 }
-#investor{
+/* #investor{
   margin-top: 20%;
 
 }
@@ -771,7 +573,7 @@ h1{
   position: relative;
   width: 315px;
   padding: 0;
-}
+} */
 
 .form-control{
   color:white;
@@ -783,9 +585,7 @@ p{
   padding:1%;
 
 }
-.partner-logo{
-  font-size: 210%;
-}
+
 h2 {
   text-align:center;
   color:#c83e2c;
@@ -839,45 +639,20 @@ h5{
   margin-bottom: 17vh;
 }
 
-#headshots{
-  margin-bottom: 3%;
-  margin-left: 7%;
-}
 .form-control:focus {
   border-color: red;
 
-}
-#partner-cards .card-title{
-  color:#008f8a;
-}
-
-.partner-list{
-  width:120%;
-}
-#card1{
-  margin-bottom: -60em;
 }
 
 #icon-container{
   margin-top: -6.2%;
 }
 
-
-#press{
-  /* margin-top: 8em; */
-  margin-bottom: -10vh;
-}
-#press-section{
-  margin-top: 10em;
-}
 .dark-blue-text,.fa-bars {
     color: #c83e2c;
 
 }
 
-#partner-heading{
-  margin-top: 6em;
-}
 
 .page-footer {
   background-color: #1C2331;
@@ -970,24 +745,6 @@ footer{
 }
 
 
-@media screen and (max-width: 1158px) {
-  #press-section{
-    margin-top: 23em;
-  }
-
-}
-
-
-@media screen and (max-width: 1120px) {
-  #press-section{
-    margin-top: 23em;
-  }
-
-  }
-
-
-
-
 @media screen and (max-width:1043px){
 
 #testimonial{
@@ -1002,49 +759,13 @@ footer{
     height:96.5%;
   }
 
-  #press{
-    margin-bottom: 2%;
-  }
-  #partner-heading{
-    margin-top: 27%;
-  }
-
-
   #for-our-partners ul{
     font-size:100%;
   }
 
 
-  #press-logo2 .hover10 figure {
-  	width: 130px;
-  	height: 170px;
-  	margin: 0;
-  	padding: 2%;
-  	background: #fff;
-  	overflow: hidden;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    margin-left: 1vw;
-  }
-  #press-logo .hover10 figure {
-    width: 110%;
-    height: 170%;
-
-
-  }
-
 
 }
-/* @media only screen
-and (min-device-width: 1024px)
-and (max-device-width: 1366px)
-and (orientation: portrait)
-and (-webkit-min-device-pixel-ratio: 2){
-
-
-
-} */
-
 
 @media screen and (max-width:1018px){
 
@@ -1059,36 +780,6 @@ and (-webkit-min-device-pixel-ratio: 2){
 }
 
 
-@media only screen and (max-width:993px){
-
-  #press-logo .hover10 figure {
-  	width: 50%;
-  	height: 180%;
-  	margin: 0;
-  	padding: 2%;
-  	background: #fff;
-  	overflow: hidden;
-    margin-top: 30px;
-    margin-bottom: 10px;
-
-  }
-
-
-#venture{
-  width:1100%;
-}
-
-#recognition-section{
-  margin-left: 18vw;
-}
-#recognition-section #facebook{
-  margin-left: 1vw;
-}
-#mit-award h4{
-  margin-top:-1%;
-}
-
-}
 
 @media screen and (max-width:986px){
 
@@ -1139,11 +830,6 @@ and (-webkit-min-device-pixel-ratio: 2){
     width:60%;
 
   }
-  #team .view p{
-    font-size: 16%;
-    padding: 12%;
-  }
-
 
 }
 @media screen and (max-width:798px) {
@@ -1195,17 +881,10 @@ and (-webkit-min-device-pixel-ratio: 2){
   }
 
 
-  #facebook-award {
-    margin-top: 5em;
-    margin-left:-7em;
-    text-align: center;
-  }
   #recognition {
     margin-left: -1%;
   }
-  #facebook{
-    width:90em
-  }
+
   #press-title{
     margin-top: 2em;
   }
@@ -1216,26 +895,23 @@ and (-webkit-min-device-pixel-ratio: 2){
     margin-top: 15%;
     margin-bottom: -5%;
   }
-  #press-logo2{
-    margin-top: 3%;
-  }
 
-  #press-logo .hover10 figure {
-  	margin-left: 10vw;
-  }
 .job-content{
   margin-top: -10em;
 }
-.solution-card p{
+/* .solution-card p{
   font-size: 80%;
   text-align: center;
   padding-top: 0.5vw;
 
+} */
+.solution-card p{
+  font-size: small;
+  text-align: center;
+  padding-top: 2%;
+
 }
-#team .view p{
-  font-size: 16%;
-  padding: 12%;
-}
+
 }
 
 
@@ -1252,12 +928,6 @@ and (-webkit-min-device-pixel-ratio: 2){
 }
 @media screen and (max-width:743px){
 
-  figure:hover+span {
-    bottom: -9em;
-    opacity: 1;
-    width:160%;
-    margin-left: -10vw;
-  }
 
   .nav-tabs{
   width:100%;
@@ -1286,9 +956,6 @@ and (-webkit-min-device-pixel-ratio: 2){
     margin-bottom: -11em;
   }
 
-  #partner-heading{
-    margin-top: 2.5em;
-  }
 
   footer .container{
     margin-left: 5%;
@@ -1302,10 +969,6 @@ and (-webkit-min-device-pixel-ratio: 2){
 }
 @media screen and (max-width:724px){
 
-
-  #partner-heading{
-    margin-top: 4em;
-  }
   .nav-tabs{
   width:100%;
   margin-left: -10vw;
@@ -1329,12 +992,6 @@ and (-webkit-min-device-pixel-ratio: 2){
 }
 @media screen and (max-width:672px){
 
-figure:hover+span {
-  bottom: -7em;
-  opacity: 1;
-  width:160%;
-  margin-left: -10vw;
-}
 
 .nav-tabs{
 width:100%;
@@ -1347,10 +1004,6 @@ text-align: left;
   width:60%;
 
 }
-#team .view p{
-    font-size: 14%;
-    padding: 15%;
-  }
 
 }
 
@@ -1372,7 +1025,11 @@ text-align: left;
   #logo{
     width:40%;
   }
-
+  .solution-card p{
+    font-size: small;
+    text-align: center;
+    margin-top: -8%;
+  }
 }
 @media screen and (max-width:640px){
 
@@ -1437,9 +1094,7 @@ text-align: left;
   #scholar-waywa .card-text{
     margin-left: 4vw;
   }
-  #card2{
-    margin-left:-0.5em;
-  }
+
   #emmanuel{
     margin-left: 2em;
   }
@@ -1451,16 +1106,6 @@ text-align: left;
     margin-top: 10%;
   }
 
-  #card1{
-    margin-bottom: 35em;
-    width:65%;
-  }
-
-
-
-#partner-heading{
-  margin-top: 2em;
-}
 #icons{
   margin-left: -3em;
   margin-top: -3em;
@@ -1491,11 +1136,6 @@ text-align: left;
 
   margin-bottom: -2em;
 }
-#team .view p{
-    font-size: 34%;
-    padding: 15%;
-  }
-
 
 
 }
@@ -1565,24 +1205,13 @@ text-align: left;
   #scholar-waywa .card-text{
     margin-left: 4vw;
   }
-#card2{
-  margin-left:-0.5em;
-}
+
 #emmanuel{
   margin-left: 2em;
 }
-#infographic{
-  width:100%;
-  margin-bottom:10%;
-}
+
 #who{
   margin-top: 10%;
-}
-#press-title{
-  margin-left: 3em;
-}
-.right-press{
-  margin-left: -2em;;
 }
 
 .nav-tabs{
@@ -1601,30 +1230,11 @@ text-align: left;
 
 }
 @media screen and (max-width:436px){
-#facebook-row{
-  margin-left: 0.7em;
-  width:20em;
-}
-#facebook-row h4{
-  margin-top: -1em;
-  margin-left: -12%;
-  font-size: 170%;
-}
-#mit-row h4{
-  width:100em;
-}
+
 #recognition h4{
   width:100em;
 }
-#mit-row img{
-  width:14em;
-}
-#mit-row h4{
-  margin-top: -3em;
-}
-#mit-row figure{
-  width:90em;
-}
+
 #recognition{
   margin-left: -1%;
 }
@@ -1651,14 +1261,12 @@ text-align: left;
     margin-bottom: -7em;
   }
   #jumbotron-text{
-    /* margin-top: 10em; */
+
     font-size: 210%;
     width:100%;
 
   }
-  #press-logo{
-    margin-top: -20em;
-  }
+
   #testimonial{
     margin-bottom: -36em;
   }
@@ -1674,18 +1282,6 @@ text-align: left;
   }
 
 
-  #press-logo h2{
-    margin-top: 10%;
-  }
-  #press-logo{
-    margin-top: -15%;
-  }
-  #press-logo2{
-    margin-top: 10%;
-  }
-  #press-logo2 .row{
-    margin-left: 2.9em;
-  }
 
   .investor-title{
     margin-top: 10vh;
@@ -1698,16 +1294,7 @@ text-align: left;
     margin-left: 2em;
     margin-bottom: 15%;
   }
-  #press-title{
-    margin-left: 1.7em;
-  }
 
-
-  #press-logo2 .hover10 figure {
-    width: 95%;
-    height: 100%;
-
-  }
   .logos{
     margin-left: -2vw;
   }
@@ -1725,10 +1312,6 @@ text-align: left;
   #who-text{
     margin-bottom: -5em;
   }
-  #press-logo2 h3{
-    margin-left: -16vw;
-    margin-bottom: -5vh;
-  }
 
   .joinus-text{
     margin-top: -12vh;
@@ -1745,20 +1328,17 @@ text-align: left;
     width:100%;
   }
   .video-fluid {
-
     margin-top: 1em;
   }
+
   .jumbo-overlay{
     width: 90%;
   }
-  #press-logo2 .logos{
-    margin-left: -12vw;
-  }
+
   .solution-card p{
-    font-size: 100%;
+    font-size: small;
     text-align: center;
-
-
+    margin-top: 14%;
   }
 }
 
@@ -1771,10 +1351,7 @@ text-align: left;
 #emmanuel{
   margin-left: 5%;
 }
-#team .view p{
-    font-size: 30%;
-    padding: 15%;
-  }
+
 }
 
 @media screen and (max-width:400px){
@@ -1788,9 +1365,6 @@ text-align: left;
     margin-top: 6em;
   }
 
-  #partner-heading{
-    margin-top: 3em;
-  }
   #jumbotron-text{
     margin-top: 4em;
     font-size: 200%;
@@ -1847,14 +1421,7 @@ text-align: left;
     width:70%;
   }
 
-  #card2{
-    margin-left: 2%;
-  }
 
-  #press-container{
-    margin-top: -16em;
-    margin-bottom: 13em;
-  }
 
 
   #for-our-partners{
@@ -1868,9 +1435,7 @@ text-align: left;
   #solution{
     font-size: 90%;
   }
-  #press-logo2 h3{
-    margin-left: -13vw;
-  }
+
   #icons{
     width:130%;
   }
@@ -1890,11 +1455,6 @@ text-align: left;
   margin-top:-15vh;
   padding-top:24%;
 }
-#team .view p{
-    font-size: 24%;
-    padding: 15%;
-  }
-
 
 
 }
@@ -1909,16 +1469,6 @@ text-align: left;
   #contact-card h5{
     font-size: 220%;
   }
-  .facebook{
-    margin-top: 10%;
-  }
-
-#press-logo h2{
-  margin-top:3em;
-}
-#press-logo{
-  margin-top: -7em;
-}
 
 #contact{
   width:100%;
@@ -1989,11 +1539,11 @@ text-align: left;
   #testimonial{
     margin-left: 3.4em;
   }
-  .solution-card p{
+  /* .solution-card p{
     font-size: 2.5vh;
     text-align: center;
     padding-top: 1.5vh;
-  }
+  } */
 
 
   .investor-title{
@@ -2014,7 +1564,4 @@ text-align: left;
 #for-our-partners .card-title{
   color:#008f8a;
   font-size: 3.5vh;
-}
-#press-logo2 .logos .ocp-syngenta #syngenta{
-  width:50%;
 }
