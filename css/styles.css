@@ -690,7 +690,7 @@ footer{
   and (orientation: portrait)
   and (-webkit-min-device-pixel-ratio: 2){
     #who{
-      padding-top: 10%;
+      padding-top: 15%;
     }
   }
 @media screen and (max-width:1043px){
