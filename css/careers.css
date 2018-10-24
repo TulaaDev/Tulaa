@@ -1,22 +1,20 @@
-#careers-team .hover01{
-  padding-bottom: 2%;
-}
-
 
 #team-team figure{
   filter: gray; /* IE6-9 */
   -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
-    margin-bottom:20px;
-    color:white
+  height:5%;
 }
 #team-team figure:hover {
   filter: none; /* IE6-9 */
   -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
-  color:black;
 }
-#team-team figure  h2, #team-team figure  p{
-  font-size: large;
+#team-team figure  h2{
+  font-size: medium;
 }
+#team-team figure  p{
+  font-size: smaller;
+}
+
 
  #team-team figure  p, #team-team figure  h2 {
   color: grey;
@@ -24,8 +22,8 @@
   filter: alpha(opacity=0);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(0,50%,0);
-  transform: translate3d(0,50%,0);
+  -webkit-transform: translate3d(0,10%,0);
+  transform: translate3d(0,10%,0);
 }
 #team-team figure:hover p, #team-team figure:hover h2 {
   opacity: 1;
@@ -34,23 +32,13 @@
   transform: translate3d(0,0,0);
 }
 
-
-
-
-
-
-
-
-
-
-
-
+#Layer_2{
+  height:10%;
+}
 .parallax-window{
   margin-top: -10em;
 }
-#main-title{
-  font-size: 120%;
-}
+
 #navbarSupportedContent{
   margin-left: 13vw;
 }
@@ -64,12 +52,7 @@
   mix-blend-mode: multiply;
 
 }
-figure:hover+span {
-	bottom: -12.5vw;
-	opacity: 1;
-  width:107%;
-  margin-left: -1vw;
-}
+
 h3{
    font-size:230%;
    margin-left:-20%;
@@ -77,23 +60,7 @@ h3{
 .job-content h5{
   text-align: center;
 }
-.hover01 h4{
-  font-size: 100%;
-}
-.hover01 h3{
-  font-size: 90%;
-  margin-left: 0.5vw;
-}
 
-  .layer2 {
-      background-color: rgba(81, 76, 76, 0.45);
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 98%;
-
-  }
   #jumbotron-text-two{
     margin-top: 45%;
     color:white;
@@ -114,9 +81,6 @@ h3{
 .top-nav-collapse {
   background-color: white;
   color:black;
-}
-.hover08{
-  margin-bottom: -90em;
 }
 
 .fa {
@@ -292,7 +256,7 @@ h3{
 
 .job-content .details2{
   list-style: none;
-  margin-left: 15.3vw;
+  /* margin-left: 15.3vw; */
 
 
 }
@@ -308,32 +272,19 @@ h3{
 }
 h1{
   color:#c83e2c;
+  padding-top:2%;
 }
-#benefits-container{
-  margin-top: 15vh;
-  margin-bottom: -6vh;
-}
+
 #benefits-container h3{
   color:black;
 }
 
-
-/* h2 span {
-	margin-left: -1em;
-	color: #aaa;
-	font-size: 85%;
-  margin-top: 10vh;
-} */
-
-.hover08{
-  margin-bottom: 20vh;
-}
 .card{
   border-color: #c83e2c;
   height:50vh;
-  margin-left: 1%;
+
   width:97%;
-  margin-bottom: 10%;
+  /* margin-bottom: 10%; */
 
 
 }
@@ -346,30 +297,8 @@ h1{
 }
 #benefits-text{
   margin-top: 1%;
-}
-.column div {
-	position: relative;
-	float: left;
-	width: 150%;
-	height: 100px;
-	padding: 0;
-}
-.column div:first-child {
-	margin-left: 0;
-}
-.headshot{
-  margin-bottom: -10vh;
-  /* width:1000%; */
-}
-
-#team{
-  text-align: center;
-  width:90%;
-  margin-bottom: 6vh;
-  margin-top: 200vh;
 
 }
-
 
 #jumbo-title{
   margin-top: 70vh;
@@ -403,133 +332,6 @@ h1{
   margin-bottom: 2%;
 }
 
-/* Gray Scale */
-.hover01 figure img {
--webkit-filter: grayscale(100%);
-filter: grayscale(100%);
--webkit-transition: .3s ease-in-out;
-transition: .3s ease-in-out;
-}
-.hover01 figure:hover img {
--webkit-filter: grayscale(0);
-filter: grayscale(0);
-}
-h1+p a:hover {
-text-decoration: none;
-}
-/* h2 {
-margin: 60px 15px 0;
-padding: 0;
-
-} */
-h2 span {
-margin-left: 1em;
-color: #aaa;
-font-size: 85%;
-margin-top: 10vh;
-}
-#careers-team .column div {
-	position: relative;
-	float: left;
-	width: 100%;
-	height: 200px;
-	margin: 0 0 0 25px;
-	padding: 0;
-  margin-left: 0.5%;
-  margin-bottom: 3em;
-}
-
-.hover01 .column div:first-child {
-	margin-left: 0;
-}
-.hover01 .column div span {
-	position: absolute;
-	bottom: 20px;
-	left: 0;
-	z-index: -1;
-	display: block;
-	width: 500px;
-	padding-top: 70vh;
-	color: black;
-	font-size: 20px;
-	text-decoration: none;
-	text-align: center;
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-	opacity: 0;
-  margin-top: 60vh;
-  font-family: 'VegurRegular';
-  font-weight: normal;
-  font-style: normal;
-  margin-left: 1vw;
-  margin-bottom: 10em;
-
-
-}
-
-h1+p a:hover {
-	text-decoration: none;
-}
-/* h2 {
-	margin: 60px 15px 0;
-	padding: 0;
-
-} */
-h2 span {
-	margin-left: 1em;
-	color: #aaa;
-	font-size: 85%;
-  margin-top: 10vh;
-}
-.column div {
-	position: absolute;
-  display:flex;
-	width: 300%;
-	height: 200vh;
-	padding: 0;
-
-}
-
-.column div:first-child {
-	margin-left: 0;
-}
-.column div span {
-	position: absolute;
-	bottom: -1em;
-	left: 0;
-	z-index: -1;
-	display: block;
-	width: 100%;
-	padding-top: 70vh;
-	color: black;
-	text-decoration: none;
-	text-align: center;
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-	opacity: 0;
-  margin-top: 60vh;
-  font-family: 'VegurRegular';
-  font-weight: normal;
-  font-style: normal;
-  margin-left: -1vw;
-}
-
-.column::after {
-	content: '';
-	clear: both;
-	display: block;
-}
-.hover01 figure {
-	width: 100%;
-	/* height: 100%; */
-	margin: auto;
-	background: #fff;
-	overflow: hidden;
-  border-radius: 50%;
-  margin-bottom: 10em;
-
-
-}
 
 h4{
   font-size: 120%;
@@ -543,22 +345,8 @@ h3{
 h5{
   font-size:90%;
 }
-#careers-team span{
-  font-size: 110%;
-  margin-left: -3vw;
-  color:black;
-}
-#careers-team h3 {
-  color:black;
 
-}
-#careers-team h4 {
-  color:#c83e2c;
 
-}
-#open-positions{
-  margin-bottom: -6vh;
-}
 a{
   color:black;
 }
@@ -571,17 +359,11 @@ a{
   width:100%;
 }
 
-#careers-team .caption{
-  bottom:-2.2vw;
-  width:139%;
 
-
-}
 @media only screen and (min-width : 375px) and (max-width : 667px) {
 
   .card{
-    margin-top: 10vh;
-    margin-left: 1%;
+
     width:96%;
   }
   .card span{
@@ -610,10 +392,7 @@ a{
   footer{
     height:45vh;
   }
-  figure{
-    width:360px;
-    margin-left: -6%;
-  }
+
   #collapseExample span {
     width:30%;
     margin-bottom: 20%;
@@ -661,10 +440,7 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
   footer{
     height:55vh;
   }
-  figure{
-    width:360px;
-    margin-left: -6%;
-  }
+
   #collapseExample span {
     width:30%;
     margin-bottom: 20%;
@@ -677,30 +453,6 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
 
 /* iphone 6/7/8 and plus  */
 @media only screen and (min-width : 375px) and (max-width : 667px) {
-
-    figure{
-      margin-top: 20vh;
-    }
-
-    .single-image{
-      margin-top: 10vh;
-      margin-right: -10%;
-
-    }
-    .hover01 figure:hover+span {
-    	bottom: -132px;
-    	opacity: 1;
-      width:150%;
-      margin-left: 10em;
-      font-size: 100%;
-    }
-
-
-
-    .hover01 span {
-      font-size:5%;
-
-    }
 
     .fa-bars{
       margin-right: 10vw;
@@ -778,10 +530,7 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
     .card ul{
       margin-left: -30%;
     }
-    .mt-3 .details2{
-      margin-left: -40%;
-      width:130%;
-    }
+
 
 }
 /* iphone X media query */
@@ -801,14 +550,6 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
 and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
 {
 
-
-  .hover01 figure:hover+span {
-    bottom: -119px;
-    opacity: 1;
-    width:150%;
-
-    font-size: 100%;
-  }
   .dark-blue-text,.fa-bars {
       color: #c83e2c;
       margin-left: 19vw;
@@ -819,17 +560,11 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
     margin-left: 20em;
   }
 
-  #careers-team{
-    margin-left: 10%;
-    margin-top: -14vh;
-  }
   #benefits-container h3{
     margin-left: 2vw;
     font-size: 160%;
   }
-  .layer1{
-    margin-top: -50em;
-  }
+
   .card{
     width:110%;
   }
@@ -895,12 +630,7 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
   .title{
     margin-top: 80vh;
   }
-  #team{
-    margin-bottom: 5vh;
-  }
-  #open-positions{
-    margin-bottom: -13vh;
-  }
+
   .content{
     margin-top: -60vh;
   }
@@ -913,9 +643,7 @@ and (min-device-width: 1920px){
     margin-top: -5vh;
     margin-bottom: 10em;
   }
-  /* #careers-team span{
-    margin-left: -2.3vw;
-  } */
+
   #benefits-container h3{
     margin-left: -25vw;
   }
@@ -929,8 +657,13 @@ and (-webkit-min-device-pixel-ratio: 2){
   #parallax{
     margin-top: -3em;
   }
+  .job-content{
+    padding-top: 1%;
+  }
+  .job-content .badge{
+    height:50%;
+  }
 }
-
 
 /* ipad */
 @media only screen
@@ -1006,10 +739,7 @@ and (max-width : 1024px)  {
 }
 
 @media screen and (min-width: 1440px) {
-  #careers-team .caption{
-    bottom:-30%;
-    margin-left: -20%;
-  }
+
   .job-content .badge{
     height:10%;
   }
@@ -1023,27 +753,22 @@ and (max-device-width: 1024px)
 and (orientation: portrait)
 and (-webkit-min-device-pixel-ratio: 2) {
 
-#careers-team{
-  margin-left:2vw;
-}
+
 
 #benefits-container{
   margin-top: -2.5em;
 }
-#open-positions{
-  margin-top: 10%;
-  margin-bottom: -8%;
-}
+
 .card .badge{
   font-size: 80%;
   margin-top: 0.5em;
 }
 .card h5{
-  font-size: 270%;
+  font-size: 200%;
 }
 
 .card ul{
-  font-size: 680%;
+  font-size: 180%;
 }
 .card .row{
   margin-bottom: -10vh;
@@ -1052,17 +777,31 @@ and (-webkit-min-device-pixel-ratio: 2) {
 .card h4{
   font-size: 140%;
 }
-.job-content .badge{
-  margin-top: 3em;
+.job-content-3{
+  margin-top: -8em;
+  margin-left: -2vw;
+  width:92%;
+  padding-bottom: 2%;
+}
+.job-content2 {
+  padding-bottom: 2%;
+  margin-left: -0.5vw;
+}
+.job-content{
+  padding-top: 5%;
+  width:90%;
+  padding-bottom: 2%;
+
 }
 #parallax{
   margin-top: -8em;
 }
-.row{
-  margin-bottom: -300em;
-}
+
 .fa-bars{
   margin-top: 2em;
+}
+#card{
+  padding-bottom: -50em;
 }
 
 
@@ -1072,14 +811,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 @media only screen and (max-width:1024px){
   .card .row{
-    margin-bottom: -3em;
+    margin-bottom: -3%;
   }
-  .card{
-    margin-left: 1.5%;
-  }
-  #open-positions{
-    margin-bottom: -6%;
-  }
+
   #benefits-container{
     margin-top: -0.5%;
   }
@@ -1088,9 +822,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
   #parallax{
     margin-top: -3em;
-  }
-  #careers-team figure{
-    height:85%;
   }
 
   #hamburger{
@@ -1124,28 +855,16 @@ and (-webkit-min-device-pixel-ratio: 2) {
   #hamburger{
     margin-bottom: -6em;
   }
-  .layer{
-    margin-bottom: -10em;
-  }
+
   #parallax{
     margin-top: -5em;
   }
-  #careers-team figure{
-    width:85%;
-    height:70%;
-  }
-  #careers-team span{
-    margin-left: -22.3em;
-    bottom:-1em;
 
-  }
   #benefits-container{
     margin-top: -6em;
     margin-bottom: 2%;
   }
-  #open-positions{
-    margin-bottom: -10%;
-  }
+
   .card h5{
     font-size: 210%;
     margin-top: 7%;
@@ -1154,15 +873,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
     font-size: 130%;
     margin-left: -10%;
   }
-  .card .row{
-    margin-bottom: 6%;
-  }
-  .job-content .mt-3{
-    margin-top: -95em;
-  }
-  /* .card {
-    margin-bottom: 10em;
-  } */
 
 
 }
@@ -1171,18 +881,22 @@ and (min-device-width: 768px)
 and (max-device-width: 768px)
 and (orientation: portrait)
 and (-webkit-min-device-pixel-ratio: 2) {
-  #careers-team .caption{
-    margin-left: -2em;
-  }
-  #careers-team{
-    padding-bottom: 12%;
-  }
- .headshot{
-   margin-left: -1vw;
- }
+
  .fa-bars{
    margin-bottom: 2em;
  }
+ .job-content .badge{
+
+   padding-bottom: -20em;
+ }
+ .job-content-3{
+   margin-top: -14vh;
+ }
+ #hamburger{
+   margin-top: -5em;
+
+ }
+
 }
 @media only screen and (max-width:767px){
   .job-content .date{
@@ -1191,7 +905,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     height:110%;
     width:15%;
     margin-left: 4vw;
-    margin-bottom: 4em;
+    margin-bottom: 1em;
   }
   footer ul{
     margin-left: -10em;
@@ -1200,13 +914,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
   #footer-container{
     margin-left: 1em;
   }
-  /* #copyright{
-    margin-left: -23em;
-  } */
-  /* #footer-text{
-    margin-left: 2em;
-  } */
-
 
 
 }
@@ -1221,9 +928,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 @media only screen and (max-width:667px){
 
-  #careers-team .caption{
-    margin-left: -10vw;
-  }
   #benefits-container h3{
     margin-left:-6em;
   }
@@ -1241,17 +945,13 @@ and (-webkit-min-device-pixel-ratio: 2) {
     margin-left: -4vw;
     font-size: 140%;
   }
-  .col-9{
-    margin-top: 7em;
-  }
+
 
   #footer-container{
     margin-left: -1em;
     width:100%;
   }
-  #careers-team{
-    margin-left: -3em;
-  }
+
   .subheader{
     margin-top:-3em;
   }
@@ -1270,28 +970,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 }
 
-@media only screen and (max-width:640px){
-  .card ul{
-    margin-left: -17%;
-  }
-  .mt-3 .details2{
-    margin-left: -20%;
-  }
-  .mt-3 .badge{
-    margin-bottom: -20em;
-  }
-  .mt-3 .col-9{
-    margin-top: -10%;
-  }
-  /* #icons{
-    margin-bottom: -1em;
-  } */
-}
 
 @media only screen and (max-width:575px){
-  #careers-team{
-    margin-left: 3em;
-  }
 
   .card .badge{
     font-size: 40%;
@@ -1310,11 +990,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
     width:50%;
   }
 
-  #careers-team .caption{
-    margin-left: 3em;
-
-  }
-
   .icons{
     margin-left: 14%;
   }
@@ -1322,13 +997,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 }
 @media only screen and (max-width:568px){
-    #careers-team{
-      margin-left: 15%;
-    }
-    .hover01 figure:hover+span {
-      bottom: -180px;
 
-    }
     #benefits-container #benefits-text{
       margin-left: 2%;
       font-size: 98%;
@@ -1345,10 +1014,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .layer1{
       margin-top: 1em;
     }
-    .mt-3 .col-9{
-      margin-top: -3em;
-      margin-left: 8%;
-    }
+
     .mt-3 ul{
       margin-left: -26%;
     }
@@ -1363,28 +1029,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
   }
 
-@media only screen and (max-width:515px){
-  .card h5{
-    font-size: 120%;
-  }
 
-  .icons{
-    margin-left: 14%;
-  }
-}
-@media only screen and (max-width:431px){
-  #hamburger{
-    margin-top: -6%;
-  }
-}
 @media only screen and (max-width:414px){
 
-  .hover01 figure:hover+span {
-    bottom: -178px;
-  }
-  #careers-team{
-    margin-left: 6.5%;
-  }
   #benefits-container h3{
     margin-left: 8%;
     margin-bottom: 8%;
@@ -1392,67 +1039,47 @@ and (-webkit-min-device-pixel-ratio: 2) {
   #benefits-container{
     margin-left: -2%;
   }
-  #hamburger{
-    margin-left: -9em;
-  }
+
   #parallax{
     margin-top: -5em;
   }
-  .card{
-    margin-bottom: 10%;
+  .job-content .badge{
+    width:30%;
   }
-  #careers-team .column div{
-    width:70vw;
-    height:83vw;
-    margin-left: 3vw;
+  .job-content-3{
+    margin-top: -14vh;
   }
-  #careers-team .caption{
-    margin-left: -18vw;
+  #hamburger{
+    margin-top: -5em;
+
+  }
+  #card{
+    padding-bottom: 8%;
   }
 
 
 
   }
-
-@media only screen and (max-width:411px){
-
-  #careers-team .column div{
-    width:70vw;
-    height:83vw;
-    margin-left: 3vw;
+@media only screen and (max-width: 411px){
+  .job-content .badge{
+    width:30%;
   }
-  #careers-team .caption{
-    margin-left: -18vw;
+  .job-content-3{
+    margin-top: -14vh;
   }
-}
-
-@media only screen and (max-width:400px){
-  /* .icons{
-    margin-left: -10%;
-  } */
-  #footer-text{
-    margin-left: 6%;
+  #hamburger{
+    margin-top: -5em;
 
   }
-  #benefits-container h3{
-    margin-left: 10%;
-  }
-  #careers-team .caption{
-    margin-left: 10%;
-  }
-  #careers-team{
-    margin-left: 4vw;
-  }
-  .card .badge{
-    margin-top: 3em;
-    margin-bottom: -10em;
+  #card{
+    padding-bottom: 8%;
   }
 }
 
 @media only screen and (max-width: 375px){
   #hamburger{
-    margin-bottom: -5em;
-    margin-left: -1em;
+    margin-top: -5em;
+
   }
 
   #logo{
@@ -1470,291 +1097,93 @@ and (-webkit-min-device-pixel-ratio: 2) {
   #benefits-container #benefits-text{
     margin-left: 5%;
   }
-  .mt-3 .details2{
-    margin-left: -37%;
-  }
-  .hover01 figure{
-    height: 97%;
-    }
-  #open-positions{
-    text-align: center;
-    margin-bottom: -10%;
-    margin-top: 15%;
-  }
+
   #parallax{
     margin-top: -5em;
   }
 
-
-  #careers-team span{
-    bottom:-3em;
-  }
-
-  #careers-team{
-    margin-right: 20vw;
-  }
-  .hover01 figure:hover+span {
-
-    width:110%;
-    font-size: 100%;
-    margin-left: -2vw;
-
-  }
   #benefits-container{
     margin-top: 25%;
   }
-  .card h4{
-    margin-right:-3em;
+  .job-content .badge{
+    width:30%;
   }
-  #careers-team figure{
-    margin-left: 17vw;
-  }
-  #careers-team .column div{
-    width:70vw;
-    height:73vw;
-    margin-left: -3vw;
-  }
-  #careers-team .caption{
-    margin-left: -9vw;
-    bottom:-9vw;
-  }
-  #card{
-    margin-bottom: 14em;
-  }
-  /* #careers-team span{
-    margin-left: -10vw;
-  } */
-
-
-
-  }
-
-/* galaxy s5 */
-@media only screen and (max-width: 370px){
-
-  #careers-team{
-    margin-left: 8%;
+  .job-content-3{
     margin-top: -14vh;
   }
-  #benefits-container h3{
-    margin-left: 2vw;
-    font-size: 160%;
-  }
-  .card{
-    width:110%;
-    margin-bottom: 10vh;
-    margin-left: -5%;
-  }
-  .card h5{
-    font-size:120%;
-    margin-top: -4%;
-
-  }
-  .card-body{
-    width:100%;
-    height:300%;
-  }
-  .card .badge{
-    background-color:#c83e2c;
-    margin-left: 75%;
-    width:20vw;
-    margin-top: 6em;
-    margin-bottom: 1em;
-
-    font-family: 'VegurRegular';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 35%;
-  }
-  .card .card-text{
-    margin-left: 10vw;
-  }
-  .card ul{
-  margin-left:-12vw;
-  margin-bottom: 10vh;
-  }
-  .last-badge{
-    margin-top: 10vh;
-  }
-  .card h4{
-    margin-top: -10vh;
-  }
-  .job-content .date{
-    margin-top: 20vh;
-    font-size: 200%;
-    height:110%;
-    width:30%;
-    margin-left: 4vw;
-    margin-bottom: 10vh;
-  }
-  .job-content  h5{
-    margin-left: -8vw;
-    text-align: left;
-    font-size: 200%;
-  }
-  .job-content ul{
-    text-align: left;
-    width:100%;
-    margin-left: -18vw;
-  }
-  .job-content button{
-    margin-top: 20%;
-
-  }
-  footer ul{
-
-    margin-right: 3em;
-  }
-  #row-2,#row-3,#row-4{
-    margin-top: -6vh;
-  }
-  .dark-blue-text,.fa-bars {
-      color: #c83e2c;
-      margin-left: 18em;
-      margin-top: -0.5em;
-      margin-right: 2%;
+  #card{
+    padding-bottom: 8%;
   }
 
-}
+
+
+
+  }
+
 @media only screen and (max-width:360px){
+  .job-content-3 .badge, .job-content .badge {
+    width:40%;
+  }
+  .job-content-3{
 
+    margin-top: -2em;
+    padding-bottom: 10%;
+  }
+  .job-content-3 .text-uppercase{
+    text-align: left;
+    margin-left: -8vw;
+  }
+  #hamburger{
+    margin-top: -4em;
+  }
 
-  #careers-team figure{
+}
+@media only screen and (max-width:320px){
+  .job-content .mt-3 {
+    width:90%;
 
+  }
+
+  .job-content .badge{
+    width:30%;
+  }
+  .job-content .row{
+    padding-top: 2em;
+  }
+
+  #hamburger{
+    margin-top: -30%;
+  }
+  #card{
+    width:75%;
+
+  }
+  .job-content-3{
+    padding-top: 1em;
+    margin-top: -2em;
+    padding-bottom: 10%;
+  }
+  .job-content-3 .badge{
+    margin-top: 2vh;
+  }
+  .job-content-3 h5{
+
+    padding-bottom: 10%;
+    width:100%;
+    margin-left: -2vw;
+  }
+
+  .card h4{
     margin-left: 2vw;
   }
-  #careers-team{
-    margin-top: 5vh;
-  }
 
-  .card .badge{
-    margin-top: -3em;
-    margin-bottom: -3em;
+  #card{
+    width:85%;
   }
-  #careers-team .column div{
-    width:70vw;
-    height:83vw;
-    margin-left: 5vw;
-  }
-  #careers-team .caption{
-    margin-left: -20vw;
-  }
-
-}
-@media only screen and (max-width:337px){
-  #logo{
-    width:20%;
+  #card .badge{
+    padding-top: -13em;
   }
 }
-
-.dark-blue-text,.fa-bars {
-    color: #c83e2c;
-    margin-left: -1em;
-    /* margin-bottom: -80em; */
-}
-}
-
-
-
-
-@media only screen and (max-width:320px){
-  #main-title{
-   font-size: 25%;
- }
- .jumbotron{
-   margin-bottom: -25em;
- }
- .card .badge{
-   margin-top: -4em;
-
- }
- .card .col-9{
-   margin-top: 0.7em;
- }
- .card .details{
-   margin-left: -30%;
- }
- .layer1{
-   margin-top: 3em;
- }
- .mt-3{
-   margin-left: -10%;
- }
- .mt-3 .col-9{
-   margin-top: -1em;
- }
-
-}
-
-@media only screen and (max-width:320px){
-  #main-title{
-   font-size: 25%;
-   margin-top:-10em;
- }
- .jumbotron{
-   margin-bottom: -25em;
-   height:20%;
- }
- .card .badge{
-   margin-top: -4em;
-
- }
- .card .col-9{
-   margin-top: 0.7em;
- }
- .card .details{
-   margin-left: -30%;
- }
- .layer1{
-   margin-top: 3em;
- }
- .mt-3{
-   margin-left: -10%;
- }
- .mt-3 .col-9{
-   margin-top: -1em;
- }
- .parallax-window{
-   margin-bottom: -25em;
-
- }
- #careers-team .caption{
-   margin-left: -20vw;
- }
- #hamburger{
-   margin-top: -8vh;
- }
-
-
-}
-
-
-
-@media only screen
-and (min-device-width: 1024px)
-and (max-device-width: 1024px)
-and (orientation: landscape)
-and (-webkit-min-device-pixel-ratio: 2) {
-  #careers-team {
-    margin-left: 5vw;
-  }
-
-  #careers-team .caption{
-    margin-left: -3.3vw;
-    bottom:-6vh;
-  }
-  .job-content {
-    margin-top: -20vw;
-  }
-  #benefits-container{
-    padding-top: 10%;
-  }
-}
-#hamburger{
-  margin-bottom: -1em;
-}
-}
-#careers-team .caption{
-  margin-top: -10em;
-}
+.job-content .mt-3 {
+  width:90%;
 }

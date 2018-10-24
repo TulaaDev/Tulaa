@@ -238,7 +238,7 @@ iframe{
 #Layer_1{
 
   margin-top: 0.4vh;
-  padding:-4%;
+
 }
 
 .navbar{
@@ -310,7 +310,7 @@ iframe{
   background: #bb0000;
   color: white;
 }
- 
+
 
 #partners-investors img {
   filter: gray; /* IE6-9 */
@@ -454,7 +454,7 @@ h3{
 
 h1{
   text-align:center;
-  font-size: 7vh;
+  font-size: 3em;
   font-family: 'VegurRegular';
   font-weight: normal;
   font-style: normal;
@@ -839,10 +839,6 @@ footer{
     margin-top: 15%;
     margin-bottom: -5%;
   }
-
-.job-content{
-  margin-top: -10em;
-}
 
 .solution-card p{
   font-size: small;
