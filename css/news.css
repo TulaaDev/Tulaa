@@ -52,18 +52,12 @@ nav a:hover{
   font-size: 2.5vw;
   color:#008f8a;
 }
-#team{
-  margin-top: 20%;
-}
+
 #cards{
-  /* margin-bottom: 10em; */
+
   margin-top: 10vh;
 
 }
-/* #content .collapse-content{
-  margin-top: -25vw;
-} */
-
 
 /* Navbar animation */
 .navbar {
@@ -264,16 +258,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
     margin-top:10%;
   }
   #content{
-    /* margin-bottom: 20%; */
+
     margin-top: -25%;
   }
 
   #stories .card{
     margin-bottom: 16vh;
   }
-  /* .mt-3{
-    margin-top: 10em; */
-    /* margin-bottom: 10%; */
+
   }
 }
 @media only screen
@@ -339,12 +331,6 @@ and (-webkit-min-device-pixel-ratio: 2){
 
 
 }
-@media screen and (max-width:1104px){
-/*
-  .mt-3{
-    margin-left: 3%;
-  } */
-}
 
 @media screen and (max-width:1024px){
 
@@ -368,16 +354,10 @@ and (-webkit-min-device-pixel-ratio: 2){
     background-color: #008f8a;
   }
 
-  .fa-bars{
-    margin-top: -12em;
-    margin-bottom: 2em;
-  }
   #content .collapse{
     margin-top: -13em;
   }
-  #cards{
-    margin-bottom: -11em;
-  }
+  
   #content .badge{
     margin-top: -1em;
   }
@@ -399,12 +379,7 @@ and (-webkit-min-device-pixel-ratio: 2){
     margin-left: 6em;
     font-size: 140%;
   }
-  .dark-blue-text,.fa-bars {
-      color: #c83e2c;
-      margin-top: -3.8em;
-      margin-bottom: 1em;
-      margin-left: -1em;
-  }
+
 
   .collapse-content .badge{
     font-size: 190%;
@@ -489,13 +464,7 @@ and (-webkit-min-device-pixel-ratio: 2){
   #stories .row{
     margin-bottom: -7em;
   }
-  #team{
-    margin-top: 2em;
-  }
 
-  .fa-bars{
-    margin-bottom: 3em;
-  }
   #cards h3{
     font-size: 131.8%;
   }
@@ -515,6 +484,11 @@ and (-webkit-min-device-pixel-ratio: 2){
     font-size: 106%;
     margin-top: -6%;
   }
+  #content .badge{
+    margin-top: 7em;
+    width:25%;
+  }
+
 
 }
 
@@ -551,12 +525,7 @@ and (-webkit-min-device-pixel-ratio: 2){
     font-size: 90%;
     margin-top: -1em;
   }
-  .dark-blue-text,.fa-bars {
-      color: #c83e2c;
-      margin-top: -3.8em;
-      margin-bottom: 1em;
-      margin-right: -0.5em;
-  }
+
   #panel-title .badge {
     width:15%;
     font-size: 110%;
@@ -649,20 +618,11 @@ and (-webkit-min-device-pixel-ratio: 2){
 }
 
 @media screen and (max-width:414px) {
-  .dark-blue-text,.fa-bars {
-      color: #c83e2c;
-      margin-bottom: 1.3em;
-      margin-left: 1.3em;
-  }
+
   .card h3{
     margin-top: 8em;
   }
-  /* #copyright{
-    margin-left: -9em;
-  } */
-  /* #icons{
-    margin-left: -6em;
-  } */
+
   #date{
     margin-top:10em;
     margin-bottom: 10em;
@@ -701,10 +661,6 @@ and (-webkit-min-device-pixel-ratio: 2){
   }
   #top-panel #card-title{
     margin-top: -3em;
-  }
-
-  #team{
-    margin-top: 26%;
   }
 
   #stories .row{
@@ -750,8 +706,9 @@ and (-webkit-min-device-pixel-ratio: 2){
     height:25vw;
   }
   #cards{
-    margin-bottom: 3em;
+    margin-bottom: 7em;
   }
+
 
 }
 @media screen and (max-width:411px) {
@@ -759,24 +716,7 @@ and (-webkit-min-device-pixel-ratio: 2){
     margin-top: 23%;
   }
 
-  /* #icons{
-    width:130%;
-  } */
 
-  /* #copyright{
-    margin-left: -15%;
-  } */
-
-
-}
-@media screen and (max-width:404px) {
-  /* #copyright{
-    margin-left: -10em;
-  } */
-  #icons{
-    margin-left: -6em;
-    width:170%;
-  }
 }
 
 @media screen and (max-width:375px) {
@@ -785,13 +725,6 @@ and (-webkit-min-device-pixel-ratio: 2){
   #logo{
     width:50%;
   }
-  #icons{
-    margin-left: -16vw;
-  }
-
-  /* #copyright{
-    margin-left: -12%;
-  } */
 
 
   .card h3{
@@ -811,7 +744,7 @@ and (-webkit-min-device-pixel-ratio: 2){
     margin-top: -0.2em;
   }
   #date{
-    margin-top:10em;
+    margin-top:8em;
     margin-bottom: 10em;
     width:100%;
     font-size: 70%;
@@ -850,16 +783,6 @@ and (-webkit-min-device-pixel-ratio: 2){
   #stories img{
     margin-top: 6em;
   }
-  #team{
-    margin-top: 26%;
-  }
-  footer{
-    margin-top: 20%;
-  }
-  .footer{
-    width:67%;
-  }
-
 
   #content{
     padding-left: 10%;
@@ -893,19 +816,12 @@ and (-webkit-min-device-pixel-ratio: 2){
 @media screen and (max-width:360px) {
 
 
-  #icons{
-    margin-left: -4%;
-    width:150%;
-  }
   .card img{
     margin-bottom: -1em;
     margin-top: -20em;
   }
 
-  /* #panel-title .badge {
-    width:30%;
-    font-size: 150%;
-  } */
+
   #stories .row{
     height:45%;
     margin-top: -4em;
@@ -913,9 +829,7 @@ and (-webkit-min-device-pixel-ratio: 2){
   #stories h3{
     margin-top: 8em;
   }
-  #team{
-    margin-top: 26%;
-  }
+
   hr{
     margin-top: 10em;
   }
@@ -947,13 +861,7 @@ and (-webkit-min-device-pixel-ratio: 2){
     margin-left: 5vw;
     font-size: 8vh;
   }
-
-
-
 }
-
-
-
 
 nav a:hover{
   color:#c83e2c;
@@ -1018,18 +926,10 @@ nav a:hover{
 
 
 
-   #cards {
-     margin-top: -3em;
-     margin-left: -1.2vw;
-   }
    #content .form-row{
      margin-bottom: -5em;
 
    }
-   /* #content .collapse{
-     margin-top: -23em;
-
-   } */
 
    #other h5{
      margin-top: 2vh;
@@ -1046,9 +946,7 @@ nav a:hover{
      margin-top: 1em;
      width:25%;
    }
-   #cards{
-     margin-top: -2em;
-   }
+
    #content .form-row{
     margin-bottom: 1em;
     }
@@ -1101,9 +999,7 @@ nav a:hover{
    #stories h3{
      margin-top:0.7em;
    }
-   #icons{
-     width:150%;
-   }
+
    #copyright{
      margin-left: -0.5em;
    }
@@ -1170,11 +1066,7 @@ nav a:hover{
  footer{
    margin-top: 10vw;
  }
- /* #content .mt-3{
-   width:95%;
-   margin-left: 3vw;
 
- } */
  #cards ul a:hover{
    color:#c83e2c;
 

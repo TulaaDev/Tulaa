@@ -281,10 +281,10 @@ iframe{
   width: 50px;
   text-align: center;
   text-decoration: none;
-  margin: 16px 2px;
+
   border-radius: 50%;
   margin-left: 3.5%;
-  margin-top: 10vh;
+  /* margin-top: 10vh; */
 }
 .fa:hover {
     opacity: 0.7;
@@ -621,10 +621,6 @@ h5{
   font-size: 160%;
 }
 
-.testimonial .card-text{
-  font-size:90%;
-  margin-left: 8%;
-}
 .testimonial #emmanuel{
   margin-left: 4%;
 }
@@ -687,14 +683,16 @@ footer{
 
   }
 
-@media screen and (max-width: 1199px) {
-  #logo{
-    width:60%;
+
+  @media only screen
+  and (min-device-width: 1024px)
+  and (max-device-width: 1366px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2){
+    #who{
+      padding-top: 10%;
+    }
   }
-
-}
-
-
 @media screen and (max-width:1043px){
 
 #testimonial{
@@ -733,11 +731,6 @@ footer{
 
 @media screen and (max-width:986px){
 
-  footer ul{
-    margin-left: -30em;
-    font-size: 10%;
-    width:120%;
-  }
 
   .nav-tabs{
   width:100%;
@@ -806,10 +799,6 @@ footer{
     height:97%;
   }
 
-
-  footer{
-    height:110%;
-  }
 
   #press{
 
@@ -884,17 +873,12 @@ footer{
 }
 @media screen and (max-width:736px){
 
-  #testimonial .card-text{
-    width:110%;
-  }
   #testimonial {
     margin-bottom: -11em;
   }
 
 
-  footer .container{
-    margin-left: 5%;
-  }
+
   #logo{
     width:50%;
   }
@@ -944,11 +928,6 @@ text-align: left;
 
 @media screen and (max-width:667px){
 
-  #testimonial .card-text{
-    width:110%;
-    font-size: 100%;
-    text-align: center;
-  }
   #testimonial {
     margin-bottom: -16em;
   }
@@ -1023,33 +1002,16 @@ text-align: left;
     margin-top: 6em;
     margin-left: 20%;
   }
-  .rael-sang .card-text{
-    margin-left: 10%;
-  }
-  #scholar-waywa .card-text{
-    margin-left: 4vw;
-  }
 
   #emmanuel{
     margin-left: 2em;
   }
-  #infographic{
-    width:100%;
-    margin-bottom:10%;
-  }
+
   #who{
     margin-top: 10%;
   }
 
-#icons{
-  margin-left: -3em;
-  margin-top: -3em;
-}
-footer ul{
-  margin-bottom:-30em;
-  /* margin-top: 3em; */
-  width:125%;
-}
+
 
 .nav-tabs{
 width:100%;
@@ -1063,9 +1025,7 @@ text-align: left;
 
 }
 
-.icons{
-  margin-left: 14%;
-}
+
 
 #our-partners-one{
 
@@ -1081,9 +1041,7 @@ text-align: left;
       color: #c83e2c;
 
   }
-  #testimonial .card-text{
-    margin-left: -1em;
-  }
+
   #emmanuel{
     margin-left: -0.5em;
     width:90%;
@@ -1104,12 +1062,7 @@ text-align: left;
 
   }
 }
-@media only screen and (max-width:515px){
 
-  .icons{
-    margin-left: 14%;
-  }
-}
 @media screen and (max-width:492px){
 
   .nav-tabs{
@@ -1185,9 +1138,7 @@ text-align: left;
     margin-top: 6em;
   }
 
-  #testimonial .card-text{
-    margin-left: -0.7em;
-  }
+
   #emmanuel{
     margin-left: 0.75em;
 
@@ -1206,9 +1157,7 @@ text-align: left;
     margin-bottom: -36em;
   }
 
-  #icons{
-    margin-left: -25%;
-  }
+
   .footer{
     width:80%;
   }
@@ -1293,9 +1242,6 @@ text-align: left;
     width:60%;
 
   }
-  .icons{
-    margin-left: 10%;
-  }
 
 }
 @media screen and (max-width:375px){
@@ -1338,9 +1284,6 @@ text-align: left;
     font-size: 90%;
   }
 
-  #icons{
-    width:130%;
-  }
 #contact .card-header{
   font-size: 1vh;
 }
@@ -1389,9 +1332,7 @@ text-align: left;
   padding-top:34%;
 }
 
-#icons{
-  width:86vw;
-}
+
 #emmanuel{
   margin-left: 4vw;
 }
@@ -1407,13 +1348,6 @@ text-align: left;
     margin-left: 2%;
   }
 
-  #copyright{
-    margin-left: -14.5%;
-  }
-
-  #icons{
-    margin-left: -20%;
-  }
   #contact-card h5{
     font-size: 190%;
   }
@@ -1426,7 +1360,6 @@ text-align: left;
   }
   .dark-blue-text,.fa-bars {
       color: #c83e2c;
-      /* margin-bottom: 1.3em; */
       margin-left: 1.3em;
   }
 

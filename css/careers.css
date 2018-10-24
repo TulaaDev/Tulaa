@@ -89,10 +89,10 @@ h3{
   width: 50px;
   text-align: center;
   text-decoration: none;
-  margin: 16px 2px;
+
   border-radius: 50%;
   margin-left: 3.5%;
-  margin-top: 10vh;
+
 }
 .fa:hover {
     opacity: 0.7;
@@ -350,14 +350,9 @@ h5{
 a{
   color:black;
 }
-.mt-3 ul{
-  margin-left:16%;
-  text-align: left;
-}
 
-.footer{
-  width:100%;
-}
+
+
 
 
 @media only screen and (min-width : 375px) and (max-width : 667px) {
@@ -381,16 +376,6 @@ a{
   }
   .line{
     margin-top: 40vh;
-  }
-  #team{
-    margin-top: 8vh;
-    margin-bottom: 7vh;
-  }
-  #pictures{
-    margin-top: 10vh;
-  }
-  footer{
-    height:45vh;
   }
 
   #collapseExample span {
@@ -429,17 +414,6 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
   .line{
     margin-top: 20vh;
   }
-  #team{
-    margin-top: 10vh;
-    margin-bottom: 3vh;
-  }
-  #pictures{
-    margin-top: 10vh;
-    margin-left: -4%;
-  }
-  footer{
-    height:55vh;
-  }
 
   #collapseExample span {
     width:30%;
@@ -453,10 +427,6 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
 
 /* iphone 6/7/8 and plus  */
 @media only screen and (min-width : 375px) and (max-width : 667px) {
-
-    .fa-bars{
-      margin-right: 10vw;
-    }
 
     .nav a{
       color:red;
@@ -622,10 +592,7 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
     margin-top: 20%;
     margin-bottom: -10vh;
   }
-  footer ul{
-    margin-top: 10vh;
-    margin-right: 3em;
-  }
+
 
   .title{
     margin-top: 80vh;
@@ -670,11 +637,6 @@ and (-webkit-min-device-pixel-ratio: 2){
 and (min-width : 768px)
 and (max-width : 1024px)  {
 
-  .dark-blue-text,.fa-bars {
-      color: #c83e2c;
-      margin-left: -45vw;
-      margin-top: 6em;
-  }
 
   #benefits-container h3{
     margin-left: 2vw;
@@ -721,7 +683,7 @@ and (max-width : 1024px)  {
     height:110%;
     width:15%;
     margin-left: 4vw;
-    margin-bottom: 4em;
+    margin-bottom: 0.5em;
   }
   .job-content  h5{
     margin-left: -4vw;
@@ -733,6 +695,7 @@ and (max-width : 1024px)  {
     width:100%;
     margin-left: -8vw;
   }
+
 
 
 
@@ -780,7 +743,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 .job-content-3{
   margin-top: -8em;
   margin-left: -2vw;
-  width:92%;
+  width:82%;
   padding-bottom: 2%;
 }
 .job-content2 {
@@ -789,7 +752,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 .job-content{
   padding-top: 5%;
-  width:90%;
+  width:70%;
   padding-bottom: 2%;
 
 }
@@ -797,9 +760,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
   margin-top: -8em;
 }
 
-.fa-bars{
-  margin-top: 2em;
-}
 #card{
   padding-bottom: -50em;
 }
@@ -882,9 +842,6 @@ and (max-device-width: 768px)
 and (orientation: portrait)
 and (-webkit-min-device-pixel-ratio: 2) {
 
- .fa-bars{
-   margin-bottom: 2em;
- }
  .job-content .badge{
 
    padding-bottom: -20em;
@@ -907,25 +864,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
     margin-left: 4vw;
     margin-bottom: 1em;
   }
-  footer ul{
-    margin-left: -10em;
-    text-align: left;
-  }
-  #footer-container{
-    margin-left: 1em;
-  }
 
 
 }
 
-@media only screen and (max-width:678px){
-  #footer-container{
-    margin-left: -1em;
-  }
-
-
-
-}
 @media only screen and (max-width:667px){
 
   #benefits-container h3{
@@ -947,10 +889,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
 
 
-  #footer-container{
-    margin-left: -1em;
-    width:100%;
-  }
 
   .subheader{
     margin-top:-3em;
@@ -986,13 +924,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
     margin-left: -4vw;
     font-size: 140%;
   }
-  #icons{
-    width:50%;
-  }
 
-  .icons{
-    margin-left: 14%;
-  }
+
 
 
 }
@@ -1013,13 +946,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
     .layer1{
       margin-top: 1em;
-    }
-
-    .mt-3 ul{
-      margin-left: -26%;
-    }
-    footer{
-      margin-bottom: -100em;
     }
 
     #hamburger{
@@ -1057,6 +983,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
     padding-bottom: 8%;
   }
 
+  .mt-3 ul{
+    text-align: center;
+  }
 
 
   }
@@ -1114,6 +1043,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
   #card{
     padding-bottom: 8%;
   }
+  .mt-3 ul{
+    text-align: center;
+  }
 
 
 
@@ -1135,6 +1067,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
   #hamburger{
     margin-top: -4em;
+  }
+  .mt-3 ul{
+    text-align: center;
   }
 
 }
@@ -1182,6 +1117,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
   #card .badge{
     padding-top: -13em;
+  }
+  .mt-3 ul{
+    text-align: center;
   }
 }
 .job-content .mt-3 {
