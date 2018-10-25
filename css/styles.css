@@ -1011,8 +1011,6 @@ text-align: left;
     margin-top: 10%;
   }
 
-
-
 .nav-tabs{
 width:100%;
 margin-left: -10vw;
@@ -1025,10 +1023,7 @@ text-align: left;
 
 }
 
-
-
 #our-partners-one{
-
   margin-bottom: -2em;
 }
 
@@ -1198,6 +1193,9 @@ text-align: left;
     text-align: center;
     margin-top: 14%;
   }
+  #footer-text{
+    text-align: center;
+  }
 }
 
 
@@ -1289,7 +1287,6 @@ text-align: left;
 }
 #solution{
   margin-top: -10vw;
-  /* padding-top:30vw; */
 }
 
 #contact{
@@ -1299,6 +1296,9 @@ text-align: left;
 #who{
   margin-top:-15vh;
   padding-top:24%;
+}
+#footer-text{
+  text-align: center;
 }
 
 
