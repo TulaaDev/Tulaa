@@ -145,7 +145,7 @@ body{
 #jumbotron-text{
   margin-top: 5%;
   color:#fff;
-  font-size:6vh;
+  font-size:xx-large;
   text-align: center;
   border-bottom: 3px solid white;
   border-top: 3px solid white;
@@ -1133,11 +1133,10 @@ text-align: left;
   #testimonial .card{
     margin-bottom: -7em;
   }
-  #jumbotron-text{
 
-    font-size: 210%;
-    width:100%;
-
+   #jumbotron-text{
+  	font-size: large;
+    margin-top: 20%;
   }
 
   #testimonial{
@@ -1213,10 +1212,6 @@ text-align: left;
     margin-top: 6em;
   }
 
-  #jumbotron-text{
-    margin-top: 4em;
-    font-size: 200%;
-  }
   #logo{
     width:60%;
   }
@@ -1240,10 +1235,6 @@ text-align: left;
   }
   #logo{
     width:50%;
-  }
-
-  #jumbotron-text{
-    margin-top: 110%;
   }
 
   .dark-blue-text,.fa-bars {
