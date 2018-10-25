@@ -819,11 +819,6 @@ footer{
     font-size: 210%;
   }
 
-
-  #recognition {
-    margin-left: -1%;
-  }
-
   #our-partners-one{
     margin-top: 15%;
     margin-bottom: -5%;
@@ -1116,10 +1111,6 @@ text-align: left;
 
 #recognition h4{
   width:100em;
-}
-
-#recognition{
-  margin-left: -1%;
 }
 
 #who{
