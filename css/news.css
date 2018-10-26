@@ -357,7 +357,7 @@ and (-webkit-min-device-pixel-ratio: 2){
   #content .collapse{
     margin-top: -13em;
   }
-  
+
   #content .badge{
     margin-top: -1em;
   }
@@ -833,13 +833,7 @@ and (-webkit-min-device-pixel-ratio: 2){
   hr{
     margin-top: 10em;
   }
-  .fa-bars{
-    margin-bottom: 1em;
-  }.dark-blue-text,.fa-bars {
-      color: #c83e2c;
-      margin-bottom: 1.3em;
-      margin-left: 1.3em;
-  }
+
   #panel{
     margin:auto;
     width:90%;
@@ -1027,11 +1021,7 @@ nav a:hover{
    #logo{
      width:50%;
    }
-   .dark-blue-text,.fa-bars {
-       color: #c83e2c;
-       margin-bottom: 1.3em;
-       margin-left: -2.3em;
-   }
+  
    #stories{
      margin-top: 40vh;
      margin-left: 6vw;
