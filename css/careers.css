@@ -792,11 +792,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
     margin-top: -5em;
   }
 
-  #benefits-container{
-    margin-top: -6em;
-    margin-bottom: 2%;
-  }
-
   .card h5{
     font-size: 210%;
     margin-top: 7%;
