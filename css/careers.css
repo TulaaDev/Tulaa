@@ -281,10 +281,13 @@ h1{
 
 .card{
   border-color: #c83e2c;
-  height:50vh;
+  height:60vh;
   margin: auto;
   display:flex;
   width:90%;
+}
+#card .card-body{
+  padding-top:20vh;
 }
 
 #benefits{
