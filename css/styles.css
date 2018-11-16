@@ -17,7 +17,7 @@ video {
 video {
   height: auto;
   vertical-align: middle;
-  margin-top:10vh;
+  margin-top:15vh;
   width: 100%;
 }
 
@@ -157,6 +157,7 @@ body{
   text-align: center;
   border-bottom: 2px solid white;
   border-top: 2px solid white;
+  margin-top: 10%;
   /* width:57%; */
 
   /* margin-bottom: -6%; */
