@@ -11,6 +11,7 @@ video {
 video {
   height: auto;
   vertical-align: middle;
+
   width: 100%;
 }
 .overlay-desc {
