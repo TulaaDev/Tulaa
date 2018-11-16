@@ -2,18 +2,25 @@
 video {
     position:relative;
     z-index:0;
+
+
+
 }
 
 .video-container .mask {
   position: relative;
   background-color: white;
+
+
 }
+
 video {
   height: auto;
   vertical-align: middle;
-
+  margin-top:10vh;
   width: 100%;
 }
+
 .overlay-desc {
   background: rgba(0,0,0,0);
   position: absolute;
@@ -144,18 +151,14 @@ body{
 
 /* styling to make jumbotron text position ontop of overlay */
 #jumbotron-text{
-  margin-top: 5%;
+
   color:#fff;
   font-size:xx-large;
   text-align: center;
-  border-bottom: 3px solid white;
-  border-top: 3px solid white;
-  width:57%;
-  padding-bottom: 4%;
-  padding-top: 3%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  /* width:57%; */
+
   /* margin-bottom: -6%; */
 
 }
