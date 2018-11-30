@@ -1,8 +1,8 @@
-$(document).ready(function() {
-   $('.mdb-select').material_select();
- });
+// $(document).ready(function() {
+//    $('.mdb-select').material_select();
+//  });
 
-$('.parallax-window').parallax({imageSrc: 'img/jumbotron.jpg'});
+// $('.parallax-window').parallax({imageSrc: 'img/jumbotron.jpg'});
 
 $(document).ready(function(){
     $("button").click(function(){
