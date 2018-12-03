@@ -68,7 +68,7 @@
 </div>
 <!-- top section of the landing page -->
 
-    <div class="view">
+    <div class="view" id="view">
 
       <video autoplay loop muted>
         <source src="video/tulaa-video.mp4" type="video/mp4" style="max-height: 20%;">
@@ -584,5 +584,11 @@ $(document).ready(function($) {
         $('#preloader').css('display', 'none');
  });
 </script>
+
+  <script type="text/javascript">
+  $(window).bind("load", function() {
+  	$('#view').load('index.html');
+  });
+  </script>
   </body>
 </html>
