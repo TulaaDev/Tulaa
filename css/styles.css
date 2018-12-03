@@ -154,9 +154,10 @@ body{
 }
 .solution-card .card span p{
   font-size: 2vh;
+  width:100%;
 }
 
-.video-container {
+/* .view{
   position:absolute;
   z-index: -1;
   width:100%;
@@ -165,7 +166,7 @@ body{
   left:0;
   background-size:cover;
 
-}
+} */
 
 #recognition a{
   color:grey
