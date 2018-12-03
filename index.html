@@ -61,10 +61,13 @@
         </div>
     </nav>
   </div>
+
  <body>
-   <div class="loader"></div>
+   <div id="preloader">
+  <div class="lds-hourglass"></div>
+</div>
 <!-- top section of the landing page -->
-<div class="loader">
+
     <div class="view">
 
       <video autoplay loop muted>
@@ -573,6 +576,11 @@ Tulaa provides smallholder farmers with quality agricultural inputs on credit an
     <script>
       AOS.init();
     </script>
-    </div>
+<script>
+$(document).ready(function($) {
+        // hide preloader when everthing in the document load
+        $('#preloader').css('display', 'none');
+ });
+</script>
   </body>
 </html>
