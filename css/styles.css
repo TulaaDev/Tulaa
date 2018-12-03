@@ -142,7 +142,7 @@ body{
   height:118%;
 }
 .solution-card p{
-  font-size: medium;
+  font-size: 2.4vh;
   text-align: center;
   padding-top: 8%;
 
@@ -150,10 +150,10 @@ body{
 .solution-card h4{
   text-align: center;
   color:#008f8a;
-  font-size: x-large;
+  font-size: 3vh;
 }
 .solution-card .card span p{
-  font-size: small;
+  font-size: 2vh;
 }
 
 
@@ -175,7 +175,7 @@ body{
 }
 
 #team .view p{
-  font-size: large;
+  font-size: 2vh;
   padding: 10%;
 }
 #team h4{
@@ -461,7 +461,7 @@ iframe{
   }
   .card-title{
     text-align: center;
-    margin-top:-20%;
+    margin-top:-15%;
     font-family: 'VegurRegular';
     font-weight: normal;
     font-style: normal;
@@ -493,7 +493,7 @@ h3{
 
 h1{
   text-align:center;
-  font-size: 3em;
+  font-size: 5vh;
   font-family: 'VegurRegular';
   font-weight: normal;
   font-style: normal;
@@ -1225,6 +1225,9 @@ text-align: left;
   #footer-text{
     text-align: center;
   }
+  .solution-card .card span p{
+    margin-top: -4vh;
+  }
 }
 
 
@@ -1320,6 +1323,10 @@ text-align: left;
 }
 #footer-text{
   text-align: center;
+}
+.solution-card .card span p{
+  margin-top: -4vh;
+  font-size: smaller;
 }
 
 

@@ -9,11 +9,12 @@
   -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
 }
 #team-team figure  h2{
-  font-size: medium;
+  font-size: 2vh;
 }
 #team-team figure  p{
-  font-size: smaller;
+  font-size: 2.2vh;
 }
+
 
 
  #team-team figure  p, #team-team figure  h2 {
@@ -281,17 +282,14 @@ h1{
 
 .card{
   border-color: #c83e2c;
-  height:60vh;
+  height:auto;
   margin: auto;
   display:flex;
   width:90%;
 }
-#card .card-body{
-  padding-top:10em;
-}
 
 #benefits{
-  font-size: 119%;
+  font-size: 2vh;
   margin-left: 2%;
   text-align: left;
 
@@ -338,13 +336,13 @@ h4{
   font-size: 120%;
 }
 h3{
-  font-size: 200%;
+  font-size: 3vh;
   color:black;
   margin-left: -15vw;
 }
 
 h5{
-  font-size:90%;
+  font-size:4vh;
 }
 
 
@@ -352,7 +350,12 @@ a{
   color:black;
 }
 
-
+.text-uppercase{
+  font-size: 4vh;
+}
+.details{
+  font-size: 2vh;
+}
 
 
 
