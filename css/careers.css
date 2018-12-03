@@ -351,10 +351,14 @@ a{
 }
 
 .text-uppercase{
-  font-size: 4vh;
+  font-size: 4.5vh;
 }
 .details{
   font-size: 2vh;
+}
+.col-9 .details2 li{
+  font-size: 3vh;
+  text-align: center;
 }
 
 
