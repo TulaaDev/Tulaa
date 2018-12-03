@@ -583,12 +583,11 @@ $(document).ready(function($) {
         // hide preloader when everthing in the document load
         $('#preloader').css('display', 'none');
  });
+ $(window).bind("load", function() {
+  $('#view').load('index.html');
+ });
 </script>
 
-  <script type="text/javascript">
-  $(window).bind("load", function() {
-  	$('#view').load('index.html');
-  });
-  </script>
+
   </body>
 </html>
