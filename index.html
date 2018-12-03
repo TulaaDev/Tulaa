@@ -577,11 +577,12 @@ Tulaa provides smallholder farmers with quality agricultural inputs on credit an
       AOS.init();
     </script>
 <script>
-$(document).on('load', function(){
-  $('#preloader').css('display', 'none');
-})
 
 
+$(document).ready(function($) {
+        // hide preloader when everthing in the document load
+        $('#preloader').css('display', 'none');
+ });
 </script>
   </body>
 </html>
