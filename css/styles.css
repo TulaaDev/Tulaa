@@ -308,10 +308,10 @@ iframe{
 
 }
 
-/* #who{
-  margin-top:-16vh;
-  padding-top:4%;
-} */
+#who{
+  margin-top:-10vh;
+  padding-top:19vh;
+}
 #solution{
   padding-top: 12.1%;
   margin-top: -10%;
