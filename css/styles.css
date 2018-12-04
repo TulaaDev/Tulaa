@@ -185,7 +185,7 @@ body{
 }
 
 #team .view p{
-  font-size: 2vh;
+  font-size: 2.5vh;
   padding: 10%;
 }
 #team h4{
@@ -203,7 +203,7 @@ body{
 #jumbotron-text{
 
   color:#fff;
-  font-size:xx-large;
+  font-size: 4.4vh;
   text-align: center;
   border-bottom: 2px solid white;
   border-top: 2px solid white;
@@ -227,10 +227,7 @@ body{
 
 
 /* styling to parallax images */
-.parallax-window{
-  margin-top: 10vh;
-  background-position: 0px 100px;
-}
+
 #parallax-three{
   margin-bottom: -10vh;
 
@@ -311,12 +308,10 @@ iframe{
 
 }
 
-
-
-#who{
+/* #who{
   margin-top:-16vh;
   padding-top:4%;
-}
+} */
 #solution{
   padding-top: 12.1%;
   margin-top: -10%;
@@ -396,14 +391,14 @@ iframe{
   padding-top: 5%;
 }
 
-
+/*
 .parallax-window {
     min-height: 320px;
     Width:104.9%;
     margin-left: -5%;
     background: transparent;
     min-height: 400px;
-}
+} */
 
 
   button {
@@ -471,7 +466,7 @@ iframe{
   }
   .card-title{
     text-align: center;
-    margin-top:-15%;
+    margin-top:-5vh;
     font-family: 'VegurRegular';
     font-weight: normal;
     font-style: normal;
@@ -519,18 +514,22 @@ h1{
 /* styling for contact card section */
 #contact-section input::placeholder{
   color:#c83e2c;
-  font-size: 2vh;
+  font-size: 2.5vh;
 }
 #contact-section input{
   color:black;
+  height:4vh;
+
 }
 #contact-section textarea::placeholder{
   color:#c83e2c;
   font-size: 2vh;
+
 }
 #contact-section .card{
   background-color: #fff!important;
   width:100%;
+  height:auto;
 }
 #contact-section .card-header h4{
   font-size: 5.5vh;
@@ -633,9 +632,9 @@ h5{
 #contact{
   width:100%;
   height:195%;
-  padding-top: 20vh;
+  padding-top: 15vh;
   margin-top:-18vh;
-  margin-bottom: 17vh;
+  /* margin-bottom: 17vh; */
 }
 
 .form-control:focus {
@@ -692,12 +691,13 @@ h5{
 input::placeholder {
   color:white;
 }
-#parallax-three{
-  min-height:900px;
-  margin-bottom: -17em;
-  margin-top: 10%;
+            /* #parallax-three{
+              min-height:900px;
+              margin-bottom: -17em;
+              margin-top: 10%;
 
-}
+            } */
+
 #contact-card{
   margin-bottom: 1em;
   margin-top: -5em;
@@ -755,12 +755,9 @@ footer{
   .layer{
     height:96.5%;
   }
-
   #for-our-partners ul{
     font-size:100%;
   }
-
-
 
 }
 
@@ -1421,4 +1418,8 @@ text-align: left;
 #for-our-partners .card-title{
   color:#008f8a;
   font-size: 3.5vh;
+}
+.parallax-window {
+	min-height: 400px;
+	background: transparent;
 }
