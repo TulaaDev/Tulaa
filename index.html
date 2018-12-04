@@ -430,7 +430,7 @@ Tulaa provides smallholder farmers with quality agricultural inputs on credit an
 
 <!-- On scroll parallax image three -->
         <!-- <div class="parallax-window" data-parallax="scroll" data-image-src="Website Landing Page Images/IMG_8386.jpg" id="parallax-three" data-position-y="150px" zIndex="-100" style="min-height:500px;"> -->
-        <div class="parallax-window" data-parallax="scroll" data-image-src="Website Landing Page Images/IMG_8386.jpg"   data-natural-width="1400" data-natural-height="1100" id="parallax-three" style="min-height:500px;">
+        <div class="parallax-window" data-parallax="scroll" data-image-src="Website Landing Page Images/IMG_8386.jpg"   data-natural-width="1400" data-natural-height="1100"  style="min-height:500px;">
           <!-- Contact card placed inside parallax to fix white space -->
           <div class="container-fluid" style="">
           <br>
@@ -594,21 +594,31 @@ $(document).ready(function($) {
         $('#preloader').css('display', 'none');
 
       });
+      $(document).ready(function(){
+          jQuery(window).trigger('resize').trigger('scroll');
+      }, 1000);
+
 </script>
 <script>
   AOS.init();
 </script>
 <script>
-jQuery(window).trigger('resize').trigger('scroll');
 
-// $(window).on('load resize', function () {
-//     $('.parallax-window').trigger('resize').trigger('scroll');
+
+$(window).on('load resize', function () {
+    $('.parallax-window').trigger('resize').trigger('scroll');
+  });
 
 // $(window).on('load resize', function () {
 //     $('.parallax-window').css('min-height', $(this).height());
-//
+//   });
+
 //
 // })
+$('.parallax-window').parallax({
+    naturalWidth: 600,
+    naturalHeight: 450
+  });
 
 </script>
 
