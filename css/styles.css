@@ -44,20 +44,15 @@
     transform: rotate(1800deg);
   }
 }
-video {
-    position:relative;
-    z-index:0;
-}
-
 
 .video-container .mask {
   position: relative;
   background-color: white;
-
-
 }
 
 video {
+  position:relative;
+  z-index:0;
   height: auto;
   vertical-align: middle;
   width: 100%;
@@ -173,12 +168,6 @@ body{
   background: transparent;
   background-attachment: fixed;
   margin-bottom: -17vh;
-}
-
-.parallax-slider img{
-  min-height:200px;
-  height:1000px;
-  margin-top:300px;
 }
 
 
@@ -353,6 +342,7 @@ iframe{
 .fa-facebook {
   background: #3B5998;
   color: white;
+
 }
 
 .fa-twitter {
@@ -702,6 +692,9 @@ input::placeholder {
 footer{
   margin-top: 7em;
 }
+footer h6{
+  font-size: 2vh;
+}
 #our-partners-one{
   font-size: 3.2vh;
 }
@@ -719,11 +712,22 @@ and (-webkit-min-device-pixel-ratio: 2){
   }
   .parallax-three{
     min-height: 400px;
-    height:1320px;
+    height:1370px;
     background: transparent;
     background-attachment: fixed;
-    margin-bottom: -17vh;
+    margin-bottom: -18vh;
   }
+  #icons .fa {
+
+    width:5vh;
+    height:5vh;
+  }
+  #icons i {
+
+    font-size: 2.5vh;
+    padding-top: 2%;
+  }
+
 
 }
 @media only screen and (max-width: 1208px) {
@@ -750,6 +754,30 @@ and (-webkit-min-device-pixel-ratio: 2){
   and (-webkit-min-device-pixel-ratio: 2){
     #who{
       padding-top: 15%;
+    }
+    .solution-card h4{
+      font-size: 2vh;
+    }
+    video{
+      padding-top: 13%;
+    }
+    .parallax-three{
+      min-height: 400px;
+      height:980px;
+      background: transparent;
+      background-attachment: fixed;
+      margin-bottom: -17vh;
+    }
+    #team .view p{
+      font-size: 1.3vh;
+    }
+    .solution-card p{
+      font-size: 1vh;
+    }
+    .solution-card .card span p{
+      font-size: 0.8vh;
+      margin-top: -3vh;
+      width:100%;
     }
   }
 @media screen and (max-width:1043px){
@@ -885,6 +913,19 @@ and (-webkit-min-device-pixel-ratio: 2){
   text-align: center;
   padding-top: 2%;
 
+}
+.solution-card h4{
+  font-size: 2vh;
+}
+video{
+  padding-top: 18%;
+}
+.parallax-three{
+  min-height: 400px;
+  height:900px;
+  background: transparent;
+  background-attachment: fixed;
+  margin-bottom: -17vh;
 }
 
 }
@@ -1225,6 +1266,10 @@ text-align: left;
 
   #contact-card{
     width:100%;
+
+  }
+  #contact-section .card-header h4{
+    font-size: 4vh;
   }
   .video-fluid {
     margin-top: 1em;
@@ -1244,6 +1289,9 @@ text-align: left;
   }
   .solution-card .card span p{
     margin-top: -4vh;
+  }
+  video{
+    padding-top: 18%;
   }
 }
 
@@ -1345,7 +1393,12 @@ text-align: left;
   margin-top: -4vh;
   font-size: smaller;
 }
-
+video{
+  padding-top: 20%;
+}
+#contact-section .card-header h4{
+  font-size: 3vh;
+}
 
 }
 @media screen and (max-width:360px){
@@ -1380,6 +1433,9 @@ text-align: left;
 
 #emmanuel{
   margin-left: 4vw;
+}
+video{
+  padding-top: 20%;
 }
 
 
