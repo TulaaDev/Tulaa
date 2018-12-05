@@ -156,17 +156,24 @@ body{
   font-size: 2vh;
   width:100%;
 }
+.solution-card {
+  padding-bottom: 6vh;
+}
+.parallax, .parallax-two,.parallax-three{
+	min-height: 400px;
+  height:400px;
+	background: transparent;
+  background-attachment: fixed;
+}
+.parallax-three{
+  min-height: 400px;
+  height:720px;
+  background: transparent;
+  background-attachment: fixed;
+  margin-bottom: -17vh;
+}
 
-/* .view{
-  position:absolute;
-  z-index: -1;
-  width:100%;
-  height:100%;
-  top:0;
-  left:0;
-  background-size:cover;
 
-} */
 
 #recognition a{
   color:grey
@@ -309,8 +316,8 @@ iframe{
 }
 
 #who{
-  margin-top:-10vh;
-  padding-top:19vh;
+  margin-top:-18vh;
+  padding-top:22vh;
 }
 #solution{
   padding-top: 12.1%;
@@ -1418,23 +1425,4 @@ text-align: left;
 #for-our-partners .card-title{
   color:#008f8a;
   font-size: 3.5vh;
-}
-.parallax, .parallax-two,.parallax-three{
-	min-height: 400px;
-  height:400px;
-	background: transparent;
-  background-attachment: fixed;
-}
-.parallax-three{
-  min-height: 400px;
-  height:700px;
-  background: transparent;
-  background-attachment: fixed;
-  margin-bottom: -10em;
-}
-
-.parallax-slider img{
-  min-height:200px;
-  height:1000px;
-  margin-top:300px;
 }
