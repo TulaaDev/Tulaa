@@ -513,9 +513,10 @@ h1{
   height:4vh;
 
 }
+
 #contact-section textarea::placeholder{
   color:#c83e2c;
-  font-size: 2vh;
+  font-size: 2.5vh;
 
 }
 #contact-section .card{
@@ -532,7 +533,7 @@ h1{
 
 #contact-section button {
   background-color: #c83e2c;
-  font-size: 2.3vh;
+  font-size: 2.8vh;
 }
 
 
@@ -727,6 +728,7 @@ and (-webkit-min-device-pixel-ratio: 2){
     font-size: 2.5vh;
     padding-top: 2%;
   }
+
 
 
 }
