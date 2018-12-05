@@ -732,18 +732,17 @@ and (-webkit-min-device-pixel-ratio: 2){
 
 
 }
-@media only screen and (max-width: 1208px) {
-  .navbar {
-    background-color: black;
-    width:100%;
-
-  }
-  #navbarSupportedContent{
-    font-size: 160%;
-
-  }
-  .navbar-toggler{
-    color:black;
+@media only screen
+and (min-device-width: 1920px)
+and (max-device-width: 1920px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 2){
+  .parallax-three{
+    min-height: 400px;
+    height:790px;
+    background: transparent;
+    background-attachment: fixed;
+    margin-bottom: -18vh;
   }
 
   }
