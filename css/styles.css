@@ -1419,7 +1419,22 @@ text-align: left;
   color:#008f8a;
   font-size: 3.5vh;
 }
-.parallax-window {
+.parallax, .parallax-two,.parallax-three{
 	min-height: 400px;
+  height:400px;
 	background: transparent;
+  background-attachment: fixed;
+}
+.parallax-three{
+  min-height: 400px;
+  height:700px;
+  background: transparent;
+  background-attachment: fixed;
+  margin-bottom: -10em;
+}
+
+.parallax-slider img{
+  min-height:200px;
+  height:1000px;
+  margin-top:300px;
 }
