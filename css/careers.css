@@ -258,10 +258,11 @@ h3{
 .job-content .details2{
   list-style: none;
   /* margin-left: 15.3vw; */
-
-
 }
 
+.job-content .text-uppercase{
+  padding-top: 3%;
+}
 
 .badge{
   background-color:#c83e2c;
@@ -361,7 +362,52 @@ a{
   text-align: center;
 }
 
+@media only screen
+and (min-device-width: 5120px)
+and (max-device-width: 5120px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 2){
+#team-team img{
+  display:flex;
+  margin:auto;
+}
+#team-team{
+  padding-left:5%;
+}
 
+.benefits {
+  padding-left:4%;
+}
+#card h5{
+  margin-left: -2.2vw;
+}
+#card h4{
+  font-size: 2vh;
+}
+#card .badge{
+  font-size: 4vh;
+}
+#card{
+  padding-bottom: 3%;
+}
+.job-content .badge{
+  font-size: 4vh;
+}
+.job-content button{
+  font-size: 2vh;
+  width:20%;
+}
+#collapseExample3 .form-row{
+  padding-bottom: 10vh;
+}
+.parallax-four{
+  min-height: 400px;
+  height:2200px;
+  background: transparent;
+  background-attachment: fixed;
+}
+
+}
 
 @media only screen and (min-width : 375px) and (max-width : 667px) {
 
@@ -695,7 +741,8 @@ and (max-width : 1024px)  {
     height:10%;
   }
   .job-content {
-    padding-top: 5%;
+    padding-top: 1%;
+    width:90%;
   }
   }
 @media only screen

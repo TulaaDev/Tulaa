@@ -165,6 +165,8 @@ h5{
 }
 
 
+
+
 /*iPad Pro 9.7"*/
 /* Portrait */
 @media only screen
@@ -1021,7 +1023,7 @@ nav a:hover{
    #logo{
      width:50%;
    }
-  
+
    #stories{
      margin-top: 40vh;
      margin-left: 6vw;
@@ -1064,3 +1066,44 @@ nav a:hover{
  #cards h3:hover{
    color:#c83e2c;
  }
+ @media only screen
+ and (min-device-width: 5120px)
+ and (max-device-width: 5120px)
+ and (orientation: landscape)
+ and (-webkit-min-device-pixel-ratio: 2){
+   #cards .card{
+     height:50vh;
+     font-size: 1.5vh;
+
+   }
+   #cards .card h3{
+     font-size: 2vh;
+   }
+
+   #cards .card h5{
+     font-size: 1.5vh;
+
+   }
+   #content .info-title{
+     margin-right: -70vh;
+     width:380%;
+
+   }
+   #content p{
+     width: 280%;
+     margin-left: -30vh;
+   }
+   #content {
+     margin-top: 20vh;
+   }
+   #content .badge{
+     font-size: 4vh;
+     width:40%;
+     margin-left:-30vh;
+
+   }
+   #content button{
+     font-size: 2vh;
+     width:20%;
+   }
+   }

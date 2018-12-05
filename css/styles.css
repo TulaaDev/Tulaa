@@ -1,3 +1,5 @@
+
+
 #preloader {
      position: fixed;
      left: 0;
@@ -171,6 +173,12 @@ body{
   background: transparent;
   background-attachment: fixed;
   margin-bottom: -17vh;
+}
+
+.parallax-slider img{
+  min-height:200px;
+  height:1000px;
+  margin-top:300px;
 }
 
 
@@ -398,16 +406,6 @@ iframe{
   padding-top: 5%;
 }
 
-/*
-.parallax-window {
-    min-height: 320px;
-    Width:104.9%;
-    margin-left: -5%;
-    background: transparent;
-    min-height: 400px;
-} */
-
-
   button {
     display: flex;
     justify-content: center;
@@ -512,10 +510,7 @@ h1{
   color:#008f8a;
 }
 /* Collapse example on navbar */
-#collapseExample,#collapseExample2{
-  padding-top: 13%;
-  margin-top: -20vh;
-}
+
 
 
 /* styling for contact card section */
@@ -698,12 +693,7 @@ h5{
 input::placeholder {
   color:white;
 }
-            /* #parallax-three{
-              min-height:900px;
-              margin-bottom: -17em;
-              margin-top: 10%;
 
-            } */
 
 #contact-card{
   margin-bottom: 1em;
@@ -716,13 +706,26 @@ footer{
   font-size: 3.2vh;
 }
 
-/* .fa-bars{
-  margin-bottom: -10em;
-  margin-top: -1em;
-} */
+@media only screen
+and (min-device-width: 5120px)
+and (max-device-width: 5120px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 2){
+  .parallax, .parallax-two{
+  	min-height: 400px;
+    height:900px;
+  	background: transparent;
+    background-attachment: fixed;
+  }
+  .parallax-three{
+    min-height: 400px;
+    height:1320px;
+    background: transparent;
+    background-attachment: fixed;
+    margin-bottom: -17vh;
+  }
 
-
-
+}
 @media only screen and (max-width: 1208px) {
   .navbar {
     background-color: black;
