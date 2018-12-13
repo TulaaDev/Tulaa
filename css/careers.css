@@ -642,7 +642,7 @@ and (-webkit-device-pixel-ratio: 2) and (aspect-ratio: 40/71)
 and (min-device-width: 1920px){
   #parallax{
     margin-top: -5vh;
-    margin-bottom: 10em;
+  
   }
 
   #benefits-container h3{
